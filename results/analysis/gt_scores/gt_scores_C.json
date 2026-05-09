@@ -1,0 +1,747 @@
+{
+  "UG6NT": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "The model output is largely incorrect and lacks any relevant spatial or hazard information."
+  },
+  "ENFL6": {
+    "spatial_detail": 2,
+    "hazard_id": 3,
+    "accuracy": 3,
+    "clarity": 4,
+    "overall": 3,
+    "reasoning": "The model output lacks spatial positioning, fails to identify key hazards, contains factual inaccuracies, and provides limited useful detail for navigation."
+  },
+  "ON2VH": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 3,
+    "clarity": 4,
+    "overall": 2,
+    "reasoning": "The model omits spatial positions, hazard details, and key actions, providing only a vague scene description."
+  },
+  "RQVJK": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "The model output does not match the ground truth at all."
+  },
+  "HONL7": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 3,
+    "overall": 2,
+    "reasoning": "The model output omits key spatial and hazard details, misrepresents the person's posture, and fails to provide useful navigation information."
+  },
+  "D4LRR": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model output omits all spatial, hazard, and action details present in the ground truth, offering only a generic description."
+  },
+  "D9UBV": {
+    "spatial_detail": 2,
+    "hazard_id": 0,
+    "accuracy": 1,
+    "clarity": 3,
+    "overall": 2,
+    "reasoning": "The model output lacks correct spatial positioning, hazard identification, and factual details, providing only vague and inaccurate information."
+  },
+  "LNEAG": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "The model output does not match the ground truth at all."
+  },
+  "G2NY6": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 2,
+    "overall": 1,
+    "reasoning": "The model output lacks spatial, hazard, and factual details present in the ground truth, making it largely inaccurate and unhelpful."
+  },
+  "VIDIE": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "Model output lacks any relevant spatial or hazard information, contradicting ground truth."
+  },
+  "UL65N": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 3,
+    "overall": 2,
+    "reasoning": "The model omits key spatial cues, hazards, and misrepresents the scene, resulting in a low-quality description."
+  },
+  "EQ36U": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 2,
+    "overall": 1,
+    "reasoning": "The model output describes an indoor scene with a person holding a phone, which is entirely inconsistent with the outdoor setting, hazards, and actions described in the ground truth."
+  },
+  "D740L": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 5,
+    "clarity": 3,
+    "overall": 2,
+    "reasoning": "The model omits spatial positions, hazards, and key details, providing only a vague description."
+  },
+  "ENCXV": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 3,
+    "overall": 2,
+    "reasoning": "The model output lacks the detailed spatial layout, hazards, and accurate actions described in the ground truth."
+  },
+  "NP0OB": {
+    "spatial_detail": 2,
+    "hazard_id": 2,
+    "accuracy": 2,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model output omits critical spatial relationships, misidentifies furniture, and fails to mention the person and hazards, resulting in a low-quality description."
+  },
+  "WN2N7": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 2,
+    "overall": 1,
+    "reasoning": "The model output fails to match the ground truth in spatial layout, hazards, and factual content, providing an inaccurate and unhelpful description."
+  },
+  "HS3XP": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 3,
+    "overall": 2,
+    "reasoning": "The model output lacks key spatial, hazard, and action details present in the ground truth, making it largely inaccurate and unhelpful."
+  },
+  "X42YA": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 2,
+    "overall": 1,
+    "reasoning": "The model output lacks spatial detail, fails to identify hazards, is factually inconsistent, and provides little useful information for navigation."
+  },
+  "KI0YZ": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "The model output fails to describe the key spatial relationships, hazards, and actions described in the ground truth."
+  },
+  "HRFGY": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "Model output lacks key spatial, hazard, and factual details present in ground truth."
+  },
+  "ZRITA": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 2,
+    "overall": 1,
+    "reasoning": "Model output does not match the ground truth scene or details."
+  },
+  "LKQQO": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 2,
+    "overall": 1,
+    "reasoning": "The model output describes a different scene and fails to identify any of the hazards or spatial details from the ground truth."
+  },
+  "AOBWQ": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model output lacks spatial, hazard, and accurate details, providing minimal useful information."
+  },
+  "GXIWH": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "Model output does not match the ground truth at all."
+  },
+  "PM107": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "Model output does not match the ground truth at all."
+  },
+  "B9F4P": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "Model output does not match the ground truth in spatial detail, hazards, accuracy, or clarity."
+  },
+  "LUPRO": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "Model output does not match the ground truth at all."
+  },
+  "RECCV": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "Model output does not match the ground truth description."
+  },
+  "WE2PF": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 3,
+    "overall": 2,
+    "reasoning": "The model output omits key spatial, hazard, and action details from the ground truth, yielding a vague and inaccurate description."
+  },
+  "Z0O2V": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "The model output does not mention any of the spatial layout, hazards, or the person\u2019s position described in the ground truth."
+  },
+  "XKM5R": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model output omits critical spatial, hazard, and action details, rendering it inaccurate and unhelpful for navigation."
+  },
+  "L347E": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "The model output does not match the scene described in the ground truth."
+  },
+  "OX3BI": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model output omits all spatial positions, hazards, and key scene elements described in the ground truth."
+  },
+  "PHH49": {
+    "spatial_detail": 2,
+    "hazard_id": 10,
+    "accuracy": 1,
+    "clarity": 3,
+    "overall": 2,
+    "reasoning": "The model omitted the girl, camera motion, blur, and furniture details, making it largely inaccurate and unhelpful."
+  },
+  "7546030642.0": {
+    "error": "no_model_output"
+  },
+  "3798299776.0": {
+    "error": "no_model_output"
+  },
+  "N2OCX": {
+    "spatial_detail": 3,
+    "hazard_id": 5,
+    "accuracy": 2,
+    "clarity": 4,
+    "overall": 3,
+    "reasoning": "The model omits the adult, misplaces painting positions, adds doors, and incorrectly states no people, leading to low spatial, accuracy, and overall scores, though hazard identification is neutral."
+  },
+  "AC3T4": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 4,
+    "overall": 2,
+    "reasoning": "The model omits key spatial elements and hazards, providing an incomplete and inaccurate description."
+  },
+  "7174736482.0": {
+    "error": "no_model_output"
+  },
+  "4RVZB": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 2,
+    "overall": 1,
+    "reasoning": "The model output is largely inaccurate and lacks key details."
+  },
+  "XZ2QQ": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 3,
+    "overall": 2,
+    "reasoning": "The model output is largely inaccurate and omits key spatial and hazard details, providing a misleading and unhelpful description."
+  },
+  "KLO0K": {
+    "spatial_detail": 3,
+    "hazard_id": 10,
+    "accuracy": 2,
+    "clarity": 4,
+    "overall": 3,
+    "reasoning": "The model misdescribes the scene, missing key spatial elements and actions, but correctly reports no hazards."
+  },
+  "6SB75": {
+    "spatial_detail": 2,
+    "hazard_id": 10,
+    "accuracy": 2,
+    "clarity": 3,
+    "overall": 2,
+    "reasoning": "The model output is largely inaccurate and misrepresents the scene, providing incorrect spatial and activity details."
+  },
+  "QZPO6": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "The model output does not match the ground truth at all."
+  },
+  "V58VE": {
+    "spatial_detail": 2,
+    "hazard_id": 10,
+    "accuracy": 3,
+    "clarity": 5,
+    "overall": 3,
+    "reasoning": "The model omits key spatial and positional details, misidentifies laptop placement, and adds incorrect clothing info, but correctly notes no hazards."
+  },
+  "WPFKR": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 2,
+    "overall": 1,
+    "reasoning": "The model output describes a different scene and actions, providing no accurate spatial or hazard information relative to the ground truth."
+  },
+  "7TNGJ": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 3,
+    "overall": 2,
+    "reasoning": "The model omits key spatial and hazard details, misidentifies the scene, and provides limited useful information."
+  },
+  "K85A7": {
+    "spatial_detail": 3,
+    "hazard_id": 2,
+    "accuracy": 2,
+    "clarity": 3,
+    "overall": 3,
+    "reasoning": "The model omits key spatial distances, cable hazards, and misidentifies clothing and objects, resulting in a low-quality, inaccurate description."
+  },
+  "LBG7L": {
+    "spatial_detail": 3,
+    "hazard_id": 0,
+    "accuracy": 2,
+    "clarity": 4,
+    "overall": 3,
+    "reasoning": "The model omits the living room context, hazards, and misidentifies the carried item, giving a low but somewhat clear description."
+  },
+  "58VZI": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "The model output does not match the ground truth at all."
+  },
+  "DVBVZ": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model output omits the key spatial layout and hazards described in the ground truth."
+  },
+  "3066398259.0": {
+    "error": "no_model_output"
+  },
+  "6W2MO": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "The model output does not describe the bedroom layout, the shoes, or the person retrieving them, making it entirely inconsistent with the ground truth."
+  },
+  "LKHKF": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 2,
+    "overall": 1,
+    "reasoning": "The model output misidentifies the furniture, omits the bed hazard, and provides no useful spatial or hazard information."
+  },
+  "NILOB": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "Model output does not match the ground truth scene or hazards."
+  },
+  "7282289126.0": {
+    "error": "no_model_output"
+  },
+  "H5TGJ": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "Model output lacks spatial, hazard, and action details, making it inaccurate and unclear."
+  },
+  "0BZAD": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 4,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "Model omitted key spatial and hazard details, providing only minimal description."
+  },
+  "D8OSC": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model output omits critical spatial positions, hazards, and factual details from the ground truth, yielding low scores across all dimensions."
+  },
+  "LPJWM": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "Model output lacks key spatial, hazard, and action details, making it largely inaccurate and unhelpful."
+  },
+  "S2FLE": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model output lacks spatial, hazard, and accurate details present in the ground truth."
+  },
+  "2N5VN": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model output lacks key spatial and hazard details present in the ground truth."
+  },
+  "6PL9Z": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 2,
+    "overall": 1,
+    "reasoning": "The model output lacks spatial detail, hazards, and accurate scene description, resulting in low scores."
+  },
+  "RS9D9": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 2,
+    "overall": 1,
+    "reasoning": "The model output omits key spatial details, fails to identify hazards, contradicts the presence of a person, and provides an inaccurate, unclear description."
+  },
+  "ED0VL": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 2,
+    "overall": 1,
+    "reasoning": "The model output lacks spatial, hazard, and factual details present in the ground truth."
+  },
+  "8843452460.0": {
+    "error": "no_model_output"
+  },
+  "SAT9P": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 3,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "Model output omits key spatial relationships and hazards, offering only a minimal, incomplete description."
+  },
+  "A1U0W": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model output lacks key spatial, hazard, and factual details present in the ground truth."
+  },
+  "3446339403.0": {
+    "error": "no_model_output"
+  },
+  "9GS13": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "The model output lacks spatial detail, hazards, and is factually inconsistent with the ground truth."
+  },
+  "NDBXV": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "The model output does not match the ground truth scene or hazards."
+  },
+  "KU656": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "Model output does not match the ground truth scene or hazards."
+  },
+  "CWMSY": {
+    "spatial_detail": 3,
+    "hazard_id": 2,
+    "accuracy": 5,
+    "clarity": 3,
+    "overall": 3,
+    "reasoning": "The model omitted key spatial relationships and hazard warnings present in the ground truth, leading to lower scores."
+  },
+  "9IT59": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "The model output does not match the ground truth at all."
+  },
+  "Q4932": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "Model output diverges significantly from ground truth, missing key details and hazards."
+  },
+  "K5IAK": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "The model output lacks spatial detail, hazards, accuracy, clarity, and overall quality."
+  },
+  "6ZTL6": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 2,
+    "overall": 1,
+    "reasoning": "Model output describes a bookshelf scene, which is factually inconsistent with the closet scene in the ground truth and fails to identify any hazards."
+  },
+  "5290336869.0": {
+    "error": "no_model_output"
+  },
+  "BBQIS": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model omitted all spatial and hazard details present in the ground truth."
+  },
+  "SXMII": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 2,
+    "overall": 1,
+    "reasoning": "The model output lacks spatial, hazard, and factual details present in the ground truth, providing an inaccurate and unhelpful description."
+  },
+  "3221717108.0": {
+    "error": "no_model_output"
+  },
+  "3731607668.0": {
+    "error": "no_model_output"
+  },
+  "I20II": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model output lacks spatial, hazard, and factual details present in the ground truth, making it largely inaccurate and unhelpful."
+  },
+  "FFBK3": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model output lacks spatial, hazard, and detailed scene information, providing only a vague description that does not match the ground truth."
+  },
+  "K1X2C": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 2,
+    "overall": 1,
+    "reasoning": "The model output lacks spatial, hazard, and factual details present in the ground truth, resulting in a low-quality description."
+  },
+  "2410320893.0": {
+    "error": "no_model_output"
+  },
+  "0BNML": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 3,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model omits key spatial relationships, hazards, and actions, providing only a vague description that fails to match the ground truth."
+  },
+  "8SA46": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 2,
+    "overall": 1,
+    "reasoning": "The model output is entirely inconsistent with the ground truth, providing incorrect spatial details, hazards, and actions."
+  },
+  "DQ1TU": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model omits key spatial relationships, hazards, and details, providing a vague and incomplete description."
+  },
+  "JX18W": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "The model output does not match the ground truth scene, missing key objects, hazards, and spatial details."
+  },
+  "LM4GS": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 1,
+    "overall": 1,
+    "reasoning": "The model output does not match the ground truth at all."
+  },
+  "QJ389": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 2,
+    "overall": 1,
+    "reasoning": "The model output lacks spatial, hazard, and action details present in the ground truth, resulting in low scores."
+  },
+  "M52K2": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model output lacks spatial, hazard, and contextual details, providing only minimal and partially inaccurate information."
+  },
+  "X5E6E": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 1,
+    "clarity": 3,
+    "overall": 1,
+    "reasoning": "The model output does not match the spatial layout, hazards, or presence of a person described in the ground truth, resulting in low scores across all dimensions."
+  },
+  "SGU6F": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 3,
+    "overall": 2,
+    "reasoning": "The model output lacks the precise spatial and hazard details present in the ground truth and misidentifies the device usage, resulting in a low overall match."
+  },
+  "DY9AE": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 5,
+    "clarity": 3,
+    "overall": 3,
+    "reasoning": "The model omits key spatial relationships, hazards, and actions described in the ground truth, resulting in a low-quality, incomplete description."
+  },
+  "D07V2": {
+    "spatial_detail": 2,
+    "hazard_id": 2,
+    "accuracy": 3,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model output is very brief and lacks the detailed spatial, hazard, and navigation information present in the ground truth."
+  },
+  "X2Q00": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 3,
+    "overall": 2,
+    "reasoning": "The model output omits key spatial relationships, hazards, and accurate actions described in the ground truth, leading to low scores."
+  },
+  "CPF9H": {
+    "spatial_detail": 2,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model output omits spatial positions, hazards, and contains factual inaccuracies, providing minimal and unclear information."
+  },
+  "L4FWN": {
+    "spatial_detail": 1,
+    "hazard_id": 1,
+    "accuracy": 2,
+    "clarity": 2,
+    "overall": 2,
+    "reasoning": "The model output lacks spatial detail, hazard identification, and accurate scene description, providing minimal useful information."
+  }
+}

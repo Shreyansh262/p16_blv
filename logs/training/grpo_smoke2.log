@@ -1,0 +1,73 @@
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading processor...
+Loading SFT checkpoint: models/student/sft_single_stage/best
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  46%|████▋     | 227/489 [00:00<00:00, 2236.81it/s]Loading weights:  92%|█████████▏| 451/489 [00:00<00:00, 2188.22it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2256.03it/s]
+warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 49279, 'bos_token_id': 1, 'pad_token_id': 2}.
+trainable params: 38,273,024 || all params: 545,755,328 || trainable%: 7.0129
+Loading datasets...
+Train: 50 | Val: 100
+=== Starting GRPO Training ===
+  0%|          | 0/50 [00:00<?, ?it/s]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+/usershome/cs671_user2/miniconda3/lib/python3.13/site-packages/trl/trainer/grpo_trainer.py:1314: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /pytorch/torch/csrc/utils/tensor_new.cpp:253.)
+  generate_inputs[k] = pad([torch.tensor(x) for x in v], padding_value=0, padding_side="left")
+Passing `generation_config` together with generation-related arguments=({'disable_compile'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+  2%|▏         | 1/50 [00:39<32:14, 39.48s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+  4%|▍         | 2/50 [01:14<29:38, 37.06s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+  6%|▌         | 3/50 [01:46<27:08, 34.65s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+  8%|▊         | 4/50 [02:21<26:33, 34.65s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 10%|█         | 5/50 [02:53<25:20, 33.78s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 12%|█▏        | 6/50 [03:26<24:37, 33.57s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 14%|█▍        | 7/50 [04:08<26:05, 36.42s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 16%|█▌        | 8/50 [04:41<24:42, 35.29s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 18%|█▊        | 9/50 [05:12<23:02, 33.73s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 20%|██        | 10/50 [05:46<22:40, 34.02s/it]                                                20%|██        | 10/50 [05:46<22:40, 34.02s/it]{'loss': '0.005088', 'grad_norm': '0.145', 'learning_rate': '4.362e-06', 'num_tokens': '8.34e+04', 'completions/mean_length': '60.41', 'completions/min_length': '31.8', 'completions/max_length': '92.8', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '60.41', 'completions/min_terminated_length': '31.8', 'completions/max_terminated_length': '92.8', 'rewards/reward_fn/mean': '-0.08775', 'rewards/reward_fn/std': '0.1292', 'reward': '-0.08775', 'reward_std': '0.1292', 'frac_reward_zero_std': '0.05', 'kl': '0.002914', 'entropy': '1.418', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '33.31', 'epoch': '0.4'}
+DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 22%|██▏       | 11/50 [06:23<22:43, 34.95s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 24%|██▍       | 12/50 [06:59<22:10, 35.01s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 26%|██▌       | 13/50 [07:31<21:11, 34.37s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 28%|██▊       | 14/50 [08:03<20:10, 33.63s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 30%|███       | 15/50 [08:39<20:03, 34.38s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 32%|███▏      | 16/50 [09:20<20:32, 36.25s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 34%|███▍      | 17/50 [09:57<20:05, 36.53s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 36%|███▌      | 18/50 [10:27<18:24, 34.50s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 38%|███▊      | 19/50 [10:55<16:49, 32.57s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 40%|████      | 20/50 [11:30<16:42, 33.41s/it]                                                40%|████      | 20/50 [11:30<16:42, 33.41s/it]{'loss': '0.06059', 'grad_norm': '0.2038', 'learning_rate': '3.298e-06', 'num_tokens': '1.666e+05', 'completions/mean_length': '57.3', 'completions/min_length': '29.7', 'completions/max_length': '96.5', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '57.3', 'completions/min_terminated_length': '29.7', 'completions/max_terminated_length': '96.5', 'rewards/reward_fn/mean': '-0.0825', 'rewards/reward_fn/std': '0.1161', 'reward': '-0.0825', 'reward_std': '0.1161', 'frac_reward_zero_std': '0', 'kl': '0.004655', 'entropy': '1.408', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '33.22', 'epoch': '0.8'}
+DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 42%|████▏     | 21/50 [12:03<15:59, 33.09s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 44%|████▍     | 22/50 [12:40<15:57, 34.18s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 46%|████▌     | 23/50 [13:06<14:22, 31.95s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 48%|████▊     | 24/50 [13:43<14:25, 33.30s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 50%|█████     | 25/50 [14:22<14:34, 34.99s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 52%|█████▏    | 26/50 [14:56<13:58, 34.92s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 54%|█████▍    | 27/50 [15:26<12:45, 33.29s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 56%|█████▌    | 28/50 [15:53<11:28, 31.31s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 58%|█████▊    | 29/50 [16:22<10:48, 30.86s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 60%|██████    | 30/50 [17:02<11:08, 33.44s/it]                                                60%|██████    | 30/50 [17:02<11:08, 33.44s/it]{'loss': '0.04781', 'grad_norm': '0.1826', 'learning_rate': '2.234e-06', 'num_tokens': '2.495e+05', 'completions/mean_length': '54.19', 'completions/min_length': '29.5', 'completions/max_length': '88.9', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '54.19', 'completions/min_terminated_length': '29.5', 'completions/max_terminated_length': '88.9', 'rewards/reward_fn/mean': '-0.01975', 'rewards/reward_fn/std': '0.1253', 'reward': '-0.01975', 'reward_std': '0.1253', 'frac_reward_zero_std': '0', 'kl': '0.007553', 'entropy': '1.381', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '31.95', 'epoch': '1.2'}
+DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 62%|██████▏   | 31/50 [17:37<10:47, 34.09s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 64%|██████▍   | 32/50 [18:13<10:20, 34.48s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 66%|██████▌   | 33/50 [18:52<10:08, 35.82s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 68%|██████▊   | 34/50 [19:24<09:16, 34.81s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 70%|███████   | 35/50 [19:55<08:25, 33.69s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 72%|███████▏  | 36/50 [20:35<08:18, 35.62s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 74%|███████▍  | 37/50 [21:05<07:17, 33.69s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 76%|███████▌  | 38/50 [21:39<06:46, 33.87s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 78%|███████▊  | 39/50 [22:13<06:13, 33.98s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 80%|████████  | 40/50 [22:44<05:31, 33.10s/it]                                                80%|████████  | 40/50 [22:44<05:31, 33.10s/it]{'loss': '-0.002432', 'grad_norm': '0.1686', 'learning_rate': '1.17e-06', 'num_tokens': '3.328e+05', 'completions/mean_length': '58.96', 'completions/min_length': '29.6', 'completions/max_length': '107.6', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '58.96', 'completions/min_terminated_length': '29.6', 'completions/max_terminated_length': '107.6', 'rewards/reward_fn/mean': '-0.0465', 'rewards/reward_fn/std': '0.1293', 'reward': '-0.0465', 'reward_std': '0.1293', 'frac_reward_zero_std': '0', 'kl': '0.01011', 'entropy': '1.397', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '32.99', 'epoch': '1.6'}
+DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 82%|████████▏ | 41/50 [23:18<04:59, 33.26s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 84%|████████▍ | 42/50 [23:58<04:41, 35.20s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 86%|████████▌ | 43/50 [24:28<03:56, 33.81s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 88%|████████▊ | 44/50 [24:58<03:15, 32.53s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 90%|█████████ | 45/50 [25:29<02:40, 32.04s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 92%|█████████▏| 46/50 [26:01<02:08, 32.09s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 94%|█████████▍| 47/50 [26:34<01:37, 32.42s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 96%|█████████▌| 48/50 [27:07<01:05, 32.65s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+ 98%|█████████▊| 49/50 [27:40<00:32, 32.59s/it]DEBUG_TRL: <class 'dict'> dict_keys(['prompt', 'images', 'gemma_reference', 'sample_id'])
+100%|██████████| 50/50 [28:12<00:00, 32.48s/it]                                               100%|██████████| 50/50 [28:12<00:00, 32.48s/it]                                               100%|██████████| 50/50 [28:15<00:00, 32.48s/it]100%|██████████| 50/50 [28:15<00:00, 33.90s/it]
+{'loss': '-0.02663', 'grad_norm': '0.1598', 'learning_rate': '1.064e-07', 'num_tokens': '4.158e+05', 'completions/mean_length': '55.98', 'completions/min_length': '33.4', 'completions/max_length': '88.5', 'completions/clipped_ratio': '0', 'completions/mean_terminated_length': '55.98', 'completions/min_terminated_length': '33.4', 'completions/max_terminated_length': '88.5', 'rewards/reward_fn/mean': '-0.00975', 'rewards/reward_fn/std': '0.1231', 'reward': '-0.00975', 'reward_std': '0.1231', 'frac_reward_zero_std': '0', 'kl': '0.01175', 'entropy': '1.337', 'clip_ratio/low_mean': '0', 'clip_ratio/low_min': '0', 'clip_ratio/high_mean': '0', 'clip_ratio/high_max': '0', 'clip_ratio/region_mean': '0', 'step_time': '31.55', 'epoch': '2'}
+{'train_runtime': '1695', 'train_samples_per_second': '0.059', 'train_steps_per_second': '0.029', 'train_loss': '0.01688', 'epoch': '2'}
+Done. Saved to models/student/grpo/best

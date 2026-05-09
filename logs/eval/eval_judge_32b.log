@@ -1,0 +1,141 @@
+Ollama OK. Models: ['qwen2.5:7b', 'qwen2.5:32b', 'qwen3.5:9b', 'mistral:latest']
+
+=== Condition A: scoring 200/1929 samples (seed=42) ===
+  [A] 10/200 done | 3.8s/sample | ETA 12.0min | failed=0
+  [A] 20/200 done | 5.0s/sample | ETA 11.6min | failed=0
+  [A] 30/200 done | 3.4s/sample | ETA 11.2min | failed=0
+  [A] 40/200 done | 4.2s/sample | ETA 10.7min | failed=0
+  [A] 50/200 done | 3.6s/sample | ETA 10.0min | failed=0
+  [A] 60/200 done | 3.5s/sample | ETA 9.2min | failed=0
+  [A] 70/200 done | 4.1s/sample | ETA 8.5min | failed=0
+  [A] 80/200 done | 4.1s/sample | ETA 7.9min | failed=0
+  [A] 90/200 done | 34.6s/sample | ETA 7.9min | failed=0
+  [A] 100/200 done | 4.2s/sample | ETA 7.2min | failed=0
+  [A] 110/200 done | 3.4s/sample | ETA 6.4min | failed=0
+  [A] 120/200 done | 3.0s/sample | ETA 5.6min | failed=0
+  [A] 130/200 done | 2.7s/sample | ETA 4.8min | failed=0
+  [A] 140/200 done | 4.7s/sample | ETA 4.1min | failed=0
+  [A] 150/200 done | 4.2s/sample | ETA 3.4min | failed=0
+  [A] 160/200 done | 3.3s/sample | ETA 2.7min | failed=0
+  [A] 170/200 done | 5.5s/sample | ETA 2.0min | failed=0
+  [A] 180/200 done | 4.3s/sample | ETA 1.4min | failed=0
+  [A] 190/200 done | 4.4s/sample | ETA 0.7min | failed=0
+  [A] 200/200 done | 4.1s/sample | ETA 0.0min | failed=0
+  [A] DONE: MCF=2.431 NAF=2.805 (scored=200, failed=0)
+
+=== Condition B: scoring 200/1929 samples (seed=42) ===
+  [B] 10/200 done | 4.0s/sample | ETA 13.5min | failed=0
+  [B] 20/200 done | 3.4s/sample | ETA 12.1min | failed=0
+  [B] 30/200 done | 3.6s/sample | ETA 10.9min | failed=0
+  [B] 40/200 done | 3.7s/sample | ETA 10.0min | failed=0
+  [B] 50/200 done | 3.3s/sample | ETA 9.3min | failed=0
+  [B] 60/200 done | 3.8s/sample | ETA 8.6min | failed=0
+  [B] 70/200 done | 3.2s/sample | ETA 7.9min | failed=0
+  [B] 80/200 done | 3.7s/sample | ETA 7.3min | failed=0
+  [B] 90/200 done | 3.5s/sample | ETA 6.6min | failed=0
+  [B] 100/200 done | 3.6s/sample | ETA 6.0min | failed=0
+  [B] 110/200 done | 3.3s/sample | ETA 5.4min | failed=0
+  [B] 120/200 done | 3.3s/sample | ETA 4.8min | failed=0
+  [B] 130/200 done | 3.6s/sample | ETA 4.2min | failed=0
+  [B] 140/200 done | 3.8s/sample | ETA 3.6min | failed=0
+  [B] 150/200 done | 3.3s/sample | ETA 3.0min | failed=0
+  [B] 160/200 done | 4.3s/sample | ETA 2.4min | failed=0
+  [B] 170/200 done | 3.0s/sample | ETA 1.8min | failed=0
+  [B] 180/200 done | 3.0s/sample | ETA 1.2min | failed=0
+  [B] 190/200 done | 3.6s/sample | ETA 0.6min | failed=0
+  [B] 200/200 done | 3.5s/sample | ETA 0.0min | failed=0
+  [B] DONE: MCF=2.775 NAF=3.297 (scored=200, failed=0)
+
+=== Condition C: scoring 200/1929 samples (seed=42) ===
+  [C] 10/200 done | 3.8s/sample | ETA 13.0min | failed=0
+  [C] 20/200 done | 3.8s/sample | ETA 11.9min | failed=0
+  [C] 30/200 done | 3.5s/sample | ETA 13.6min | failed=0
+  [C] 40/200 done | 4.2s/sample | ETA 12.0min | failed=0
+  [C] 50/200 done | 3.5s/sample | ETA 10.7min | failed=0
+  [C] 60/200 done | 3.7s/sample | ETA 9.7min | failed=0
+  [C] 70/200 done | 3.5s/sample | ETA 8.8min | failed=0
+  [C] 80/200 done | 3.4s/sample | ETA 7.9min | failed=0
+  [C] 90/200 done | 3.1s/sample | ETA 7.2min | failed=0
+  [C] 100/200 done | 3.5s/sample | ETA 6.5min | failed=0
+  [C] 110/200 done | 3.6s/sample | ETA 5.8min | failed=0
+  [C] 120/200 done | 3.2s/sample | ETA 5.1min | failed=0
+  [C] 130/200 done | 3.3s/sample | ETA 4.4min | failed=0
+  [C] 140/200 done | 3.6s/sample | ETA 3.8min | failed=0
+  [C] 150/200 done | 3.7s/sample | ETA 3.1min | failed=0
+  [C] 160/200 done | 4.2s/sample | ETA 2.5min | failed=0
+  [C] 170/200 done | 4.6s/sample | ETA 1.9min | failed=0
+  [C] 180/200 done | 3.7s/sample | ETA 1.3min | failed=0
+  [C] 190/200 done | 4.4s/sample | ETA 0.6min | failed=0
+  [C] 200/200 done | 3.7s/sample | ETA 0.0min | failed=0
+  [C] DONE: MCF=2.411 NAF=2.761 (scored=200, failed=0)
+
+=== Condition D: scoring 200/1929 samples (seed=42) ===
+  [D] 10/200 done | 2.7s/sample | ETA 10.6min | failed=0
+  [D] 20/200 done | 2.9s/sample | ETA 9.4min | failed=0
+  [D] 30/200 done | 3.0s/sample | ETA 8.7min | failed=0
+  [D] 40/200 done | 3.3s/sample | ETA 8.3min | failed=0
+  [D] 50/200 done | 3.6s/sample | ETA 7.9min | failed=0
+  [D] 60/200 done | 3.3s/sample | ETA 7.6min | failed=0
+  [D] 70/200 done | 3.1s/sample | ETA 7.1min | failed=0
+  [D] 80/200 done | 3.4s/sample | ETA 6.6min | failed=0
+  [D] 90/200 done | 3.3s/sample | ETA 6.1min | failed=0
+  [D] 100/200 done | 3.5s/sample | ETA 5.6min | failed=0
+  [D] 110/200 done | 3.2s/sample | ETA 5.1min | failed=0
+  [D] 120/200 done | 3.4s/sample | ETA 4.5min | failed=0
+  [D] 130/200 done | 3.8s/sample | ETA 4.0min | failed=0
+  [D] 140/200 done | 4.1s/sample | ETA 3.4min | failed=0
+  [D] 150/200 done | 3.5s/sample | ETA 2.8min | failed=0
+  [D] 160/200 done | 3.7s/sample | ETA 2.3min | failed=0
+  [D] 170/200 done | 3.5s/sample | ETA 1.7min | failed=0
+  [D] 180/200 done | 4.2s/sample | ETA 1.2min | failed=0
+  [D] 190/200 done | 4.0s/sample | ETA 0.6min | failed=0
+  [D] 200/200 done | 4.1s/sample | ETA 0.0min | failed=0
+  [D] DONE: MCF=2.433 NAF=2.696 (scored=200, failed=0)
+
+================================================================================
+FINAL LLM JUDGE RESULTS (qwen2.5:32b, n=200/condition)
+================================================================================
+Metric                        A(Base)    B(SFTv2)      C(DPO)    D(RLAIF)
+-------------------------------------------------------------------------
+Spatial Orientation             1.88       2.305*      1.795        1.84 
+Social Interaction               2.3       2.525*       2.39       2.435 
+Action & Events                1.945        2.86*      1.865        1.93 
+Ambience                         3.6*       3.41       3.595       3.525 
+--- MCF Score ---              2.431       2.775       2.411       2.433 
+Descriptiveness                2.085         2.3*      2.055        2.02 
+Objectivity                     4.58        5.51*      4.575       4.415 
+Accuracy                       1.835       2.185*      1.765       1.725 
+Clarity                         2.72       3.195*       2.65       2.625 
+--- NAF Score ---              2.805       3.297       2.761       2.696 
+
+Saved: eval_outputs/llm_judge_all.json
+Ollama OK. Models: ['qwen2.5:7b', 'qwen2.5:32b', 'qwen3.5:9b', 'mistral:latest']
+Condition E: output file not found, skipping.
+Ollama OK. Models: ['qwen2.5:7b', 'qwen2.5:32b', 'qwen3.5:9b', 'mistral:latest']
+Condition E: output file not found, skipping.
+Ollama OK. Models: ['qwen2.5:7b', 'qwen2.5:32b', 'qwen3.5:9b', 'mistral:latest']
+Condition E: output file not found, skipping.
+Ollama OK. Models: ['p16-smolvlm2-vision:latest', 'qwen2.5:7b', 'qwen2.5:32b', 'qwen3.5:9b', 'mistral:latest']
+
+=== Condition E: scoring 200/1929 samples (seed=42) ===
+  [E] 10/200 done | 2.8s/sample | ETA 12.6min | failed=0
+  [E] 20/200 done | 2.9s/sample | ETA 10.3min | failed=0
+  [E] 30/200 done | 2.9s/sample | ETA 9.2min | failed=0
+  [E] 40/200 done | 2.9s/sample | ETA 8.4min | failed=0
+  [E] 50/200 done | 2.9s/sample | ETA 7.7min | failed=0
+  [E] 60/200 done | 2.9s/sample | ETA 7.1min | failed=0
+  [E] 70/200 done | 2.9s/sample | ETA 6.6min | failed=0
+  [E] 80/200 done | 2.9s/sample | ETA 6.0min | failed=0
+  [E] 90/200 done | 2.9s/sample | ETA 5.5min | failed=0
+  [E] 100/200 done | 2.9s/sample | ETA 5.0min | failed=0
+  [E] 110/200 done | 2.8s/sample | ETA 4.5min | failed=0
+  [E] 120/200 done | 2.9s/sample | ETA 4.0min | failed=0
+  [E] 130/200 done | 2.8s/sample | ETA 3.4min | failed=0
+  [E] 140/200 done | 2.9s/sample | ETA 2.9min | failed=0
+  [E] 150/200 done | 2.8s/sample | ETA 2.5min | failed=0
+  [E] 160/200 done | 2.9s/sample | ETA 2.0min | failed=0
+  [E] 170/200 done | 2.8s/sample | ETA 1.5min | failed=0
+  [E] 180/200 done | 2.8s/sample | ETA 1.0min | failed=0
+  [E] 190/200 done | 2.9s/sample | ETA 0.5min | failed=0
+  [E] 200/200 done | 2.8s/sample | ETA 0.0min | failed=0
+  [E] DONE: MCF=2.527 NAF=3.396 (scored=200, failed=0)

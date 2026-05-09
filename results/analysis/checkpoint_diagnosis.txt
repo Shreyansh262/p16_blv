@@ -1,0 +1,45 @@
+Checkpoint Diagnosis — outputs_B vs condition_B_outputs
+================================================================================
+
+FINDING: Two different eval scripts used two different SFT checkpoints.
+
+┌─────────────────────────────────┬──────────────────────────────┬──────────────────────────────┐
+│ File                            │ Script                       │ Checkpoint                   │
+├─────────────────────────────────┼──────────────────────────────┼──────────────────────────────┤
+│ results/eval/condition_B_outputs│ results/eval/run_eval.py     │ models/student/sft_checkpoint│
+│ logs/eval_results/outputs_B.json│ src/evaluation/blv_score.py  │ models/student/sft_stage2_   │
+│                                 │                              │ checkpoint                   │
+└─────────────────────────────────┴──────────────────────────────┴──────────────────────────────┘
+
+STATS:
+  condition_B_outputs.json  — 700 entries, 699 unique  → NO collapse (sft_checkpoint)
+  outputs_B.json            — 100 entries,   3 unique  → COLLAPSED    (sft_stage2_checkpoint)
+
+CONCLUSION:
+  - sft_checkpoint          → healthy, 699/700 unique descriptions, visually grounded
+  - sft_stage2_checkpoint   → collapsed to ~3 room templates (bedroom / living room)
+  - dpo_checkpoint          → built on sft_stage2_checkpoint, also collapsed (outputs_C: 3 unique)
+
+ROOT CAUSE:
+  The second SFT stage (06_sft_train.py Stage 2) introduced mode collapse.
+  Stage 1 (sft_checkpoint) is still healthy. DPO then trained on a collapsed
+  model and could not recover visual grounding.
+
+SAMPLE COMPARISON (same video, different checkpoint):
+  Video ED0VL:
+    sft_checkpoint (healthy): "The scene is an indoor kitchen. The person is wearing a green
+                               outfit and is bending down. The kitchen has wooden cabinets..."
+    sft_stage2_checkpoint:    "In the bedroom, a bed is positioned against the left wall,
+                               taking up a significant portion of the space..."
+
+  Video 3149819375:
+    sft_checkpoint (healthy): "The scene is an outdoor beach setting. There is a child wearing
+                               a yellow shirt and blue shorts, and a toy car..."
+    sft_stage2_checkpoint:    "In the living room, a person is seated on a sofa, which is
+                               positioned centrally in the room. The coffee table..."
+
+RECOMMENDED NEXT STEPS:
+  1. Re-run DPO training using sft_checkpoint (Stage 1) as base instead of sft_stage2_checkpoint
+  2. Re-run blv_score.py eval (condition B and C) using the healthy sft_checkpoint
+  3. Rebuild preference_pairs.json from corrected outputs_B and outputs_C
+  4. Inspect sft_stage2_full.log for loss curve — find the epoch where collapse began

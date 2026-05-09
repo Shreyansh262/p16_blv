@@ -1,0 +1,77 @@
+{
+  "videos": [
+    "46GP8",
+    "N11GT",
+    "0IH69",
+    "IA2O6",
+    "PFOD8"
+  ],
+  "models": {
+    "sft": "models/student/sft_v2/best",
+    "grpo": "models/student/grpo/best",
+    "teacher": "/usershome/cs671_user2/.npm-cache-sys/GPT4Scene-and-VLN-R1/ckpts/Qwen2-VL-7B-Instruct"
+  },
+  "prompt": "You are an audio description system for blind and low vision users.\n\nExamples of correct output:\nExample 1: CAUTION: Kitchen environment, wet floor 1 meter ahead. Man in blue shirt moves left at 2 meters. Child stands center at 1.5 meters. Path right is clear.\nExample 2: Living room. Person in white shirt seated 2 meters ahead center. Coffee table at 1 meter right \u2014 potential trip hazard. Path left is clear.\n\nNow describe this scene following the exact same format:",
+  "results": {
+    "46GP8": {
+      "keyframes": [
+        "data/keyframes/charades/46GP8_kf00_frame0000.jpg",
+        "data/keyframes/charades/46GP8_kf01_frame0001.jpg",
+        "data/keyframes/charades/46GP8_kf02_frame0025.jpg",
+        "data/keyframes/charades/46GP8_kf03_frame0061.jpg"
+      ],
+      "gemma_ref": "Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A person in a white and navy hoodie and tan pants moves from center to left, reaching toward a stove approximately 1 meter ahead. A white refrigerator stands approximately 2 meters ahead. A blue metal frame is approximately 2 meters to your right.",
+      "sft_v2": "A person in a gray hoodie and tan pants is moving from a kitchen to a living room. They are standing in the kitchen, then moving to the living room. The kitchen has white cabinets and a white stove with a pot on it. The living room has a dark wall with a window and a white door.",
+      "grpo_best": "A person in a white and gray hoodie is moving from the kitchen to the living room. They are standing in the kitchen, moving from the stove to the right, and then moving left to the center. The kitchen has white cabinets and a white refrigerator, while the living room has a white wall with a window and a coffee table.",
+      "teacher": "Kitchen environment. Person in a white and blue hoodie stands 2 meters ahead, facing the stove. The stove is on the left, and there is a pot on it. The person moves towards the stove, then bends over slightly. The kitchen has a white refrigerator on the right side, and a window with blinds on the right wall. The room appears to be cluttered with various items."
+    },
+    "N11GT": {
+      "keyframes": [
+        "data/keyframes/charades/N11GT_kf00_frame0000.jpg",
+        "data/keyframes/charades/N11GT_kf01_frame0014.jpg",
+        "data/keyframes/charades/N11GT_kf02_frame0043.jpg",
+        "data/keyframes/charades/N11GT_kf03_frame0044.jpg"
+      ],
+      "gemma_ref": "Indoor hallway with steps ahead; CAUTION, steps begin approximately 1 meter ahead. A person in a pink top and black skirt stands approximately 2 meters ahead, moving toward the left. A handrail is approximately 1 meter to your left. Walls are on both the left and right sides.",
+      "sft_v2": "A person in a pink shirt and purple skirt is standing in a hallway, leaning over a door frame. They are holding a white object in their hands. The hallway has wooden walls and a door on the left. The floor is tiled.",
+      "grpo_best": "CAUTION: Kitchen environment, wet floor 1 meter ahead. A person in a pink shirt and black skirt moves left at 2 meters. A child in a blue shirt stands center at 1 meter ahead.",
+      "teacher": "Living room. Person in pink shirt seated 2 meters ahead center. Staircase at 1 meter left \u2014 potential trip hazard. Path right is clear."
+    },
+    "0IH69": {
+      "keyframes": [
+        "data/keyframes/charades/0IH69_kf00_frame0000.jpg",
+        "data/keyframes/charades/0IH69_kf01_frame0001.jpg",
+        "data/keyframes/charades/0IH69_kf02_frame0002.jpg",
+        "data/keyframes/charades/0IH69_kf03_frame0063.jpg"
+      ],
+      "gemma_ref": "Indoor room, no immediate hazards. A man in a red shirt and tan shorts stands approximately 2 meters ahead, moving right. A plastic chair is 1 meter to your left. A shelving unit is 2 meters ahead, and a wooden table with a television is 2 meters ahead to the right.",
+      "sft_v2": "A man in a red t-shirt and khaki shorts stands in a room with a television on a stand. He moves from the left to the right of the frame, then turns and walks away from the camera. The television is on a stand in the center of the room, with a wooden desk and chair to the right. A white wall with a picture hangs on the wall behind the man.",
+      "grpo_best": "CAUTION: Kitchen environment, wet floor 1 meter ahead. A man in a red shirt and tan shorts stands in a kitchen, moving left to right. A television is on a stand 1 meter ahead center, and a wooden table is 1 meter to the right.",
+      "teacher": "Living room. Person in red shirt standing 2 meters ahead center. Chair at 1 meter left \u2014 potential trip hazard. Path right is clear."
+    },
+    "IA2O6": {
+      "keyframes": [
+        "data/keyframes/charades/IA2O6_kf00_frame0000.jpg",
+        "data/keyframes/charades/IA2O6_kf01_frame0044.jpg",
+        "data/keyframes/charades/IA2O6_kf02_frame0045.jpg",
+        "data/keyframes/charades/IA2O6_kf03_frame0052.jpg"
+      ],
+      "gemma_ref": "Kitchen environment; CAUTION, moving people 1 meter ahead. A person in a blue shirt and black pants moves right, carrying a purple vacuum canister 1 meter ahead. A person in a grey shirt and blue jeans stands 1 meter ahead, facing a pantry. A stove with a red cloth is 1 meter to your right.",
+      "sft_v2": "A man in a blue shirt and black pants is standing in a kitchen, looking at a purple vacuum cleaner. He is holding the vacuum cleaner in his right hand and moving it around the room. The vacuum cleaner is located on a shelf in the kitchen. The man is then seen moving the vacuum cleaner closer to the camera. The vacuum cleaner is located on a shelf in the kitchen.",
+      "grpo_best": "A man in a blue shirt and a woman in a teal shirt are standing in a kitchen. The man in the teal shirt is moving a purple vacuum cleaner towards the woman in the blue shirt, who is standing in the kitchen. The vacuum cleaner is positioned on the floor, and the man in the teal shirt is moving it towards the woman.",
+      "teacher": "Kitchen environment. Person in blue shirt stands 1 meter ahead center, holding a purple object. Person in gray shirt stands 1.5 meters ahead center, holding a white object. Path right is clear. Path left is clear."
+    },
+    "PFOD8": {
+      "keyframes": [
+        "data/keyframes/charades/PFOD8_kf00_frame0000.jpg",
+        "data/keyframes/charades/PFOD8_kf01_frame0013.jpg",
+        "data/keyframes/charades/PFOD8_kf02_frame0026.jpg",
+        "data/keyframes/charades/PFOD8_kf03_frame0065.jpg"
+      ],
+      "gemma_ref": "Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A man in a grey shirt and black pants stands 1 meter ahead, facing left. He pours liquid from a pot into a cup at the counter. Wooden cabinets are 1 meter to the left and 2 meters ahead.",
+      "sft_v2": "A man in a gray shirt and black pants is standing in a kitchen, washing dishes. He is using a black sponge to clean the sink. The kitchen has wooden cabinets and a countertop. The man is standing in the center of the image, facing the sink.",
+      "grpo_best": "CAUTION: Kitchen environment, wet floor 1 meter ahead. A man in a gray shirt and black pants moves from the left to the center, then stands and walks right. A child in a white shirt is seated 2 meters ahead center, and a coffee table is located 1 meter to the right.",
+      "teacher": "Kitchen environment. Man in gray shirt stands at the sink, preparing food. Wooden cabinets and drawers are visible. A coffee maker is on the counter. A red and black object is being held by the man. A black bag is placed on the floor to the right. A white object is on the counter near the sink. The man moves his hand towards the coffee maker. The path ahead is clear."
+    }
+  }
+}

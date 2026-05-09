@@ -1,0 +1,1615 @@
+======================================================================
+Eval data: 469 entries from data/augmented/balanced_splits/balanced_eval.json
+Conditions: ['base', 'sft_v2', 'grpo']
+Output dir: results/eval/new_conditions
+======================================================================
+======================================================================
+BLV EVAL — base / sft_v2 / grpo — balanced_eval.json (469 videos)
+Judge: qwen2.5:32b @ http://localhost:11434/api/generate
+======================================================================
+Ollama OK. Models: ['mistral:latest', 'p16-smolvlm2-vision:latest', 'qwen2.5:7b', 'qwen2.5:32b', 'qwen3.5:9b']
+
+======================================================================
+INFERENCE — base
+======================================================================
+  Loading base: models/.hf_cache/models--HuggingFaceTB--SmolVLM2-500M-Video-Instruct/snapshots/7b375e1b73b11138ff12fe22c8f2822d8fe03467
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  36%|███▌      | 177/489 [00:00<00:00, 1764.05it/s]Loading weights:  80%|████████  | 393/489 [00:00<00:00, 1992.13it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 1922.62it/s]
+  No adapter — running base model standalone.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 25/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] [33/469] synthetic_outdoor_0060 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] [38/469] synthetic_outdoor_0055 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 50/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] [53/469] synthetic_outdoor_0045 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 75/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] [77/469] synthetic_outdoor_0005 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 100/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 125/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 150/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] [171/469] synthetic_outdoor_0013 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 175/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] [184/469] synthetic_outdoor_0038 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] [199/469] synthetic_outdoor_0041 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 200/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 225/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 250/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] [274/469] synthetic_outdoor_0101 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 275/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 300/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] [311/469] synthetic_outdoor_0018 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 325/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 350/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 375/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 400/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 425/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] [434/469] synthetic_outdoor_0102 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 450/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] [463/469] synthetic_outdoor_0036 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [base] 469/469 done — checkpoint saved
+  [base] Inference complete — 469 outputs saved to results/eval/new_conditions/base_outputs.json
+
+======================================================================
+INFERENCE — sft_v2
+======================================================================
+  Loading base: models/.hf_cache/models--HuggingFaceTB--SmolVLM2-500M-Video-Instruct/snapshots/7b375e1b73b11138ff12fe22c8f2822d8fe03467
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  33%|███▎      | 163/489 [00:00<00:00, 1628.22it/s]Loading weights:  69%|██████▊   | 336/489 [00:00<00:00, 1687.60it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 1986.15it/s]
+  Loading adapter: models/student/sft_v2/best
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 25/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] [33/469] synthetic_outdoor_0060 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] [38/469] synthetic_outdoor_0055 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 50/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] [53/469] synthetic_outdoor_0045 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 75/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] [77/469] synthetic_outdoor_0005 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 100/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 125/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 150/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] [171/469] synthetic_outdoor_0013 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 175/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] [184/469] synthetic_outdoor_0038 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] [199/469] synthetic_outdoor_0041 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 200/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 225/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 250/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] [274/469] synthetic_outdoor_0101 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 275/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 300/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] [311/469] synthetic_outdoor_0018 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 325/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 350/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 375/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 400/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 425/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] [434/469] synthetic_outdoor_0102 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 450/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] [463/469] synthetic_outdoor_0036 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [sft_v2] 469/469 done — checkpoint saved
+  [sft_v2] Inference complete — 469 outputs saved to results/eval/new_conditions/sft_v2_outputs.json
+
+======================================================================
+INFERENCE — grpo
+======================================================================
+  Loading base: models/.hf_cache/models--HuggingFaceTB--SmolVLM2-500M-Video-Instruct/snapshots/7b375e1b73b11138ff12fe22c8f2822d8fe03467
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  25%|██▍       | 122/489 [00:00<00:00, 1212.93it/s]Loading weights:  51%|█████     | 249/489 [00:00<00:00, 1226.53it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 1677.39it/s]
+  Loading adapter: models/student/grpo/best
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 25/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] [33/469] synthetic_outdoor_0060 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] [38/469] synthetic_outdoor_0055 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 50/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] [53/469] synthetic_outdoor_0045 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 75/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] [77/469] synthetic_outdoor_0005 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 100/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 125/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 150/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] [171/469] synthetic_outdoor_0013 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 175/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] [184/469] synthetic_outdoor_0038 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] [199/469] synthetic_outdoor_0041 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 200/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 225/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 250/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] [274/469] synthetic_outdoor_0101 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 275/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 300/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] [311/469] synthetic_outdoor_0018 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 325/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 350/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 375/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 400/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 425/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] [434/469] synthetic_outdoor_0102 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 450/469 done — checkpoint saved
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] [463/469] synthetic_outdoor_0036 — no frames, skipping
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [grpo] 469/469 done — checkpoint saved
+  [grpo] Inference complete — 469 outputs saved to results/eval/new_conditions/grpo_outputs.json
+
+======================================================================
+JUDGE — base  (458 to score, 0 already done)
+======================================================================
+  [base] 25/458 judged | 3.2s/sample | ETA 22.8min
+  [base] 50/458 judged | 2.9s/sample | ETA 20.1min
+  [base] 75/458 judged | 2.9s/sample | ETA 18.4min
+  [base] 100/458 judged | 2.8s/sample | ETA 17.0min
+  [base] 125/458 judged | 2.8s/sample | ETA 15.7min
+  [base] 150/458 judged | 2.8s/sample | ETA 14.4min
+  [base] 175/458 judged | 2.8s/sample | ETA 13.2min
+  [base] 200/458 judged | 2.8s/sample | ETA 12.0min
+  [base] 225/458 judged | 2.8s/sample | ETA 10.8min
+  [base] 250/458 judged | 2.8s/sample | ETA 9.6min
+  [base] 275/458 judged | 2.8s/sample | ETA 8.5min
+  [base] 300/458 judged | 2.8s/sample | ETA 7.3min
+  [base] 325/458 judged | 2.8s/sample | ETA 6.1min
+  [base] 350/458 judged | 2.8s/sample | ETA 5.0min
+  [base] 375/458 judged | 2.8s/sample | ETA 3.8min
+  [base] 400/458 judged | 2.8s/sample | ETA 2.7min
+  [base] 425/458 judged | 2.8s/sample | ETA 1.5min
+  [base] 450/458 judged | 2.8s/sample | ETA 0.4min
+  [base] 458/458 judged | 2.8s/sample | ETA 0.0min
+  [base] Judge complete — 458 scored
+
+======================================================================
+JUDGE — sft_v2  (458 to score, 0 already done)
+======================================================================
+  [sft_v2] 25/458 judged | 2.7s/sample | ETA 19.4min
+  [sft_v2] 50/458 judged | 2.7s/sample | ETA 18.4min
+  [sft_v2] 75/458 judged | 2.7s/sample | ETA 17.2min
+  [sft_v2] 100/458 judged | 2.7s/sample | ETA 16.1min
+  [sft_v2] 125/458 judged | 2.7s/sample | ETA 15.0min
+  [sft_v2] 150/458 judged | 2.7s/sample | ETA 13.9min
+  [sft_v2] 175/458 judged | 2.7s/sample | ETA 12.8min
+  [sft_v2] 200/458 judged | 2.7s/sample | ETA 11.6min
+  [sft_v2] 225/458 judged | 2.7s/sample | ETA 10.5min
+  [sft_v2] 250/458 judged | 2.7s/sample | ETA 9.4min
+  [sft_v2] 275/458 judged | 2.7s/sample | ETA 8.3min
+  [sft_v2] 300/458 judged | 2.7s/sample | ETA 7.1min
+  [sft_v2] 325/458 judged | 2.7s/sample | ETA 6.0min
+  [sft_v2] 350/458 judged | 2.7s/sample | ETA 4.9min
+  [sft_v2] 375/458 judged | 2.7s/sample | ETA 3.7min
+  [sft_v2] 400/458 judged | 2.7s/sample | ETA 2.6min
+  [sft_v2] 425/458 judged | 2.7s/sample | ETA 1.5min
+  [sft_v2] 450/458 judged | 2.7s/sample | ETA 0.4min
+  [sft_v2] 458/458 judged | 2.7s/sample | ETA 0.0min
+  [sft_v2] Judge complete — 458 scored
+
+======================================================================
+JUDGE — grpo  (458 to score, 0 already done)
+======================================================================
+  [grpo] 25/458 judged | 2.7s/sample | ETA 19.6min
+  [grpo] 50/458 judged | 2.7s/sample | ETA 18.4min
+  [grpo] 75/458 judged | 2.7s/sample | ETA 17.3min
+  [grpo] 100/458 judged | 2.7s/sample | ETA 16.2min
+  [grpo] 125/458 judged | 2.7s/sample | ETA 15.0min
+  [grpo] 150/458 judged | 2.7s/sample | ETA 13.9min
+  [grpo] 175/458 judged | 2.7s/sample | ETA 12.8min
+  [grpo] 200/458 judged | 2.7s/sample | ETA 11.6min
+  [grpo] 225/458 judged | 2.7s/sample | ETA 10.5min
+  [grpo] 250/458 judged | 2.7s/sample | ETA 9.4min
+  [grpo] 275/458 judged | 2.7s/sample | ETA 8.3min
+  [grpo] 300/458 judged | 2.7s/sample | ETA 7.1min
+  [grpo] 325/458 judged | 2.7s/sample | ETA 6.0min
+  [grpo] 350/458 judged | 2.7s/sample | ETA 4.9min
+  [grpo] 375/458 judged | 2.7s/sample | ETA 3.7min
+  [grpo] 400/458 judged | 2.7s/sample | ETA 2.6min
+  [grpo] 425/458 judged | 2.7s/sample | ETA 1.5min
+  [grpo] 450/458 judged | 2.7s/sample | ETA 0.4min
+  [grpo] 458/458 judged | 2.7s/sample | ETA 0.0min
+  [grpo] Judge complete — 458 scored
+
+======================================================================
+NLP METRICS
+======================================================================
+
+  [base] Computing NLP metrics ...
+  [base] BLEU failed: corpus_bleu() got an unexpected keyword argument 'max_ngram_order'
+  [base] NLP done: BLEU4=None ROUGE-L=0.2146 METEOR=0.2488
+
+  [sft_v2] Computing NLP metrics ...
+  [sft_v2] BLEU failed: corpus_bleu() got an unexpected keyword argument 'max_ngram_order'
+  [sft_v2] NLP done: BLEU4=None ROUGE-L=0.2722 METEOR=0.281
+
+  [grpo] Computing NLP metrics ...
+  [grpo] BLEU failed: corpus_bleu() got an unexpected keyword argument 'max_ngram_order'
+  [grpo] NLP done: BLEU4=None ROUGE-L=0.2897 METEOR=0.2961
+
+Summary saved → results/eval/new_conditions/summary_table.json
+
+======================================================================
+FINAL RESULTS TABLE
+======================================================================
+
+Metric                         base    sft_v2      grpo
+-------------------------------------------------------
+MCF_Score                    4.4689    4.3019    4.1823
+NAF_Score                    3.9247    4.1026    4.1971
+spatial_orientation          3.2140    3.5262    3.7860
+social_interaction           4.1834    4.4083    4.4651
+action_events                4.1965    4.3603    4.3646
+ambience                     6.2817    4.9127    4.1135
+descriptiveness              3.2620    3.3253    3.4978
+objectivity                  5.8865    6.4432    6.5044
+accuracy                     2.5437    2.5218    2.5830
+clarity                      4.0066    4.1201    4.2031
+BLEU-1                          N/A       N/A       N/A
+BLEU-4                          N/A       N/A       N/A
+ROUGE-L                      0.2146    0.2722    0.2897
+METEOR                       0.2488    0.2810    0.2961
+-------------------------------------------------------
+n_videos                        458       458       458
+
+======================================================================
+=== EVAL COMPLETE ===

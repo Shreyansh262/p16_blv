@@ -1,0 +1,16 @@
+{'testlen': 109997, 'reflen': 106497, 'guess': [109997, 108068, 106139, 104210], 'correct': [13463, 1160, 147, 13]}
+ratio: 1.0328647755335734
+Condition A done.
+{'testlen': 76500, 'reflen': 106497, 'guess': [76500, 74571, 72642, 70713], 'correct': [17549, 2638, 558, 90]}
+ratio: 0.7183300938054525
+Condition B done.
+{'testlen': 112049, 'reflen': 106497, 'guess': [112049, 110120, 108191, 106262], 'correct': [13477, 1189, 153, 21]}
+ratio: 1.0521329239321195
+Traceback (most recent call last):
+  File "/usershome/cs671_user2/p16_blv/run_nlp_metrics.py", line 24, in <module>
+    meteor_score, _ = meteor_scorer.compute_score(refs, hyps)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/usershome/cs671_user2/miniconda3/lib/python3.13/site-packages/pycocoevalcap/meteor/meteor.py", line 43, in compute_score
+    scores.append(float(self.meteor_p.stdout.readline().strip()))
+                  ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: b'48.0 64.0 12.0 24.0 6.0 6.0 6.0 6.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 2.0 2.0 2.0 0.0 14.0 16.0 14.0'

@@ -1,0 +1,58 @@
+{
+  "base": {
+    "n": 458,
+    "blv_spatial": 0.7904,
+    "blv_social": 0.9432,
+    "blv_action": 0.6812,
+    "blv_ambience": 0.7598,
+    "blv_mean": 0.7936,
+    "nav_obstacles": 0.7664,
+    "nav_step_changes": 0.0393,
+    "nav_directions": 0.2948,
+    "nav_moving_hazards": 0.1616,
+    "nav_distances": 0.4454,
+    "nav_mean": 0.3415
+  },
+  "sft_v2": {
+    "n": 458,
+    "blv_spatial": 0.81,
+    "blv_social": 0.9432,
+    "blv_action": 0.7926,
+    "blv_ambience": 0.9127,
+    "blv_mean": 0.8646,
+    "nav_obstacles": 0.8493,
+    "nav_step_changes": 0.0655,
+    "nav_directions": 0.5131,
+    "nav_moving_hazards": 0.2118,
+    "nav_distances": 0.1965,
+    "nav_mean": 0.3672
+  },
+  "grpo": {
+    "n": 458,
+    "blv_spatial": 0.9651,
+    "blv_social": 0.9782,
+    "blv_action": 0.8777,
+    "blv_ambience": 0.9148,
+    "blv_mean": 0.9339,
+    "nav_obstacles": 0.9214,
+    "nav_step_changes": 0.0699,
+    "nav_directions": 0.8777,
+    "nav_moving_hazards": 0.1681,
+    "nav_distances": 0.2227,
+    "nav_mean": 0.452
+  },
+  "sft_patch_v2": {
+    "n": 458,
+    "blv_spatial": 1.0,
+    "blv_social": 1.0,
+    "blv_action": 0.6179,
+    "blv_ambience": 0.9782,
+    "blv_mean": 0.899,
+    "nav_obstacles": 0.9585,
+    "nav_step_changes": 0.0459,
+    "nav_directions": 1.0,
+    "nav_moving_hazards": 0.6594,
+    "nav_distances": 1.0,
+    "nav_mean": 0.7328
+  }
+}

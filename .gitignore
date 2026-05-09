@@ -1,0 +1,68 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Model weights — too large for git (use Git LFS or exclude entirely) ───────
+# Student checkpoints (each is several GB)
+models/student/*/
+# Keep the directory itself but ignore all checkpoint contents
+!models/student/.gitkeep
+
+# Teacher model weights
+models/teacher/*/
+!models/teacher/.gitkeep
+
+# GGUF quantized models
+models/gguf/*.gguf
+models/gguf/*.bin
+
+# Ollama model files
+ollama_models/
+
+# ── Large data files ──────────────────────────────────────────────────────────
+# Keyframes — thousands of images, hundreds of MB
+data/keyframes/
+
+# Dataset cache
+data/.dataset_cache/
+
+# ── Binaries and installers ───────────────────────────────────────────────────
+bin/ollama
+misc/ollama-linux-amd64.tar.zst
+
+# ── Tool virtual environments ─────────────────────────────────────────────────
+tools/llama_conv_venv/
+
+# ── TensorBoard event files ───────────────────────────────────────────────────
+logs/**/tensorboard/
+logs/**/events.out.tfevents.*
+logs/training/training_logs/events.out.tfevents.*
+
+# ── Large log files (keep small ones, ignore massive progress logs) ───────────
+logs/training/training_logs/*.log
+logs/training/training_tmp/
+
+# ── OS / editor artifacts ────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# ── Environment and secrets ───────────────────────────────────────────────────
+.env
+*.key
+*.pem

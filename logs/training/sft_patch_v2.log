@@ -1,0 +1,314 @@
+======================================================================
+SFT PATCH v2 — GRPO_best + 50 GEMMA captions — GPU 2
+Base adapter : models/student/grpo/best
+Data         : data/sft_patch_50.json
+Save         : models/student/sft_patch_grpo_v2
+Instruction  : You are a BLV navigation assistant. Describe the scene for a blind user. Rules: ...
+Epochs 3 | LR 5e-05 | Batch 2 | LoRA r=64 α=128
+======================================================================
+Loaded 50 training entries.
+
+Loading processor ...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Pre-computing samples (CPU) ...
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Pre-computation done in 54.4s | example prompt_len=3505 | 50 samples total
+
+Loading base HuggingFaceTB/SmolVLM2-500M-Video-Instruct ...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  36%|███▋      | 178/489 [00:00<00:00, 1773.28it/s]Loading weights:  81%|████████▏ | 398/489 [00:00<00:00, 2023.54it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2076.99it/s]
+Merging GRPO adapter models/student/grpo/best ...
+Attaching fresh LoRA ...
+/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/peft/tuners/tuners_utils.py:285: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!
+  warnings.warn(
+trainable params: 38,273,024 || all params: 545,755,328 || trainable%: 7.0129
+
+======================================================================
+TRAINING START
+======================================================================
+Steps per epoch: 25 | Total steps: 75
+
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  [E1 step   1/75] loss=1.9244
+  [E1 step   2/75] loss=1.7704
+  [E1 step   3/75] loss=1.7070
+  [E1 step   4/75] loss=7.4699
+  [E1 step   5/75] loss=1.6258
+  [E1 step   6/75] loss=1.2580
+  [E1 step   7/75] loss=1.2882
+  [E1 step   8/75] loss=1.1537
+  [E1 step   9/75] loss=1.5702
+  [E1 step  10/75] loss=1.3276
+  [E1 step  11/75] loss=1.1197
+  [E1 step  12/75] loss=1.0339
+  [E1 step  13/75] loss=0.8829
+  [E1 step  14/75] loss=7.8694
+  [E1 step  15/75] loss=0.9343
+  [E1 step  16/75] loss=1.1397
+  [E1 step  17/75] loss=1.3169
+  [E1 step  18/75] loss=1.1150
+  [E1 step  19/75] loss=0.8681
+  [E1 step  20/75] loss=0.7930
+  [E1 step  21/75] loss=0.9214
+  [E1 step  22/75] loss=0.8557
+  [E1 step  23/75] loss=0.9959
+  [E1 step  24/75] loss=0.9169
+  [E1 step  25/75] loss=0.8807
+
+Epoch 1/3 done | avg_loss=1.7096 | 127s
+
+  [E2 step  26/75] loss=0.7925
+  [E2 step  27/75] loss=0.7169
+  [E2 step  28/75] loss=0.8643
+  [E2 step  29/75] loss=0.5583
+  [E2 step  30/75] loss=0.7932
+  [E2 step  31/75] loss=0.6720
+  [E2 step  32/75] loss=10.4394
+  [E2 step  33/75] loss=0.8014
+  [E2 step  34/75] loss=9.4973
+  [E2 step  35/75] loss=0.7400
+  [E2 step  36/75] loss=0.6050
+  [E2 step  37/75] loss=0.6952
+  [E2 step  38/75] loss=0.6469
+  [E2 step  39/75] loss=0.8107
+  [E2 step  40/75] loss=0.7334
+  [E2 step  41/75] loss=0.7288
+  [E2 step  42/75] loss=0.6759
+  [E2 step  43/75] loss=0.8438
+  [E2 step  44/75] loss=0.5603
+  [E2 step  45/75] loss=0.8075
+  [E2 step  46/75] loss=0.8119
+  [E2 step  47/75] loss=0.6375
+  [E2 step  48/75] loss=0.4483
+  [E2 step  49/75] loss=0.6389
+  [E2 step  50/75] loss=0.6826
+
+Epoch 2/3 done | avg_loss=1.4481 | 127s
+
+  [E3 step  51/75] loss=0.5535
+  [E3 step  52/75] loss=0.7014
+  [E3 step  53/75] loss=0.3885
+  [E3 step  54/75] loss=0.4940
+  [E3 step  55/75] loss=0.5628
+  [E3 step  56/75] loss=0.5237
+  [E3 step  57/75] loss=0.6410
+  [E3 step  58/75] loss=9.0776
+  [E3 step  59/75] loss=0.7985
+  [E3 step  60/75] loss=6.7447
+  [E3 step  61/75] loss=0.6034
+  [E3 step  62/75] loss=0.5720
+  [E3 step  63/75] loss=0.5024
+  [E3 step  64/75] loss=0.5778
+  [E3 step  65/75] loss=0.6703
+  [E3 step  66/75] loss=0.5173
+  [E3 step  67/75] loss=0.7167
+  [E3 step  68/75] loss=0.6184
+  [E3 step  69/75] loss=0.4986
+  [E3 step  70/75] loss=0.5425
+  [E3 step  71/75] loss=0.3687
+  [E3 step  72/75] loss=0.5324
+  [E3 step  73/75] loss=0.4771
+  [E3 step  74/75] loss=0.4951
+  [E3 step  75/75] loss=0.6633
+
+Epoch 3/3 done | avg_loss=1.1537 | 130s
+
+======================================================================
+LOSS CURVE (all steps):
+  step   1: 1.9244
+  step   2: 1.7704
+  step   3: 1.7070
+  step   4: 7.4699
+  step   5: 1.6258
+  step   6: 1.2580
+  step   7: 1.2882
+  step   8: 1.1537
+  step   9: 1.5702
+  step  10: 1.3276
+  step  11: 1.1197
+  step  12: 1.0339
+  step  13: 0.8829
+  step  14: 7.8694
+  step  15: 0.9343
+  step  16: 1.1397
+  step  17: 1.3169
+  step  18: 1.1150
+  step  19: 0.8681
+  step  20: 0.7930
+  step  21: 0.9214
+  step  22: 0.8557
+  step  23: 0.9959
+  step  24: 0.9169
+  step  25: 0.8807
+  step  26: 0.7925
+  step  27: 0.7169
+  step  28: 0.8643
+  step  29: 0.5583
+  step  30: 0.7932
+  step  31: 0.6720
+  step  32: 10.4394
+  step  33: 0.8014
+  step  34: 9.4973
+  step  35: 0.7400
+  step  36: 0.6050
+  step  37: 0.6952
+  step  38: 0.6469
+  step  39: 0.8107
+  step  40: 0.7334
+  step  41: 0.7288
+  step  42: 0.6759
+  step  43: 0.8438
+  step  44: 0.5603
+  step  45: 0.8075
+  step  46: 0.8119
+  step  47: 0.6375
+  step  48: 0.4483
+  step  49: 0.6389
+  step  50: 0.6826
+  step  51: 0.5535
+  step  52: 0.7014
+  step  53: 0.3885
+  step  54: 0.4940
+  step  55: 0.5628
+  step  56: 0.5237
+  step  57: 0.6410
+  step  58: 9.0776
+  step  59: 0.7985
+  step  60: 6.7447
+  step  61: 0.6034
+  step  62: 0.5720
+  step  63: 0.5024
+  step  64: 0.5778
+  step  65: 0.6703
+  step  66: 0.5173
+  step  67: 0.7167
+  step  68: 0.6184
+  step  69: 0.4986
+  step  70: 0.5425
+  step  71: 0.3687
+  step  72: 0.5324
+  step  73: 0.4771
+  step  74: 0.4951
+  step  75: 0.6633
+
+Epoch averages: E1=1.7096 | E2=1.4481 | E3=1.1537
+======================================================================
+
+Saving adapter to models/student/sft_patch_grpo_v2 ...
+Saved. Files:
+  0.0 MB  README.md
+  0.0 MB  adapter_config.json
+  153.2 MB  adapter_model.safetensors
+  0.0 MB  chat_template.jinja
+  0.0 MB  processor_config.json
+  3.5 MB  tokenizer.json
+  0.0 MB  tokenizer_config.json
+=== TRAINING DONE ===
+
+======================================================================
+POST-TRAINING INFERENCE — 5 videos (zero-shot, same instruction)
+======================================================================
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  34%|███▍      | 167/489 [00:00<00:00, 1637.91it/s]Loading weights:  77%|███████▋  | 376/489 [00:00<00:00, 1898.44it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2055.65it/s]
+Inference model ready (GRPO_best → SFT_patch_v2 merged).
+
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+--------------------------------------------------
+VIDEO: 46GP8
+--------------------------------------------------
+[GEMMA REF]
+  Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A person in a white and navy hoodie and tan pants moves from center to left, reaching toward a stove approximately 1 meter ahead. A white refrigerator stands approximately 2 meters ahead. A blue metal frame is approximately 2 meters to your right.
+
+[SFT_PATCH_V2]
+  Kitchen area; no immediate hazards within 1 meter of center. A person in a white hoodie and tan pants moves from right to left, approximately 2 meters ahead. White cabinets line the wall behind them, with a stove approximately 0.5 meters to your left. A window is located 3 meters ahead to the right.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+--------------------------------------------------
+VIDEO: N11GT
+--------------------------------------------------
+[GEMMA REF]
+  Indoor hallway with steps ahead; CAUTION, steps begin approximately 1 meter ahead. A person in a pink top and black skirt stands approximately 2 meters ahead, moving toward the left. A handrail is approximately 1 meter to your left. Walls are on both the left and right sides.
+
+[SFT_PATCH_V2]
+  Hallway with a person in black clothing moving forward toward stairs; no immediate hazards within 1 meter of center. A person in pink is approximately 2 meters ahead to the left, then moves right towards steps. The floor is clear between 3 meters ahead and 5 meters below.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+--------------------------------------------------
+VIDEO: 0IH69
+--------------------------------------------------
+[GEMMA REF]
+  Indoor room, no immediate hazards. A man in a red shirt and tan shorts stands approximately 2 meters ahead, moving right. A plastic chair is 1 meter to your left. A shelving unit is 2 meters ahead, and a wooden table with a television is 2 meters ahead to the right.
+
+[SFT_PATCH_V2]
+  Indoor room with no immediate hazards; CAUTION, cables run along the wall approximately 1 meter ahead. A person in a red shirt and tan shorts stands center, moving slightly toward the right. A wooden desk is 2 meters to your left, while a black shelving unit is 3 meters ahead. A white plastic chair is 1 meter to your left.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+--------------------------------------------------
+VIDEO: IA2O6
+--------------------------------------------------
+[GEMMA REF]
+  Kitchen environment; CAUTION, moving people 1 meter ahead. A person in a blue shirt and black pants moves right, carrying a purple vacuum canister 1 meter ahead. A person in a grey shirt and blue jeans stands 1 meter ahead, facing a pantry. A stove with a red cloth is 1 meter to your right.
+
+[SFT_PATCH_V2]
+  Kitchen area; no immediate hazards within reach. A person in a blue shirt stands approximately 1 meter ahead to your left, moving toward you. Another person in a grey shirt is approximately 2 meters behind them, facing away from you towards a refrigerator door. A purple vacuum cleaner sits on the floor approximately 0.5 meters ahead between you and the open refrigerator door.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+--------------------------------------------------
+VIDEO: PFOD8
+--------------------------------------------------
+[GEMMA REF]
+  Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A man in a grey shirt and black pants stands 1 meter ahead, facing left. He pours liquid from a pot into a cup at the counter. Wooden cabinets are 1 meter to the left and 2 meters ahead.
+
+[SFT_PATCH_V2]
+  Kitchen environment; no immediate hazards within 2 meters. A man in a grey shirt stands approximately 1 meter ahead center, moving from standing to sitting on the floor. He then moves slightly right toward a counter area. Wooden cabinets with drawers hang above him at waist height, and red kitchen towels hang on hooks behind them.
+
+Saved → outputs/raw_captions_sft_patch_v2.json
+=== ALL DONE ===

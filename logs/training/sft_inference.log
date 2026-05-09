@@ -1,0 +1,158 @@
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+Resuming from 350 existing captions
+Videos to process: 7439
+Loading processor...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading base model...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:   0%|          | 1/489 [00:00<02:00,  4.04it/s]Loading weights:  18%|█▊        | 87/489 [00:00<00:01, 315.09it/s]Loading weights:  28%|██▊       | 137/489 [00:00<00:00, 377.84it/s]Loading weights:  45%|████▌     | 221/489 [00:00<00:00, 522.94it/s]Loading weights:  93%|█████████▎| 453/489 [00:00<00:00, 1090.00it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 734.87it/s] 
+Applying LoRA adapter...
+Model ready. Device: cuda:0
+[50/7439] checkpoint saved — last: WPNEM
+[100/7439] checkpoint saved — last: W4U3V
+[150/7439] checkpoint saved — last: D52S5
+[200/7439] checkpoint saved — last: R9TL9
+[250/7439] checkpoint saved — last: 8090435597
+[300/7439] checkpoint saved — last: ATI0Z
+[350/7439] checkpoint saved — last: EZ3CG
+[400/7439] checkpoint saved — last: 3816401895
+[450/7439] checkpoint saved — last: 9QMRD
+[500/7439] checkpoint saved — last: 0FC0N
+[550/7439] checkpoint saved — last: I491F
+[600/7439] checkpoint saved — last: 6FSAH
+[650/7439] checkpoint saved — last: WK6XX
+[700/7439] checkpoint saved — last: RQUGW
+[750/7439] checkpoint saved — last: 6518036929
+[800/7439] checkpoint saved — last: G82VI
+[850/7439] checkpoint saved — last: 9494885165
+[900/7439] checkpoint saved — last: 2PREF
+[950/7439] checkpoint saved — last: TX1HS
+[1000/7439] checkpoint saved — last: JXF3M
+[1050/7439] checkpoint saved — last: 26YPV
+[1100/7439] checkpoint saved — last: 3DUAO
+[1150/7439] checkpoint saved — last: TLDA3
+[1200/7439] checkpoint saved — last: CS8O0
+[1250/7439] checkpoint saved — last: 1EJKT
+[1300/7439] checkpoint saved — last: UUX4G
+[1350/7439] checkpoint saved — last: WA3CG
+[1400/7439] checkpoint saved — last: 64SL1
+[1450/7439] checkpoint saved — last: 6783572295
+[1500/7439] checkpoint saved — last: INQNU
+[1550/7439] checkpoint saved — last: BNH5C
+[1600/7439] checkpoint saved — last: WEJRX
+[1650/7439] checkpoint saved — last: 8770650748
+[1700/7439] checkpoint saved — last: KVWRK
+[1750/7439] checkpoint saved — last: ZG8KO
+[1800/7439] checkpoint saved — last: 0LDP7
+[1850/7439] checkpoint saved — last: B2NBR
+[1900/7439] checkpoint saved — last: DQ0EE
+[1950/7439] checkpoint saved — last: UECH4
+[2000/7439] checkpoint saved — last: 7KZ20
+[2050/7439] checkpoint saved — last: U2B8U
+[2100/7439] checkpoint saved — last: 82X3Z
+[2150/7439] checkpoint saved — last: IC4D5
+[2200/7439] checkpoint saved — last: 5KZLW
+[2250/7439] checkpoint saved — last: 07E49
+[2300/7439] checkpoint saved — last: 9XOED
+[2350/7439] checkpoint saved — last: WBATR
+[2400/7439] checkpoint saved — last: 8FP8X
+[2450/7439] checkpoint saved — last: MURBT
+[2500/7439] checkpoint saved — last: F9K8L
+[2550/7439] checkpoint saved — last: 8DL54
+[2600/7439] checkpoint saved — last: DQDJW
+[2650/7439] checkpoint saved — last: ETY8D
+[2700/7439] checkpoint saved — last: M2DD1
+[2750/7439] checkpoint saved — last: JT6DX
+[2800/7439] checkpoint saved — last: 5D1FD
+[2850/7439] checkpoint saved — last: MJ1T7
+[2900/7439] checkpoint saved — last: 6911674932
+[2950/7439] checkpoint saved — last: ABFGZ
+[3000/7439] checkpoint saved — last: 6037747123
+[3050/7439] checkpoint saved — last: 12301427405
+[3100/7439] checkpoint saved — last: OEHJD
+[3150/7439] checkpoint saved — last: 41CZS
+[3200/7439] checkpoint saved — last: 3456030972
+[3250/7439] checkpoint saved — last: 12292269854
+[3300/7439] checkpoint saved — last: ZNH10
+[3350/7439] checkpoint saved — last: 3KWFT
+[3400/7439] checkpoint saved — last: VSO80
+[3450/7439] checkpoint saved — last: 8175C
+[3500/7439] checkpoint saved — last: TGKHG
+[3550/7439] checkpoint saved — last: 39SXL
+[3600/7439] checkpoint saved — last: 5BTFZ
+[3650/7439] checkpoint saved — last: KP88I
+[3700/7439] checkpoint saved — last: Z0Q5D
+[3750/7439] checkpoint saved — last: WMR4G
+[3800/7439] checkpoint saved — last: NEFHO
+[3850/7439] checkpoint saved — last: VS2RI
+[3900/7439] checkpoint saved — last: 29CB7
+[3950/7439] checkpoint saved — last: KR4EB
+[4000/7439] checkpoint saved — last: 8577770314
+[4050/7439] checkpoint saved — last: ZX1R7
+[4100/7439] checkpoint saved — last: UJ69X
+[4150/7439] checkpoint saved — last: CL29C
+[4200/7439] checkpoint saved — last: POLVK
+[4250/7439] checkpoint saved — last: B9YPQ
+[4300/7439] checkpoint saved — last: 4136617240
+[4350/7439] checkpoint saved — last: BJO5X
+[4400/7439] checkpoint saved — last: G41CL
+[4450/7439] checkpoint saved — last: E4C1C
+[4500/7439] checkpoint saved — last: CNSMI
+[4550/7439] checkpoint saved — last: 3508141028
+[4600/7439] checkpoint saved — last: LTC5Y
+[4650/7439] checkpoint saved — last: 9GA3H
+[4700/7439] checkpoint saved — last: 5311559715
+[4750/7439] checkpoint saved — last: IL0JH
+[4800/7439] checkpoint saved — last: CK0FH
+[4850/7439] checkpoint saved — last: 79WPY
+[4900/7439] checkpoint saved — last: 4752875872
+[4950/7439] checkpoint saved — last: KZODG
+[5000/7439] checkpoint saved — last: NMRF0
+[5050/7439] checkpoint saved — last: 29C6X
+[5100/7439] checkpoint saved — last: P68QV
+[5150/7439] checkpoint saved — last: P4WRI
+[5200/7439] checkpoint saved — last: 7B50N
+[5250/7439] checkpoint saved — last: 4102703285
+[5300/7439] checkpoint saved — last: 3EJQW
+[5350/7439] checkpoint saved — last: TBPLW
+[5400/7439] checkpoint saved — last: I1CUU
+[5450/7439] checkpoint saved — last: 3828863805
+[5500/7439] checkpoint saved — last: R8OTI
+[5550/7439] checkpoint saved — last: 8VRJP
+[5600/7439] checkpoint saved — last: YJQO3
+[5650/7439] checkpoint saved — last: HEIW9
+[5700/7439] checkpoint saved — last: JQW1R
+[5750/7439] checkpoint saved — last: HUU4X
+[5800/7439] checkpoint saved — last: 3028745389
+[5850/7439] checkpoint saved — last: C3CGB
+[5900/7439] checkpoint saved — last: UC33W
+[5950/7439] checkpoint saved — last: 12826244024
+[6000/7439] checkpoint saved — last: MPBRL
+[6050/7439] checkpoint saved — last: MNNDB
+[6100/7439] checkpoint saved — last: HJ8U7
+[6150/7439] checkpoint saved — last: AM4QC
+[6200/7439] checkpoint saved — last: 1S6FD
+[6250/7439] checkpoint saved — last: 493WS
+[6300/7439] checkpoint saved — last: 3C9L1
+[6350/7439] checkpoint saved — last: 3326600678
+[6400/7439] checkpoint saved — last: PSCWP
+[6450/7439] checkpoint saved — last: FE6RN
+[6500/7439] checkpoint saved — last: KRRBE
+[6550/7439] checkpoint saved — last: 5TG2E
+[6600/7439] checkpoint saved — last: I9SSV
+[6650/7439] checkpoint saved — last: HA1XJ
+[6700/7439] checkpoint saved — last: C69Y1
+[6750/7439] checkpoint saved — last: QEV60
+[6800/7439] checkpoint saved — last: S5NC8
+[6850/7439] checkpoint saved — last: 9CCDY
+[6900/7439] checkpoint saved — last: KZTDH
+[6950/7439] checkpoint saved — last: M9KMN
+[7000/7439] checkpoint saved — last: B5NS3
+[7050/7439] checkpoint saved — last: BJXRT
+[7100/7439] checkpoint saved — last: E7TLO
+[7150/7439] checkpoint saved — last: 2TWI2
+[7200/7439] checkpoint saved — last: 3624253306
+[7250/7439] checkpoint saved — last: F5XQM
+[7300/7439] checkpoint saved — last: 59X8N
+[7350/7439] checkpoint saved — last: XPOKK
+[7400/7439] checkpoint saved — last: UAWXI
+Done. Total captions: 7789

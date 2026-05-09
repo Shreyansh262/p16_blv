@@ -1,0 +1,89 @@
+# sft_single_stage.yaml
+# Record-keeping config for 08_sft_single_stage.py
+# Script reads all values from CLI args; this file is for documentation only.
+
+run_name: sft_single_stage
+date: 2026-04-20
+
+model:
+  id: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+  source: original_hf_base_weights   # NOT from any existing checkpoint
+  dtype: bfloat16
+  quantization: none
+
+data:
+  path: data/generated/all_captions_gemma.json
+  total_samples: 9646
+  quality_filter: blv_description length > 30 chars
+  train_split: 0.90
+  val_split:   0.10
+
+lora:
+  r: 64
+  lora_alpha: 128
+  lora_dropout: 0.1
+  target_modules: [q_proj, v_proj, k_proj, o_proj, gate_proj, up_proj, down_proj]
+  task_type: CAUSAL_LM
+  bias: none
+
+freeze_schedule:
+  # TRANSITION_STEP is derived at runtime: round(total_steps * 0.25)
+  # For full run (~8640 train samples, bs=16): ~540 steps/epoch * 4 = 2160 total -> transition=540
+  phase1:
+    steps: "0 -> TRANSITION_STEP (~540)"
+    trainable: [vision_model, connector]
+    frozen:    [lora_]
+  phase2:
+    steps: "TRANSITION_STEP -> end"
+    trainable: [vision_model, connector, lora_]
+    frozen:    []
+
+learning_rates:
+  vision_encoder_phase1:  1.0e-5
+  vision_encoder_phase2:  5.0e-6   # halved at transition
+  connector:              1.0e-5   # unchanged throughout
+  lora:                   2.0e-5   # active only in phase2
+
+training:
+  epochs: 4
+  per_device_train_batch_size: 8   # fallback: 6 w/ grad_accum=3 if OOM
+  gradient_accumulation_steps: 2
+  effective_batch_size: 16
+  warmup_steps: 250
+  lr_scheduler_type: cosine
+  max_grad_norm: 1.0
+  bf16: true
+  gradient_checkpointing: true
+  dataloader_num_workers: 2
+  remove_unused_columns: false
+
+checkpointing:
+  save_strategy: epoch
+  save_total_limit: 4        # keep all 4 epoch checkpoints
+  load_best_model_at_end: true
+  metric_for_best_model: eval_loss
+  greater_is_better: false
+  naming: checkpoint-epoch{N}   # renamed from checkpoint-{step} by callback
+
+evaluation:
+  eval_strategy: epoch
+  eval_split: val (10% of dataset)
+
+output:
+  checkpoint_root: models/student/sft_single_stage/
+  best_model:      models/student/sft_single_stage/best/
+  logs:            logs/sft_single_stage/
+  tmux_smoke:      sft_single_smoke
+  tmux_full:       sft_single_full
+
+gpu: 2   # CUDA_VISIBLE_DEVICES=2
+
+bug_fixes_carried_over:
+  1: apply_chat_template preserves assistant content (user-turn only, append manually)
+  2: label masking via prompt_len split, NOT token ID search
+  3: pad_token_id=2 (NOT 0)
+  4: collate_fn dynamic zero-padding for variable frame counts
+  5: SmolVLMForConditionalGeneration directly (NOT AutoModelForVision2Seq)
+  6: prepare_model_for_kbit_training BEFORE get_peft_model
+  7: MAX_SIDE=364 image resize in __getitem__
+  8: PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True

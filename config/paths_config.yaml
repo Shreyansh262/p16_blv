@@ -1,0 +1,29 @@
+cache:
+  dataset_cache: /usershome/cs671_user2/p16_blv/data/.dataset_cache
+  hf_cache: /usershome/cs671_user2/p16_blv/models/.hf_cache
+  training_tmp: /usershome/cs671_user2/p16_blv/logs/training_tmp
+data:
+  avcaps_meta: /usershome/cs671_user2/p16_blv/data/raw/avcaps_meta.csv
+  charades_meta: /usershome/cs671_user2/p16_blv/data/raw/charades_meta.csv
+  dpo_pairs: /usershome/cs671_user2/p16_blv/data/generated/dpo_pairs.json
+  generated_dir: /usershome/cs671_user2/p16_blv/data/generated
+  keyframes_dir: /usershome/cs671_user2/p16_blv/data/keyframes
+  multiturn_data: /usershome/cs671_user2/p16_blv/data/generated/multiturn_data.json
+  qwen_captions: /usershome/cs671_user2/p16_blv/data/generated/all_captions.json
+  rag_db: /usershome/cs671_user2/p16_blv/data/rag/scene_rag.db
+  rag_dir: /usershome/cs671_user2/p16_blv/data/rag
+  raw_dir: /usershome/cs671_user2/p16_blv/data/raw
+  scene_library: /usershome/cs671_user2/p16_blv/data/rag/scene_library.json
+  videoa11y_captions: /usershome/cs671_user2/p16_blv/data/raw/videoa11y_captions.json
+logs:
+  eval: /usershome/cs671_user2/p16_blv/logs/eval_results
+  training: /usershome/cs671_user2/p16_blv/logs/training_logs
+models:
+  student_base: /usershome/cs671_user2/p16_blv/models/student/base
+  student_dpo: /usershome/cs671_user2/p16_blv/models/student/dpo_checkpoint
+  student_gguf: /usershome/cs671_user2/p16_blv/models/student/final_gguf
+  student_id: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+  student_sft: /usershome/cs671_user2/p16_blv/models/student/sft_stage2_checkpoint
+  teacher_id: Qwen/Qwen2-VL-7B-Instruct
+  teacher_local: /usershome/cs671_user2/p16_blv/models/teacher
+project_root: /usershome/cs671_user2/p16_blv

@@ -1,0 +1,79 @@
+======================================================================
+GRPO_best — TEMPLATE PROMPT — 5 videos
+Videos : ['46GP8', 'N11GT', '0IH69', 'IA2O6', 'PFOD8']
+Prompt :
+You are a BLV navigation assistant.
+Format you must follow:
+[ENVIRONMENT TYPE]. [CAUTION: hazard + distance if present]. [Person description + distance + direction]. [Key obstacle + distance + direction].
+Rules:
+- ENVIRONMENT: state only what you see (Kitchen/Hallway/Living room/Bedroom/Outdoor)
+- CAUTION: only if real hazard visible — wet floor, steps, moving obstacle
+- All distances in meters
+- Present tense, 4 sentences max
+======================================================================
+
+Loading GRPO best (models/student/grpo/best) ...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  36%|███▋      | 178/489 [00:00<00:00, 1765.35it/s]Loading weights:  78%|███████▊  | 383/489 [00:00<00:00, 1929.94it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2071.84it/s]
+GRPO best ready.
+
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+--------------------------------------------------
+VIDEO: 46GP8
+--------------------------------------------------
+[GEMMA REF]
+  Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A person in a white and navy hoodie and tan pants moves from center to left, reaching toward a stove approximately 1 meter ahead. A white refrigerator stands approximately 2 meters ahead. A blue metal frame is approximately 2 meters to your right.
+
+[GRPO_BEST — template]
+  [Kitchen/Hallway/Living room/Bedroom/Outdoor]
+[Person description + distance + direction]: A person in a gray hoodie and tan pants is moving from the kitchen to the living room. The person is 1 meter away from the stove on the left and 2 meters away from the window on the right.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+--------------------------------------------------
+VIDEO: N11GT
+--------------------------------------------------
+[GEMMA REF]
+  Indoor hallway with steps ahead; CAUTION, steps begin approximately 1 meter ahead. A person in a pink top and black skirt stands approximately 2 meters ahead, moving toward the left. A handrail is approximately 1 meter to your left. Walls are on both the left and right sides.
+
+[GRPO_BEST — template]
+  [Kitchen/Hallway/Living room/Bedroom/Outdoor]
+[CAUTION: wet floor, steps, moving obstacle]
+[Person description: a person in a pink shirt and black skirt is standing in a hallway, looking down at a step]
+[4 meters]
+[Person moves down the hallway, then turns and walks away from the camera]
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+--------------------------------------------------
+VIDEO: 0IH69
+--------------------------------------------------
+[GEMMA REF]
+  Indoor room, no immediate hazards. A man in a red shirt and tan shorts stands approximately 2 meters ahead, moving right. A plastic chair is 1 meter to your left. A shelving unit is 2 meters ahead, and a wooden table with a television is 2 meters ahead to the right.
+
+[GRPO_BEST — template]
+  Kitchen/Hallway/Living room/Bedroom/Outdoor. 1 meter ahead, a person in a red shirt and tan pants stands in a kitchen. 2 meters behind the person, a television is on a stand.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+--------------------------------------------------
+VIDEO: IA2O6
+--------------------------------------------------
+[GEMMA REF]
+  Kitchen environment; CAUTION, moving people 1 meter ahead. A person in a blue shirt and black pants moves right, carrying a purple vacuum canister 1 meter ahead. A person in a grey shirt and blue jeans stands 1 meter ahead, facing a pantry. A stove with a red cloth is 1 meter to your right.
+
+[GRPO_BEST — template]
+  [ENVIRONMENT TYPE]: kitchen/hallway/living room/bedroom/outdoor
+[CAUTION: wet floor, steps, moving obstacle]
+[Person description + distance + direction]: a person in a blue shirt is standing in the kitchen, moving towards a purple vacuum cleaner in the center of the room. The vacuum cleaner is located on the floor, approximately 1 meter away from the person.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+--------------------------------------------------
+VIDEO: PFOD8
+--------------------------------------------------
+[GEMMA REF]
+  Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A man in a grey shirt and black pants stands 1 meter ahead, facing left. He pours liquid from a pot into a cup at the counter. Wooden cabinets are 1 meter to the left and 2 meters ahead.
+
+[GRPO_BEST — template]
+  Kitchen. 2 meters left, 2 meters right, 1 meter ahead. A man in a grey shirt and black pants is standing in the kitchen, washing dishes in a sink.
+
+Saved → outputs/raw_captions_template.json
+=== DONE ===

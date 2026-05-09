@@ -1,0 +1,61 @@
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+GRPO checkpoint: models/student/grpo/checkpoint-7000
+GPU: 0
+Videos: ['46GP8', 'N11GT', '0IH69']
+Loading processor ...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading SFT v2 ...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  21%|██        | 102/489 [00:00<00:00, 1009.53it/s]Loading weights:  42%|████▏     | 203/489 [00:00<00:00, 980.83it/s] Loading weights:  62%|██████▏   | 302/489 [00:00<00:00, 948.72it/s]Loading weights:  81%|████████  | 397/489 [00:00<00:00, 941.95it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 936.85it/s]
+SFT v2 ready.
+Loading GRPO models/student/grpo/checkpoint-7000 ...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  25%|██▌       | 124/489 [00:00<00:00, 1236.03it/s]Loading weights:  51%|█████     | 248/489 [00:00<00:00, 1053.99it/s]Loading weights:  73%|███████▎  | 356/489 [00:00<00:00, 874.91it/s] Loading weights:  91%|█████████▏| 447/489 [00:00<00:00, 815.12it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 895.74it/s]
+GRPO ready.
+
+================================================================================
+VIDEO 1 of 3  |  ID: 46GP8
+================================================================================
+
+--- GEMMA REFERENCE ---
+Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A person in a white and navy hoodie and tan pants moves from center to left, reaching toward a stove approximately 1 meter ahead. A white refrigerator stands approximately 2 meters ahead. A blue metal frame is approximately 2 meters to your right.
+
+--- SFT_V2 ---
+A person in a gray hoodie and tan pants is moving from a kitchen to a living room. They are standing in the kitchen, then moving to the living room. The kitchen has white cabinets and a white stove with a pot on it. The living room has a dark wall with a window and a white door.
+
+--- GRPO ckpt-7000 ---
+A person in a white hoodie and tan pants is moving from the kitchen to the living room. They are standing in the kitchen, moving from the stove to the right, and then moving left to the center. The kitchen has white cabinets and a stove, while the living room has a coffee table 1 meter to the right.
+
+================================================================================
+
+
+================================================================================
+VIDEO 2 of 3  |  ID: N11GT
+================================================================================
+
+--- GEMMA REFERENCE ---
+Indoor hallway with steps ahead; CAUTION, steps begin approximately 1 meter ahead. A person in a pink top and black skirt stands approximately 2 meters ahead, moving toward the left. A handrail is approximately 1 meter to your left. Walls are on both the left and right sides.
+
+--- SFT_V2 ---
+A person in a pink shirt and purple skirt is standing in a hallway, leaning over a door frame. They are holding a white object in their hands. The hallway has wooden walls and a door on the left. The floor is tiled.
+
+--- GRPO ckpt-7000 ---
+CAUTION: Kitchen environment, wet floor 1 meter ahead. A person in a pink shirt and black skirt moves left at 2 meters. A child in a blue shirt stands center at 1 meter ahead.
+
+================================================================================
+
+
+================================================================================
+VIDEO 3 of 3  |  ID: 0IH69
+================================================================================
+
+--- GEMMA REFERENCE ---
+Indoor room, no immediate hazards. A man in a red shirt and tan shorts stands approximately 2 meters ahead, moving right. A plastic chair is 1 meter to your left. A shelving unit is 2 meters ahead, and a wooden table with a television is 2 meters ahead to the right.
+
+--- SFT_V2 ---
+A man in a red t-shirt and khaki shorts stands in a room with a television on a stand. He moves from the left to the right of the frame, then turns and walks away from the camera. The television is on a stand in the center of the room, with a wooden desk and chair to the right. A white wall with a picture hangs on the wall behind the man.
+
+--- GRPO ckpt-7000 ---
+CAUTION: Kitchen environment, wet floor 1 meter ahead. A man in a red shirt and tan shorts stands in a kitchen, moving left to right. A television is on a stand 1 meter ahead center, and a wooden table is 1 meter to the right.
+
+================================================================================
+
+=== ALL 3 VIDEOS DONE ===

@@ -1,0 +1,35 @@
+You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
+Loading base model...
+Loading LoRA adapter...
+
+============================================================
+GENERATION TEST - 5 samples
+============================================================
+
+--- Sample 1 ---
+GENERATED : In the cafeteria or dining hall, you are standing near the food serving counter with trays in front of you. The floor is wet from recent cleaning activities, indicating that the area may be restricted to prevent cross-contamination. There are tables and chairs scattered throughout the space, including low stools and overhead trays. As you move around, you will encounter other patrons seated at their desks or eating areas. Be cautious of potential spillages on your tray as they can cause accidents.
+TEACHER   : In the library, tall bookshelves form narrow aisles, creating a maze-like environment. Reading tables are scattered thro
+STATUS    : NON-EMPTY
+
+--- Sample 2 ---
+GENERATED : In the living room, you are standing near the coffee table, which is situated in front of you. The furniture includes a sofa and armchairs arranged around the space. A television or gaming console may be present on a low shelf against one wall, while a door leads to another part of the building ahead. The floor appears smooth with no visible obstacles.
+TEACHER   : As you approach the entrance or exit, you'll find a door directly ahead. The door is slightly ajar, and you can see a sm
+STATUS    : NON-EMPTY
+
+--- Sample 3 ---
+GENERATED : In the library or study room, you are standing near the door, which is located to your left and slightly ahead of you. The floor appears wet around the edges, indicating recent cleaning activities. To your right, there are bookshelves on both walls, providing ample space for reading materials. On the desk in front of you, there are several items including a laptop, keyboard, mouse, and pen holder, suggesting that it may be used for studying or working. The lighting is bright throughout the area, ensuring visibility without harsh shadows.
+TEACHER   : In the office or workspace scene, a person is seated at a desk, with a chair positioned directly in front of them. The d
+STATUS    : NON-EMPTY
+
+--- Sample 4 ---
+GENERATED : In the bathroom, you are standing near the sink area with your back to the mirror. The floor is wet, indicating recent cleaning or spillage. There are various objects on the countertops and floor including soap dispensers, toothbrush holders, and bottles of water. The walls are smooth and clean, providing clear space for navigation.
+TEACHER   : In the bathroom, the floor is wet, indicating a recent use of water. The toilet is located to the left, while the sink a
+STATUS    : NON-EMPTY
+
+--- Sample 5 ---
+GENERATED : In the bedroom, you are standing near the bed with your back to the door and floor. The room is well-lit from overhead lights, which cast soft shadows on the walls and floor. There are two beds in the room; one is positioned against the wall at approximately waist height, while the other is situated closer to the camera. A nightstand or desk may be present between the beds, taking up a small portion of the space.
+TEACHER   : As you enter the living room, you'll find yourself in a spacious area with a comfortable sofa and seating furniture arra
+STATUS    : NON-EMPTY
+
+============================================================
+Done.

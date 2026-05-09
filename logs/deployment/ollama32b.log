@@ -1,0 +1,1759 @@
+time=2026-05-01T12:22:01.458Z level=INFO source=routes.go:1744 msg="server config" env="map[CUDA_VISIBLE_DEVICES:6 GGML_VK_VISIBLE_DEVICES: GPU_DEVICE_ORDINAL: HIP_VISIBLE_DEVICES: HSA_OVERRIDE_GFX_VERSION: HTTPS_PROXY: HTTP_PROXY: NO_PROXY: OLLAMA_CONTEXT_LENGTH:0 OLLAMA_DEBUG:INFO OLLAMA_DEBUG_LOG_REQUESTS:false OLLAMA_EDITOR: OLLAMA_FLASH_ATTENTION:false OLLAMA_GPU_OVERHEAD:0 OLLAMA_HOST:http://0.0.0.0:11435 OLLAMA_KEEP_ALIVE:5m0s OLLAMA_KV_CACHE_TYPE: OLLAMA_LLM_LIBRARY: OLLAMA_LOAD_TIMEOUT:5m0s OLLAMA_MAX_LOADED_MODELS:0 OLLAMA_MAX_QUEUE:512 OLLAMA_MODELS:/usershome/cs671_user2/p16_blv/ollama_models OLLAMA_MULTIUSER_CACHE:false OLLAMA_NEW_ENGINE:false OLLAMA_NOHISTORY:false OLLAMA_NOPRUNE:false OLLAMA_NO_CLOUD:false OLLAMA_NUM_PARALLEL:1 OLLAMA_ORIGINS:[http://localhost https://localhost http://localhost:* https://localhost:* http://127.0.0.1 https://127.0.0.1 http://127.0.0.1:* https://127.0.0.1:* http://0.0.0.0 https://0.0.0.0 http://0.0.0.0:* https://0.0.0.0:* app://* file://* tauri://* vscode-webview://* vscode-file://*] OLLAMA_REMOTES:[ollama.com] OLLAMA_SCHED_SPREAD:false OLLAMA_VULKAN:false ROCR_VISIBLE_DEVICES: http_proxy: https_proxy: no_proxy:]"
+time=2026-05-01T12:22:01.458Z level=INFO source=routes.go:1746 msg="Ollama cloud disabled: false"
+time=2026-05-01T12:22:01.460Z level=INFO source=images.go:499 msg="total blobs: 10"
+time=2026-05-01T12:22:01.460Z level=INFO source=images.go:506 msg="total unused blobs removed: 0"
+time=2026-05-01T12:22:01.460Z level=INFO source=routes.go:1802 msg="Listening on [::]:11435 (version 0.20.2)"
+time=2026-05-01T12:22:01.463Z level=INFO source=runner.go:67 msg="discovering available GPUs..."
+time=2026-05-01T12:22:01.463Z level=WARN source=runner.go:485 msg="user overrode visible devices" CUDA_VISIBLE_DEVICES=6
+time=2026-05-01T12:22:01.463Z level=WARN source=runner.go:489 msg="if GPUs are not correctly discovered, unset and try again"
+time=2026-05-01T12:22:01.471Z level=INFO source=server.go:432 msg="starting runner" cmd="/usershome/cs671_user2/p16_blv/bin/ollama runner --ollama-engine --port 35997"
+time=2026-05-01T12:22:02.601Z level=INFO source=server.go:432 msg="starting runner" cmd="/usershome/cs671_user2/p16_blv/bin/ollama runner --ollama-engine --port 43591"
+time=2026-05-01T12:22:03.275Z level=INFO source=runner.go:106 msg="experimental Vulkan support disabled.  To enable, set OLLAMA_VULKAN=1"
+time=2026-05-01T12:22:03.275Z level=INFO source=server.go:432 msg="starting runner" cmd="/usershome/cs671_user2/p16_blv/bin/ollama runner --ollama-engine --port 33551"
+time=2026-05-01T12:22:03.276Z level=INFO source=server.go:432 msg="starting runner" cmd="/usershome/cs671_user2/p16_blv/bin/ollama runner --ollama-engine --port 44639"
+time=2026-05-01T12:22:04.127Z level=INFO source=types.go:42 msg="inference compute" id=GPU-f42bffd1-1a57-637d-e57f-45720fb19967 filter_id="" library=CUDA compute=8.6 name=CUDA0 description="NVIDIA RTX A6000" libdirs=ollama,cuda_v13 driver=13.0 pci_id=0000:a3:00.0 type=discrete total="48.0 GiB" available="32.4 GiB"
+time=2026-05-01T12:22:04.127Z level=INFO source=routes.go:1852 msg="vram-based default context" total_vram="48.0 GiB" default_num_ctx=262144
+[GIN] 2026/05/01 - 12:22:14 | 200 |    1.264964ms |       127.0.0.1 | GET      "/api/tags"
+[GIN] 2026/05/01 - 12:22:55 | 200 |      72.429µs |       127.0.0.1 | HEAD     "/"
+time=2026-05-01T12:22:58.676Z level=INFO source=download.go:179 msg="downloading eabc98a9bcbf in 20 1 GB part(s)"
+time=2026-05-01T12:26:04.551Z level=INFO source=download.go:179 msg="downloading 66b9ea09bd5b in 1 68 B part(s)"
+time=2026-05-01T12:26:06.282Z level=INFO source=download.go:179 msg="downloading eb4402837c78 in 1 1.5 KB part(s)"
+time=2026-05-01T12:26:08.037Z level=INFO source=download.go:179 msg="downloading 832dd9e00a68 in 1 11 KB part(s)"
+time=2026-05-01T12:26:09.771Z level=INFO source=download.go:179 msg="downloading 833f525ce183 in 1 488 B part(s)"
+[GIN] 2026/05/01 - 12:26:34 | 200 |         3m39s |       127.0.0.1 | POST     "/api/pull"
+[GIN] 2026/05/01 - 12:27:05 | 200 |     1.73055ms |       127.0.0.1 | GET      "/api/tags"
+time=2026-05-01T12:28:11.681Z level=INFO source=server.go:432 msg="starting runner" cmd="/usershome/cs671_user2/p16_blv/bin/ollama runner --ollama-engine --port 36967"
+llama_model_loader: loaded meta data with 34 key-value pairs and 771 tensors from /usershome/cs671_user2/p16_blv/ollama_models/blobs/sha256-eabc98a9bcbfce7fd70f3e07de599f8fda98120fefed5881934161ede8bd1a41 (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = qwen2
+llama_model_loader: - kv   1:                               general.type str              = model
+llama_model_loader: - kv   2:                               general.name str              = Qwen2.5 32B Instruct
+llama_model_loader: - kv   3:                           general.finetune str              = Instruct
+llama_model_loader: - kv   4:                           general.basename str              = Qwen2.5
+llama_model_loader: - kv   5:                         general.size_label str              = 32B
+llama_model_loader: - kv   6:                            general.license str              = apache-2.0
+llama_model_loader: - kv   7:                       general.license.link str              = https://huggingface.co/Qwen/Qwen2.5-3...
+llama_model_loader: - kv   8:                   general.base_model.count u32              = 1
+llama_model_loader: - kv   9:                  general.base_model.0.name str              = Qwen2.5 32B
+llama_model_loader: - kv  10:          general.base_model.0.organization str              = Qwen
+llama_model_loader: - kv  11:              general.base_model.0.repo_url str              = https://huggingface.co/Qwen/Qwen2.5-32B
+llama_model_loader: - kv  12:                               general.tags arr[str,2]       = ["chat", "text-generation"]
+llama_model_loader: - kv  13:                          general.languages arr[str,1]       = ["en"]
+llama_model_loader: - kv  14:                          qwen2.block_count u32              = 64
+llama_model_loader: - kv  15:                       qwen2.context_length u32              = 32768
+llama_model_loader: - kv  16:                     qwen2.embedding_length u32              = 5120
+llama_model_loader: - kv  17:                  qwen2.feed_forward_length u32              = 27648
+llama_model_loader: - kv  18:                 qwen2.attention.head_count u32              = 40
+llama_model_loader: - kv  19:              qwen2.attention.head_count_kv u32              = 8
+llama_model_loader: - kv  20:                       qwen2.rope.freq_base f32              = 1000000.000000
+llama_model_loader: - kv  21:     qwen2.attention.layer_norm_rms_epsilon f32              = 0.000001
+llama_model_loader: - kv  22:                          general.file_type u32              = 15
+llama_model_loader: - kv  23:                       tokenizer.ggml.model str              = gpt2
+llama_model_loader: - kv  24:                         tokenizer.ggml.pre str              = qwen2
+llama_model_loader: - kv  25:                      tokenizer.ggml.tokens arr[str,152064]  = ["!", "\"", "#", "$", "%", "&", "'", ...
+llama_model_loader: - kv  26:                  tokenizer.ggml.token_type arr[i32,152064]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  27:                      tokenizer.ggml.merges arr[str,151387]  = ["Ġ Ġ", "ĠĠ ĠĠ", "i n", "Ġ t",...
+llama_model_loader: - kv  28:                tokenizer.ggml.eos_token_id u32              = 151645
+llama_model_loader: - kv  29:            tokenizer.ggml.padding_token_id u32              = 151643
+llama_model_loader: - kv  30:                tokenizer.ggml.bos_token_id u32              = 151643
+llama_model_loader: - kv  31:               tokenizer.ggml.add_bos_token bool             = false
+llama_model_loader: - kv  32:                    tokenizer.chat_template str              = {%- if tools %}\n    {{- '<|im_start|>...
+llama_model_loader: - kv  33:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:  321 tensors
+llama_model_loader: - type q4_K:  385 tensors
+llama_model_loader: - type q6_K:   65 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_K - Medium
+print_info: file size   = 18.48 GiB (4.85 BPW) 
+load: printing all EOG tokens:
+load:   - 151643 ('<|endoftext|>')
+load:   - 151645 ('<|im_end|>')
+load:   - 151662 ('<|fim_pad|>')
+load:   - 151663 ('<|repo_name|>')
+load:   - 151664 ('<|file_sep|>')
+load: special tokens cache size = 22
+load: token to piece cache size = 0.9310 MB
+print_info: arch             = qwen2
+print_info: vocab_only       = 1
+print_info: no_alloc         = 0
+print_info: model type       = ?B
+print_info: model params     = 32.76 B
+print_info: general.name     = Qwen2.5 32B Instruct
+print_info: vocab type       = BPE
+print_info: n_vocab          = 152064
+print_info: n_merges         = 151387
+print_info: BOS token        = 151643 '<|endoftext|>'
+print_info: EOS token        = 151645 '<|im_end|>'
+print_info: EOT token        = 151645 '<|im_end|>'
+print_info: PAD token        = 151643 '<|endoftext|>'
+print_info: LF token         = 198 'Ċ'
+print_info: FIM PRE token    = 151659 '<|fim_prefix|>'
+print_info: FIM SUF token    = 151661 '<|fim_suffix|>'
+print_info: FIM MID token    = 151660 '<|fim_middle|>'
+print_info: FIM PAD token    = 151662 '<|fim_pad|>'
+print_info: FIM REP token    = 151663 '<|repo_name|>'
+print_info: FIM SEP token    = 151664 '<|file_sep|>'
+print_info: EOG token        = 151643 '<|endoftext|>'
+print_info: EOG token        = 151645 '<|im_end|>'
+print_info: EOG token        = 151662 '<|fim_pad|>'
+print_info: EOG token        = 151663 '<|repo_name|>'
+print_info: EOG token        = 151664 '<|file_sep|>'
+print_info: max token length = 256
+llama_model_load: vocab only - skipping tensors
+time=2026-05-01T12:28:13.619Z level=WARN source=server.go:169 msg="requested context size too large for model" num_ctx=262144 n_ctx_train=32768
+time=2026-05-01T12:28:13.621Z level=INFO source=server.go:432 msg="starting runner" cmd="/usershome/cs671_user2/p16_blv/bin/ollama runner --model /usershome/cs671_user2/p16_blv/ollama_models/blobs/sha256-eabc98a9bcbfce7fd70f3e07de599f8fda98120fefed5881934161ede8bd1a41 --port 40071"
+time=2026-05-01T12:28:13.629Z level=INFO source=sched.go:484 msg="system memory" total="1007.6 GiB" free="768.3 GiB" free_swap="4.0 KiB"
+time=2026-05-01T12:28:13.629Z level=INFO source=sched.go:491 msg="gpu memory" id=GPU-f42bffd1-1a57-637d-e57f-45720fb19967 library=CUDA available="31.9 GiB" free="32.4 GiB" minimum="457.0 MiB" overhead="0 B"
+time=2026-05-01T12:28:13.630Z level=INFO source=server.go:499 msg="loading model" "model layers"=65 requested=-1
+time=2026-05-01T12:28:13.632Z level=INFO source=device.go:240 msg="model weights" device=CUDA0 size="18.1 GiB"
+time=2026-05-01T12:28:13.632Z level=INFO source=device.go:251 msg="kv cache" device=CUDA0 size="8.0 GiB"
+time=2026-05-01T12:28:13.632Z level=INFO source=device.go:262 msg="compute graph" device=CUDA0 size="2.6 GiB"
+time=2026-05-01T12:28:13.632Z level=INFO source=device.go:272 msg="total memory" size="28.7 GiB"
+time=2026-05-01T12:28:13.699Z level=INFO source=runner.go:965 msg="starting go runner"
+load_backend: loaded CPU backend from /usershome/cs671_user2/p16_blv/lib/ollama/libggml-cpu-icelake.so
+ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
+ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
+ggml_cuda_init: found 1 CUDA devices:
+  Device 0: NVIDIA RTX A6000, compute capability 8.6, VMM: yes, ID: GPU-f42bffd1-1a57-637d-e57f-45720fb19967
+load_backend: loaded CUDA backend from /usershome/cs671_user2/p16_blv/lib/ollama/cuda_v13/libggml-cuda.so
+time=2026-05-01T12:28:14.198Z level=INFO source=ggml.go:104 msg=system CPU.0.SSE3=1 CPU.0.SSSE3=1 CPU.0.AVX=1 CPU.0.AVX2=1 CPU.0.F16C=1 CPU.0.FMA=1 CPU.0.BMI2=1 CPU.0.AVX512=1 CPU.0.AVX512_VBMI=1 CPU.0.AVX512_VNNI=1 CPU.0.LLAMAFILE=1 CPU.1.LLAMAFILE=1 CUDA.0.ARCHS=750,800,860,870,890,900,1000,1030,1100,1200,1210 CUDA.0.USE_GRAPHS=1 CUDA.0.PEER_MAX_BATCH_SIZE=128 compiler=cgo(gcc)
+time=2026-05-01T12:28:14.199Z level=INFO source=runner.go:1001 msg="Server listening on 127.0.0.1:40071"
+time=2026-05-01T12:28:14.204Z level=INFO source=runner.go:895 msg=load request="{Operation:commit LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Auto KvSize:32768 KvCacheType: NumThreads:32 GPULayers:65[ID:GPU-f42bffd1-1a57-637d-e57f-45720fb19967 Layers:65(0..64)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:true}"
+time=2026-05-01T12:28:14.205Z level=INFO source=server.go:1352 msg="waiting for llama runner to start responding"
+time=2026-05-01T12:28:14.205Z level=INFO source=server.go:1386 msg="waiting for server to become available" status="llm server loading model"
+ggml_backend_cuda_device_get_memory device GPU-f42bffd1-1a57-637d-e57f-45720fb19967 utilizing NVML memory reporting free: 34756034560 total: 51527024640
+llama_model_load_from_file_impl: using device CUDA0 (NVIDIA RTX A6000) (0000:a3:00.0) - 33145 MiB free
+llama_model_loader: loaded meta data with 34 key-value pairs and 771 tensors from /usershome/cs671_user2/p16_blv/ollama_models/blobs/sha256-eabc98a9bcbfce7fd70f3e07de599f8fda98120fefed5881934161ede8bd1a41 (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = qwen2
+llama_model_loader: - kv   1:                               general.type str              = model
+llama_model_loader: - kv   2:                               general.name str              = Qwen2.5 32B Instruct
+llama_model_loader: - kv   3:                           general.finetune str              = Instruct
+llama_model_loader: - kv   4:                           general.basename str              = Qwen2.5
+llama_model_loader: - kv   5:                         general.size_label str              = 32B
+llama_model_loader: - kv   6:                            general.license str              = apache-2.0
+llama_model_loader: - kv   7:                       general.license.link str              = https://huggingface.co/Qwen/Qwen2.5-3...
+llama_model_loader: - kv   8:                   general.base_model.count u32              = 1
+llama_model_loader: - kv   9:                  general.base_model.0.name str              = Qwen2.5 32B
+llama_model_loader: - kv  10:          general.base_model.0.organization str              = Qwen
+llama_model_loader: - kv  11:              general.base_model.0.repo_url str              = https://huggingface.co/Qwen/Qwen2.5-32B
+llama_model_loader: - kv  12:                               general.tags arr[str,2]       = ["chat", "text-generation"]
+llama_model_loader: - kv  13:                          general.languages arr[str,1]       = ["en"]
+llama_model_loader: - kv  14:                          qwen2.block_count u32              = 64
+llama_model_loader: - kv  15:                       qwen2.context_length u32              = 32768
+llama_model_loader: - kv  16:                     qwen2.embedding_length u32              = 5120
+llama_model_loader: - kv  17:                  qwen2.feed_forward_length u32              = 27648
+llama_model_loader: - kv  18:                 qwen2.attention.head_count u32              = 40
+llama_model_loader: - kv  19:              qwen2.attention.head_count_kv u32              = 8
+llama_model_loader: - kv  20:                       qwen2.rope.freq_base f32              = 1000000.000000
+llama_model_loader: - kv  21:     qwen2.attention.layer_norm_rms_epsilon f32              = 0.000001
+llama_model_loader: - kv  22:                          general.file_type u32              = 15
+llama_model_loader: - kv  23:                       tokenizer.ggml.model str              = gpt2
+llama_model_loader: - kv  24:                         tokenizer.ggml.pre str              = qwen2
+llama_model_loader: - kv  25:                      tokenizer.ggml.tokens arr[str,152064]  = ["!", "\"", "#", "$", "%", "&", "'", ...
+llama_model_loader: - kv  26:                  tokenizer.ggml.token_type arr[i32,152064]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  27:                      tokenizer.ggml.merges arr[str,151387]  = ["Ġ Ġ", "ĠĠ ĠĠ", "i n", "Ġ t",...
+llama_model_loader: - kv  28:                tokenizer.ggml.eos_token_id u32              = 151645
+llama_model_loader: - kv  29:            tokenizer.ggml.padding_token_id u32              = 151643
+llama_model_loader: - kv  30:                tokenizer.ggml.bos_token_id u32              = 151643
+llama_model_loader: - kv  31:               tokenizer.ggml.add_bos_token bool             = false
+llama_model_loader: - kv  32:                    tokenizer.chat_template str              = {%- if tools %}\n    {{- '<|im_start|>...
+llama_model_loader: - kv  33:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:  321 tensors
+llama_model_loader: - type q4_K:  385 tensors
+llama_model_loader: - type q6_K:   65 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_K - Medium
+print_info: file size   = 18.48 GiB (4.85 BPW) 
+load: printing all EOG tokens:
+load:   - 151643 ('<|endoftext|>')
+load:   - 151645 ('<|im_end|>')
+load:   - 151662 ('<|fim_pad|>')
+load:   - 151663 ('<|repo_name|>')
+load:   - 151664 ('<|file_sep|>')
+load: special tokens cache size = 22
+load: token to piece cache size = 0.9310 MB
+print_info: arch             = qwen2
+print_info: vocab_only       = 0
+print_info: no_alloc         = 0
+print_info: n_ctx_train      = 32768
+print_info: n_embd           = 5120
+print_info: n_embd_inp       = 5120
+print_info: n_layer          = 64
+print_info: n_head           = 40
+print_info: n_head_kv        = 8
+print_info: n_rot            = 128
+print_info: n_swa            = 0
+print_info: is_swa_any       = 0
+print_info: n_embd_head_k    = 128
+print_info: n_embd_head_v    = 128
+print_info: n_gqa            = 5
+print_info: n_embd_k_gqa     = 1024
+print_info: n_embd_v_gqa     = 1024
+print_info: f_norm_eps       = 0.0e+00
+print_info: f_norm_rms_eps   = 1.0e-06
+print_info: f_clamp_kqv      = 0.0e+00
+print_info: f_max_alibi_bias = 0.0e+00
+print_info: f_logit_scale    = 0.0e+00
+print_info: f_attn_scale     = 0.0e+00
+print_info: n_ff             = 27648
+print_info: n_expert         = 0
+print_info: n_expert_used    = 0
+print_info: n_expert_groups  = 0
+print_info: n_group_used     = 0
+print_info: causal attn      = 1
+print_info: pooling type     = -1
+print_info: rope type        = 2
+print_info: rope scaling     = linear
+print_info: freq_base_train  = 1000000.0
+print_info: freq_scale_train = 1
+print_info: n_ctx_orig_yarn  = 32768
+print_info: rope_yarn_log_mul= 0.0000
+print_info: rope_finetuned   = unknown
+print_info: model type       = 32B
+print_info: model params     = 32.76 B
+print_info: general.name     = Qwen2.5 32B Instruct
+print_info: vocab type       = BPE
+print_info: n_vocab          = 152064
+print_info: n_merges         = 151387
+print_info: BOS token        = 151643 '<|endoftext|>'
+print_info: EOS token        = 151645 '<|im_end|>'
+print_info: EOT token        = 151645 '<|im_end|>'
+print_info: PAD token        = 151643 '<|endoftext|>'
+print_info: LF token         = 198 'Ċ'
+print_info: FIM PRE token    = 151659 '<|fim_prefix|>'
+print_info: FIM SUF token    = 151661 '<|fim_suffix|>'
+print_info: FIM MID token    = 151660 '<|fim_middle|>'
+print_info: FIM PAD token    = 151662 '<|fim_pad|>'
+print_info: FIM REP token    = 151663 '<|repo_name|>'
+print_info: FIM SEP token    = 151664 '<|file_sep|>'
+print_info: EOG token        = 151643 '<|endoftext|>'
+print_info: EOG token        = 151645 '<|im_end|>'
+print_info: EOG token        = 151662 '<|fim_pad|>'
+print_info: EOG token        = 151663 '<|repo_name|>'
+print_info: EOG token        = 151664 '<|file_sep|>'
+print_info: max token length = 256
+load_tensors: loading model tensors, this can take a while... (mmap = true)
+load_tensors: offloading 64 repeating layers to GPU
+load_tensors: offloading output layer to GPU
+load_tensors: offloaded 65/65 layers to GPU
+load_tensors:   CPU_Mapped model buffer size =   417.66 MiB
+load_tensors:        CUDA0 model buffer size = 18508.35 MiB
+llama_context: constructing llama_context
+llama_context: n_seq_max     = 1
+llama_context: n_ctx         = 32768
+llama_context: n_ctx_seq     = 32768
+llama_context: n_batch       = 512
+llama_context: n_ubatch      = 512
+llama_context: causal_attn   = 1
+llama_context: flash_attn    = auto
+llama_context: kv_unified    = false
+llama_context: freq_base     = 1000000.0
+llama_context: freq_scale    = 1
+llama_context:  CUDA_Host  output buffer size =     0.60 MiB
+llama_kv_cache:      CUDA0 KV buffer size =  8192.00 MiB
+llama_kv_cache: size = 8192.00 MiB ( 32768 cells,  64 layers,  1/1 seqs), K (f16): 4096.00 MiB, V (f16): 4096.00 MiB
+llama_context: Flash Attention was auto, set to enabled
+llama_context:      CUDA0 compute buffer size =   391.01 MiB
+llama_context:  CUDA_Host compute buffer size =    74.01 MiB
+llama_context: graph nodes  = 2183
+llama_context: graph splits = 2
+time=2026-05-01T12:30:31.765Z level=INFO source=server.go:1390 msg="llama runner started in 138.14 seconds"
+time=2026-05-01T12:30:31.766Z level=INFO source=sched.go:561 msg="loaded runners" count=1
+time=2026-05-01T12:30:31.766Z level=INFO source=server.go:1352 msg="waiting for llama runner to start responding"
+time=2026-05-01T12:30:31.766Z level=INFO source=server.go:1390 msg="llama runner started in 138.14 seconds"
+[GIN] 2026/05/01 - 12:30:35 | 200 |         2m23s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:34:16 | 400 |     387.251µs |       127.0.0.1 | POST     "/api/chat"
+time=2026-05-01T12:35:35.152Z level=INFO source=server.go:432 msg="starting runner" cmd="/usershome/cs671_user2/p16_blv/bin/ollama runner --ollama-engine --port 45953"
+time=2026-05-01T12:35:36.034Z level=INFO source=server.go:432 msg="starting runner" cmd="/usershome/cs671_user2/p16_blv/bin/ollama runner --ollama-engine --port 44293"
+time=2026-05-01T12:37:53.220Z level=INFO source=server.go:432 msg="starting runner" cmd="/usershome/cs671_user2/p16_blv/bin/ollama runner --ollama-engine --port 38291"
+llama_model_loader: loaded meta data with 34 key-value pairs and 771 tensors from /usershome/cs671_user2/p16_blv/ollama_models/blobs/sha256-eabc98a9bcbfce7fd70f3e07de599f8fda98120fefed5881934161ede8bd1a41 (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = qwen2
+llama_model_loader: - kv   1:                               general.type str              = model
+llama_model_loader: - kv   2:                               general.name str              = Qwen2.5 32B Instruct
+llama_model_loader: - kv   3:                           general.finetune str              = Instruct
+llama_model_loader: - kv   4:                           general.basename str              = Qwen2.5
+llama_model_loader: - kv   5:                         general.size_label str              = 32B
+llama_model_loader: - kv   6:                            general.license str              = apache-2.0
+llama_model_loader: - kv   7:                       general.license.link str              = https://huggingface.co/Qwen/Qwen2.5-3...
+llama_model_loader: - kv   8:                   general.base_model.count u32              = 1
+llama_model_loader: - kv   9:                  general.base_model.0.name str              = Qwen2.5 32B
+llama_model_loader: - kv  10:          general.base_model.0.organization str              = Qwen
+llama_model_loader: - kv  11:              general.base_model.0.repo_url str              = https://huggingface.co/Qwen/Qwen2.5-32B
+llama_model_loader: - kv  12:                               general.tags arr[str,2]       = ["chat", "text-generation"]
+llama_model_loader: - kv  13:                          general.languages arr[str,1]       = ["en"]
+llama_model_loader: - kv  14:                          qwen2.block_count u32              = 64
+llama_model_loader: - kv  15:                       qwen2.context_length u32              = 32768
+llama_model_loader: - kv  16:                     qwen2.embedding_length u32              = 5120
+llama_model_loader: - kv  17:                  qwen2.feed_forward_length u32              = 27648
+llama_model_loader: - kv  18:                 qwen2.attention.head_count u32              = 40
+llama_model_loader: - kv  19:              qwen2.attention.head_count_kv u32              = 8
+llama_model_loader: - kv  20:                       qwen2.rope.freq_base f32              = 1000000.000000
+llama_model_loader: - kv  21:     qwen2.attention.layer_norm_rms_epsilon f32              = 0.000001
+llama_model_loader: - kv  22:                          general.file_type u32              = 15
+llama_model_loader: - kv  23:                       tokenizer.ggml.model str              = gpt2
+llama_model_loader: - kv  24:                         tokenizer.ggml.pre str              = qwen2
+llama_model_loader: - kv  25:                      tokenizer.ggml.tokens arr[str,152064]  = ["!", "\"", "#", "$", "%", "&", "'", ...
+llama_model_loader: - kv  26:                  tokenizer.ggml.token_type arr[i32,152064]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  27:                      tokenizer.ggml.merges arr[str,151387]  = ["Ġ Ġ", "ĠĠ ĠĠ", "i n", "Ġ t",...
+llama_model_loader: - kv  28:                tokenizer.ggml.eos_token_id u32              = 151645
+llama_model_loader: - kv  29:            tokenizer.ggml.padding_token_id u32              = 151643
+llama_model_loader: - kv  30:                tokenizer.ggml.bos_token_id u32              = 151643
+llama_model_loader: - kv  31:               tokenizer.ggml.add_bos_token bool             = false
+llama_model_loader: - kv  32:                    tokenizer.chat_template str              = {%- if tools %}\n    {{- '<|im_start|>...
+llama_model_loader: - kv  33:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:  321 tensors
+llama_model_loader: - type q4_K:  385 tensors
+llama_model_loader: - type q6_K:   65 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_K - Medium
+print_info: file size   = 18.48 GiB (4.85 BPW) 
+load: printing all EOG tokens:
+load:   - 151643 ('<|endoftext|>')
+load:   - 151645 ('<|im_end|>')
+load:   - 151662 ('<|fim_pad|>')
+load:   - 151663 ('<|repo_name|>')
+load:   - 151664 ('<|file_sep|>')
+load: special tokens cache size = 22
+load: token to piece cache size = 0.9310 MB
+print_info: arch             = qwen2
+print_info: vocab_only       = 1
+print_info: no_alloc         = 0
+print_info: model type       = ?B
+print_info: model params     = 32.76 B
+print_info: general.name     = Qwen2.5 32B Instruct
+print_info: vocab type       = BPE
+print_info: n_vocab          = 152064
+print_info: n_merges         = 151387
+print_info: BOS token        = 151643 '<|endoftext|>'
+print_info: EOS token        = 151645 '<|im_end|>'
+print_info: EOT token        = 151645 '<|im_end|>'
+print_info: PAD token        = 151643 '<|endoftext|>'
+print_info: LF token         = 198 'Ċ'
+print_info: FIM PRE token    = 151659 '<|fim_prefix|>'
+print_info: FIM SUF token    = 151661 '<|fim_suffix|>'
+print_info: FIM MID token    = 151660 '<|fim_middle|>'
+print_info: FIM PAD token    = 151662 '<|fim_pad|>'
+print_info: FIM REP token    = 151663 '<|repo_name|>'
+print_info: FIM SEP token    = 151664 '<|file_sep|>'
+print_info: EOG token        = 151643 '<|endoftext|>'
+print_info: EOG token        = 151645 '<|im_end|>'
+print_info: EOG token        = 151662 '<|fim_pad|>'
+print_info: EOG token        = 151663 '<|repo_name|>'
+print_info: EOG token        = 151664 '<|file_sep|>'
+print_info: max token length = 256
+llama_model_load: vocab only - skipping tensors
+time=2026-05-01T12:37:54.867Z level=WARN source=server.go:169 msg="requested context size too large for model" num_ctx=262144 n_ctx_train=32768
+time=2026-05-01T12:37:54.867Z level=INFO source=server.go:432 msg="starting runner" cmd="/usershome/cs671_user2/p16_blv/bin/ollama runner --model /usershome/cs671_user2/p16_blv/ollama_models/blobs/sha256-eabc98a9bcbfce7fd70f3e07de599f8fda98120fefed5881934161ede8bd1a41 --port 40179"
+time=2026-05-01T12:37:54.868Z level=INFO source=sched.go:484 msg="system memory" total="1007.6 GiB" free="768.4 GiB" free_swap="4.0 KiB"
+time=2026-05-01T12:37:54.868Z level=INFO source=sched.go:491 msg="gpu memory" id=GPU-f42bffd1-1a57-637d-e57f-45720fb19967 library=CUDA available="31.9 GiB" free="32.4 GiB" minimum="457.0 MiB" overhead="0 B"
+time=2026-05-01T12:37:54.868Z level=INFO source=server.go:499 msg="loading model" "model layers"=65 requested=-1
+time=2026-05-01T12:37:54.870Z level=INFO source=device.go:240 msg="model weights" device=CUDA0 size="18.1 GiB"
+time=2026-05-01T12:37:54.870Z level=INFO source=device.go:251 msg="kv cache" device=CUDA0 size="8.0 GiB"
+time=2026-05-01T12:37:54.870Z level=INFO source=device.go:262 msg="compute graph" device=CUDA0 size="2.6 GiB"
+time=2026-05-01T12:37:54.870Z level=INFO source=device.go:272 msg="total memory" size="28.7 GiB"
+time=2026-05-01T12:37:54.932Z level=INFO source=runner.go:965 msg="starting go runner"
+load_backend: loaded CPU backend from /usershome/cs671_user2/p16_blv/lib/ollama/libggml-cpu-icelake.so
+ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
+ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
+ggml_cuda_init: found 1 CUDA devices:
+  Device 0: NVIDIA RTX A6000, compute capability 8.6, VMM: yes, ID: GPU-f42bffd1-1a57-637d-e57f-45720fb19967
+load_backend: loaded CUDA backend from /usershome/cs671_user2/p16_blv/lib/ollama/cuda_v13/libggml-cuda.so
+time=2026-05-01T12:37:55.455Z level=INFO source=ggml.go:104 msg=system CPU.0.SSE3=1 CPU.0.SSSE3=1 CPU.0.AVX=1 CPU.0.AVX2=1 CPU.0.F16C=1 CPU.0.FMA=1 CPU.0.BMI2=1 CPU.0.AVX512=1 CPU.0.AVX512_VBMI=1 CPU.0.AVX512_VNNI=1 CPU.0.LLAMAFILE=1 CPU.1.LLAMAFILE=1 CUDA.0.ARCHS=750,800,860,870,890,900,1000,1030,1100,1200,1210 CUDA.0.USE_GRAPHS=1 CUDA.0.PEER_MAX_BATCH_SIZE=128 compiler=cgo(gcc)
+time=2026-05-01T12:37:55.456Z level=INFO source=runner.go:1001 msg="Server listening on 127.0.0.1:40179"
+time=2026-05-01T12:37:55.466Z level=INFO source=runner.go:895 msg=load request="{Operation:commit LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Auto KvSize:32768 KvCacheType: NumThreads:32 GPULayers:65[ID:GPU-f42bffd1-1a57-637d-e57f-45720fb19967 Layers:65(0..64)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:true}"
+time=2026-05-01T12:37:55.467Z level=INFO source=server.go:1352 msg="waiting for llama runner to start responding"
+time=2026-05-01T12:37:55.467Z level=INFO source=server.go:1386 msg="waiting for server to become available" status="llm server loading model"
+ggml_backend_cuda_device_get_memory device GPU-f42bffd1-1a57-637d-e57f-45720fb19967 utilizing NVML memory reporting free: 34756034560 total: 51527024640
+llama_model_load_from_file_impl: using device CUDA0 (NVIDIA RTX A6000) (0000:a3:00.0) - 33145 MiB free
+llama_model_loader: loaded meta data with 34 key-value pairs and 771 tensors from /usershome/cs671_user2/p16_blv/ollama_models/blobs/sha256-eabc98a9bcbfce7fd70f3e07de599f8fda98120fefed5881934161ede8bd1a41 (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = qwen2
+llama_model_loader: - kv   1:                               general.type str              = model
+llama_model_loader: - kv   2:                               general.name str              = Qwen2.5 32B Instruct
+llama_model_loader: - kv   3:                           general.finetune str              = Instruct
+llama_model_loader: - kv   4:                           general.basename str              = Qwen2.5
+llama_model_loader: - kv   5:                         general.size_label str              = 32B
+llama_model_loader: - kv   6:                            general.license str              = apache-2.0
+llama_model_loader: - kv   7:                       general.license.link str              = https://huggingface.co/Qwen/Qwen2.5-3...
+llama_model_loader: - kv   8:                   general.base_model.count u32              = 1
+llama_model_loader: - kv   9:                  general.base_model.0.name str              = Qwen2.5 32B
+llama_model_loader: - kv  10:          general.base_model.0.organization str              = Qwen
+llama_model_loader: - kv  11:              general.base_model.0.repo_url str              = https://huggingface.co/Qwen/Qwen2.5-32B
+llama_model_loader: - kv  12:                               general.tags arr[str,2]       = ["chat", "text-generation"]
+llama_model_loader: - kv  13:                          general.languages arr[str,1]       = ["en"]
+llama_model_loader: - kv  14:                          qwen2.block_count u32              = 64
+llama_model_loader: - kv  15:                       qwen2.context_length u32              = 32768
+llama_model_loader: - kv  16:                     qwen2.embedding_length u32              = 5120
+llama_model_loader: - kv  17:                  qwen2.feed_forward_length u32              = 27648
+llama_model_loader: - kv  18:                 qwen2.attention.head_count u32              = 40
+llama_model_loader: - kv  19:              qwen2.attention.head_count_kv u32              = 8
+llama_model_loader: - kv  20:                       qwen2.rope.freq_base f32              = 1000000.000000
+llama_model_loader: - kv  21:     qwen2.attention.layer_norm_rms_epsilon f32              = 0.000001
+llama_model_loader: - kv  22:                          general.file_type u32              = 15
+llama_model_loader: - kv  23:                       tokenizer.ggml.model str              = gpt2
+llama_model_loader: - kv  24:                         tokenizer.ggml.pre str              = qwen2
+llama_model_loader: - kv  25:                      tokenizer.ggml.tokens arr[str,152064]  = ["!", "\"", "#", "$", "%", "&", "'", ...
+llama_model_loader: - kv  26:                  tokenizer.ggml.token_type arr[i32,152064]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  27:                      tokenizer.ggml.merges arr[str,151387]  = ["Ġ Ġ", "ĠĠ ĠĠ", "i n", "Ġ t",...
+llama_model_loader: - kv  28:                tokenizer.ggml.eos_token_id u32              = 151645
+llama_model_loader: - kv  29:            tokenizer.ggml.padding_token_id u32              = 151643
+llama_model_loader: - kv  30:                tokenizer.ggml.bos_token_id u32              = 151643
+llama_model_loader: - kv  31:               tokenizer.ggml.add_bos_token bool             = false
+llama_model_loader: - kv  32:                    tokenizer.chat_template str              = {%- if tools %}\n    {{- '<|im_start|>...
+llama_model_loader: - kv  33:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:  321 tensors
+llama_model_loader: - type q4_K:  385 tensors
+llama_model_loader: - type q6_K:   65 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_K - Medium
+print_info: file size   = 18.48 GiB (4.85 BPW) 
+load: printing all EOG tokens:
+load:   - 151643 ('<|endoftext|>')
+load:   - 151645 ('<|im_end|>')
+load:   - 151662 ('<|fim_pad|>')
+load:   - 151663 ('<|repo_name|>')
+load:   - 151664 ('<|file_sep|>')
+load: special tokens cache size = 22
+load: token to piece cache size = 0.9310 MB
+print_info: arch             = qwen2
+print_info: vocab_only       = 0
+print_info: no_alloc         = 0
+print_info: n_ctx_train      = 32768
+print_info: n_embd           = 5120
+print_info: n_embd_inp       = 5120
+print_info: n_layer          = 64
+print_info: n_head           = 40
+print_info: n_head_kv        = 8
+print_info: n_rot            = 128
+print_info: n_swa            = 0
+print_info: is_swa_any       = 0
+print_info: n_embd_head_k    = 128
+print_info: n_embd_head_v    = 128
+print_info: n_gqa            = 5
+print_info: n_embd_k_gqa     = 1024
+print_info: n_embd_v_gqa     = 1024
+print_info: f_norm_eps       = 0.0e+00
+print_info: f_norm_rms_eps   = 1.0e-06
+print_info: f_clamp_kqv      = 0.0e+00
+print_info: f_max_alibi_bias = 0.0e+00
+print_info: f_logit_scale    = 0.0e+00
+print_info: f_attn_scale     = 0.0e+00
+print_info: n_ff             = 27648
+print_info: n_expert         = 0
+print_info: n_expert_used    = 0
+print_info: n_expert_groups  = 0
+print_info: n_group_used     = 0
+print_info: causal attn      = 1
+print_info: pooling type     = -1
+print_info: rope type        = 2
+print_info: rope scaling     = linear
+print_info: freq_base_train  = 1000000.0
+print_info: freq_scale_train = 1
+print_info: n_ctx_orig_yarn  = 32768
+print_info: rope_yarn_log_mul= 0.0000
+print_info: rope_finetuned   = unknown
+print_info: model type       = 32B
+print_info: model params     = 32.76 B
+print_info: general.name     = Qwen2.5 32B Instruct
+print_info: vocab type       = BPE
+print_info: n_vocab          = 152064
+print_info: n_merges         = 151387
+print_info: BOS token        = 151643 '<|endoftext|>'
+print_info: EOS token        = 151645 '<|im_end|>'
+print_info: EOT token        = 151645 '<|im_end|>'
+print_info: PAD token        = 151643 '<|endoftext|>'
+print_info: LF token         = 198 'Ċ'
+print_info: FIM PRE token    = 151659 '<|fim_prefix|>'
+print_info: FIM SUF token    = 151661 '<|fim_suffix|>'
+print_info: FIM MID token    = 151660 '<|fim_middle|>'
+print_info: FIM PAD token    = 151662 '<|fim_pad|>'
+print_info: FIM REP token    = 151663 '<|repo_name|>'
+print_info: FIM SEP token    = 151664 '<|file_sep|>'
+print_info: EOG token        = 151643 '<|endoftext|>'
+print_info: EOG token        = 151645 '<|im_end|>'
+print_info: EOG token        = 151662 '<|fim_pad|>'
+print_info: EOG token        = 151663 '<|repo_name|>'
+print_info: EOG token        = 151664 '<|file_sep|>'
+print_info: max token length = 256
+load_tensors: loading model tensors, this can take a while... (mmap = true)
+load_tensors: offloading 64 repeating layers to GPU
+load_tensors: offloading output layer to GPU
+load_tensors: offloaded 65/65 layers to GPU
+load_tensors:   CPU_Mapped model buffer size =   417.66 MiB
+load_tensors:        CUDA0 model buffer size = 18508.35 MiB
+llama_context: constructing llama_context
+llama_context: n_seq_max     = 1
+llama_context: n_ctx         = 32768
+llama_context: n_ctx_seq     = 32768
+llama_context: n_batch       = 512
+llama_context: n_ubatch      = 512
+llama_context: causal_attn   = 1
+llama_context: flash_attn    = auto
+llama_context: kv_unified    = false
+llama_context: freq_base     = 1000000.0
+llama_context: freq_scale    = 1
+llama_context:  CUDA_Host  output buffer size =     0.60 MiB
+llama_kv_cache:      CUDA0 KV buffer size =  8192.00 MiB
+llama_kv_cache: size = 8192.00 MiB ( 32768 cells,  64 layers,  1/1 seqs), K (f16): 4096.00 MiB, V (f16): 4096.00 MiB
+llama_context: Flash Attention was auto, set to enabled
+llama_context:      CUDA0 compute buffer size =   391.01 MiB
+llama_context:  CUDA_Host compute buffer size =    74.01 MiB
+llama_context: graph nodes  = 2183
+llama_context: graph splits = 2
+time=2026-05-01T12:38:10.041Z level=INFO source=server.go:1390 msg="llama runner started in 15.17 seconds"
+time=2026-05-01T12:38:10.042Z level=INFO source=sched.go:561 msg="loaded runners" count=1
+time=2026-05-01T12:38:10.042Z level=INFO source=server.go:1352 msg="waiting for llama runner to start responding"
+time=2026-05-01T12:38:10.042Z level=INFO source=server.go:1390 msg="llama runner started in 15.17 seconds"
+[GIN] 2026/05/01 - 12:38:12 | 200 | 19.393444846s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:39:39 | 200 |   2.25039132s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:40:55 | 200 |  4.272893458s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:40:59 | 200 |  4.155463171s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:41:03 | 200 |  3.495965156s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:41:07 | 200 |  4.149524339s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:41:11 | 200 |   3.83114077s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:41:14 | 200 |  3.499961664s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:41:18 | 200 |  3.647662708s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:41:21 | 200 |  3.382940958s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:41:25 | 200 |  3.727377784s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:41:29 | 200 |  3.784326369s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:41:33 | 200 |  3.818876824s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:41:37 | 200 |  4.475571222s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:41:41 | 200 |  3.935904026s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:41:45 | 200 |  3.549631104s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:41:49 | 200 |  3.960669677s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:41:52 | 200 |  3.310755299s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:41:56 | 200 |  3.912096289s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:42:00 | 200 |   4.17893431s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:42:04 | 200 |  3.539335531s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:42:09 | 200 |  4.947765884s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:42:12 | 200 |  3.849366527s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:42:17 | 200 |  4.887691605s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:42:22 | 200 |  4.628311138s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:42:26 | 200 |  3.720745161s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:42:30 | 200 |  4.324347505s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:42:35 | 200 |  4.633063421s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:42:39 | 200 |  4.174783846s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:42:42 | 200 |  3.196668688s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:42:46 | 200 |  4.001198455s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:42:49 | 200 |  3.392989745s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:42:54 | 200 |  4.450350326s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:42:57 | 200 |  3.559757521s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:43:01 | 200 |  3.882705284s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:43:06 | 200 |  4.563485776s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:43:09 | 200 |  3.563928171s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:43:14 | 200 |  4.765831728s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:43:19 | 200 |  4.571273655s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:43:23 | 200 |  4.139264982s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:43:27 | 200 |  4.053002581s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:43:31 | 200 |  4.212854427s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:43:35 | 200 |  4.232436075s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:43:39 | 200 |  3.840558049s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:43:43 | 200 |   4.21578099s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:43:48 | 200 |  4.601775067s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:43:52 | 200 |   3.52909233s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:43:56 | 200 |  4.256139008s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:44:00 | 200 |  3.669568994s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:44:04 | 200 |  4.145144953s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:44:07 | 200 |   3.48779608s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:44:11 | 200 |  3.632468335s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:44:15 | 200 |  3.862207524s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:44:19 | 200 |  4.372577568s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:44:23 | 200 |  3.683376081s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:44:27 | 200 |  3.965398027s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:44:30 | 200 |  3.407123353s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:44:33 | 200 |   3.18178523s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:44:37 | 200 |  3.597143839s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:44:41 | 200 |  3.633136525s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:44:44 | 200 |  3.540848288s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:44:48 | 200 |  3.462555992s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:44:51 | 200 |  3.947634714s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:44:55 | 200 |  3.491537178s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:44:59 | 200 |  3.885004321s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:45:02 | 200 |    3.4681826s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:45:07 | 200 |  4.871926587s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:45:11 | 200 |  3.638506182s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:45:15 | 200 |  4.185281118s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:45:18 | 200 |  3.397281524s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:45:23 | 200 |  4.238591047s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:45:27 | 200 |  4.105182824s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:45:31 | 200 |  3.794511373s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:45:34 | 200 |  3.687190058s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:45:39 | 200 |  4.210226384s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:45:43 | 200 |  4.498748392s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:45:47 | 200 |  3.596165906s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:45:51 | 200 |  4.144941157s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:45:55 | 200 |  4.265066443s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:45:59 | 200 |  3.728811708s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:46:03 | 200 |  4.586346409s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:46:07 | 200 |  4.141586568s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:46:12 | 200 |  4.062522679s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:46:15 | 200 |  3.903085135s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:46:19 | 200 |  3.389123082s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:46:24 | 200 |  4.823236743s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:46:28 | 200 |     750.134µs |       127.0.0.1 | GET      "/api/tags"
+[GIN] 2026/05/01 - 12:46:28 | 200 |   4.48265721s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:46:31 | 200 |     176.387µs |       127.0.0.1 | GET      "/api/ps"
+[GIN] 2026/05/01 - 12:46:33 | 200 |  4.570576616s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:46:36 | 200 |  3.623994939s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:46:41 | 200 |  4.484478652s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:46:46 | 200 |  4.924391193s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:47:20 | 200 | 34.577894648s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:47:25 | 200 |  4.395235126s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:47:30 | 200 |  5.316501367s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:47:34 | 200 |    3.7237381s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:47:38 | 200 |  4.529400917s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:47:43 | 200 |  4.826429632s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:47:47 | 200 |  3.793434689s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:47:51 | 200 |  4.421536262s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:47:56 | 200 |  4.892678746s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:48:00 | 200 |  3.254108498s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:48:04 | 200 |  4.218426294s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:48:08 | 200 |  4.340166523s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:48:12 | 200 |  3.515009593s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:48:16 | 200 |  4.049822665s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:48:20 | 200 |  4.254555309s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:48:24 | 200 |  3.758567205s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:48:28 | 200 |  4.651450575s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:48:32 | 200 |  3.900141901s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:48:36 | 200 |  3.579018107s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:48:39 | 200 |   3.64312164s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:48:43 | 200 |  3.430091382s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:48:47 | 200 |  4.080702648s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:48:51 | 200 |  4.013057392s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:48:55 | 200 |  3.661199639s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:48:59 | 200 |  4.313901636s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:02 | 200 |  3.392492539s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:05 | 200 |  3.046013001s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:08 | 200 |  2.997637654s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:11 | 200 |  2.849515134s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:14 | 200 |  2.706934363s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:17 | 200 |  2.958737746s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:20 | 200 |  2.888610999s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:23 | 200 |  2.670860063s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:25 | 200 |  2.719391726s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:28 | 200 |  2.695076706s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:31 | 200 |  2.792219818s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:33 | 200 |  2.716042879s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:36 | 200 |  2.774371131s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:39 | 200 |   2.68570834s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:42 | 200 |  2.707732942s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:44 | 200 |  2.720809249s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:47 | 200 |  2.818706729s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:50 | 200 |  2.915464625s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:53 | 200 |  2.866700285s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:56 | 200 |  2.947187117s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:49:59 | 200 |  2.883188836s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:50:02 | 200 |  2.962736386s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:50:05 | 200 |   2.96369021s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:50:11 | 200 |  5.848024427s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:50:14 | 200 |  3.545521527s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:50:19 | 200 |  4.734797262s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:50:22 | 200 |  3.171164947s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:50:27 | 200 |  4.784981462s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:50:30 | 200 |  3.628148986s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:50:35 | 200 |  4.418715813s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:50:39 | 200 |   4.59021935s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:50:43 | 200 |  3.229902371s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:50:47 | 200 |  4.637878771s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:50:51 | 200 |  3.606048924s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:50:56 | 200 |  4.668464803s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:50:57 | 200 |     711.794µs |       127.0.0.1 | GET      "/api/tags"
+[GIN] 2026/05/01 - 12:51:00 | 200 |  4.227931098s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:51:04 | 200 |  4.315740343s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:51:09 | 200 |  4.545550318s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:51:14 | 200 |  5.444027636s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:51:18 | 200 |  4.057654861s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:51:22 | 200 |  3.796506874s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:51:27 | 200 |  4.574428595s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:51:31 | 200 |  4.367722143s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:51:35 | 200 |  4.088442405s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:51:39 | 200 |  4.292773742s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:51:43 | 200 |   3.31602973s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:51:46 | 200 |  3.546497611s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:51:50 | 200 |  3.946872473s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:51:55 | 200 |  4.380755037s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:51:59 | 200 |  4.360509303s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:52:04 | 200 |  4.875232741s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:52:08 | 200 |  4.153671534s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:52:12 | 200 |  4.361348178s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:52:17 | 200 |  4.616460268s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:52:22 | 200 |  4.646646802s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:52:27 | 200 |  5.497951735s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:52:32 | 200 |  4.452612134s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:52:36 | 200 |  4.111185581s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:52:40 | 200 |  4.579833703s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:52:44 | 200 |  4.123915985s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:52:48 | 200 |  3.480372948s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:52:52 | 200 |  4.295933772s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:52:57 | 200 |  5.237398108s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:53:01 | 200 |  3.917944896s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:53:05 | 200 |  4.003456352s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:53:10 | 200 |  4.319510983s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:53:15 | 200 |  5.442954381s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:53:19 | 200 |  4.059890805s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:53:23 | 200 |  3.316849271s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:53:26 | 200 |   3.53405321s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:53:30 | 200 |  3.860114901s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:53:34 | 200 |  3.955449594s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:53:38 | 200 |  4.067165159s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:53:41 | 200 |  3.512163704s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:53:45 | 200 |  3.949444444s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:53:50 | 200 |  4.432345514s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:53:54 | 200 |  4.459467095s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:53:59 | 200 |  4.350080249s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:54:03 | 200 |  4.320763171s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:54:07 | 200 |  3.719193149s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:54:11 | 200 |  4.388002699s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:54:15 | 200 |  3.698708356s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:54:18 | 200 |  3.602046653s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:54:24 | 200 |  5.498117148s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:54:28 | 200 |  3.606589311s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:54:32 | 200 |  4.116109666s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:54:37 | 200 |  5.041447231s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:54:41 | 200 |  3.965098492s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:54:45 | 200 |  3.995132072s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:54:49 | 200 |  3.854990182s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:54:53 | 200 |  4.377271844s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:54:58 | 200 |  4.714754056s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:55:02 | 200 |  4.339472741s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:55:06 | 200 |   4.36618486s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:55:10 | 200 |  4.081119287s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:55:14 | 200 |  3.965463147s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:55:18 | 200 |  3.360230053s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:55:21 | 200 |  3.341984913s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:55:25 | 200 |  4.370545121s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:55:30 | 200 |  4.213683203s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:55:34 | 200 |  4.101621259s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:55:37 | 200 |   3.46422482s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:55:41 | 200 |  3.361711832s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:55:45 | 200 |  4.455136052s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:55:49 | 200 |  3.709333434s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:55:52 | 200 |  3.437913946s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:55:55 | 200 |  2.917865722s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:55:59 | 200 |  3.901453484s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:56:02 | 200 |  3.302159695s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:56:06 | 200 |  3.887848124s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:56:09 | 200 |   3.17816538s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:56:13 | 200 |  3.840738945s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:56:17 | 200 |  3.501535181s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:56:21 | 200 |  3.720413057s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:56:24 | 200 |  3.312812523s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:56:27 | 200 |  3.613874333s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:56:31 | 200 |  3.266744105s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:56:34 | 200 |  3.498224124s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:56:37 | 200 |  3.053997462s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:56:41 | 200 |  3.819591321s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:56:45 | 200 |  3.954851998s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:56:49 | 200 |  3.523165574s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:56:52 | 200 |  3.136417569s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:56:55 | 200 |  3.516257008s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:56:58 | 200 |  3.232144801s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:57:02 | 200 |  3.745412568s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:57:05 | 200 |  3.229708224s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:57:09 | 200 |  3.547722537s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:57:13 | 200 |  4.054078662s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:57:17 | 200 |   3.64004866s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:57:20 | 200 |   3.32421521s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:57:24 | 200 |  3.564176391s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:57:27 | 200 |  3.518837143s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:57:30 | 200 |  3.054473982s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:57:34 | 200 |  3.405533423s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:57:37 | 200 |  3.337813768s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:57:40 | 200 |  3.512633294s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:57:44 | 200 |  3.163717818s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:57:47 | 200 |  3.639777187s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:57:51 | 200 |   3.30057744s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:57:54 | 200 |  3.843984619s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:57:58 | 200 |  3.367042668s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:58:01 | 200 |  3.146680779s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:58:04 | 200 |  3.242947141s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:58:08 | 200 |  3.878387947s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:58:12 | 200 |  3.749131598s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:58:15 | 200 |  3.187428075s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:58:18 | 200 |  3.461213042s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:58:22 | 200 |  3.552393066s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:58:26 | 200 |  4.090629294s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:58:30 | 200 |  3.581936671s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:58:33 | 200 |  3.365453455s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:58:36 | 200 |  3.321073187s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:58:40 | 200 |  4.044864128s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:58:44 | 200 |  3.557015314s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:58:47 | 200 |  3.178008601s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:58:50 | 200 |  3.315178582s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:58:54 | 200 |   3.04574533s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:58:58 | 200 |  4.076751792s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:59:01 | 200 |  3.312738395s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:59:05 | 200 |  3.676413442s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:59:08 | 200 |  2.980732297s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:59:12 | 200 |   3.89790604s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:59:15 | 200 |  3.237007948s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:59:19 | 200 |  4.156243142s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:59:23 | 200 |  3.685382283s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:59:26 | 200 |  3.168380096s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:59:29 | 200 |   3.40225762s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:59:33 | 200 |   3.32971597s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:59:36 | 200 |  3.851006792s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:59:41 | 200 |  4.186016284s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:59:44 | 200 |  3.041598502s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:59:47 | 200 |  3.249974682s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:59:50 | 200 |  2.955846502s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:59:54 | 200 |  3.793009162s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 12:59:57 | 200 |  3.545252885s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:00:01 | 200 |  3.510009864s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:00:04 | 200 |  3.734047273s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:00:08 | 200 |  3.579517601s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:00:12 | 200 |  3.845285082s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:00:15 | 200 |  3.433133368s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:00:19 | 200 |  3.566671077s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:00:22 | 200 |   3.58005362s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:00:26 | 200 |  3.133517432s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:00:29 | 200 |  3.326733045s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:00:33 | 200 |  3.624764027s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:00:36 | 200 |  3.595631939s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:00:39 | 200 |  3.079937158s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:00:43 | 200 |  3.562618228s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:00:46 | 200 |  2.957933047s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:00:49 | 200 |  3.508188264s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:00:53 | 200 |    3.9868423s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:00:57 | 200 |  3.701291616s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:01:00 | 200 |  2.901985867s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:01:04 | 200 |  4.091294105s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:01:07 | 200 |  3.293439703s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:01:11 | 200 |  3.768504993s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:01:14 | 200 |  3.110562205s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:01:18 | 200 |  3.572664749s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:01:21 | 200 |  3.118849638s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:01:24 | 200 |  2.985806811s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:01:27 | 200 |  3.383419258s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:01:30 | 200 |  3.059640885s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:01:34 | 200 |   3.54428847s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:01:37 | 200 |  3.336178536s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:01:40 | 200 |  3.308874769s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:01:44 | 200 |  3.129689285s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:01:47 | 200 |  3.551439125s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:01:50 | 200 |  3.019445858s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:01:54 | 200 |  3.707420871s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:01:58 | 200 |  3.834751484s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:02:01 | 200 |   3.51807941s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:02:05 | 200 |  3.303391966s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:02:08 | 200 |   3.63585569s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:02:12 | 200 |  3.709930325s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:02:15 | 200 |  3.551725669s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:02:19 | 200 |  3.744966713s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:02:23 | 200 |   3.42946977s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:02:26 | 200 |  3.619769541s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:02:30 | 200 |  3.727684019s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:02:34 | 200 |  3.773559991s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:02:37 | 200 |  3.468237012s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:02:41 | 200 |  3.915176032s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:02:45 | 200 |  3.898579251s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:02:49 | 200 |  3.753453546s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:02:53 | 200 |  3.755395866s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:02:56 | 200 |  3.733215132s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:03:00 | 200 |  3.823932457s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:03:04 | 200 |  4.151801637s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:03:09 | 200 |  4.265654155s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:03:13 | 200 |  4.133625328s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:03:16 | 200 |  3.479620338s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:03:21 | 200 |  4.376228211s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:03:24 | 200 |  3.883129486s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:03:28 | 200 |  3.667438408s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:03:31 | 200 |  3.298923916s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:03:35 | 200 |  3.254395757s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:03:38 | 200 |  3.744466449s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:03:42 | 200 |  3.120735928s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:03:45 | 200 |  3.305481081s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:03:49 | 200 |  3.989451315s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:03:52 | 200 |  3.336381954s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:03:56 | 200 |  4.217863293s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:04:01 | 200 |  4.739786638s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:04:05 | 200 |  3.511142216s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:04:09 | 200 |  4.259053893s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:04:12 | 200 |  3.305870806s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:04:16 | 200 |  4.183402667s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:04:21 | 200 |  4.513290861s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:04:24 | 200 |  3.009759656s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:04:27 | 200 |  2.791225091s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:04:30 | 200 |  2.921115093s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:04:33 | 200 |  3.019704958s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:04:36 | 200 |  2.937157503s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:04:39 | 200 |  3.025905052s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:04:42 | 200 |  3.006454126s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:04:45 | 200 |  2.866287091s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:04:47 | 200 |  2.960747191s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:04:51 | 200 |  3.314729892s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:04:54 | 200 |  3.337048062s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:04:57 | 200 |  2.804988477s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:05:00 | 200 |  2.936628335s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:05:03 | 200 |  2.963831662s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:05:06 | 200 |  2.878202778s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:05:09 | 200 |  3.105320191s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:05:12 | 200 |    2.9807603s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:05:15 | 200 |  2.968909628s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:05:18 | 200 |  3.087318776s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:05:21 | 200 |  2.987893675s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:05:24 | 200 |  2.920608706s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:05:28 | 200 |  4.122871077s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:05:33 | 200 |   4.93038188s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:05:37 | 200 |  3.907476264s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:05:41 | 200 |   4.39135541s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:05:45 | 200 |  3.856261416s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:05:49 | 200 |  3.616444366s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:05:53 | 200 |  4.431062113s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:05:57 | 200 |   3.71835564s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:06:01 | 200 |  4.218134651s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:06:06 | 200 |  4.564031669s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:06:09 | 200 |  3.746877379s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:06:14 | 200 |  4.922747463s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:06:18 | 200 |  3.671912466s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:06:22 | 200 |  3.861815548s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:06:25 | 200 |  3.151930736s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:06:28 | 200 |  3.512525386s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:06:33 | 200 |  4.979955637s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:06:37 | 200 |  3.396048543s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:06:41 | 200 |   4.17907432s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:06:45 | 200 |  4.315301679s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:06:50 | 200 |  4.246374898s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:06:54 | 200 |  4.069026172s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:06:57 | 200 |  3.636316147s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:07:02 | 200 |  4.551816938s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:07:06 | 200 |  3.857029591s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:07:10 | 200 |  3.751581802s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:07:14 | 200 |  4.880680151s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:07:18 | 200 |  3.234607432s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:07:21 | 200 |  3.181335043s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:07:24 | 200 |  3.479382738s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:07:28 | 200 |  3.653710638s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:07:32 | 200 |  4.178774638s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:07:36 | 200 |  3.630066102s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:07:39 | 200 |  3.483548754s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:07:44 | 200 |   4.58882718s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:07:48 | 200 |  3.834557745s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:07:52 | 200 |  4.211078279s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:07:56 | 200 |  3.637326322s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:08:00 | 200 |  4.010585306s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:08:04 | 200 |   4.56521291s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:08:07 | 200 |  3.332487692s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:08:12 | 200 |  4.135869235s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:08:15 | 200 |  3.183875352s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:08:20 | 200 |  5.042439367s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:08:49 | 200 | 28.760663808s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:08:52 | 200 |  3.542222303s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:08:56 | 200 |  3.500300887s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:08:59 | 200 |  3.564079122s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:09:03 | 200 |  3.648115013s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:09:06 | 200 |   3.36496212s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:09:10 | 200 |  3.612471963s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:09:13 | 200 |  3.619356864s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:09:17 | 200 |  3.523057734s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:09:21 | 200 |  3.492006428s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:09:24 | 200 |  3.527695988s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:09:28 | 200 |  4.197595735s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:09:31 | 200 |  3.210109839s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:09:35 | 200 |  3.678963154s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:09:38 | 200 |  3.325903317s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:09:42 | 200 |  3.328080632s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:09:45 | 200 |  3.514677499s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:09:48 | 200 |  3.089366097s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:09:52 | 200 |  3.553221809s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:09:55 | 200 |  3.058199532s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:09:59 | 200 |  3.692880743s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:10:02 | 200 |  3.485127941s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:10:06 | 200 |  3.401617877s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:10:09 | 200 |   3.09454382s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:10:12 | 200 |  3.349541114s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:10:15 | 200 |  3.418997553s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:10:19 | 200 |   3.69033205s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:10:23 | 200 |  3.746779638s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:10:26 | 200 |  3.493168592s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:10:30 | 200 |  3.768344186s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:10:34 | 200 |  3.387678141s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:10:37 | 200 |  3.693246486s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:10:41 | 200 |  3.815318167s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:10:45 | 200 |  3.404488425s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:10:48 | 200 |  3.643299241s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:10:51 | 200 |  3.197883525s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:10:55 | 200 |  3.424199663s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:10:58 | 200 |  3.626023009s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:11:02 | 200 |  3.150579893s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:11:05 | 200 |  3.212620207s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:11:08 | 200 |  3.162385065s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:11:11 | 200 |  3.468617128s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:11:15 | 200 |  3.337570427s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:11:18 | 200 |   3.62473211s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:11:22 | 200 |  3.384255053s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:11:25 | 200 |  3.414095477s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:11:28 | 200 |  3.188845312s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:11:32 | 200 |  3.681935998s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:11:35 | 200 |  3.108248489s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:11:39 | 200 |  3.446044112s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:11:43 | 200 |  3.923556058s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:11:46 | 200 |  3.438038418s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:11:50 | 200 |  3.700136729s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:11:54 | 200 |  4.376617269s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:11:58 | 200 |  3.964817739s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:12:02 | 200 |  3.704533151s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:12:06 | 200 |  4.198947573s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:12:09 | 200 |  3.380135767s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:12:13 | 200 |  3.723298294s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:12:16 | 200 |    3.2330203s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:12:20 | 200 |  3.406980044s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:12:23 | 200 |  3.100261147s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:12:26 | 200 |  3.348794948s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:12:30 | 200 |  3.907102677s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:12:34 | 200 |  3.637004501s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:12:38 | 200 |  3.851596678s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:12:41 | 200 |  3.520804832s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:12:45 | 200 |  3.483196851s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:12:48 | 200 |  3.667429577s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:12:52 | 200 |  3.785526825s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:12:55 | 200 |  3.259246263s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:12:59 | 200 |  3.488610197s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:13:02 | 200 |  3.190414453s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:13:05 | 200 |  3.328841333s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:13:09 | 200 |  3.298955838s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:13:11 | 200 |   2.80679504s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:13:15 | 200 |  3.195500943s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:13:19 | 200 |  4.190588546s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:13:22 | 200 |  3.616418727s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:13:26 | 200 |  3.629009088s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:13:30 | 200 |  3.637827932s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:13:33 | 200 |  3.631755478s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:13:37 | 200 |  3.607221993s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:13:41 | 200 |   3.90045277s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:13:44 | 200 |  3.166219129s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:13:48 | 200 |  3.569749721s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:13:51 | 200 |  2.899266724s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:13:54 | 200 |  3.142606257s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:13:57 | 200 |  3.168522954s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:14:00 | 200 |  3.158347076s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:14:03 | 200 |   3.36759406s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:14:07 | 200 |  3.240277462s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:14:10 | 200 |  3.228434636s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:14:13 | 200 |  3.551354381s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:14:16 | 200 |  3.061226125s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:14:20 | 200 |  3.570216667s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:14:23 | 200 |  3.150954779s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:14:27 | 200 |  3.543393172s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:14:31 | 200 |  3.818085837s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:14:34 | 200 |  3.231796656s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:14:37 | 200 |  3.551162981s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:14:41 | 200 |  3.319103884s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:14:44 | 200 |  3.551038399s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:14:47 | 200 |  2.942385696s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:14:51 | 200 |  3.366922947s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:14:54 | 200 |  3.878978301s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:14:58 | 200 |  3.198060483s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:15:01 | 200 |  3.862156306s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:15:05 | 200 |  3.179853487s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:15:08 | 200 |   3.83110544s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:15:12 | 200 |  3.502596703s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:15:16 | 200 |  3.588402326s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:15:19 | 200 |  3.593149108s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:15:23 | 200 |   3.96931872s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:15:27 | 200 |  3.596854414s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:15:30 | 200 |  3.348952581s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:15:34 | 200 |  3.800577315s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:15:37 | 200 |  3.568986158s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:15:42 | 200 |  4.490764139s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:15:46 | 200 |  3.544693373s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:15:50 | 200 |  4.005270047s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:15:53 | 200 |  3.659905278s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:15:57 | 200 |  3.558029564s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:16:01 | 200 |  4.094034387s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:16:05 | 200 |  4.304387177s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:16:09 | 200 |  3.678792784s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:16:13 | 200 |  3.898569433s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:16:16 | 200 |   3.30465609s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:16:20 | 200 |  3.598362973s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:16:24 | 200 |   4.07963742s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:16:27 | 200 |  3.550329309s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:16:31 | 200 |  4.156528348s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:16:35 | 200 |  4.001423115s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:16:40 | 200 |  4.394070344s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:16:43 | 200 |  3.456409229s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:16:47 | 200 |  3.907287813s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:16:52 | 200 |  4.297231784s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:16:55 | 200 |  3.415375872s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:16:59 | 200 |  3.569900904s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:17:02 | 200 |  3.543596375s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:17:06 | 200 |  3.448689388s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:17:10 | 200 |  4.558340564s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:17:14 | 200 |  3.496582723s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:17:18 | 200 |  4.577173871s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:17:23 | 200 |   4.70316939s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:17:27 | 200 |  3.730793013s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:17:31 | 200 |  4.115259906s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:17:35 | 200 |  3.995034265s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:17:38 | 200 |  3.728206141s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:17:42 | 200 |  3.254650777s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:17:46 | 200 |   3.92435652s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:17:49 | 200 |  3.745058406s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:17:53 | 200 |  3.558255418s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:17:56 | 200 |  3.458845525s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:18:00 | 200 |  4.072570374s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:18:04 | 200 |  3.848460037s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:18:08 | 200 |  3.732689208s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:18:13 | 200 |  4.571485728s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:18:17 | 200 |  4.789217489s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:18:22 | 200 |   4.95735609s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:18:26 | 200 |  3.890949799s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:18:31 | 200 |  4.382167481s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:18:35 | 200 |  4.258933641s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:18:38 | 200 |   3.48880063s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:18:42 | 200 |   3.83617662s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:18:47 | 200 |  4.352069793s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:18:50 | 200 |  3.802626255s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:18:54 | 200 |  3.607164854s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:18:58 | 200 |  3.626741586s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:19:01 | 200 |  3.820978507s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:19:06 | 200 |  4.016174987s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:19:09 | 200 |  3.709063552s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:19:13 | 200 |  3.649137329s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:19:17 | 200 |   4.14981365s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:19:20 | 200 |  3.315394824s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:19:24 | 200 |  3.284805964s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:19:27 | 200 |  3.258855474s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:19:31 | 200 |  4.145015751s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:19:34 | 200 |  3.090020991s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:19:37 | 200 |  3.037388775s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:19:40 | 200 |  2.817066069s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:19:43 | 200 |  2.742151812s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:19:45 | 200 |  2.643636326s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:19:48 | 200 |  2.722415654s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:19:51 | 200 |  2.874905114s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:19:54 | 200 |  2.999903002s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:19:57 | 200 |  2.961302408s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:00 | 200 |  2.934989461s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:03 | 200 |  3.025649236s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:06 | 200 |  2.916067653s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:09 | 200 |  2.971691312s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:12 | 200 |  2.895122534s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:15 | 200 |  2.948787241s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:18 | 200 |  2.886371793s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:21 | 200 |  2.949210307s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:23 | 200 |  2.925057329s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:27 | 200 |  3.089462783s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:29 | 200 |  2.826949343s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:32 | 200 |  2.781964722s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:35 | 200 |  2.848987018s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:38 | 200 |  2.929433343s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:41 | 200 |  2.992688617s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:44 | 200 |   2.89127392s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:47 | 200 |  3.213819341s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:51 | 200 |  3.569574262s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:54 | 200 |  3.268197149s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:20:57 | 200 |   3.44541854s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:21:01 | 200 |  3.172168145s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:21:04 | 200 |  3.381246417s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:21:07 | 200 |   3.42418881s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:21:11 | 200 |   3.26430686s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:21:14 | 200 |   3.25598074s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:21:17 | 200 |  3.404611406s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:21:21 | 200 |  3.454463847s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:21:25 | 200 |  3.881077639s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:21:28 | 200 |  3.454518616s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:21:31 | 200 |  2.988632689s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:21:34 | 200 |  3.405928351s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:21:38 | 200 |  3.117426537s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:21:41 | 200 |  3.344202578s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:21:44 | 200 |  3.373969274s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:21:48 | 200 |  3.603455543s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:21:52 | 200 |  3.650914355s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:21:55 | 200 |  3.552352631s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:21:59 | 200 |   3.84640596s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:22:03 | 200 |  3.511205438s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:22:06 | 200 |  3.150089445s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:22:09 | 200 |  3.320591645s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:22:13 | 200 |  3.958390588s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:22:17 | 200 |  3.850954052s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:22:21 | 200 |  3.794152181s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:22:24 | 200 |  3.311124933s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:22:27 | 200 |   3.40185265s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:22:31 | 200 |  3.734959015s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:22:34 | 200 |  3.402046795s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:22:38 | 200 |  3.884940131s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:22:42 | 200 |  3.167984638s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:22:45 | 200 |  3.505579502s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:22:48 | 200 |  3.160002283s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:22:52 | 200 |  3.390955829s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:22:55 | 200 |  3.432804235s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:22:58 | 200 |  3.131397379s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:23:02 | 200 |  3.481260474s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:23:05 | 200 |  3.237392539s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:23:08 | 200 |  3.442475065s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:23:12 | 200 |  3.643555987s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:23:15 | 200 |  3.383528616s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:23:19 | 200 |  3.413340412s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:23:23 | 200 |  4.111762567s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:23:27 | 200 |  3.753204256s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:23:31 | 200 |  3.945871392s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:23:34 | 200 |  3.441375659s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:23:38 | 200 |  3.657108208s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:23:41 | 200 |  3.702594556s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:23:44 | 200 |   3.04437282s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:23:48 | 200 |  3.918423617s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:23:52 | 200 |  3.659397269s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:23:56 | 200 |  3.547836919s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:23:59 | 200 |  3.608274224s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:24:03 | 200 |  3.930961371s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:24:07 | 200 |  3.833275594s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:24:10 | 200 |  3.257595933s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:24:14 | 200 |  3.691730467s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:24:18 | 200 |  3.698923783s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:24:21 | 200 |  3.608010283s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:24:24 | 200 |  3.205088888s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:24:28 | 200 |  3.456710891s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:24:31 | 200 |  3.271304825s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:24:35 | 200 |  3.493919175s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:24:38 | 200 |  3.711316763s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:24:42 | 200 |  3.495387554s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:24:45 | 200 |  3.536837797s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:24:49 | 200 |  3.415806733s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:24:53 | 200 |  4.025768241s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:24:56 | 200 |  3.390571784s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:25:00 | 200 |  3.885783104s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:25:04 | 200 |  3.638948327s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:25:08 | 200 |  3.921053088s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:25:12 | 200 |  3.912596583s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:25:15 | 200 |  3.266088737s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:25:18 | 200 |  3.472581746s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:25:22 | 200 |  3.190499911s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:25:25 | 200 |  3.501530783s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:25:28 | 200 |  3.244712959s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:25:32 | 200 |  3.430504611s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:25:35 | 200 |  3.398338307s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:25:39 | 200 |  3.377308063s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:25:42 | 200 |  3.679320878s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:25:45 | 200 |  3.211328586s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:25:49 | 200 |  3.849514679s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:25:53 | 200 |  3.268121011s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:25:56 | 200 |  3.351055871s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:25:59 | 200 |  3.581500238s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:26:03 | 200 |  3.956868543s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:26:07 | 200 |  3.626950902s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:26:10 | 200 |  2.736207131s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:26:13 | 200 |    3.3327974s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:26:17 | 200 |  3.497195444s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:26:20 | 200 |  2.913083979s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:26:23 | 200 |  3.339185654s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:26:26 | 200 |  3.413984414s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:26:30 | 200 |  3.753279575s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:26:33 | 200 |  3.361017303s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:26:37 | 200 |   3.43297152s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:26:40 | 200 |  3.413693945s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:26:44 | 200 |  3.708907164s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:26:47 | 200 |  3.298296354s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:26:50 | 200 |  3.089630966s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:26:54 | 200 |  4.090041982s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:26:58 | 200 |  3.331298816s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:27:02 | 200 |  3.837410343s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:27:06 | 200 |  4.117759581s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:27:10 | 200 |  4.157692828s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:27:13 | 200 |  3.449472784s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:27:17 | 200 |  3.601179013s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:27:21 | 200 |   3.73453966s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:27:25 | 200 |  3.804516805s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:27:28 | 200 |  3.331573652s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:27:31 | 200 |  3.478842897s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:27:35 | 200 |  3.313398256s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:27:38 | 200 |  3.390629086s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:27:42 | 200 |  3.541906915s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:27:46 | 200 |  3.891093679s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:27:49 | 200 |  3.320966627s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:27:53 | 200 |  3.774530554s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:27:57 | 200 |  3.928899558s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:28:00 | 200 |  3.190813062s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:28:04 | 200 |  3.937386889s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:28:07 | 200 |  3.149094247s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:28:11 | 200 |  3.689038179s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:28:14 | 200 |   3.52309399s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:28:18 | 200 |  3.736053611s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:28:22 | 200 |  4.116219743s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:28:26 | 200 |  3.659731417s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:28:29 | 200 |  3.428502196s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:28:33 | 200 |    3.8027128s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:28:36 | 200 |  3.381502735s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:28:40 | 200 |  3.690035211s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:28:43 | 200 |  3.121965134s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:28:47 | 200 |  3.822693222s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:28:50 | 200 |  3.403769456s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:28:54 | 200 |  3.518445619s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:28:57 | 200 |  3.727034472s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:29:01 | 200 |  3.321648571s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:29:04 | 200 |  3.427547025s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:29:08 | 200 |  3.398507071s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:29:11 | 200 |  3.775315016s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:29:14 | 200 |  2.997631414s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:29:19 | 200 |   4.37071152s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:29:22 | 200 |  3.663520755s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:29:27 | 200 |  5.002135999s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:29:32 | 200 |  4.239054046s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:29:35 | 200 |  3.507514509s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:29:39 | 200 |  3.568673347s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:29:43 | 200 |  4.161663096s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:29:47 | 200 |  3.571001287s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:29:51 | 200 |  4.046333915s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:29:54 | 200 |  3.368331331s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:29:57 | 200 |  3.462399613s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:30:02 | 200 |  4.529905403s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:30:05 | 200 |  3.538169595s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:30:09 | 200 |  3.948904549s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:30:14 | 200 |  4.083876985s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:30:17 | 200 |  3.925602826s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:30:22 | 200 |  4.081959068s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:30:26 | 200 |  4.506074139s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:30:30 | 200 |  3.626810112s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:30:34 | 200 |   3.95116651s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:30:38 | 200 |  4.126722837s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:30:42 | 200 |   3.77284142s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:30:46 | 200 |  4.367178693s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/01 - 13:30:50 | 200 |  4.098507857s |       127.0.0.1 | POST     "/api/chat"
+time=2026-05-01T13:35:50.485Z level=INFO source=server.go:432 msg="starting runner" cmd="/usershome/cs671_user2/p16_blv/bin/ollama runner --ollama-engine --port 40223"
+time=2026-05-01T13:35:51.392Z level=INFO source=server.go:432 msg="starting runner" cmd="/usershome/cs671_user2/p16_blv/bin/ollama runner --ollama-engine --port 44567"
+time=2026-05-04T00:41:54.652Z level=INFO source=server.go:432 msg="starting runner" cmd="/usershome/cs671_user2/p16_blv/bin/ollama runner --ollama-engine --port 32971"
+llama_model_loader: loaded meta data with 34 key-value pairs and 771 tensors from /usershome/cs671_user2/p16_blv/ollama_models/blobs/sha256-eabc98a9bcbfce7fd70f3e07de599f8fda98120fefed5881934161ede8bd1a41 (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = qwen2
+llama_model_loader: - kv   1:                               general.type str              = model
+llama_model_loader: - kv   2:                               general.name str              = Qwen2.5 32B Instruct
+llama_model_loader: - kv   3:                           general.finetune str              = Instruct
+llama_model_loader: - kv   4:                           general.basename str              = Qwen2.5
+llama_model_loader: - kv   5:                         general.size_label str              = 32B
+llama_model_loader: - kv   6:                            general.license str              = apache-2.0
+llama_model_loader: - kv   7:                       general.license.link str              = https://huggingface.co/Qwen/Qwen2.5-3...
+llama_model_loader: - kv   8:                   general.base_model.count u32              = 1
+llama_model_loader: - kv   9:                  general.base_model.0.name str              = Qwen2.5 32B
+llama_model_loader: - kv  10:          general.base_model.0.organization str              = Qwen
+llama_model_loader: - kv  11:              general.base_model.0.repo_url str              = https://huggingface.co/Qwen/Qwen2.5-32B
+llama_model_loader: - kv  12:                               general.tags arr[str,2]       = ["chat", "text-generation"]
+llama_model_loader: - kv  13:                          general.languages arr[str,1]       = ["en"]
+llama_model_loader: - kv  14:                          qwen2.block_count u32              = 64
+llama_model_loader: - kv  15:                       qwen2.context_length u32              = 32768
+llama_model_loader: - kv  16:                     qwen2.embedding_length u32              = 5120
+llama_model_loader: - kv  17:                  qwen2.feed_forward_length u32              = 27648
+llama_model_loader: - kv  18:                 qwen2.attention.head_count u32              = 40
+llama_model_loader: - kv  19:              qwen2.attention.head_count_kv u32              = 8
+llama_model_loader: - kv  20:                       qwen2.rope.freq_base f32              = 1000000.000000
+llama_model_loader: - kv  21:     qwen2.attention.layer_norm_rms_epsilon f32              = 0.000001
+llama_model_loader: - kv  22:                          general.file_type u32              = 15
+llama_model_loader: - kv  23:                       tokenizer.ggml.model str              = gpt2
+llama_model_loader: - kv  24:                         tokenizer.ggml.pre str              = qwen2
+llama_model_loader: - kv  25:                      tokenizer.ggml.tokens arr[str,152064]  = ["!", "\"", "#", "$", "%", "&", "'", ...
+llama_model_loader: - kv  26:                  tokenizer.ggml.token_type arr[i32,152064]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  27:                      tokenizer.ggml.merges arr[str,151387]  = ["Ġ Ġ", "ĠĠ ĠĠ", "i n", "Ġ t",...
+llama_model_loader: - kv  28:                tokenizer.ggml.eos_token_id u32              = 151645
+llama_model_loader: - kv  29:            tokenizer.ggml.padding_token_id u32              = 151643
+llama_model_loader: - kv  30:                tokenizer.ggml.bos_token_id u32              = 151643
+llama_model_loader: - kv  31:               tokenizer.ggml.add_bos_token bool             = false
+llama_model_loader: - kv  32:                    tokenizer.chat_template str              = {%- if tools %}\n    {{- '<|im_start|>...
+llama_model_loader: - kv  33:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:  321 tensors
+llama_model_loader: - type q4_K:  385 tensors
+llama_model_loader: - type q6_K:   65 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_K - Medium
+print_info: file size   = 18.48 GiB (4.85 BPW) 
+load: printing all EOG tokens:
+load:   - 151643 ('<|endoftext|>')
+load:   - 151645 ('<|im_end|>')
+load:   - 151662 ('<|fim_pad|>')
+load:   - 151663 ('<|repo_name|>')
+load:   - 151664 ('<|file_sep|>')
+load: special tokens cache size = 22
+load: token to piece cache size = 0.9310 MB
+print_info: arch             = qwen2
+print_info: vocab_only       = 1
+print_info: no_alloc         = 0
+print_info: model type       = ?B
+print_info: model params     = 32.76 B
+print_info: general.name     = Qwen2.5 32B Instruct
+print_info: vocab type       = BPE
+print_info: n_vocab          = 152064
+print_info: n_merges         = 151387
+print_info: BOS token        = 151643 '<|endoftext|>'
+print_info: EOS token        = 151645 '<|im_end|>'
+print_info: EOT token        = 151645 '<|im_end|>'
+print_info: PAD token        = 151643 '<|endoftext|>'
+print_info: LF token         = 198 'Ċ'
+print_info: FIM PRE token    = 151659 '<|fim_prefix|>'
+print_info: FIM SUF token    = 151661 '<|fim_suffix|>'
+print_info: FIM MID token    = 151660 '<|fim_middle|>'
+print_info: FIM PAD token    = 151662 '<|fim_pad|>'
+print_info: FIM REP token    = 151663 '<|repo_name|>'
+print_info: FIM SEP token    = 151664 '<|file_sep|>'
+print_info: EOG token        = 151643 '<|endoftext|>'
+print_info: EOG token        = 151645 '<|im_end|>'
+print_info: EOG token        = 151662 '<|fim_pad|>'
+print_info: EOG token        = 151663 '<|repo_name|>'
+print_info: EOG token        = 151664 '<|file_sep|>'
+print_info: max token length = 256
+llama_model_load: vocab only - skipping tensors
+time=2026-05-04T00:41:55.577Z level=WARN source=server.go:169 msg="requested context size too large for model" num_ctx=262144 n_ctx_train=32768
+time=2026-05-04T00:41:55.577Z level=INFO source=server.go:432 msg="starting runner" cmd="/usershome/cs671_user2/p16_blv/bin/ollama runner --model /usershome/cs671_user2/p16_blv/ollama_models/blobs/sha256-eabc98a9bcbfce7fd70f3e07de599f8fda98120fefed5881934161ede8bd1a41 --port 42047"
+time=2026-05-04T00:41:55.578Z level=INFO source=sched.go:484 msg="system memory" total="1007.6 GiB" free="828.7 GiB" free_swap="28.0 KiB"
+time=2026-05-04T00:41:55.578Z level=INFO source=sched.go:491 msg="gpu memory" id=GPU-f42bffd1-1a57-637d-e57f-45720fb19967 library=CUDA available="35.8 GiB" free="36.2 GiB" minimum="457.0 MiB" overhead="0 B"
+time=2026-05-04T00:41:55.578Z level=INFO source=server.go:499 msg="loading model" "model layers"=65 requested=-1
+time=2026-05-04T00:41:55.580Z level=INFO source=device.go:240 msg="model weights" device=CUDA0 size="18.1 GiB"
+time=2026-05-04T00:41:55.580Z level=INFO source=device.go:251 msg="kv cache" device=CUDA0 size="8.0 GiB"
+time=2026-05-04T00:41:55.580Z level=INFO source=device.go:262 msg="compute graph" device=CUDA0 size="2.6 GiB"
+time=2026-05-04T00:41:55.580Z level=INFO source=device.go:272 msg="total memory" size="28.7 GiB"
+time=2026-05-04T00:41:55.602Z level=INFO source=runner.go:965 msg="starting go runner"
+load_backend: loaded CPU backend from /usershome/cs671_user2/p16_blv/lib/ollama/libggml-cpu-icelake.so
+ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
+ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
+ggml_cuda_init: found 1 CUDA devices:
+  Device 0: NVIDIA RTX A6000, compute capability 8.6, VMM: yes, ID: GPU-f42bffd1-1a57-637d-e57f-45720fb19967
+load_backend: loaded CUDA backend from /usershome/cs671_user2/p16_blv/lib/ollama/cuda_v13/libggml-cuda.so
+time=2026-05-04T00:41:55.847Z level=INFO source=ggml.go:104 msg=system CPU.0.SSE3=1 CPU.0.SSSE3=1 CPU.0.AVX=1 CPU.0.AVX2=1 CPU.0.F16C=1 CPU.0.FMA=1 CPU.0.BMI2=1 CPU.0.AVX512=1 CPU.0.AVX512_VBMI=1 CPU.0.AVX512_VNNI=1 CPU.0.LLAMAFILE=1 CPU.1.LLAMAFILE=1 CUDA.0.ARCHS=750,800,860,870,890,900,1000,1030,1100,1200,1210 CUDA.0.USE_GRAPHS=1 CUDA.0.PEER_MAX_BATCH_SIZE=128 compiler=cgo(gcc)
+time=2026-05-04T00:41:55.848Z level=INFO source=runner.go:1001 msg="Server listening on 127.0.0.1:42047"
+time=2026-05-04T00:41:55.855Z level=INFO source=runner.go:895 msg=load request="{Operation:commit LoraPath:[] Parallel:1 BatchSize:512 FlashAttention:Auto KvSize:32768 KvCacheType: NumThreads:32 GPULayers:65[ID:GPU-f42bffd1-1a57-637d-e57f-45720fb19967 Layers:65(0..64)] MultiUserCache:false ProjectorPath: MainGPU:0 UseMmap:true}"
+time=2026-05-04T00:41:55.856Z level=INFO source=server.go:1352 msg="waiting for llama runner to start responding"
+time=2026-05-04T00:41:55.856Z level=INFO source=server.go:1386 msg="waiting for server to become available" status="llm server loading model"
+ggml_backend_cuda_device_get_memory device GPU-f42bffd1-1a57-637d-e57f-45720fb19967 utilizing NVML memory reporting free: 38920650752 total: 51527024640
+llama_model_load_from_file_impl: using device CUDA0 (NVIDIA RTX A6000) (0000:a3:00.0) - 37117 MiB free
+llama_model_loader: loaded meta data with 34 key-value pairs and 771 tensors from /usershome/cs671_user2/p16_blv/ollama_models/blobs/sha256-eabc98a9bcbfce7fd70f3e07de599f8fda98120fefed5881934161ede8bd1a41 (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = qwen2
+llama_model_loader: - kv   1:                               general.type str              = model
+llama_model_loader: - kv   2:                               general.name str              = Qwen2.5 32B Instruct
+llama_model_loader: - kv   3:                           general.finetune str              = Instruct
+llama_model_loader: - kv   4:                           general.basename str              = Qwen2.5
+llama_model_loader: - kv   5:                         general.size_label str              = 32B
+llama_model_loader: - kv   6:                            general.license str              = apache-2.0
+llama_model_loader: - kv   7:                       general.license.link str              = https://huggingface.co/Qwen/Qwen2.5-3...
+llama_model_loader: - kv   8:                   general.base_model.count u32              = 1
+llama_model_loader: - kv   9:                  general.base_model.0.name str              = Qwen2.5 32B
+llama_model_loader: - kv  10:          general.base_model.0.organization str              = Qwen
+llama_model_loader: - kv  11:              general.base_model.0.repo_url str              = https://huggingface.co/Qwen/Qwen2.5-32B
+llama_model_loader: - kv  12:                               general.tags arr[str,2]       = ["chat", "text-generation"]
+llama_model_loader: - kv  13:                          general.languages arr[str,1]       = ["en"]
+llama_model_loader: - kv  14:                          qwen2.block_count u32              = 64
+llama_model_loader: - kv  15:                       qwen2.context_length u32              = 32768
+llama_model_loader: - kv  16:                     qwen2.embedding_length u32              = 5120
+llama_model_loader: - kv  17:                  qwen2.feed_forward_length u32              = 27648
+llama_model_loader: - kv  18:                 qwen2.attention.head_count u32              = 40
+llama_model_loader: - kv  19:              qwen2.attention.head_count_kv u32              = 8
+llama_model_loader: - kv  20:                       qwen2.rope.freq_base f32              = 1000000.000000
+llama_model_loader: - kv  21:     qwen2.attention.layer_norm_rms_epsilon f32              = 0.000001
+llama_model_loader: - kv  22:                          general.file_type u32              = 15
+llama_model_loader: - kv  23:                       tokenizer.ggml.model str              = gpt2
+llama_model_loader: - kv  24:                         tokenizer.ggml.pre str              = qwen2
+llama_model_loader: - kv  25:                      tokenizer.ggml.tokens arr[str,152064]  = ["!", "\"", "#", "$", "%", "&", "'", ...
+llama_model_loader: - kv  26:                  tokenizer.ggml.token_type arr[i32,152064]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  27:                      tokenizer.ggml.merges arr[str,151387]  = ["Ġ Ġ", "ĠĠ ĠĠ", "i n", "Ġ t",...
+llama_model_loader: - kv  28:                tokenizer.ggml.eos_token_id u32              = 151645
+llama_model_loader: - kv  29:            tokenizer.ggml.padding_token_id u32              = 151643
+llama_model_loader: - kv  30:                tokenizer.ggml.bos_token_id u32              = 151643
+llama_model_loader: - kv  31:               tokenizer.ggml.add_bos_token bool             = false
+llama_model_loader: - kv  32:                    tokenizer.chat_template str              = {%- if tools %}\n    {{- '<|im_start|>...
+llama_model_loader: - kv  33:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:  321 tensors
+llama_model_loader: - type q4_K:  385 tensors
+llama_model_loader: - type q6_K:   65 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_K - Medium
+print_info: file size   = 18.48 GiB (4.85 BPW) 
+load: printing all EOG tokens:
+load:   - 151643 ('<|endoftext|>')
+load:   - 151645 ('<|im_end|>')
+load:   - 151662 ('<|fim_pad|>')
+load:   - 151663 ('<|repo_name|>')
+load:   - 151664 ('<|file_sep|>')
+load: special tokens cache size = 22
+load: token to piece cache size = 0.9310 MB
+print_info: arch             = qwen2
+print_info: vocab_only       = 0
+print_info: no_alloc         = 0
+print_info: n_ctx_train      = 32768
+print_info: n_embd           = 5120
+print_info: n_embd_inp       = 5120
+print_info: n_layer          = 64
+print_info: n_head           = 40
+print_info: n_head_kv        = 8
+print_info: n_rot            = 128
+print_info: n_swa            = 0
+print_info: is_swa_any       = 0
+print_info: n_embd_head_k    = 128
+print_info: n_embd_head_v    = 128
+print_info: n_gqa            = 5
+print_info: n_embd_k_gqa     = 1024
+print_info: n_embd_v_gqa     = 1024
+print_info: f_norm_eps       = 0.0e+00
+print_info: f_norm_rms_eps   = 1.0e-06
+print_info: f_clamp_kqv      = 0.0e+00
+print_info: f_max_alibi_bias = 0.0e+00
+print_info: f_logit_scale    = 0.0e+00
+print_info: f_attn_scale     = 0.0e+00
+print_info: n_ff             = 27648
+print_info: n_expert         = 0
+print_info: n_expert_used    = 0
+print_info: n_expert_groups  = 0
+print_info: n_group_used     = 0
+print_info: causal attn      = 1
+print_info: pooling type     = -1
+print_info: rope type        = 2
+print_info: rope scaling     = linear
+print_info: freq_base_train  = 1000000.0
+print_info: freq_scale_train = 1
+print_info: n_ctx_orig_yarn  = 32768
+print_info: rope_yarn_log_mul= 0.0000
+print_info: rope_finetuned   = unknown
+print_info: model type       = 32B
+print_info: model params     = 32.76 B
+print_info: general.name     = Qwen2.5 32B Instruct
+print_info: vocab type       = BPE
+print_info: n_vocab          = 152064
+print_info: n_merges         = 151387
+print_info: BOS token        = 151643 '<|endoftext|>'
+print_info: EOS token        = 151645 '<|im_end|>'
+print_info: EOT token        = 151645 '<|im_end|>'
+print_info: PAD token        = 151643 '<|endoftext|>'
+print_info: LF token         = 198 'Ċ'
+print_info: FIM PRE token    = 151659 '<|fim_prefix|>'
+print_info: FIM SUF token    = 151661 '<|fim_suffix|>'
+print_info: FIM MID token    = 151660 '<|fim_middle|>'
+print_info: FIM PAD token    = 151662 '<|fim_pad|>'
+print_info: FIM REP token    = 151663 '<|repo_name|>'
+print_info: FIM SEP token    = 151664 '<|file_sep|>'
+print_info: EOG token        = 151643 '<|endoftext|>'
+print_info: EOG token        = 151645 '<|im_end|>'
+print_info: EOG token        = 151662 '<|fim_pad|>'
+print_info: EOG token        = 151663 '<|repo_name|>'
+print_info: EOG token        = 151664 '<|file_sep|>'
+print_info: max token length = 256
+load_tensors: loading model tensors, this can take a while... (mmap = true)
+load_tensors: offloading 64 repeating layers to GPU
+load_tensors: offloading output layer to GPU
+load_tensors: offloaded 65/65 layers to GPU
+load_tensors:   CPU_Mapped model buffer size =   417.66 MiB
+load_tensors:        CUDA0 model buffer size = 18508.35 MiB
+llama_context: constructing llama_context
+llama_context: n_seq_max     = 1
+llama_context: n_ctx         = 32768
+llama_context: n_ctx_seq     = 32768
+llama_context: n_batch       = 512
+llama_context: n_ubatch      = 512
+llama_context: causal_attn   = 1
+llama_context: flash_attn    = auto
+llama_context: kv_unified    = false
+llama_context: freq_base     = 1000000.0
+llama_context: freq_scale    = 1
+llama_context:  CUDA_Host  output buffer size =     0.60 MiB
+llama_kv_cache:      CUDA0 KV buffer size =  8192.00 MiB
+llama_kv_cache: size = 8192.00 MiB ( 32768 cells,  64 layers,  1/1 seqs), K (f16): 4096.00 MiB, V (f16): 4096.00 MiB
+llama_context: Flash Attention was auto, set to enabled
+llama_context:      CUDA0 compute buffer size =   391.01 MiB
+llama_context:  CUDA_Host compute buffer size =    74.01 MiB
+llama_context: graph nodes  = 2183
+llama_context: graph splits = 2
+time=2026-05-04T00:42:05.900Z level=INFO source=server.go:1390 msg="llama runner started in 10.32 seconds"
+time=2026-05-04T00:42:05.900Z level=INFO source=sched.go:561 msg="loaded runners" count=1
+time=2026-05-04T00:42:05.900Z level=INFO source=server.go:1352 msg="waiting for llama runner to start responding"
+time=2026-05-04T00:42:05.900Z level=INFO source=server.go:1390 msg="llama runner started in 10.32 seconds"
+[GIN] 2026/05/04 - 00:42:08 | 200 |  14.18867447s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:42:11 | 200 |  2.893541078s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:42:14 | 200 |  2.853667368s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:42:17 | 200 |  2.894256959s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:42:20 | 200 |  2.848798481s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:42:23 | 200 |  2.856594912s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:42:25 | 200 |  2.856194176s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:42:28 | 200 |  2.839238807s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:42:31 | 200 |  2.824571569s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:42:34 | 200 |  2.847001524s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:42:37 | 200 |  2.841557725s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:42:40 | 200 |  2.869258776s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:42:42 | 200 |  2.872116249s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:42:45 | 200 |  2.847168632s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:42:48 | 200 |  2.838758302s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:42:51 | 200 |  2.860756157s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:42:54 | 200 |  2.889120215s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:42:57 | 200 |  2.887577793s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:00 | 200 |  2.893683761s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:03 | 200 |  2.912623948s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:05 | 200 |   2.86219906s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:08 | 200 |  2.907375049s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:11 | 200 |   2.88268601s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:14 | 200 |  2.880539029s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:17 | 200 |  2.846254881s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:20 | 200 |  2.854068516s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:23 | 200 |  2.844331971s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:26 | 200 |  2.875856192s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:28 | 200 |  2.835725442s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:31 | 200 |  2.876135775s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:34 | 200 |  2.888126512s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:37 | 200 |  2.871177411s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:40 | 200 |  2.885335708s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:43 | 200 |  2.837377958s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:46 | 200 |  2.868873104s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:49 | 200 |  2.874984861s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:51 | 200 |   2.87899018s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:54 | 200 |  2.876239199s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:43:57 | 200 |  2.855498606s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:00 | 200 |  2.869821381s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:03 | 200 |  2.890456116s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:06 | 200 |  2.860808569s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:09 | 200 |  2.884238968s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:12 | 200 |  2.869157425s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:14 | 200 |  2.834982128s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:17 | 200 |  2.883138862s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:20 | 200 |  2.860093632s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:23 | 200 |  2.898772332s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:26 | 200 |  2.872566039s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:29 | 200 |  2.860977498s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:32 | 200 |  2.947904533s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:35 | 200 |  2.831550607s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:38 | 200 |  2.906378628s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:40 | 200 |  2.888831748s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:43 | 200 |  2.900512408s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:46 | 200 |  2.837938325s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:49 | 200 |  2.879342333s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:52 | 200 |  2.830173769s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:55 | 200 |  2.901415908s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:44:58 | 200 |  2.881515637s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:01 | 200 |  2.868036112s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:03 | 200 |  2.901750037s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:06 | 200 |  2.862472857s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:09 | 200 |  2.841238128s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:12 | 200 |  2.875779077s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:15 | 200 |  2.822317526s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:18 | 200 |  2.847793352s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:21 | 200 |  2.899299533s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:23 | 200 |  2.848104419s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:26 | 200 |  2.879309721s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:29 | 200 |  2.885617462s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:32 | 200 |  2.877966221s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:35 | 200 |  2.857922183s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:38 | 200 |  2.886599474s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:41 | 200 |  2.852430184s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:44 | 200 |  2.872542784s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:46 | 200 |  2.863004295s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:49 | 200 |  2.866319184s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:52 | 200 |  2.864897702s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:55 | 200 |  2.861209551s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:45:58 | 200 |  2.868943565s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:01 | 200 |  2.893949605s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:04 | 200 |  2.859309067s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:07 | 200 |  2.844429635s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:09 | 200 |  2.880445662s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:12 | 200 |  2.878024965s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:15 | 200 |  2.831800746s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:18 | 200 |  2.891423464s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:21 | 200 |  2.871926218s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:24 | 200 |   2.90289253s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:27 | 200 |  2.858559845s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:30 | 200 |  2.896163851s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:32 | 200 |  2.860679492s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:35 | 200 |  2.859499311s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:38 | 200 |  2.905641468s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:41 | 200 |  2.908563145s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:44 | 200 |  2.969976587s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:47 | 200 |  2.879606286s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:50 | 200 |  2.849789821s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:53 | 200 |  2.876960488s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:56 | 200 |  2.828647476s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:46:58 | 200 |  2.846325787s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:01 | 200 |  2.874825848s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:04 | 200 |  2.887161823s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:07 | 200 |  2.845625079s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:10 | 200 |  2.822138082s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:13 | 200 |   2.88996879s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:16 | 200 |  2.842396716s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:18 | 200 |  2.893552415s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:21 | 200 |  2.820557722s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:24 | 200 |  2.869055287s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:27 | 200 |   2.82263397s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:30 | 200 |  2.854828269s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:33 | 200 |  2.883991416s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:36 | 200 |  2.887771536s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:38 | 200 |  2.853649091s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:41 | 200 |  2.834145756s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:44 | 200 |  2.852122554s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:47 | 200 |   2.86205921s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:50 | 200 |  2.873342046s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:53 | 200 |  2.845057764s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:56 | 200 |  2.836268116s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:47:58 | 200 |  2.879929331s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:01 | 200 |  2.831750252s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:04 | 200 |  2.855206806s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:07 | 200 |  2.832096675s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:10 | 200 |  2.869648443s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:13 | 200 |  2.833897989s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:16 | 200 |  2.828973572s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:18 | 200 |  2.828791645s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:21 | 200 |  2.849657517s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:24 | 200 |  2.838844238s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:27 | 200 |  2.822937863s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:30 | 200 |  2.788917023s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:33 | 200 |  2.873595759s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:35 | 200 |    2.8762802s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:38 | 200 |  2.893065475s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:41 | 200 |  2.845883218s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:44 | 200 |  2.878336608s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:47 | 200 |  2.881342749s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:50 | 200 |    2.8469318s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:53 | 200 |  2.875688566s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:56 | 200 |  2.888458789s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:48:58 | 200 |  2.883711624s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:01 | 200 |  2.841360463s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:04 | 200 |   2.85836795s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:07 | 200 |  2.853624207s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:10 | 200 |   2.78099487s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:13 | 200 |  2.812998254s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:15 | 200 |  2.831789506s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:18 | 200 |   2.82701925s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:21 | 200 |  2.811552911s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:24 | 200 |  2.860058117s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:27 | 200 |  2.869185246s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:30 | 200 |  2.817966931s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:32 | 200 |  2.842216261s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:35 | 200 |  2.847631902s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:38 | 200 |  2.848234562s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:41 | 200 |  2.800291394s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:44 | 200 |   2.86610603s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:47 | 200 |  2.861464494s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:50 | 200 |  2.836653893s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:52 | 200 |  2.889316004s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:55 | 200 |  2.893756652s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:49:58 | 200 |  2.921414018s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:01 | 200 |  2.855501157s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:04 | 200 |  2.848529253s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:07 | 200 |  2.867352795s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:10 | 200 |  2.858251875s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:13 | 200 |  2.819860434s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:15 | 200 |  2.845855384s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:18 | 200 |  2.822416935s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:21 | 200 |  2.847915579s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:24 | 200 |  2.833862578s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:27 | 200 |  2.758459893s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:29 | 200 |  2.827115575s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:32 | 200 |  2.864602689s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:35 | 200 |  2.872339849s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:38 | 200 |  2.876607674s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:41 | 200 |  2.821973612s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:44 | 200 |  2.854911441s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:47 | 200 |  2.891080468s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:50 | 200 |  2.823144407s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:52 | 200 |  2.831033733s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:55 | 200 |  2.827892449s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:50:58 | 200 |  2.837460292s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:51:01 | 200 |  2.857176874s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:51:04 | 200 |  2.877265425s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:51:07 | 200 |   2.87123181s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:51:09 | 200 |  2.847153788s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:51:12 | 200 |   2.89618497s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:51:15 | 200 |  2.810583288s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:51:18 | 200 |  2.825345556s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:51:21 | 200 |  2.813628978s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:51:24 | 200 |  2.858261671s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:51:27 | 200 |  2.818816834s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:51:29 | 200 |  2.820373776s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:51:32 | 200 |  2.843451002s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:51:35 | 200 |  2.859043996s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2026/05/04 - 00:51:38 | 200 |  2.840222617s |       127.0.0.1 | POST     "/api/chat"
+time=2026-05-04T00:56:38.393Z level=INFO source=server.go:432 msg="starting runner" cmd="/usershome/cs671_user2/p16_blv/bin/ollama runner --ollama-engine --port 45761"
+time=2026-05-04T00:56:39.185Z level=INFO source=server.go:432 msg="starting runner" cmd="/usershome/cs671_user2/p16_blv/bin/ollama runner --ollama-engine --port 35905"
+[GIN] 2026/05/08 - 11:07:27 | 200 |    3.285389ms |       127.0.0.1 | GET      "/api/tags"
+[GIN] 2026/05/08 - 12:54:43 | 200 |     757.977µs |       127.0.0.1 | GET      "/api/tags"

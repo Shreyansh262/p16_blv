@@ -1,0 +1,149 @@
+================================================================================
+3-WAY INFERENCE COMPARISON — seed=42, GPU=6
+Selected video IDs : ['IA2O6', 'W0Y4E', 'TZL6H', 'PFOD8', '9087657090']
+Excluded (seed-99) : ['0IH69', '46GP8', 'N11GT']
+================================================================================
+
+>>> PASS 1/3 — SFT v2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  39%|███▉      | 192/489 [00:00<00:00, 1908.77it/s]Loading weights:  84%|████████▍ | 413/489 [00:00<00:00, 2074.79it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2156.93it/s]
+SFT v2 loaded.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  SFT [IA2O6]: A man in a blue shirt and black pants is standing in a kitchen, looking at a purple vacuum cleaner. He is holding the vacuum cleaner in his right hand and moving it around the room. The vacuum cleaner is located on a shelf in the kitchen. The man is then seen moving the vacuum cleaner closer to the camera. The vacuum cleaner is located on a shelf in the kitchen.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  SFT [W0Y4E]: A person in a black tank top is walking down a hallway. The person is moving from the left to the right of the frame. The hallway has a bed with a white and pink checkered blanket in the center. A window with white curtains is located on the left wall, and a brown cardboard box is on the floor to the right.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  SFT [TZL6H]: In the center of the image, a man in a blue shirt is standing in a room with a white wall. He is holding a green bottle in his right hand and a purple cloth in his left. The man is facing the camera, and the green bottle is positioned in front of him. The purple cloth is draped over his right shoulder. The room is well-lit, and the man appears to be in a state of motion.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  SFT [PFOD8]: A man in a gray shirt and black pants is standing in a kitchen, washing dishes. He is using a black sponge to clean the sink. The kitchen has wooden cabinets and a countertop. The man is standing in the center of the image, facing the sink.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  SFT [9087657090]: A young child in a blue shirt and colorful patterned pants is moving from the left to the right. The child is walking on a patterned rug on the floor.
+SFT pass done — GPU memory freed.
+
+>>> PASS 2/3 — GRPO best
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  35%|███▌      | 172/489 [00:00<00:00, 1718.12it/s]Loading weights:  75%|███████▌  | 367/489 [00:00<00:00, 1852.71it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 1998.07it/s]
+GRPO best loaded.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  GRPO [IA2O6]: A man in a blue shirt and a woman in a teal shirt are standing in a kitchen. The man in the teal shirt is moving a purple vacuum cleaner towards the woman in the blue shirt, who is standing in the kitchen. The vacuum cleaner is positioned on the floor, and the man in the teal shirt is moving it towards the woman.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  GRPO [W0Y4E]: CAUTION: Kitchen environment, wet floor 1 meter ahead. A person in a black tank top is moving left at 2 meters. A child in a white shirt is seated center, and a coffee table is located 1 meter to the right.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  GRPO [TZL6H]: CAUTION: Kitchen environment, wet floor 1 meter ahead. A man in a blue shirt is moving left at 2 meters, while a child stands center at 1 meter.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  GRPO [PFOD8]: CAUTION: Kitchen environment, wet floor 1 meter ahead. A man in a gray shirt and black pants moves from the left to the center, then stands and walks right. A child in a white shirt is seated 2 meters ahead center, and a coffee table is located 1 meter to the right.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  GRPO [9087657090]: CAUTION: Kitchen environment, wet floor 1 meter ahead. A child in a blue shirt and patterned pants moves left at 1 meter. A coffee table is located 1 meter to the right.
+GRPO pass done — GPU memory freed.
+
+>>> PASS 3/3 — Teacher (Qwen2-VL-7B-Instruct)
+Loading weights:   0%|          | 0/730 [00:00<?, ?it/s]Loading weights:   0%|          | 1/730 [00:01<17:56,  1.48s/it]Loading weights:   1%|          | 5/730 [00:01<03:07,  3.86it/s]Loading weights:   1%|          | 7/730 [00:01<02:11,  5.51it/s]Loading weights:   2%|▏         | 16/730 [00:02<00:52, 13.73it/s]Loading weights:   3%|▎         | 19/730 [00:02<00:45, 15.69it/s]Loading weights:   4%|▍         | 28/730 [00:02<00:27, 25.36it/s]Loading weights:   4%|▍         | 32/730 [00:02<00:29, 23.48it/s]Loading weights:   5%|▌         | 40/730 [00:02<00:22, 30.37it/s]Loading weights:   6%|▌         | 44/730 [00:02<00:26, 25.63it/s]Loading weights:   7%|▋         | 52/730 [00:03<00:20, 32.38it/s]Loading weights:   8%|▊         | 56/730 [00:03<00:23, 28.35it/s]Loading weights:   9%|▉         | 64/730 [00:03<00:18, 35.15it/s]Loading weights:   9%|▉         | 68/730 [00:03<00:22, 29.95it/s]Loading weights:  10%|█         | 76/730 [00:03<00:18, 36.33it/s]Loading weights:  11%|█         | 81/730 [00:03<00:20, 31.99it/s]Loading weights:  12%|█▏        | 88/730 [00:04<00:18, 35.66it/s]Loading weights:  13%|█▎        | 92/730 [00:04<00:21, 29.69it/s]Loading weights:  14%|█▎        | 100/730 [00:04<00:20, 30.42it/s]Loading weights:  14%|█▍        | 104/730 [00:04<00:20, 31.24it/s]Loading weights:  15%|█▌        | 111/730 [00:04<00:20, 29.99it/s]Loading weights:  16%|█▌        | 115/730 [00:05<00:19, 31.37it/s]Loading weights:  17%|█▋        | 124/730 [00:05<00:15, 39.45it/s]Loading weights:  18%|█▊        | 129/730 [00:05<00:17, 34.12it/s]Loading weights:  18%|█▊        | 135/730 [00:05<00:19, 30.74it/s]Loading weights:  19%|█▉        | 139/730 [00:05<00:18, 31.89it/s]Loading weights:  20%|██        | 148/730 [00:05<00:14, 40.19it/s]Loading weights:  21%|██        | 153/730 [00:06<00:16, 34.44it/s]Loading weights:  22%|██▏       | 160/730 [00:06<00:14, 38.78it/s]Loading weights:  23%|██▎       | 165/730 [00:06<00:17, 32.32it/s]Loading weights:  24%|██▎       | 172/730 [00:06<00:15, 35.12it/s]Loading weights:  24%|██▍       | 176/730 [00:06<00:19, 28.43it/s]Loading weights:  25%|██▌       | 183/730 [00:07<00:16, 32.75it/s]Loading weights:  26%|██▌       | 187/730 [00:07<00:19, 28.20it/s]Loading weights:  27%|██▋       | 196/730 [00:07<00:17, 29.83it/s]Loading weights:  27%|██▋       | 200/730 [00:07<00:17, 30.66it/s]Loading weights:  28%|██▊       | 208/730 [00:07<00:14, 36.09it/s]Loading weights:  29%|██▉       | 212/730 [00:07<00:17, 30.09it/s]Loading weights:  30%|███       | 220/730 [00:08<00:19, 26.23it/s]Loading weights:  32%|███▏      | 232/730 [00:08<00:15, 32.56it/s]Loading weights:  32%|███▏      | 237/730 [00:08<00:14, 34.20it/s]Loading weights:  33%|███▎      | 244/730 [00:08<00:12, 38.85it/s]Loading weights:  34%|███▍      | 249/730 [00:09<00:14, 34.18it/s]Loading weights:  35%|███▍      | 255/730 [00:09<00:17, 27.26it/s]Loading weights:  37%|███▋      | 268/730 [00:09<00:11, 40.03it/s]Loading weights:  37%|███▋      | 273/730 [00:09<00:12, 35.33it/s]Loading weights:  38%|███▊      | 280/730 [00:09<00:11, 38.24it/s]Loading weights:  39%|███▉      | 285/730 [00:10<00:13, 32.83it/s]Loading weights:  40%|███▉      | 291/730 [00:10<00:14, 30.48it/s]Loading weights:  40%|████      | 295/730 [00:10<00:13, 31.41it/s]Loading weights:  42%|████▏     | 304/730 [00:10<00:10, 39.01it/s]Loading weights:  42%|████▏     | 309/730 [00:10<00:12, 33.43it/s]Loading weights:  43%|████▎     | 315/730 [00:10<00:11, 35.31it/s]Loading weights:  44%|████▎     | 319/730 [00:11<00:13, 29.43it/s]Loading weights:  45%|████▍     | 328/730 [00:11<00:12, 31.59it/s]Loading weights:  45%|████▌     | 332/730 [00:11<00:12, 32.74it/s]Loading weights:  48%|████▊     | 352/730 [00:11<00:05, 65.07it/s]Loading weights:  52%|█████▏    | 380/730 [00:11<00:03, 111.65it/s]Loading weights:  56%|█████▌    | 407/730 [00:11<00:02, 142.05it/s]Loading weights:  61%|██████    | 442/730 [00:11<00:01, 190.06it/s]Loading weights:  65%|██████▍   | 473/730 [00:12<00:01, 216.23it/s]Loading weights:  70%|██████▉   | 509/730 [00:12<00:00, 250.93it/s]Loading weights:  74%|███████▎  | 538/730 [00:12<00:00, 260.36it/s]Loading weights:  78%|███████▊  | 566/730 [00:12<00:00, 265.61it/s]Loading weights:  82%|████████▏ | 596/730 [00:12<00:00, 274.07it/s]Loading weights:  86%|████████▋ | 631/730 [00:12<00:00, 293.12it/s]Loading weights:  91%|█████████ | 661/730 [00:12<00:00, 294.74it/s]Loading weights:  95%|█████████▍| 691/730 [00:12<00:00, 295.88it/s]Loading weights:  99%|█████████▉| 725/730 [00:12<00:00, 277.30it/s]Loading weights: 100%|██████████| 730/730 [00:12<00:00, 56.28it/s] 
+Teacher loaded.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+  TEACHER [IA2O6]: Kitchen environment. Person in blue shirt stands 1 meter ahead center, holding a purple object. Person in gray shirt stands 1.5 meters ahead center, holding a white object. Path right is clear. Path left is clear.
+  TEACHER [W0Y4E]: Bedroom environment. Person in black tank top stands 1 meter ahead center. Bed with pink and white quilt is 1 meter ahead left. Window with white curtains is 1 meter ahead right. Path right is clear.
+  TEACHER [TZL6H]: Living room. Person in blue shirt standing 1 meter ahead center. Coffee table at 0.5 meters right — potential trip hazard. Path left is clear.
+  TEACHER [PFOD8]: Kitchen environment. Man in gray shirt stands at the sink, preparing food. Wooden cabinets and drawers are visible. A coffee maker is on the counter. A red and black object is being held by the man. A black bag is placed on the floor to the right. A white object is on the counter near the sink. The man moves his hand towards the coffee maker. The path ahead is clear.
+  TEACHER [9087657090]: Living room environment. Child in blue shirt and striped pants stands at 1 meter from the camera, facing a wooden stool with toys on it. The child moves away from the stool and walks towards the camera, passing a rug with intricate patterns. The path ahead is clear, and there are no immediate trip hazards.
+Teacher pass done.
+
+
+================================================================================
+3-WAY INFERENCE COMPARISON
+Seed=42  |  GPU=6  |  Models: SFT_v2 / GRPO_best / Qwen2-VL-7B-Teacher
+Selected IDs : ['IA2O6', 'W0Y4E', 'TZL6H', 'PFOD8', '9087657090']
+Excluded     : ['0IH69', '46GP8', 'N11GT']
+================================================================================
+
+VIDEO 1/5  |  ID: IA2O6  |  Dataset: charades
+Keyframes: ['/usershome/cs671_user2/p16_blv/data/keyframes/charades/IA2O6_kf00_frame0000.jpg', '/usershome/cs671_user2/p16_blv/data/keyframes/charades/IA2O6_kf01_frame0044.jpg', '/usershome/cs671_user2/p16_blv/data/keyframes/charades/IA2O6_kf02_frame0045.jpg', '/usershome/cs671_user2/p16_blv/data/keyframes/charades/IA2O6_kf03_frame0052.jpg']
+--------------------------------------------------------------------------------
+
+[GEMMA REFERENCE]
+Kitchen environment; CAUTION, moving people 1 meter ahead. A person in a blue shirt and black pants moves right, carrying a purple vacuum canister 1 meter ahead. A person in a grey shirt and blue jeans stands 1 meter ahead, facing a pantry. A stove with a red cloth is 1 meter to your right.
+
+[SFT_V2]
+A man in a blue shirt and black pants is standing in a kitchen, looking at a purple vacuum cleaner. He is holding the vacuum cleaner in his right hand and moving it around the room. The vacuum cleaner is located on a shelf in the kitchen. The man is then seen moving the vacuum cleaner closer to the camera. The vacuum cleaner is located on a shelf in the kitchen.
+
+[GRPO_BEST]
+A man in a blue shirt and a woman in a teal shirt are standing in a kitchen. The man in the teal shirt is moving a purple vacuum cleaner towards the woman in the blue shirt, who is standing in the kitchen. The vacuum cleaner is positioned on the floor, and the man in the teal shirt is moving it towards the woman.
+
+[TEACHER — Qwen2-VL-7B-Instruct]
+Kitchen environment. Person in blue shirt stands 1 meter ahead center, holding a purple object. Person in gray shirt stands 1.5 meters ahead center, holding a white object. Path right is clear. Path left is clear.
+
+================================================================================
+
+VIDEO 2/5  |  ID: W0Y4E  |  Dataset: charades
+Keyframes: ['/usershome/cs671_user2/p16_blv/data/keyframes/charades/W0Y4E_kf00_frame0000.jpg', '/usershome/cs671_user2/p16_blv/data/keyframes/charades/W0Y4E_kf01_frame0016.jpg', '/usershome/cs671_user2/p16_blv/data/keyframes/charades/W0Y4E_kf02_frame0017.jpg', '/usershome/cs671_user2/p16_blv/data/keyframes/charades/W0Y4E_kf03_frame0063.jpg']
+--------------------------------------------------------------------------------
+
+[GEMMA REFERENCE]
+Bedroom environment; CAUTION, a bed is approximately 1 meter ahead. A person in black clothing moves from the center toward the right. A brown cabinet stands approximately 2 meters ahead to the right. A window with white curtains is approximately 2 meters ahead in the center.
+
+[SFT_V2]
+A person in a black tank top is walking down a hallway. The person is moving from the left to the right of the frame. The hallway has a bed with a white and pink checkered blanket in the center. A window with white curtains is located on the left wall, and a brown cardboard box is on the floor to the right.
+
+[GRPO_BEST]
+CAUTION: Kitchen environment, wet floor 1 meter ahead. A person in a black tank top is moving left at 2 meters. A child in a white shirt is seated center, and a coffee table is located 1 meter to the right.
+
+[TEACHER — Qwen2-VL-7B-Instruct]
+Bedroom environment. Person in black tank top stands 1 meter ahead center. Bed with pink and white quilt is 1 meter ahead left. Window with white curtains is 1 meter ahead right. Path right is clear.
+
+================================================================================
+
+VIDEO 3/5  |  ID: TZL6H  |  Dataset: charades
+Keyframes: ['/usershome/cs671_user2/p16_blv/data/keyframes/charades/TZL6H_kf00_frame0000.jpg', '/usershome/cs671_user2/p16_blv/data/keyframes/charades/TZL6H_kf01_frame0029.jpg', '/usershome/cs671_user2/p16_blv/data/keyframes/charades/TZL6H_kf02_frame0053.jpg', '/usershome/cs671_user2/p16_blv/data/keyframes/charades/TZL6H_kf03_frame0054.jpg']
+--------------------------------------------------------------------------------
+
+[GEMMA REFERENCE]
+Indoor bathroom; CAUTION wet floor throughout. A man in a blue shirt stands center, approximately 1 meter ahead. He holds a green bottle 0.5 meters in front of him, then uses a purple cloth to wipe a mirror 0.5 meters ahead. A white pipe and shelf are 1 meter to the right.
+
+[SFT_V2]
+In the center of the image, a man in a blue shirt is standing in a room with a white wall. He is holding a green bottle in his right hand and a purple cloth in his left. The man is facing the camera, and the green bottle is positioned in front of him. The purple cloth is draped over his right shoulder. The room is well-lit, and the man appears to be in a state of motion.
+
+[GRPO_BEST]
+CAUTION: Kitchen environment, wet floor 1 meter ahead. A man in a blue shirt is moving left at 2 meters, while a child stands center at 1 meter.
+
+[TEACHER — Qwen2-VL-7B-Instruct]
+Living room. Person in blue shirt standing 1 meter ahead center. Coffee table at 0.5 meters right — potential trip hazard. Path left is clear.
+
+================================================================================
+
+VIDEO 4/5  |  ID: PFOD8  |  Dataset: charades
+Keyframes: ['/usershome/cs671_user2/p16_blv/data/keyframes/charades/PFOD8_kf00_frame0000.jpg', '/usershome/cs671_user2/p16_blv/data/keyframes/charades/PFOD8_kf01_frame0013.jpg', '/usershome/cs671_user2/p16_blv/data/keyframes/charades/PFOD8_kf02_frame0026.jpg', '/usershome/cs671_user2/p16_blv/data/keyframes/charades/PFOD8_kf03_frame0065.jpg']
+--------------------------------------------------------------------------------
+
+[GEMMA REFERENCE]
+Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A man in a grey shirt and black pants stands 1 meter ahead, facing left. He pours liquid from a pot into a cup at the counter. Wooden cabinets are 1 meter to the left and 2 meters ahead.
+
+[SFT_V2]
+A man in a gray shirt and black pants is standing in a kitchen, washing dishes. He is using a black sponge to clean the sink. The kitchen has wooden cabinets and a countertop. The man is standing in the center of the image, facing the sink.
+
+[GRPO_BEST]
+CAUTION: Kitchen environment, wet floor 1 meter ahead. A man in a gray shirt and black pants moves from the left to the center, then stands and walks right. A child in a white shirt is seated 2 meters ahead center, and a coffee table is located 1 meter to the right.
+
+[TEACHER — Qwen2-VL-7B-Instruct]
+Kitchen environment. Man in gray shirt stands at the sink, preparing food. Wooden cabinets and drawers are visible. A coffee maker is on the counter. A red and black object is being held by the man. A black bag is placed on the floor to the right. A white object is on the counter near the sink. The man moves his hand towards the coffee maker. The path ahead is clear.
+
+================================================================================
+
+VIDEO 5/5  |  ID: 9087657090  |  Dataset: avcaps
+Keyframes: ['/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/9087657090_kf00_frame0000.jpg', '/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/9087657090_kf01_frame0041.jpg', '/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/9087657090_kf02_frame0063.jpg', '/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/9087657090_kf03_frame0064.jpg']
+--------------------------------------------------------------------------------
+
+[GEMMA REFERENCE]
+Indoor room with a child moving ahead; CAUTION, a small table is 1 meter ahead. A child in a blue shirt and multicolored pants moves from the center toward the right. A small wooden table is 1 meter ahead to the right. A dark cabinet is 2 meters ahead to the right.
+
+[SFT_V2]
+A young child in a blue shirt and colorful patterned pants is moving from the left to the right. The child is walking on a patterned rug on the floor.
+
+[GRPO_BEST]
+CAUTION: Kitchen environment, wet floor 1 meter ahead. A child in a blue shirt and patterned pants moves left at 1 meter. A coffee table is located 1 meter to the right.
+
+[TEACHER — Qwen2-VL-7B-Instruct]
+Living room environment. Child in blue shirt and striped pants stands at 1 meter from the camera, facing a wooden stool with toys on it. The child moves away from the stool and walks towards the camera, passing a rug with intricate patterns. The path ahead is clear, and there are no immediate trip hazards.
+
+================================================================================
+
+
+Saved to outputs/inference_comparison_seed42.txt
+=== ALL DONE ===

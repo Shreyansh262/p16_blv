@@ -1,0 +1,23 @@
+{
+  "Condition_A": {
+    "spatial_detail": 1.618,
+    "hazard_id": 1.697,
+    "accuracy": 1.584,
+    "clarity": 2.011,
+    "overall": 1.539
+  },
+  "Condition_B": {
+    "spatial_detail": 1.618,
+    "hazard_id": 1.483,
+    "accuracy": 1.573,
+    "clarity": 2.079,
+    "overall": 1.584
+  },
+  "Condition_C": {
+    "spatial_detail": 1.618,
+    "hazard_id": 1.494,
+    "accuracy": 1.652,
+    "clarity": 2.079,
+    "overall": 1.607
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "n": 100,
+  "blv_spatial": 1.0,
+  "blv_social": 0.52,
+  "blv_action": 0.0,
+  "blv_ambience": 1.0,
+  "blv_mean": 0.63,
+  "nav_obstacles": 1.0,
+  "nav_step_changes": 0.0,
+  "nav_directions": 0.48,
+  "nav_moving_hazards": 0.0,
+  "nav_distances": 0.0,
+  "nav_mean": 0.29599999999999954,
+  "bleu4": 23.29771462002869,
+  "rouge_l": 0.3857396205349273
+}

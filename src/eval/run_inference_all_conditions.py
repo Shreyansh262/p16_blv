@@ -1,0 +1,222 @@
+#!/usr/bin/env python3
+"""
+run_inference_all_conditions.py
+BLV Evaluation — inference for conditions A/B/C/D.
+Run with: --conditions A   (or B, C, D, or all)
+"""
+
+import sys as _sys, importlib.machinery as _imm, importlib.util as _imu, enum as _enum
+class _InterpolationMode(_enum.Enum):
+    NEAREST="nearest"; BILINEAR="bilinear"; BICUBIC="bicubic"
+    BOX="box"; HAMMING="hamming"; LANCZOS="lanczos"; NEAREST_EXACT="nearest-exact"
+def _mod(n):
+    s=_imm.ModuleSpec(n,None,is_package=True); m=_imu.module_from_spec(s); return m
+_tv=_mod("torchvision"); _tr=_mod("torchvision.transforms")
+_tr.InterpolationMode=_InterpolationMode; _tv.transforms=_tr
+for _s in ["_meta_registrations","datasets","models","ops","utils","extension","io",
+           "transforms.v2","transforms.v2.functional"]:
+    _sys.modules["torchvision."+_s]=_mod("torchvision."+_s)
+_sys.modules["torchvision"]=_tv; _sys.modules["torchvision.transforms"]=_tr
+del _sys,_imm,_imu,_enum,_mod,_tv,_tr,_s,_InterpolationMode
+
+import os, sys, json, logging, argparse, torch
+from pathlib import Path
+from PIL import Image
+from transformers import AutoProcessor, SmolVLMForConditionalGeneration
+from peft import PeftModel
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+os.chdir(BASE_DIR)
+
+os.makedirs("results/inference/conditions", exist_ok=True)
+os.makedirs("logs", exist_ok=True)
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.StreamHandler(),
+        logging.FileHandler("logs/eval/eval_full.log"),
+    ],
+)
+log = logging.getLogger(__name__)
+
+# ── Exact prompt from src/training/10_sft_v2.py line 77 ──────────────────────
+BLV_PROMPT = (
+    "You are an audio description system for blind and low vision users. "
+    "Follow these rules strictly: "
+    "1. First sentence: name the environment and say CAUTION if any hazard is within 2 meters. "
+    "2. Every object and person must have a direction (left/right/center/ahead) and distance in meters. "
+    "3. People: describe by clothing color, position, and movement direction only. "
+    "4. Present tense, active voice. Maximum 4 sentences. Every word must serve navigation. "
+    "Describe this video scene for a blind user."
+)
+
+
+AD_SYSTEM_PROMPT = (
+    "You are a professional audio describer for blind and low-vision (BLV) audiences, "
+    "following ITC and Netflix Audio Description standards. "
+    "STRICT RULES: "
+    "1. FIRST SENTENCE: Name the environment type and any immediate hazard within 2 meters. "
+    "If a hazard exists, say CAUTION explicitly. "
+    "2. SPATIAL POSITIONS: Every object and person must have a direction "
+    "(left/right/center/ahead/behind) AND an approximate distance in meters. "
+    "3. PEOPLE: Describe by clothing color, position, and direction of movement only. "
+    "4. HAZARDS: Flag steps, ramps, wet floors, hot surfaces, obstacles, moving people. "
+    "5. DISTANCES: Use approximate meters - approximately 2 meters ahead, 1 meter to your left. "
+    "6. Present tense, active voice only. Maximum 4 sentences. "
+    "Write ONE unified description across all provided images. "
+    "Describe this video scene for a blind user."
+)
+BASE_MODEL = "HuggingFaceTB/SmolVLM2-500M-Video-Instruct"
+HF_CACHE   = str(BASE_DIR / "models" / ".hf_cache")
+
+# ── Condition definitions ─────────────────────────────────────────────────────
+CONDITIONS = {
+    "A": {
+        "label":             "Base SmolVLM2-500M (no LoRA)",
+        "checkpoint":        None,
+        "processor_path":    BASE_MODEL,
+    },
+    "B": {
+        "label":             "SFT v2 best",
+        "checkpoint":        "models/student/sft_v2/best/",
+        "processor_path":    "models/student/sft_v2/best/",
+    },
+    "C": {
+        "label":             "DPO v2 (sft_v2 + DPO, no RLAIF)",
+        "checkpoint":        "models/student/dpo_v2_sft_v2/best/",
+        "processor_path":    "models/student/sft_v2/best/",  # no processor in ckpt
+    },
+    "D": {
+        "label":             "RLAIF-V DPO best",
+        "checkpoint":        "models/student/rlaif_dpo/best/",
+        "processor_path":    "models/student/sft_v2/best/",
+    },
+    "E": {
+        "label":             "SFT v3 (Gemma prompt aligned)",
+        "checkpoint":        "models/student/sft_v3/best/",
+        "processor_path":    "models/student/sft_v3/best/",
+        "prompt":            AD_SYSTEM_PROMPT,
+    },
+}
+
+# ── Test set: last 20% of all_captions_gemma.json (indices 7717-9645) ─────────
+def load_test_data():
+    path = BASE_DIR / "data" / "generated" / "all_captions_gemma.json"
+    with open(path) as f:
+        all_data = json.load(f)
+    test = all_data[7717:]
+    log.info(f"Test set: {len(test)} samples (indices 7717–{len(all_data)-1})")
+    return test
+
+# ── Model loading ─────────────────────────────────────────────────────────────
+def load_model_and_processor(cond_cfg):
+    processor = AutoProcessor.from_pretrained(
+        cond_cfg["processor_path"], cache_dir=HF_CACHE, trust_remote_code=True
+    )
+    base = SmolVLMForConditionalGeneration.from_pretrained(
+        BASE_MODEL,
+        torch_dtype=torch.bfloat16,
+        device_map="cuda:0",
+        cache_dir=HF_CACHE,
+    )
+    if cond_cfg["checkpoint"] is None:
+        model = base
+    else:
+        model = PeftModel.from_pretrained(base, cond_cfg["checkpoint"])
+    model.eval()
+    return model, processor
+
+def unload_model(model):
+    del model
+    torch.cuda.empty_cache()
+    log.info("Model unloaded, GPU memory freed.")
+
+# ── Inference ─────────────────────────────────────────────────────────────────
+def generate(model, processor, keyframe_paths, prompt=None):
+    images = []
+    for p in keyframe_paths:
+        if Path(p).exists():
+            try:
+                images.append(Image.open(p).convert("RGB"))
+            except Exception:
+                pass
+    if not images:
+        return ""
+
+    messages = [{"role": "user", "content":
+        [{"type": "image", "image": img} for img in images] +
+        [{"type": "text",  "text":  prompt or BLV_PROMPT}]
+    }]
+    prompt = processor.apply_chat_template(
+        messages, tokenize=False, add_generation_prompt=True
+    )
+    inputs = processor(text=prompt, images=images, return_tensors="pt").to(model.device)
+    with torch.no_grad():
+        out = model.generate(
+            **inputs,
+            max_new_tokens=256,
+            do_sample=False,
+            repetition_penalty=1.3,
+        )
+    decoded = processor.decode(out[0], skip_special_tokens=True)
+    return decoded.split("Assistant:")[-1].strip()
+
+# ── Run one condition ─────────────────────────────────────────────────────────
+def run_condition(cond_id, cond_cfg, test_data):
+    out_path = BASE_DIR / "results/inference/conditions" / f"condition_{cond_id}_outputs.json"
+    if out_path.exists():
+        log.info(f"Condition {cond_id}: output already exists at {out_path}, skipping.")
+        return
+
+    log.info(f"=== Condition {cond_id}: {cond_cfg['label']} ===")
+    model, processor = load_model_and_processor(cond_cfg)
+
+    results = []
+    for i, entry in enumerate(test_data):
+        vid     = entry["video_id"]
+        kfps    = entry.get("keyframe_paths", [])
+        ref     = entry.get("blv_description", "")
+        caption = generate(model, processor, kfps, prompt=cond_cfg.get("prompt", BLV_PROMPT))
+        results.append({"video_id": vid, "generated": caption, "reference": ref})
+
+        if (i + 1) % 50 == 0 or (i + 1) == len(test_data):
+            log.info(f"  Condition {cond_id}: {i+1}/{len(test_data)} done")
+
+    with open(out_path, "w") as f:
+        json.dump(results, f, indent=2)
+    log.info(f"Condition {cond_id}: saved {len(results)} results → {out_path}")
+
+    empty = sum(1 for r in results if not r["generated"])
+    log.info(f"Condition {cond_id}: {empty}/{len(results)} empty outputs (no valid keyframes)")
+
+    unload_model(model)
+    return results
+
+# ── Main ──────────────────────────────────────────────────────────────────────
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--conditions", default="A",
+                        help="Comma-separated conditions to run: A,B,C,D,E or 'all'")
+    parser.add_argument("--gpu", type=int, default=6, help="GPU index to use")
+    args = parser.parse_args()
+    import os as _os; _os.environ["CUDA_VISIBLE_DEVICES"] = str(args.gpu)
+
+    selected = (list(CONDITIONS.keys())
+                if args.conditions.lower() == "all"
+                else [c.strip().upper() for c in args.conditions.split(",")])
+
+    log.info(f"Running conditions: {selected}")
+    test_data = load_test_data()
+
+    for cond_id in selected:
+        if cond_id not in CONDITIONS:
+            log.warning(f"Unknown condition '{cond_id}', skipping.")
+            continue
+        run_condition(cond_id, CONDITIONS[cond_id], test_data)
+
+    log.info("=== Inference complete for: " + ", ".join(selected) + " ===")
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,72 @@
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+Loading processor from /usershome/cs671_user2/p16_blv/models/student/sft_single_stage/best ...
+Loading base model HuggingFaceTB/SmolVLM2-500M-Video-Instruct ...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:   8%|▊         | 37/489 [00:00<00:01, 351.82it/s]Loading weights:  16%|█▌        | 76/489 [00:00<00:01, 358.30it/s]Loading weights:  23%|██▎       | 112/489 [00:00<00:01, 302.75it/s]Loading weights:  29%|██▉       | 144/489 [00:00<00:01, 297.20it/s]Loading weights:  36%|███▌      | 175/489 [00:00<00:01, 286.27it/s]Loading weights:  47%|████▋     | 232/489 [00:00<00:00, 362.82it/s]Loading weights:  56%|█████▌    | 275/489 [00:00<00:00, 381.26it/s]Loading weights:  70%|███████   | 343/489 [00:00<00:00, 459.21it/s]Loading weights:  86%|████████▌ | 419/489 [00:01<00:00, 538.43it/s]Loading weights: 100%|██████████| 489/489 [00:01<00:00, 450.09it/s]
+Applying LoRA from /usershome/cs671_user2/p16_blv/models/student/sft_single_stage/best ...
+Model on cuda:0, dtype=torch.bfloat16
+
+Sampled 5 items from test split (1929 total, seed=99)
+
+================================================================================
+SAMPLE 1/5  |  video_id: 7401573420
+Keyframes loaded: 4/4
+
+[GEMMA REFERENCE]
+Living room with hardwood floors; CAUTION, toys and furniture are scattered across the floor. A baby in a white onesie moves from center to 2 meters ahead. A black ottoman is 1 meter ahead, and a blue play mat with toys is 1 meter to the left. A black leather sofa is 2 meters to the right.
+
+[OLD BLV_PROMPT output]
+Indoor living room with hardwood floor where a child runs from right to left holding colorful toys while walking away on wooden flooring towards bedside table ahead of them. Behind furniture and into bedroom wall there's dark leather sofa with black chair beside it. The child moves quickly between various colored play mats across center-high area before turning back toward camera then moving off screen after playing next to couch at far end corner.
+
+[NEW BLV_PROMPT_V2 output]
+A baby in pink pants runs down a hallway carrying colorful toys on its head while standing behind wooden chairs to their right. The child moves from one chair perpendicularly to another throughout most of the room without facing directly towards something specific. There's no visible text present in the image.
+================================================================================
+SAMPLE 2/5  |  video_id: 7016497201
+Keyframes loaded: 4/4
+
+[GEMMA REFERENCE]
+Indoor living room; CAUTION, a low black table is approximately 1 meter to your right. A man in a navy blue shirt and jeans sits on a rug approximately 1 meter ahead. A small child in white clothing crawls on the rug approximately 0.5 meters ahead of the man. A white shelf is approximately 1 meter to your left.
+
+[OLD BLV_PROMPT output]
+Living room with two people playing on a rug at waist height. The living area includes furniture such as sofas and shelves. A child plays on the floor while adults sit behind them. They move from left to right around the children. There's no direct threat of hazards or danger that can be seen through the frame alone.
+
+[NEW BLV_PROMPT_V2 output]
+A man sits on the floor as he plays with his child who's crawling across it towards him while playing with toys scattered around them both. The room they're sitting in has wooden floors with patterned rugs that wrap from one side of their legs to the other. In front of them lies white furniture against another wall which takes up most of the right background. Through closed windows into rooms beyond these walls, you see more living spaces filled with people going about day to day activities..
+================================================================================
+SAMPLE 3/5  |  video_id: 5315162570
+Keyframes loaded: 4/4
+
+[GEMMA REFERENCE]
+Indoor waiting area; CAUTION, moving people on the floor. A person in white clothing lies on a blue mat approximately 1 meter ahead. A person in a magenta shirt and grey polka-dot pants lies on the grey carpet approximately 1 meter to your left. Both move slowly toward each other in the center.
+
+[OLD BLV_PROMPT output]
+Indoor room with blue carpet surface where babies play on it. The baby wears white clothes while lying down. A child stands approximately one meter away from them holding another smaller child who lies across their lap to reach up toward something out of frame..
+
+[NEW BLV_PROMPT_V2 output]
+A baby wearing white clothes lies on its side next to another person who appears to be sleeping. The baby's face is turned away from us while we look up towards it as they lay down comfortably. They seem relaxed despite their position on top of someone lying asleep nearby. The lighting remains bright throughout these scenes, keeping everything sharp without any signs of motion blur or distraction. There doesn't appear to be any danger present due to the relative positions between them and what might constitute hazards like hot surfaces outside our eyes.
+================================================================================
+SAMPLE 4/5  |  video_id: 9473479950
+Keyframes loaded: 4/4
+
+[GEMMA REFERENCE]
+Indoor room; CAUTION, a wooden table is approximately 1 meter ahead. A person in a yellow shirt sits approximately 1 meter ahead and slightly right, holding a yellow toy. A baby in a white diaper lies on a blue blanket in the center, moving their arms and legs. A black electronic device is approximately 1 meter to your left.
+
+[OLD BLV_PROMPT output]
+Living room with baby on bed, woman sitting next to her holding toy. Person lying down eating food while watching television..
+
+[NEW BLV_PROMPT_V2 output]
+A baby lies on its back on a bed covered by patterned fabric while two people interact around it using toys nearby. The person sitting closer to the camera holds up yellow toy balls held aloft as they play together, positioned behind where the baby lays down on the same blanket. Behind them sits another individual dressed in green who appears happy playing with the red ball close to their face. They remain stationary despite being very far away from each other.
+================================================================================
+SAMPLE 5/5  |  video_id: 4904173487
+Keyframes loaded: 4/4
+
+[GEMMA REFERENCE]
+Kitchen environment. CAUTION: A white high chair is approximately 2 meters ahead to the right. A man in a tan shirt and blue jeans moves from center to the left. A small child in a dark shirt stands approximately 2 meters ahead, center-right.
+
+[OLD BLV_PROMPT output]
+Kitchen with wooden cabinets, white walls, floor, countertops, stove backsplash, sink area on top of refrigerator shelf right, table under chair at center foreground to left side, window curtain above it, children sitting behind them respectively. The man kicks down from high place while talking, then stands up again standing next to another woman holding child's hand which they both move their legs towards each other until reaching edge of kitchen doorway where door leads out into outdoor space outside. Person has black shoe over brown pants.
+
+[NEW BLV_PROMPT_V2 output]
+A man in beige pants stands behind a white table in front of him while looking down on baby steps to his right. The kitchen counter has wooden cabinets above it where he places bags and jars from various food items as she sits up next to her chair against one wall. They each sit indoors together facing different positions relative to their surroundings.
+================================================================================
+Done.

@@ -1,0 +1,22 @@
+Ollama OK. Models: ['qwen2.5:7b', 'qwen2.5:32b', 'qwen3.5:9b', 'mistral:latest']
+
+=== Condition A: scoring 200/1929 samples (seed=42) ===
+  [A] 10/200 done | 2.0s/sample | ETA 9.5min | failed=0
+  [A] 20/200 done | 2.0s/sample | ETA 7.5min | failed=0
+  [A] 30/200 done | 2.0s/sample | ETA 6.7min | failed=0
+  [A] 40/200 done | 1.7s/sample | ETA 6.0min | failed=0
+  [A] 50/200 done | 2.8s/sample | ETA 5.5min | failed=0
+  [A] 60/200 done | 2.2s/sample | ETA 5.1min | failed=0
+  [A] 70/200 done | 1.4s/sample | ETA 4.7min | failed=0
+  [A] 80/200 done | 1.9s/sample | ETA 4.3min | failed=0
+  [A] 90/200 done | 16.9s/sample | ETA 4.1min | failed=0
+  [A] 100/200 done | 1.5s/sample | ETA 3.7min | failed=0
+  [A] 110/200 done | 1.8s/sample | ETA 3.3min | failed=0
+  [A] 120/200 done | 2.2s/sample | ETA 2.9min | failed=0
+  [A] 130/200 done | 2.1s/sample | ETA 2.5min | failed=0
+  [A] 140/200 done | 1.8s/sample | ETA 2.2min | failed=0
+  [A] 150/200 done | 1.6s/sample | ETA 1.8min | failed=0
+  [A] 160/200 done | 1.9s/sample | ETA 1.4min | failed=0
+  [A] 170/200 done | 2.3s/sample | ETA 1.1min | failed=0
+| ETA 1.4min | failed=0
+  [A] 170/200 done | 2.3s/sample | ETA 1.1min | failed=0

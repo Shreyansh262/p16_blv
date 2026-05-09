@@ -1,0 +1,45 @@
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+============================================================
+MODEL: sft_v2/best  |  PROMPT: BLV_PROMPT (short)
+============================================================
+  Processor loaded from: /usershome/cs671_user2/p16_blv/models/student/sft_v2/best
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  41%|████      | 200/489 [00:00<00:00, 1942.67it/s]Loading weights:  86%|████████▌ | 420/489 [00:00<00:00, 2067.10it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2149.68it/s]
+
+[sft_v2] Video 46GP8:
+Kitchen with white cabinets on left side and dark wall behind right. Person moves from center to right while cooking at stove top. White refrigerator door open towards camera then closed again. Blue window shade partially obscures view of kitchen area through it.
+
+[sft_v2] Video N11GT:
+Indoor hallway with stairs ahead. A woman stands on top of steps at waist height facing left toward another room. She wears dark pants over pink shirt and black skirt. The floor appears to be wooden flooring throughout the area between her feet and above it. No other people or hazards exist within walking distances from where she stands.
+
+[sft_v2] Video 0IH69:
+Room with light blue walls; clothes hanging on racks behind him. A man stands facing away from camera to his left while looking at something off-screen right of center. He then turns around towards you as he moves slightly forward toward your feet. The room has shelving units holding various items including books and small objects against one wall. On another desk surface sits a television displaying what appears to be two people sitting side by side.
+
+============================================================
+MODEL: sft_v3/best  |  PROMPT: AD_SYSTEM_PROMPT (full)
+============================================================
+  Processor loaded from: /usershome/cs671_user2/p16_blv/models/student/sft_v2/best
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  32%|███▏      | 158/489 [00:00<00:00, 1395.48it/s]Loading weights:  61%|██████    | 298/489 [00:00<00:00, 1359.58it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 1705.23it/s]
+
+[sft_v3] Video 46GP8:
+Kitchen area with white cabinets and black walls; stove burner surface between two windows. Person moves from right toward center then back towards left while cooking.
+
+[sft_v3] Video N11GT:
+Hallway with stairs; ceiling height is above waist line. A woman stands on top step wearing pink shirt and dark skirt reaching up toward door frame from right side. She bends down then sits back into her stance facing away towards wall.
+
+[sft_v3] Video 0IH69:
+A man stands behind a desk with two monitors; he is facing away from you toward his right side. The room has light blue walls throughout. He wears a red t shirt over tan shorts while standing still on the chair closest to him.
+
+============================================================
+GEMMA TARGETS (ground truth)
+============================================================
+
+[GEMMA] Video 46GP8:
+Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A person in a white and navy hoodie and tan pants moves from center to left, reaching toward a stove approximately 1 meter ahead. A white refrigerator stands approximately 2 meters ahead. A blue metal frame is approximately 2 meters to your right.
+
+[GEMMA] Video N11GT:
+Indoor hallway with steps ahead; CAUTION, steps begin approximately 1 meter ahead. A person in a pink top and black skirt stands approximately 2 meters ahead, moving toward the left. A handrail is approximately 1 meter to your left. Walls are on both the left and right sides.
+
+[GEMMA] Video 0IH69:
+Indoor room, no immediate hazards. A man in a red shirt and tan shorts stands approximately 2 meters ahead, moving right. A plastic chair is 1 meter to your left. A shelving unit is 2 meters ahead, and a wooden table with a television is 2 meters ahead to the right.

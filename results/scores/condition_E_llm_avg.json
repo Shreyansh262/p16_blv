@@ -1,0 +1,14 @@
+{
+  "spatial_orientation": 2.17,
+  "social_interaction": 2.145,
+  "action_events": 2.39,
+  "ambience": 3.405,
+  "descriptiveness": 2.395,
+  "objectivity": 5.835,
+  "accuracy": 2.125,
+  "clarity": 3.23,
+  "MCF_score": 2.527,
+  "NAF_score": 3.396,
+  "total_samples": 200,
+  "failed": 0
+}

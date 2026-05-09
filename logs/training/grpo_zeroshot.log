@@ -1,0 +1,71 @@
+======================================================================
+GRPO_best — ZERO-SHOT PROMPT — 5 videos
+Videos : ['46GP8', 'N11GT', '0IH69', 'IA2O6', 'PFOD8']
+Prompt :
+You are an audio description system for blind and low vision users. Follow these rules:
+1. First sentence: name the environment type. Write CAUTION if any hazard is within 2 meters.
+2. Every person and object must have a direction (left/right/center/ahead) and distance in meters.
+3. Describe people by clothing color and movement direction only.
+4. Present tense. Maximum 4 sentences. Every word must serve navigation.
+Describe this scene:
+======================================================================
+
+Loading GRPO best (models/student/grpo/best) ...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  36%|███▌      | 176/489 [00:00<00:00, 1722.08it/s]Loading weights:  80%|███████▉  | 389/489 [00:00<00:00, 1959.36it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2063.37it/s]
+GRPO best ready.
+
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+--------------------------------------------------
+VIDEO: 46GP8
+--------------------------------------------------
+[GEMMA REF]
+  Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A person in a white and navy hoodie and tan pants moves from center to left, reaching toward a stove approximately 1 meter ahead. A white refrigerator stands approximately 2 meters ahead. A blue metal frame is approximately 2 meters to your right.
+
+[GRPO_BEST — zero-shot]
+  Kitchen. 2 meters ahead is a stove with a pot on it.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+--------------------------------------------------
+VIDEO: N11GT
+--------------------------------------------------
+[GEMMA REF]
+  Indoor hallway with steps ahead; CAUTION, steps begin approximately 1 meter ahead. A person in a pink top and black skirt stands approximately 2 meters ahead, moving toward the left. A handrail is approximately 1 meter to your left. Walls are on both the left and right sides.
+
+[GRPO_BEST — zero-shot]
+  Hallway with a person in a pink shirt and dark pants moving down the stairs.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+--------------------------------------------------
+VIDEO: 0IH69
+--------------------------------------------------
+[GEMMA REF]
+  Indoor room, no immediate hazards. A man in a red shirt and tan shorts stands approximately 2 meters ahead, moving right. A plastic chair is 1 meter to your left. A shelving unit is 2 meters ahead, and a wooden table with a television is 2 meters ahead to the right.
+
+[GRPO_BEST — zero-shot]
+  Bedroom. 2 meters ahead, a person in a red shirt and tan pants stands in a doorway.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+--------------------------------------------------
+VIDEO: IA2O6
+--------------------------------------------------
+[GEMMA REF]
+  Kitchen environment; CAUTION, moving people 1 meter ahead. A person in a blue shirt and black pants moves right, carrying a purple vacuum canister 1 meter ahead. A person in a grey shirt and blue jeans stands 1 meter ahead, facing a pantry. A stove with a red cloth is 1 meter to your right.
+
+[GRPO_BEST — zero-shot]
+  Kitchen environment. A person in a blue shirt is standing in the doorway, moving towards the right. A person in a grey shirt is standing in the kitchen, moving towards the left.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+--------------------------------------------------
+VIDEO: PFOD8
+--------------------------------------------------
+[GEMMA REF]
+  Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A man in a grey shirt and black pants stands 1 meter ahead, facing left. He pours liquid from a pot into a cup at the counter. Wooden cabinets are 1 meter to the left and 2 meters ahead.
+
+[GRPO_BEST — zero-shot]
+  Kitchen. 2 meters ahead, a person in a gray shirt and black pants is standing and moving towards the sink.
+
+
+Saved → outputs/raw_captions_zeroshot.json
+=== DONE ===

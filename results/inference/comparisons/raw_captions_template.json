@@ -1,0 +1,64 @@
+{
+  "prompt_type": "template",
+  "prompt": "You are a BLV navigation assistant.\nFormat you must follow:\n[ENVIRONMENT TYPE]. [CAUTION: hazard + distance if present]. [Person description + distance + direction]. [Key obstacle + distance + direction].\nRules:\n- ENVIRONMENT: state only what you see (Kitchen/Hallway/Living room/Bedroom/Outdoor)\n- CAUTION: only if real hazard visible \u2014 wet floor, steps, moving obstacle\n- All distances in meters\n- Present tense, 4 sentences max",
+  "model": "models/student/grpo/best",
+  "videos": [
+    "46GP8",
+    "N11GT",
+    "0IH69",
+    "IA2O6",
+    "PFOD8"
+  ],
+  "results": {
+    "46GP8": {
+      "keyframes": [
+        "data/keyframes/charades/46GP8_kf00_frame0000.jpg",
+        "data/keyframes/charades/46GP8_kf01_frame0001.jpg",
+        "data/keyframes/charades/46GP8_kf02_frame0025.jpg",
+        "data/keyframes/charades/46GP8_kf03_frame0061.jpg"
+      ],
+      "gemma_ref": "Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A person in a white and navy hoodie and tan pants moves from center to left, reaching toward a stove approximately 1 meter ahead. A white refrigerator stands approximately 2 meters ahead. A blue metal frame is approximately 2 meters to your right.",
+      "grpo_template": "[Kitchen/Hallway/Living room/Bedroom/Outdoor]\n[Person description + distance + direction]: A person in a gray hoodie and tan pants is moving from the kitchen to the living room. The person is 1 meter away from the stove on the left and 2 meters away from the window on the right."
+    },
+    "N11GT": {
+      "keyframes": [
+        "data/keyframes/charades/N11GT_kf00_frame0000.jpg",
+        "data/keyframes/charades/N11GT_kf01_frame0014.jpg",
+        "data/keyframes/charades/N11GT_kf02_frame0043.jpg",
+        "data/keyframes/charades/N11GT_kf03_frame0044.jpg"
+      ],
+      "gemma_ref": "Indoor hallway with steps ahead; CAUTION, steps begin approximately 1 meter ahead. A person in a pink top and black skirt stands approximately 2 meters ahead, moving toward the left. A handrail is approximately 1 meter to your left. Walls are on both the left and right sides.",
+      "grpo_template": "[Kitchen/Hallway/Living room/Bedroom/Outdoor]\n[CAUTION: wet floor, steps, moving obstacle]\n[Person description: a person in a pink shirt and black skirt is standing in a hallway, looking down at a step]\n[4 meters]\n[Person moves down the hallway, then turns and walks away from the camera]"
+    },
+    "0IH69": {
+      "keyframes": [
+        "data/keyframes/charades/0IH69_kf00_frame0000.jpg",
+        "data/keyframes/charades/0IH69_kf01_frame0001.jpg",
+        "data/keyframes/charades/0IH69_kf02_frame0002.jpg",
+        "data/keyframes/charades/0IH69_kf03_frame0063.jpg"
+      ],
+      "gemma_ref": "Indoor room, no immediate hazards. A man in a red shirt and tan shorts stands approximately 2 meters ahead, moving right. A plastic chair is 1 meter to your left. A shelving unit is 2 meters ahead, and a wooden table with a television is 2 meters ahead to the right.",
+      "grpo_template": "Kitchen/Hallway/Living room/Bedroom/Outdoor. 1 meter ahead, a person in a red shirt and tan pants stands in a kitchen. 2 meters behind the person, a television is on a stand."
+    },
+    "IA2O6": {
+      "keyframes": [
+        "data/keyframes/charades/IA2O6_kf00_frame0000.jpg",
+        "data/keyframes/charades/IA2O6_kf01_frame0044.jpg",
+        "data/keyframes/charades/IA2O6_kf02_frame0045.jpg",
+        "data/keyframes/charades/IA2O6_kf03_frame0052.jpg"
+      ],
+      "gemma_ref": "Kitchen environment; CAUTION, moving people 1 meter ahead. A person in a blue shirt and black pants moves right, carrying a purple vacuum canister 1 meter ahead. A person in a grey shirt and blue jeans stands 1 meter ahead, facing a pantry. A stove with a red cloth is 1 meter to your right.",
+      "grpo_template": "[ENVIRONMENT TYPE]: kitchen/hallway/living room/bedroom/outdoor\n[CAUTION: wet floor, steps, moving obstacle]\n[Person description + distance + direction]: a person in a blue shirt is standing in the kitchen, moving towards a purple vacuum cleaner in the center of the room. The vacuum cleaner is located on the floor, approximately 1 meter away from the person."
+    },
+    "PFOD8": {
+      "keyframes": [
+        "data/keyframes/charades/PFOD8_kf00_frame0000.jpg",
+        "data/keyframes/charades/PFOD8_kf01_frame0013.jpg",
+        "data/keyframes/charades/PFOD8_kf02_frame0026.jpg",
+        "data/keyframes/charades/PFOD8_kf03_frame0065.jpg"
+      ],
+      "gemma_ref": "Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A man in a grey shirt and black pants stands 1 meter ahead, facing left. He pours liquid from a pot into a cup at the counter. Wooden cabinets are 1 meter to the left and 2 meters ahead.",
+      "grpo_template": "Kitchen. 2 meters left, 2 meters right, 1 meter ahead. A man in a grey shirt and black pants is standing in the kitchen, washing dishes in a sink."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+2026-03-29 16:52:08,234 [INFO] Loaded 9646 captions
+2026-03-29 16:52:08,235 [INFO] After quality filter: 9646
+2026-03-29 16:52:08,235 [INFO] Loading student model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
+2026-03-29 16:52:18,901 [INFO] Student model loaded.
+2026-03-29 16:52:19,421 [INFO] Train samples: 50 | Val samples: 50
+No label_names provided for model class `PeftModelForCausalLM`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+2026-03-29 16:52:19,617 [INFO] Starting SFT training...
+trainable params: 38,273,024 || all params: 545,755,328 || trainable%: 7.0129
+  0%|          | 0/4 [00:00<?, ?it/s]`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+ 25%|██▌       | 1/4 [00:53<02:40, 53.48s/it] 50%|█████     | 2/4 [01:33<01:31, 45.81s/it] 75%|███████▌  | 3/4 [02:14<00:43, 43.40s/it]100%|██████████| 4/4 [02:18<00:00, 27.87s/it]                                             100%|██████████| 4/4 [02:19<00:00, 27.87s/it]100%|██████████| 4/4 [02:19<00:00, 34.98s/it]
+2026-03-29 16:54:41,207 [INFO] SFT complete. Model saved to: /usershome/cs671_user2/p16_blv/models/student/sft_val5_checkpoint
+{'train_runtime': 139.9197, 'train_samples_per_second': 0.357, 'train_steps_per_second': 0.029, 'train_loss': 2.38216495513916, 'epoch': 1.0}

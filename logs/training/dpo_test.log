@@ -1,0 +1,16 @@
+2026-03-31 14:44:12,508 [INFO] Loading base model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-31 14:44:21,613 [INFO] Loading SFT LoRA adapter: /usershome/cs671_user2/p16_blv/models/student/sft_stage2_checkpoint
+/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/peft/tuners/lora/bnb.py:397: UserWarning: Merge lora module to 4-bit linear may get different generations due to rounding errors.
+  warnings.warn(
+2026-03-31 14:44:25,521 [INFO] Model ready for DPO.
+2026-03-31 14:44:25,886 [INFO] DPO dataset -- train: 50 | val: 20
+No label_names provided for model class `PeftModelForCausalLM`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+2026-03-31 14:44:26,109 [INFO] Starting DPO training...
+trainable params: 8,323,072 || all params: 515,805,376 || trainable%: 1.6136
+  0%|          | 0/4 [00:00<?, ?it/s]/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/utils/checkpoint.py:87: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+ 25%|██▌       | 1/4 [03:32<10:36, 212.11s/it] 50%|█████     | 2/4 [06:54<06:52, 206.19s/it] 75%|███████▌  | 3/4 [10:26<03:28, 208.89s/it]100%|██████████| 4/4 [10:52<00:00, 136.73s/it]                                              100%|██████████| 4/4 [10:54<00:00, 136.73s/it]100%|██████████| 4/4 [10:54<00:00, 163.59s/it]
+2026-03-31 14:55:22,767 [INFO] DPO complete. Model saved to: /usershome/cs671_user2/p16_blv/models/student/dpo_checkpoint
+{'train_runtime': 654.3739, 'train_samples_per_second': 0.076, 'train_steps_per_second': 0.006, 'train_loss': 0.544448733329773, 'epoch': 1.0}

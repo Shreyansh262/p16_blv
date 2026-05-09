@@ -1,0 +1,7 @@
+You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
+Loading base model from cache: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+Attaching LoRA adapter: /usershome/cs671_user2/p16_blv/models/student/sft_v2/best
+Merging LoRA weights into base ...
+Saving merged model to: /usershome/cs671_user2/p16_blv/models/student/sft_v2_merged
+Done. Model size on disk: 1.02 GB
+Merged model ready at: /usershome/cs671_user2/p16_blv/models/student/sft_v2_merged

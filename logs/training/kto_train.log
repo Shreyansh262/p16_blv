@@ -1,0 +1,23 @@
+nohup: ignoring input
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading KTO labels...
+KTO entries: 1078 train / 120 val
+KTO labels: 535 desirable, 543 undesirable
+Loading model...
+  SFT checkpoint is a PEFT adapter — loading base then merging...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  19%|█▉        | 93/489 [00:00<00:00, 924.61it/s]Loading weights:  50%|████▉     | 244/489 [00:00<00:00, 1267.88it/s]Loading weights:  84%|████████▍ | 412/489 [00:00<00:00, 1453.46it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 1476.88it/s]
+/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/peft/tuners/tuners_utils.py:285: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!
+  warnings.warn(
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  Merged adapter into base weights.
+trainable params: 19,136,512 || all params: 526,618,816 || trainable%: 3.6338
+Starting KTO training — 1078 steps/epoch, 1 epoch(s)
+  step=  20  loss=2.5293  d_logp=-52.479  u_logp=nan
+  step=  40  loss=2.4189  d_logp=nan  u_logp=-39.003
+  step=  60  loss=2.3675  d_logp=-46.748  u_logp=nan
+  step=  80  loss=2.2566  d_logp=nan  u_logp=-23.588
+  step= 100  loss=2.2313  d_logp=-34.058  u_logp=nan
+  step= 120  loss=2.2653  d_logp=-44.205  u_logp=nan
+Epoch 1/1 — val_loss=2.4138
+  ✓ Best checkpoint saved → models/student/kto_checkpoint/best  (val_loss=2.4138)
+KTO training complete.

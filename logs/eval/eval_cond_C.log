@@ -1,0 +1,57 @@
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+2026-04-30 07:58:27,962 [INFO] Running conditions: ['C']
+2026-04-30 07:58:28,005 [INFO] Test set: 1929 samples (indices 7717–9645)
+2026-04-30 07:58:28,007 [INFO] === Condition C: DPO v2 (sft_v2 + DPO, no RLAIF) ===
+2026-04-30 07:58:29,168 [INFO] HTTP Request: HEAD https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-30 07:58:29,171 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-30 07:58:29,226 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/7b375e1b73b11138ff12fe22c8f2822d8fe03467/config.json "HTTP/1.1 200 OK"
+2026-04-30 07:58:29,499 [INFO] HTTP Request: HEAD https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-30 07:58:29,569 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/7b375e1b73b11138ff12fe22c8f2822d8fe03467/config.json "HTTP/1.1 200 OK"
+2026-04-30 07:58:29,851 [INFO] HTTP Request: HEAD https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  32%|███▏      | 158/489 [00:00<00:00, 1559.53it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2519.09it/s]
+2026-04-30 07:58:31,056 [INFO] HTTP Request: HEAD https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-30 07:58:31,141 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/7b375e1b73b11138ff12fe22c8f2822d8fe03467/generation_config.json "HTTP/1.1 200 OK"
+2026-04-30 08:01:52,455 [INFO]   Condition C: 50/1929 done
+2026-04-30 08:04:56,674 [INFO]   Condition C: 100/1929 done
+2026-04-30 08:08:11,654 [INFO]   Condition C: 150/1929 done
+2026-04-30 08:11:41,370 [INFO]   Condition C: 200/1929 done
+2026-04-30 08:15:24,062 [INFO]   Condition C: 250/1929 done
+2026-04-30 08:18:23,853 [INFO]   Condition C: 300/1929 done
+2026-04-30 08:21:01,820 [INFO]   Condition C: 350/1929 done
+2026-04-30 08:24:01,097 [INFO]   Condition C: 400/1929 done
+2026-04-30 08:27:22,460 [INFO]   Condition C: 450/1929 done
+2026-04-30 08:30:56,230 [INFO]   Condition C: 500/1929 done
+2026-04-30 08:34:34,355 [INFO]   Condition C: 550/1929 done
+2026-04-30 08:38:32,447 [INFO]   Condition C: 600/1929 done
+2026-04-30 08:42:25,983 [INFO]   Condition C: 650/1929 done
+2026-04-30 08:46:00,892 [INFO]   Condition C: 700/1929 done
+2026-04-30 08:48:46,054 [INFO]   Condition C: 750/1929 done
+2026-04-30 08:51:56,797 [INFO]   Condition C: 800/1929 done
+2026-04-30 08:54:50,306 [INFO]   Condition C: 850/1929 done
+2026-04-30 08:58:16,972 [INFO]   Condition C: 900/1929 done
+2026-04-30 09:01:15,498 [INFO]   Condition C: 950/1929 done
+2026-04-30 09:03:56,509 [INFO]   Condition C: 1000/1929 done
+2026-04-30 09:06:48,303 [INFO]   Condition C: 1050/1929 done
+2026-04-30 09:09:59,176 [INFO]   Condition C: 1100/1929 done
+2026-04-30 09:12:57,984 [INFO]   Condition C: 1150/1929 done
+2026-04-30 09:20:03,214 [INFO]   Condition C: 1200/1929 done
+2026-04-30 09:25:40,775 [INFO]   Condition C: 1250/1929 done
+2026-04-30 09:31:04,522 [INFO]   Condition C: 1300/1929 done
+2026-04-30 09:37:44,496 [INFO]   Condition C: 1350/1929 done
+2026-04-30 09:46:50,324 [INFO]   Condition C: 1400/1929 done
+2026-04-30 09:55:38,688 [INFO]   Condition C: 1450/1929 done
+2026-04-30 10:05:04,250 [INFO]   Condition C: 1500/1929 done
+2026-04-30 10:15:26,709 [INFO]   Condition C: 1550/1929 done
+2026-04-30 10:26:24,521 [INFO]   Condition C: 1600/1929 done
+2026-04-30 10:37:36,922 [INFO]   Condition C: 1650/1929 done
+2026-04-30 10:47:29,165 [INFO]   Condition C: 1700/1929 done
+2026-04-30 10:57:59,964 [INFO]   Condition C: 1750/1929 done
+2026-04-30 11:07:29,867 [INFO]   Condition C: 1800/1929 done
+2026-04-30 11:17:40,130 [INFO]   Condition C: 1850/1929 done
+2026-04-30 11:28:04,707 [INFO]   Condition C: 1900/1929 done
+2026-04-30 11:33:34,169 [INFO]   Condition C: 1929/1929 done
+2026-04-30 11:33:34,209 [INFO] Condition C: saved 1929 results → /usershome/cs671_user2/p16_blv/eval_outputs/condition_C_outputs.json
+2026-04-30 11:33:34,218 [INFO] Condition C: 0/1929 empty outputs (no valid keyframes)
+2026-04-30 11:33:34,261 [INFO] Model unloaded, GPU memory freed.
+2026-04-30 11:33:34,329 [INFO] === Inference complete for: C ===

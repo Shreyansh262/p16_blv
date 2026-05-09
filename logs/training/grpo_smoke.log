@@ -1,0 +1,51 @@
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading processor...
+Loading SFT checkpoint: models/student/sft_single_stage/best
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  27%|██▋       | 132/489 [00:00<00:00, 1310.77it/s]Loading weights:  58%|█████▊    | 285/489 [00:00<00:00, 1426.02it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 1699.29it/s]
+warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 49279, 'bos_token_id': 1, 'pad_token_id': 2}.
+trainable params: 38,273,024 || all params: 545,755,328 || trainable%: 7.0129
+Loading datasets...
+Train: 50 | Val: 100
+=== Starting GRPO Training ===
+  0%|          | 0/50 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/usershome/cs671_user2/p16_blv/src/training/09_grpo_train.py", line 124, in <module>
+    main()
+    ~~~~^^
+  File "/usershome/cs671_user2/p16_blv/src/training/09_grpo_train.py", line 119, in main
+    trainer.train()
+    ~~~~~~~~~~~~~^^
+  File "/usershome/cs671_user2/miniconda3/lib/python3.13/site-packages/transformers/trainer.py", line 1424, in train
+    return inner_training_loop(
+        args=args,
+    ...<2 lines>...
+        ignore_keys_for_eval=ignore_keys_for_eval,
+    )
+  File "/usershome/cs671_user2/miniconda3/lib/python3.13/site-packages/transformers/trainer.py", line 1506, in _inner_training_loop
+    self._run_epoch(
+    ~~~~~~~~~~~~~~~^
+        model=model,
+        ^^^^^^^^^^^^
+    ...<9 lines>...
+        steps_trained_in_current_epoch=steps_trained_in_current_epoch,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usershome/cs671_user2/miniconda3/lib/python3.13/site-packages/transformers/trainer.py", line 1734, in _run_epoch
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/usershome/cs671_user2/miniconda3/lib/python3.13/site-packages/trl/trainer/grpo_trainer.py", line 1085, in training_step
+    output = super().training_step(model, inputs, num_items_in_batch)
+  File "/usershome/cs671_user2/miniconda3/lib/python3.13/site-packages/transformers/trainer.py", line 1900, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/usershome/cs671_user2/miniconda3/lib/python3.13/site-packages/trl/extras/profiling.py", line 202, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usershome/cs671_user2/miniconda3/lib/python3.13/site-packages/trl/trainer/grpo_trainer.py", line 1114, in _prepare_inputs
+    generation_batch = self._generate_and_score_completions(generation_batch)
+  File "/usershome/cs671_user2/miniconda3/lib/python3.13/site-packages/trl/trainer/grpo_trainer.py", line 1690, in _generate_and_score_completions
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Multimodal training requires conversational prompts. It looks like the dataset contains non-conversational inputs, likely because a chat template was applied before passing the dataset to the trainer. Please provide the raw conversational prompts and let the trainer apply the chat template internally.
+  0%|          | 0/50 [00:00<?, ?it/s]

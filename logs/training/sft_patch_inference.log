@@ -1,0 +1,79 @@
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+======================================================================
+SFT_PATCH_GRPO — ZERO-SHOT INFERENCE — 5 videos
+Model  : models/student/sft_patch_grpo
+Videos : ['46GP8', 'N11GT', '0IH69', 'IA2O6', 'PFOD8']
+GPU    : CUDA_VISIBLE_DEVICES=2 (visible as cuda:0)
+======================================================================
+
+Loading base model ...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  36%|███▋      | 178/489 [00:00<00:00, 1769.60it/s]Loading weights:  86%|████████▋ | 422/489 [00:00<00:00, 2162.07it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2233.31it/s]
+Loading SFT patch adapter from models/student/sft_patch_grpo ...
+Model ready.
+
+
+--------------------------------------------------
+VIDEO: 46GP8
+--------------------------------------------------
+[GEMMA REF]
+  Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A person in a white and navy hoodie and tan pants moves from center to left, reaching toward a stove approximately 1 meter ahead. A white refrigerator stands approximately 2 meters ahead. A blue metal frame is approximately 2 meters to your right.
+
+[SFT_PATCH_GRPO — zero-shot]
+  Kitchen environment. Caution: Fire hazard within 2 meters.
+
+A person in a white and black hoodie is moving towards a white refrigerator. The refrigerator has magnets on it and a window with blue blinds. The person is moving towards the refrigerator.
+
+A person in a black hoodie and tan pants is moving towards a white stove. The stove has a pot on it. The person is moving towards the stove.
+
+A person in a white hoodie and tan pants is moving towards a white cabinet. The cabinet has a window with blue blinds. The person is moving towards the cabinet.
+
+--------------------------------------------------
+VIDEO: N11GT
+--------------------------------------------------
+[GEMMA REF]
+  Indoor hallway with steps ahead; CAUTION, steps begin approximately 1 meter ahead. A person in a pink top and black skirt stands approximately 2 meters ahead, moving toward the left. A handrail is approximately 1 meter to your left. Walls are on both the left and right sides.
+
+[SFT_PATCH_GRPO — zero-shot]
+  Indoor hallway, no hazards. Woman in pink shirt and black skirt reaching for door handle. Steps ahead. No hazards. Woman in pink shirt and black skirt reaching for door handle. Steps ahead. No hazards. Woman in pink shirt and black skirt reaching for door handle. Steps ahead. No hazards. Woman in pink shirt and black skirt reaching for door handle. Steps ahead. No hazards. Woman in pink shirt and black skirt reaching for door handle. Steps ahead. No hazards. Woman in pink shirt and black skirt reaching for door handle. Steps ahead. No hazards. Woman in pink shirt and black skirt reaching for door handle. Steps ahead. No hazards. Woman in pink shirt and black skirt reaching for door handle. Steps ahead. No hazards. Woman in pink shirt and black skirt reaching for door handle. Steps ahead. No hazards. Woman in pink shirt and black skirt reaching for door handle. Steps ahead. No hazards. Woman in pink shirt and black skirt reaching for door handle. Steps ahead. No hazards. Woman in pink shirt and black skirt reaching for door handle. Steps ahead. No hazards. Woman in pink shirt and black skirt reaching for door handle. Steps ahead. No hazards. Woman in pink shirt and black skirt reaching for door handle. Steps ahead. No hazards. Woman in pink shirt and black skirt reaching for door handle. Steps ahead. No hazards. Woman in pink shirt and black skirt reaching for door handle. Steps ahead. No hazards. Woman in pink shirt
+
+--------------------------------------------------
+VIDEO: 0IH69
+--------------------------------------------------
+[GEMMA REF]
+  Indoor room, no immediate hazards. A man in a red shirt and tan shorts stands approximately 2 meters ahead, moving right. A plastic chair is 1 meter to your left. A shelving unit is 2 meters ahead, and a wooden table with a television is 2 meters ahead to the right.
+
+[SFT_PATCH_GRPO — zero-shot]
+  Indoor room; no immediate hazards. A person in a red t-shirt and beige shorts stands in a room with light blue walls. A shelf with various items, including a yellow box, is visible. A wooden desk with a computer monitor and papers is in the background. A chair is visible in the foreground.
+
+--------------------------------------------------
+VIDEO: IA2O6
+--------------------------------------------------
+[GEMMA REF]
+  Kitchen environment; CAUTION, moving people 1 meter ahead. A person in a blue shirt and black pants moves right, carrying a purple vacuum canister 1 meter ahead. A person in a grey shirt and blue jeans stands 1 meter ahead, facing a pantry. A stove with a red cloth is 1 meter to your right.
+
+[SFT_PATCH_GRPO — zero-shot]
+  Kitchen environment. Caution: Fire hazard within 2 meters.
+
+A person in a blue shirt and black pants is moving towards a refrigerator. The refrigerator is open, and there are items inside. The person is moving towards the refrigerator.
+
+A person in a gray shirt and blue jeans is standing in the kitchen. The person is holding a purple bag. The person is moving towards the refrigerator.
+
+A person in a blue shirt and black pants is standing in the kitchen. The person is holding a purple bag. The person is moving towards the refrigerator.
+
+--------------------------------------------------
+VIDEO: PFOD8
+--------------------------------------------------
+[GEMMA REF]
+  Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A man in a grey shirt and black pants stands 1 meter ahead, facing left. He pours liquid from a pot into a cup at the counter. Wooden cabinets are 1 meter to the left and 2 meters ahead.
+
+[SFT_PATCH_GRPO — zero-shot]
+  Kitchen environment. Caution: No hazards within 2 meters.
+
+The room is a well-lit, simple kitchen with wooden cabinets and a sink. A person is standing at the sink, holding a utensil. The person is wearing a gray t-shirt and black pants. The person is facing the sink.
+
+The person is standing at the sink, holding a utensil. The person is facing the sink. The person is standing at the sink, holding a utensil. The person is facing the sink. The person is standing at the sink, holding a utensil. The person is facing the sink. The person is standing at the sink, holding a utensil. The person is facing the sink. The person is standing at the sink, holding a utensil. The person is facing the sink. The person is standing at the sink, holding a utensil. The person is facing the sink. The person is standing at the sink, holding a utensil. The person is facing the sink. The person is standing at the sink, holding a utensil. The person is facing the sink. The person is standing at the sink, holding a utensil. The person is facing the sink. The person is standing at the sink, holding a utensil. The person is facing the sink. The person is standing at the sink, holding a utensil. The person is facing the sink. The person is standing at the sink, holding a utensil
+
+======================================================================
+Saved → outputs/raw_captions_sft_patch_inference.json
+=== DONE ===

@@ -1,0 +1,6872 @@
+[
+  {
+    "video_id": "J1YJ6",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "8691966680",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "6LUM5",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.25,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "NPM0Z",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 0,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "2682709910",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "7173974984",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "OO2SF",
+    "scores": {
+      "spatial_orientation": 3,
+      "social_interaction": 4,
+      "action_events": 5,
+      "ambience": 6,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 4.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "AMQ2W",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 0,
+      "descriptiveness": 4,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.5,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "5994899092",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "3113067503",
+    "scores": {
+      "spatial_orientation": 5,
+      "social_interaction": 4,
+      "action_events": 1,
+      "ambience": 6,
+      "descriptiveness": 3,
+      "objectivity": 7,
+      "accuracy": 5,
+      "clarity": 4
+    },
+    "MCF": 4.0,
+    "NAF": 4.75
+  },
+  {
+    "video_id": "YXJBA",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "EE6R2",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "RYQI0",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 0,
+      "action_events": 2,
+      "ambience": 1,
+      "descriptiveness": 0,
+      "objectivity": 3,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 0.75,
+    "NAF": 1.0
+  },
+  {
+    "video_id": "6JKD6",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "XAHU4",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 3,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.25
+  },
+  {
+    "video_id": "7229381106",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "WN7T3",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 0,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.5,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "X0O65",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "1TW98",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 4,
+      "objectivity": 2,
+      "accuracy": 3,
+      "clarity": 4
+    },
+    "MCF": 2.75,
+    "NAF": 3.25
+  },
+  {
+    "video_id": "TDHM0",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "HC62A",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.25,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "3CTZL",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.25,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "WPR8G",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "W01LY",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "5K0KJ",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "D09K3",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "4KZHT",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 1,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.0,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "5635020430",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 0,
+      "ambience": 3,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "W8H3C",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 6,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "B32MT",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 1,
+      "action_events": 2,
+      "ambience": 3,
+      "descriptiveness": 0,
+      "objectivity": 0,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 0.25
+  },
+  {
+    "video_id": "KDK62",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "1G9R7",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 4
+    },
+    "MCF": 2.25,
+    "NAF": 3.75
+  },
+  {
+    "video_id": "AZ5JS",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "U4FR1",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "8026760409",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 5,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "BVCCX",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 4,
+      "objectivity": 6,
+      "accuracy": 3,
+      "clarity": 4
+    },
+    "MCF": 2.75,
+    "NAF": 4.25
+  },
+  {
+    "video_id": "SQ3C9",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "BB5DY",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 0,
+      "ambience": 3,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.25,
+    "NAF": 1.0
+  },
+  {
+    "video_id": "6793786769",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 4,
+      "objectivity": 6,
+      "accuracy": 3,
+      "clarity": 4
+    },
+    "MCF": 2.75,
+    "NAF": 4.25
+  },
+  {
+    "video_id": "TBU3U",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "ZDFOL",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "VXNGC",
+    "scores": {
+      "spatial_orientation": 3,
+      "social_interaction": 1,
+      "action_events": 2,
+      "ambience": 4,
+      "descriptiveness": 3,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.25
+  },
+  {
+    "video_id": "CA8KS",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 0,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.25,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "3914555606",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "8373316773",
+    "scores": {
+      "spatial_orientation": 3,
+      "social_interaction": 2,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 3,
+      "clarity": 4
+    },
+    "MCF": 2.5,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "WIUQN",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "6255114096",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 2,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 2.0,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "61Y90",
+    "scores": {
+      "spatial_orientation": 3,
+      "social_interaction": 1,
+      "action_events": 2,
+      "ambience": 5,
+      "descriptiveness": 4,
+      "objectivity": 6,
+      "accuracy": 3,
+      "clarity": 4
+    },
+    "MCF": 2.75,
+    "NAF": 4.25
+  },
+  {
+    "video_id": "785X2",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "IJWV9",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.25,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "RVLLF",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 3.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "FXBGY",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 3,
+      "ambience": 1,
+      "descriptiveness": 0,
+      "objectivity": 2,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 0.75
+  },
+  {
+    "video_id": "GBZAK",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "5R83A",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 0,
+      "descriptiveness": 4,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "YIV35",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "JOPGB",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 0,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "L0NFK",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.75,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "ORJTD",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "901GH",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 3.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "FB7MZ",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "R5IQ5",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 0,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "4KO74",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "IGT82",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "7180987582",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "19ZJB",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "EED7D",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "2Z0LU",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "TQMTC",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "4KWJ4",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "X8AP2",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "3421274363",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 0,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.5,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "89IBC",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 1,
+      "action_events": 2,
+      "ambience": 3,
+      "descriptiveness": 0,
+      "objectivity": 2,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 0.75
+  },
+  {
+    "video_id": "5MYL4",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 3,
+      "ambience": 1,
+      "descriptiveness": 0,
+      "objectivity": 2,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 0.75
+  },
+  {
+    "video_id": "M506V",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "P7TT1",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "Q07NE",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "3358214917",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 2,
+      "ambience": 4,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.75,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "9580587612",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "6802334169",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "4672685555",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "BUXV4",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "OBT3Q",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "XQSXK",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "THW67",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 2,
+      "ambience": 4,
+      "descriptiveness": 1,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "DG5TX",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "2CR09",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "L57L2",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "QIQXR",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "M9KMN",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 1.0
+  },
+  {
+    "video_id": "8DE6J",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "W3CPB",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "KFGEF",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "I6IPP",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 1,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.25,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "3784543730",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "6967234626",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 2,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 2.0,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "4026149858",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 3,
+      "ambience": 1,
+      "descriptiveness": 0,
+      "objectivity": 2,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 0.75
+  },
+  {
+    "video_id": "3354627944",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 3,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.5,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "FNPEY",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 2,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.0,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "XY4C7",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 3,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "58R8A",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 0,
+      "ambience": 3,
+      "descriptiveness": 1,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.25,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "13MWT",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 6,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "U7E1T",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 2,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.0,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "6031805098",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 7,
+      "accuracy": 2,
+      "clarity": 4
+    },
+    "MCF": 2.25,
+    "NAF": 4.0
+  },
+  {
+    "video_id": "1XK68",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 3,
+      "objectivity": 2,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "11919433184",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "4825249972",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "5F1AW",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "PRVP0",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "Q6ZD9",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 3,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.25
+  },
+  {
+    "video_id": "4HMTY",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 1,
+      "ambience": 0,
+      "descriptiveness": 0,
+      "objectivity": 2,
+      "accuracy": 0,
+      "clarity": 0
+    },
+    "MCF": 0.75,
+    "NAF": 0.5
+  },
+  {
+    "video_id": "2499582434",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "9046879738",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "12757346853",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 7,
+      "descriptiveness": 3,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 4.0,
+    "NAF": 3.25
+  },
+  {
+    "video_id": "11819455135",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "P3RRJ",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "XQ4RB",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 0,
+      "action_events": 0,
+      "ambience": 2,
+      "descriptiveness": 0,
+      "objectivity": 3,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 0.5,
+    "NAF": 1.0
+  },
+  {
+    "video_id": "6134551048",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 4,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "9ITF3",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "GDIW0",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "3468545337",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 0,
+      "objectivity": 2,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 0.75
+  },
+  {
+    "video_id": "G8E71",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "KJOWG",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.75,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "3778771350",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 0,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.5,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "3P2U4",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "2484698353",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "3SAO5",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 0,
+      "action_events": 0,
+      "ambience": 2,
+      "descriptiveness": 1,
+      "objectivity": 3,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 0.5,
+    "NAF": 1.25
+  },
+  {
+    "video_id": "TK76G",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "P68QV",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 3,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.25
+  },
+  {
+    "video_id": "78N0Z",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "9755380174",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "YRPAR",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "9KYMU",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "8JR94",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "170OQ",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "N2TPE",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 0,
+      "action_events": 2,
+      "ambience": 3,
+      "descriptiveness": 1,
+      "objectivity": 4,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.25,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "3X52E",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "EYP8H",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 6,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "J5TTU",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "I713Z",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.75,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "SXYLN",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 1,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "WEYV3",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "JKZG5",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "7VMDP",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "GFJJ8",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "HJM37",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "O495M",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 0,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "F6PKX",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 2.25,
+    "NAF": 1.0
+  },
+  {
+    "video_id": "IEXTB",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "JVISI",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "3976362264",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.75,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "6926963410",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 2,
+      "ambience": 1,
+      "descriptiveness": 4,
+      "objectivity": 5,
+      "accuracy": 3,
+      "clarity": 2
+    },
+    "MCF": 2.0,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "P73KX",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "2DTZ3",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "UZMKC",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "SW64W",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "WF8WM",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "73X8Q",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "6899702255",
+    "scores": {
+      "spatial_orientation": 7,
+      "social_interaction": 8,
+      "action_events": 6,
+      "ambience": 3,
+      "descriptiveness": 5,
+      "objectivity": 9,
+      "accuracy": 8,
+      "clarity": 7
+    },
+    "MCF": 6.0,
+    "NAF": 7.25
+  },
+  {
+    "video_id": "UVN96",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "IM3I0",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "4300771090",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 6,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.75,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "A54DW",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "13514394984",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "J8781",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 1,
+      "action_events": 2,
+      "ambience": 0,
+      "descriptiveness": 0,
+      "objectivity": 3,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 0.75,
+    "NAF": 1.0
+  },
+  {
+    "video_id": "LUU2S",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "7533538186",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "7VP2U",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "279W6",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "9X208",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "3343411237",
+    "scores": {
+      "spatial_orientation": 3,
+      "social_interaction": 2,
+      "action_events": 2,
+      "ambience": 7,
+      "descriptiveness": 5,
+      "objectivity": 8,
+      "accuracy": 4,
+      "clarity": 5
+    },
+    "MCF": 3.5,
+    "NAF": 5.5
+  },
+  {
+    "video_id": "3718722735",
+    "scores": {
+      "spatial_orientation": 3,
+      "social_interaction": 2,
+      "action_events": 5,
+      "ambience": 1,
+      "descriptiveness": 4,
+      "objectivity": 6,
+      "accuracy": 3,
+      "clarity": 4
+    },
+    "MCF": 2.75,
+    "NAF": 4.25
+  },
+  {
+    "video_id": "9088819598",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 3,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.5,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "HS521",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "52GJU",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 0,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "AZTTC",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "CJP4R",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "I5U4Q",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 0,
+      "action_events": 2,
+      "ambience": 3,
+      "descriptiveness": 0,
+      "objectivity": 1,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.25,
+    "NAF": 0.5
+  },
+  {
+    "video_id": "F76GD",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 6,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.75,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "ZPUVC",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "P1EK9",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 4
+    },
+    "MCF": 3.5,
+    "NAF": 3.75
+  },
+  {
+    "video_id": "5360900000",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "7UP0Q",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "SA7GL",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "BKNO9",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "DB07P",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "TZ27E",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 3,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.25
+  },
+  {
+    "video_id": "9337790459",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "Y5P4Q",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "JD3KW",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 0,
+      "action_events": 0,
+      "ambience": 2,
+      "descriptiveness": 0,
+      "objectivity": 3,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 0.5,
+    "NAF": 1.0
+  },
+  {
+    "video_id": "ZUU2X",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "CJ58B",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 0,
+      "action_events": 2,
+      "ambience": 3,
+      "descriptiveness": 1,
+      "objectivity": 1,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.25,
+    "NAF": 0.75
+  },
+  {
+    "video_id": "AOQ7C",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "4757890069",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "IZZ3Y",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "NEO0V",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 0,
+      "ambience": 3,
+      "descriptiveness": 1,
+      "objectivity": 4,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.25,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "2H5YP",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "6111880134",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 7,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 4.0,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "ZWPS3",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "AEJ4T",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "9207X",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 3,
+      "objectivity": 2,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "QOWXK",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 0,
+      "ambience": 0,
+      "descriptiveness": 0,
+      "objectivity": 1,
+      "accuracy": 0,
+      "clarity": 0
+    },
+    "MCF": 0.5,
+    "NAF": 0.25
+  },
+  {
+    "video_id": "537I0",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 3,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "88TCK",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "8315220537",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 7,
+      "accuracy": 2,
+      "clarity": 4
+    },
+    "MCF": 3.5,
+    "NAF": 4.0
+  },
+  {
+    "video_id": "7ELBG",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 0,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "WN2N7",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "NYA5N",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "XZPAS",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "IDACP",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 7,
+      "descriptiveness": 3,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 4.0,
+    "NAF": 3.25
+  },
+  {
+    "video_id": "5842920195",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "ZS66D",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 3,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "6974457528",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "AMLI4",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "2FW38",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "KX90W",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 0,
+      "action_events": 2,
+      "ambience": 1,
+      "descriptiveness": 0,
+      "objectivity": 3,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 0.75,
+    "NAF": 1.0
+  },
+  {
+    "video_id": "0GR11",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 0,
+      "objectivity": 1,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 0.5
+  },
+  {
+    "video_id": "6EU06",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "XP305",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "OIZT9",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "F2EA8",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 2.0,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "IF4Y9",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "974PN",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 3,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "6QPNW",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "DJG7A",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 4,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.75,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "IABNL",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "2971876369",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 1,
+      "objectivity": 4,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "CVH2Y",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "HL4V4",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 3.5,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "5T607",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 6,
+      "accuracy": 3,
+      "clarity": 4
+    },
+    "MCF": 3.5,
+    "NAF": 3.75
+  },
+  {
+    "video_id": "5863411262",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "OVYAC",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 6,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "7TNGJ",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 6,
+      "accuracy": 3,
+      "clarity": 4
+    },
+    "MCF": 3.5,
+    "NAF": 3.75
+  },
+  {
+    "video_id": "QRLOG",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "6LBDM",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "3738405040",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 0,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "R1OUC",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 1,
+      "action_events": 0,
+      "ambience": 2,
+      "descriptiveness": 0,
+      "objectivity": 3,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 0.75,
+    "NAF": 1.0
+  },
+  {
+    "video_id": "11392155534",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "8HII5",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "J0SZG",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "MLK57",
+    "scores": {
+      "spatial_orientation": 3,
+      "social_interaction": 2,
+      "action_events": 4,
+      "ambience": 7,
+      "descriptiveness": 3,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 4
+    },
+    "MCF": 4.0,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "9D2T4",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.75,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "IG1YT",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.5,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "UZDEE",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 3,
+      "clarity": 4
+    },
+    "MCF": 2.5,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "3QXPC",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 2,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.0,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "IOL8Q",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "QB7ZN",
+    "scores": {
+      "spatial_orientation": 3,
+      "social_interaction": 2,
+      "action_events": 2,
+      "ambience": 7,
+      "descriptiveness": 4,
+      "objectivity": 5,
+      "accuracy": 3,
+      "clarity": 4
+    },
+    "MCF": 3.5,
+    "NAF": 4.0
+  },
+  {
+    "video_id": "NA5F9",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "BCONW",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 0,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "MRF8T",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "8743843248",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "Z1H81",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "YZ3TA",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 4,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "LWJGN",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 6,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 3,
+      "clarity": 4
+    },
+    "MCF": 3.75,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "AZXRK",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "KELYK",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "T5JY8",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "SJQVM",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "GC1Q1",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 0,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.5,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "3272629211",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "Y3B48",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "GQCUO",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "5LJ3J",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 0,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "JHU46",
+    "scores": {
+      "spatial_orientation": 3,
+      "social_interaction": 1,
+      "action_events": 2,
+      "ambience": 7,
+      "descriptiveness": 4,
+      "objectivity": 5,
+      "accuracy": 3,
+      "clarity": 4
+    },
+    "MCF": 3.25,
+    "NAF": 4.0
+  },
+  {
+    "video_id": "QBIOX",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 0,
+      "ambience": 3,
+      "descriptiveness": 4,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.25,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "7D99X",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "KZW3K",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "BNEQL",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "UJT87",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "A4N6Z",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "12682331113",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 0,
+      "ambience": 1,
+      "descriptiveness": 0,
+      "objectivity": 0,
+      "accuracy": 0,
+      "clarity": 0
+    },
+    "MCF": 0.75,
+    "NAF": 0.0
+  },
+  {
+    "video_id": "YNCFL",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "372CC",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "2403283676",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "QBXRP",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 1,
+      "action_events": 2,
+      "ambience": 3,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 1.0
+  },
+  {
+    "video_id": "3W6CP",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "297S4",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 4
+    },
+    "MCF": 2.75,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "5J7FQ",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "JUCOK",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "W0624",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "8UQVB",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "AFUBV",
+    "scores": {
+      "spatial_orientation": 3,
+      "social_interaction": 2,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "ZJG67",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 2,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.0,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "7690729988",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "VXM6A",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 1,
+      "action_events": 2,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "52WDV",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 0,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.0,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "SU2UY",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "3952824958",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "V1PRP",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "1TWH6",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "KJK56",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 2,
+      "ambience": 4,
+      "descriptiveness": 1,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "Z7O9G",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "HPAYB",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 2.25,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "8EYHC",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 3.5,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "YCST7",
+    "scores": {
+      "spatial_orientation": 3,
+      "social_interaction": 2,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 6,
+      "accuracy": 3,
+      "clarity": 4
+    },
+    "MCF": 3.5,
+    "NAF": 3.75
+  },
+  {
+    "video_id": "2580212838",
+    "scores": {
+      "spatial_orientation": 3,
+      "social_interaction": 2,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 3,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.25
+  },
+  {
+    "video_id": "TX122",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "W4C5O",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "N79WJ",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 0,
+      "objectivity": 0,
+      "accuracy": 0,
+      "clarity": 0
+    },
+    "MCF": 1.5,
+    "NAF": 0.0
+  },
+  {
+    "video_id": "SYMIR",
+    "scores": {
+      "spatial_orientation": 3,
+      "social_interaction": 2,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 4
+    },
+    "MCF": 3.5,
+    "NAF": 3.75
+  },
+  {
+    "video_id": "4801016360",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 5,
+      "action_events": 7,
+      "ambience": 3,
+      "descriptiveness": 4,
+      "objectivity": 6,
+      "accuracy": 5,
+      "clarity": 4
+    },
+    "MCF": 4.25,
+    "NAF": 4.75
+  },
+  {
+    "video_id": "86GSE",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 0,
+      "objectivity": 1,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 0.5
+  },
+  {
+    "video_id": "JOBFJ",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "YLNPX",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "Q71PE",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "17RPG",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "LRLNC",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.25,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "1YBKW",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 0,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.0,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "10583687444",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 4,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "A45RV",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "81YF0",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "2T4AO",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 0,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "3WD4E",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 1,
+      "objectivity": 4,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "6242913804",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "CHQ41",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "12208961114",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "PY5M4",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "L4VNK",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "CWBHH",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "FJXBX",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "8155287777",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "0W4F6",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "6ZJAL",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "A7OCU",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 0,
+      "action_events": 0,
+      "ambience": 2,
+      "descriptiveness": 0,
+      "objectivity": 0,
+      "accuracy": 0,
+      "clarity": 0
+    },
+    "MCF": 0.5,
+    "NAF": 0.0
+  },
+  {
+    "video_id": "6991115222",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 1,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "G4MNO",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "I562C",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 3,
+      "ambience": 1,
+      "descriptiveness": 0,
+      "objectivity": 2,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 0.75
+  },
+  {
+    "video_id": "E67EF",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 0,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.0,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "DVO31",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "7769546330",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 2,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "9256409422",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "2435100235",
+    "scores": {
+      "spatial_orientation": 5,
+      "social_interaction": 2,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 3,
+      "objectivity": 7,
+      "accuracy": 6,
+      "clarity": 5
+    },
+    "MCF": 3.0,
+    "NAF": 5.25
+  },
+  {
+    "video_id": "HHEIV",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 5,
+      "ambience": 1,
+      "descriptiveness": 3,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.0,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "T0WKT",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "JV524",
+    "scores": {
+      "spatial_orientation": 1,
+      "social_interaction": 2,
+      "action_events": 1,
+      "ambience": 0,
+      "descriptiveness": 1,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 1
+    },
+    "MCF": 1.0,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "7EHQU",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "CPG4Y",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "12464813773",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 3,
+      "objectivity": 2,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "4004287747",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "TVBLW",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "LPR6Z",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 0,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "U4NWI",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "Q24GF",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "G3WBE",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "AZMVM",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "7505038142",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 4,
+      "accuracy": 0,
+      "clarity": 2
+    },
+    "MCF": 2.0,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "30JQT",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 0,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "JSS05",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 3.5,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "2MJA1",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "IOZ8J",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "XIUJE",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "9592167163",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "4140217884",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "Q9BRQ",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 0,
+      "action_events": 0,
+      "ambience": 2,
+      "descriptiveness": 0,
+      "objectivity": 0,
+      "accuracy": 0,
+      "clarity": 0
+    },
+    "MCF": 0.5,
+    "NAF": 0.0
+  },
+  {
+    "video_id": "V1JIC",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "GQZOR",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "6ZTL6",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 6,
+      "descriptiveness": 2,
+      "objectivity": 1,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.75,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "6202943622",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "2729135977",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "SCCZG",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 0,
+      "objectivity": 0,
+      "accuracy": 0,
+      "clarity": 0
+    },
+    "MCF": 1.5,
+    "NAF": 0.0
+  },
+  {
+    "video_id": "4S3UZ",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "ZP6LO",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 0,
+      "objectivity": 1,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 0.5
+  },
+  {
+    "video_id": "T3FJH",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "LI5VF",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "Q7YXN",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 2,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 3.0,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "3C9L1",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 3,
+      "ambience": 1,
+      "descriptiveness": 4,
+      "objectivity": 5,
+      "accuracy": 3,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "3812123238",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 2,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.0,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "GA4EI",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 0,
+      "ambience": 3,
+      "descriptiveness": 4,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.25,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "NHLQ1",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "9E89H",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 1,
+      "action_events": 2,
+      "ambience": 3,
+      "descriptiveness": 1,
+      "objectivity": 4,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "3736642934",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "7ICIA",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 1.0
+  },
+  {
+    "video_id": "ZLH9E",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 0,
+      "ambience": 0,
+      "descriptiveness": 1,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 0.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "4LDRK",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "77SCM",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "4014898649",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "EM0B6",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "PIMO4",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "WGUW8",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 1.0
+  },
+  {
+    "video_id": "MS58Y",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 2,
+      "ambience": 4,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.75,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "Y3QYR",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "N7IH0",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 5,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 3,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "3802656968",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "5N7DP",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "G11YN",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "YU9BS",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "0IISQ",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 0,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.25,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "MYZLT",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 0,
+      "ambience": 3,
+      "descriptiveness": 4,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.5,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "M8CDW",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "FZVQN",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "17DOT",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "U1LFT",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "9IO0Y",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 0,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.25,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "7354042444",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 2,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.0,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "SM5WL",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 5,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "C8WLX",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 6,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.0,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "X8A6H",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "3225620425",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.75,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "1NNFV",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "4452690447",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "B7T3B",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "2RJF6",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 0,
+      "action_events": 0,
+      "ambience": 2,
+      "descriptiveness": 0,
+      "objectivity": 4,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 0.5,
+    "NAF": 1.25
+  },
+  {
+    "video_id": "7RI1Y",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 3,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.25
+  },
+  {
+    "video_id": "U91SO",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 1,
+      "action_events": 2,
+      "ambience": 3,
+      "descriptiveness": 0,
+      "objectivity": 0,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 0.25
+  },
+  {
+    "video_id": "KL68V",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "0RDVJ",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 0,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.0,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "SLDVU",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "6X0OV",
+    "scores": {
+      "spatial_orientation": 3,
+      "social_interaction": 2,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 4,
+      "objectivity": 6,
+      "accuracy": 3,
+      "clarity": 4
+    },
+    "MCF": 3.5,
+    "NAF": 4.25
+  },
+  {
+    "video_id": "UKLQ1",
+    "scores": {
+      "spatial_orientation": 3,
+      "social_interaction": 2,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 2,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "L8FFR",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "37Y0B",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 2,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 2.0,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "OA9W5",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "NMC5N",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 3,
+      "ambience": 1,
+      "descriptiveness": 0,
+      "objectivity": 0,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 0.25
+  },
+  {
+    "video_id": "J3KT5",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "PFLFU",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "6589116675",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "NJM82",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "V3RAX",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "UU2LH",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "TKFY2",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 6,
+      "accuracy": 3,
+      "clarity": 4
+    },
+    "MCF": 3.5,
+    "NAF": 3.75
+  },
+  {
+    "video_id": "2525468588",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.75,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "GIA8M",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 2,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.0,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "4021N",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "MFSGO",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 0,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 4,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.5,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "4RBVB",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "QEY8N",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "8WQOP",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "RPMXE",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "QEFFJ",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "BI4PK",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "5XAFE",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 0,
+      "action_events": 0,
+      "ambience": 2,
+      "descriptiveness": 0,
+      "objectivity": 3,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 0.5,
+    "NAF": 1.0
+  },
+  {
+    "video_id": "9RSGO",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.75,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "3214351987",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "0PSL4",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "DE8T8",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 2,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.0,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "JXF3M",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "QO7SM",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 0,
+      "action_events": 0,
+      "ambience": 2,
+      "descriptiveness": 0,
+      "objectivity": 0,
+      "accuracy": 0,
+      "clarity": 0
+    },
+    "MCF": 0.5,
+    "NAF": 0.0
+  },
+  {
+    "video_id": "8Y4YD",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 0,
+      "objectivity": 1,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 0.5
+  },
+  {
+    "video_id": "TAGS2",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "3EHAJ",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "4QSRS",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 0,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.5,
+    "NAF": 1.5
+  },
+  {
+    "video_id": "YPUYO",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 2,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 0,
+      "objectivity": 1,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 1.5,
+    "NAF": 0.5
+  },
+  {
+    "video_id": "PEKGD",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "IOMVF",
+    "scores": {
+      "spatial_orientation": 0,
+      "social_interaction": 0,
+      "action_events": 2,
+      "ambience": 1,
+      "descriptiveness": 0,
+      "objectivity": 3,
+      "accuracy": 0,
+      "clarity": 1
+    },
+    "MCF": 0.75,
+    "NAF": 1.0
+  },
+  {
+    "video_id": "4346954399",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.0
+  },
+  {
+    "video_id": "70FXC",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 4,
+      "objectivity": 5,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.75,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "3HVKR",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "3895899954",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "3ND23",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "0RROG",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 2,
+      "accuracy": 1,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 1.75
+  },
+  {
+    "video_id": "7P0HA",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 1,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 2.5
+  },
+  {
+    "video_id": "UBC9N",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 5,
+      "accuracy": 3,
+      "clarity": 3
+    },
+    "MCF": 2.5,
+    "NAF": 3.25
+  },
+  {
+    "video_id": "6898853360",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 5,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 2.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "D0YWV",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 3,
+      "ambience": 0,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.5,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "8183771503",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 0,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 1.0,
+    "NAF": 2.0
+  },
+  {
+    "video_id": "A2771",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 1,
+      "action_events": 1,
+      "ambience": 3,
+      "descriptiveness": 2,
+      "objectivity": 4,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 1.75,
+    "NAF": 2.75
+  },
+  {
+    "video_id": "3410445468",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 1,
+      "objectivity": 3,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 2.25
+  },
+  {
+    "video_id": "CMC93",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 4,
+      "ambience": 5,
+      "descriptiveness": 3,
+      "objectivity": 6,
+      "accuracy": 2,
+      "clarity": 3
+    },
+    "MCF": 3.5,
+    "NAF": 3.5
+  },
+  {
+    "video_id": "Y2YO6",
+    "scores": {
+      "spatial_orientation": 2,
+      "social_interaction": 3,
+      "action_events": 1,
+      "ambience": 4,
+      "descriptiveness": 2,
+      "objectivity": 3,
+      "accuracy": 1,
+      "clarity": 2
+    },
+    "MCF": 2.5,
+    "NAF": 2.0
+  }
+]

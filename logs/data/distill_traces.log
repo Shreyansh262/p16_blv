@@ -1,0 +1,43 @@
+2026-04-14 10:11:24,599 [INFO] Identifying held-out videos...
+2026-04-14 10:11:24,785 [INFO] Total: 9646 | In training: 7842 | Held out: 1804
+2026-04-14 10:11:24,786 [INFO] Videos to process this run: 1804
+2026-04-14 10:11:29,762 [INFO] Loading teacher: Qwen/Qwen2-VL-7B-Instruct
+2026-04-14 10:11:29,762 [INFO] Using 4-bit quantization...
+2026-04-14 10:12:14,805 [INFO] Teacher model loaded.
+2026-04-14 10:17:06,804 [INFO] Checkpoint: 50 traces saved.
+2026-04-14 10:21:47,578 [INFO] Checkpoint: 100 traces saved.
+2026-04-14 10:26:40,680 [INFO] Checkpoint: 150 traces saved.
+2026-04-14 10:31:18,777 [INFO] Checkpoint: 200 traces saved.
+2026-04-14 10:36:04,053 [INFO] Checkpoint: 250 traces saved.
+2026-04-14 10:40:56,218 [INFO] Checkpoint: 300 traces saved.
+2026-04-14 10:45:56,638 [INFO] Checkpoint: 350 traces saved.
+2026-04-14 10:50:43,035 [INFO] Checkpoint: 400 traces saved.
+2026-04-14 10:55:26,376 [INFO] Checkpoint: 450 traces saved.
+2026-04-14 11:00:12,997 [INFO] Checkpoint: 500 traces saved.
+2026-04-14 11:04:53,235 [INFO] Checkpoint: 550 traces saved.
+2026-04-14 11:09:35,875 [INFO] Checkpoint: 600 traces saved.
+2026-04-14 11:14:12,040 [INFO] Checkpoint: 650 traces saved.
+2026-04-14 11:18:55,891 [INFO] Checkpoint: 700 traces saved.
+2026-04-14 11:23:44,721 [INFO] Checkpoint: 750 traces saved.
+2026-04-14 11:28:36,073 [INFO] Checkpoint: 800 traces saved.
+2026-04-14 11:33:22,901 [INFO] Checkpoint: 850 traces saved.
+2026-04-14 11:38:07,592 [INFO] Checkpoint: 900 traces saved.
+2026-04-14 11:43:54,916 [INFO] Checkpoint: 950 traces saved.
+2026-04-14 11:49:48,116 [INFO] Checkpoint: 1000 traces saved.
+2026-04-14 11:56:17,243 [INFO] Checkpoint: 1050 traces saved.
+2026-04-14 12:02:25,165 [INFO] Checkpoint: 1100 traces saved.
+2026-04-14 12:08:30,932 [INFO] Checkpoint: 1150 traces saved.
+2026-04-14 12:14:40,749 [INFO] Checkpoint: 1200 traces saved.
+2026-04-14 12:20:57,898 [INFO] Checkpoint: 1250 traces saved.
+2026-04-14 12:27:17,887 [INFO] Checkpoint: 1300 traces saved.
+2026-04-14 12:33:47,077 [INFO] Checkpoint: 1350 traces saved.
+2026-04-14 12:39:53,838 [INFO] Checkpoint: 1400 traces saved.
+2026-04-14 12:46:07,497 [INFO] Checkpoint: 1450 traces saved.
+2026-04-14 12:52:15,948 [INFO] Checkpoint: 1500 traces saved.
+2026-04-14 12:58:45,888 [INFO] Checkpoint: 1550 traces saved.
+2026-04-14 13:05:01,627 [INFO] Checkpoint: 1600 traces saved.
+2026-04-14 13:09:49,106 [INFO] Checkpoint: 1650 traces saved.
+2026-04-14 13:14:42,202 [INFO] Checkpoint: 1700 traces saved.
+2026-04-14 13:19:41,477 [INFO] Checkpoint: 1750 traces saved.
+2026-04-14 13:24:29,127 [INFO] Checkpoint: 1800 traces saved.
+2026-04-14 13:24:51,510 [INFO] Done. 1804 distillation traces saved to /usershome/cs671_user2/p16_blv/data/generated/distill_traces.json

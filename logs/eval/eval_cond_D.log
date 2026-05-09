@@ -1,0 +1,91 @@
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+2026-04-30 11:33:51,575 [INFO] Running conditions: ['D']
+2026-04-30 11:33:51,727 [INFO] Test set: 1929 samples (indices 7717–9645)
+2026-04-30 11:33:51,732 [INFO] === Condition D: RLAIF-V DPO best ===
+2026-04-30 11:33:53,300 [INFO] HTTP Request: HEAD https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-30 11:33:53,301 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-30 11:33:53,350 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/7b375e1b73b11138ff12fe22c8f2822d8fe03467/config.json "HTTP/1.1 200 OK"
+2026-04-30 11:33:53,626 [INFO] HTTP Request: HEAD https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-30 11:33:53,676 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/7b375e1b73b11138ff12fe22c8f2822d8fe03467/config.json "HTTP/1.1 200 OK"
+2026-04-30 11:33:53,964 [INFO] HTTP Request: HEAD https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  37%|███▋      | 183/489 [00:00<00:00, 1828.28it/s]Loading weights:  75%|███████▍  | 366/489 [00:00<00:00, 1366.44it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 1498.00it/s]
+2026-04-30 11:33:56,317 [INFO] HTTP Request: HEAD https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-30 11:33:56,367 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/7b375e1b73b11138ff12fe22c8f2822d8fe03467/generation_config.json "HTTP/1.1 200 OK"
+Traceback (most recent call last):
+  File "/usershome/cs671_user2/p16_blv/src/eval/run_inference_all_conditions.py", line 184, in <module>
+    main()
+    ~~~~^^
+  File "/usershome/cs671_user2/p16_blv/src/eval/run_inference_all_conditions.py", line 179, in main
+    run_condition(cond_id, CONDITIONS[cond_id], test_data)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usershome/cs671_user2/p16_blv/src/eval/run_inference_all_conditions.py", line 145, in run_condition
+    caption = generate(model, processor, kfps)
+  File "/usershome/cs671_user2/p16_blv/src/eval/run_inference_all_conditions.py", line 119, in generate
+    inputs = processor(text=prompt, images=images, return_tensors="pt").to(model.device)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usershome/cs671_user2/miniconda3/lib/python3.13/site-packages/transformers/models/smolvlm/processing_smolvlm.py", line 286, in __call__
+    self._check_special_mm_tokens(text, text_inputs, modalities=["image"])
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usershome/cs671_user2/miniconda3/lib/python3.13/site-packages/transformers/processing_utils.py", line 1929, in _check_special_mm_tokens
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Mismatch in `image` token count between text and `input_ids`. Got ids=[134] and text=[3328]. Likely due to `truncation='max_length'`. Please disable truncation or increase `max_length`.
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+2026-05-01 05:08:31,092 [INFO] Running conditions: ['D']
+2026-05-01 05:08:31,241 [INFO] Test set: 1929 samples (indices 7717–9645)
+2026-05-01 05:08:31,252 [INFO] === Condition D: RLAIF-V DPO best ===
+2026-05-01 05:08:32,507 [INFO] HTTP Request: HEAD https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-01 05:08:32,508 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-01 05:08:32,551 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/7b375e1b73b11138ff12fe22c8f2822d8fe03467/config.json "HTTP/1.1 200 OK"
+2026-05-01 05:08:32,810 [INFO] HTTP Request: HEAD https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-01 05:08:32,855 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/7b375e1b73b11138ff12fe22c8f2822d8fe03467/config.json "HTTP/1.1 200 OK"
+2026-05-01 05:08:33,124 [INFO] HTTP Request: HEAD https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  27%|██▋       | 133/489 [00:00<00:00, 1319.48it/s]Loading weights:  56%|█████▌    | 273/489 [00:00<00:00, 1362.11it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 1826.95it/s]
+2026-05-01 05:08:34,755 [INFO] HTTP Request: HEAD https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-01 05:08:34,799 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/HuggingFaceTB/SmolVLM2-500M-Video-Instruct/7b375e1b73b11138ff12fe22c8f2822d8fe03467/generation_config.json "HTTP/1.1 200 OK"
+2026-05-01 05:17:07,072 [INFO]   Condition D: 50/1929 done
+2026-05-01 05:25:27,676 [INFO]   Condition D: 100/1929 done
+2026-05-01 05:33:53,044 [INFO]   Condition D: 150/1929 done
+2026-05-01 05:42:23,076 [INFO]   Condition D: 200/1929 done
+2026-05-01 05:51:28,124 [INFO]   Condition D: 250/1929 done
+2026-05-01 05:59:54,341 [INFO]   Condition D: 300/1929 done
+2026-05-01 06:07:04,659 [INFO]   Condition D: 350/1929 done
+2026-05-01 06:14:54,500 [INFO]   Condition D: 400/1929 done
+2026-05-01 06:22:25,932 [INFO]   Condition D: 450/1929 done
+2026-05-01 06:31:34,353 [INFO]   Condition D: 500/1929 done
+2026-05-01 06:38:47,973 [INFO]   Condition D: 550/1929 done
+2026-05-01 06:46:55,863 [INFO]   Condition D: 600/1929 done
+2026-05-01 06:55:58,987 [INFO]   Condition D: 650/1929 done
+2026-05-01 07:04:11,985 [INFO]   Condition D: 700/1929 done
+2026-05-01 07:11:10,650 [INFO]   Condition D: 750/1929 done
+2026-05-01 07:19:06,930 [INFO]   Condition D: 800/1929 done
+2026-05-01 07:26:25,844 [INFO]   Condition D: 850/1929 done
+2026-05-01 07:35:06,737 [INFO]   Condition D: 900/1929 done
+2026-05-01 07:42:39,796 [INFO]   Condition D: 950/1929 done
+2026-05-01 07:50:12,537 [INFO]   Condition D: 1000/1929 done
+2026-05-01 07:58:27,270 [INFO]   Condition D: 1050/1929 done
+2026-05-01 08:07:45,241 [INFO]   Condition D: 1100/1929 done
+2026-05-01 08:14:52,587 [INFO]   Condition D: 1150/1929 done
+2026-05-01 08:22:46,046 [INFO]   Condition D: 1200/1929 done
+2026-05-01 08:30:37,220 [INFO]   Condition D: 1250/1929 done
+2026-05-01 08:39:13,475 [INFO]   Condition D: 1300/1929 done
+2026-05-01 08:47:33,823 [INFO]   Condition D: 1350/1929 done
+2026-05-01 08:55:23,148 [INFO]   Condition D: 1400/1929 done
+2026-05-01 09:03:52,077 [INFO]   Condition D: 1450/1929 done
+2026-05-01 09:12:11,615 [INFO]   Condition D: 1500/1929 done
+2026-05-01 09:21:19,930 [INFO]   Condition D: 1550/1929 done
+2026-05-01 09:30:26,843 [INFO]   Condition D: 1600/1929 done
+2026-05-01 09:39:43,578 [INFO]   Condition D: 1650/1929 done
+2026-05-01 09:48:58,025 [INFO]   Condition D: 1700/1929 done
+2026-05-01 09:58:42,592 [INFO]   Condition D: 1750/1929 done
+2026-05-01 10:08:48,027 [INFO]   Condition D: 1800/1929 done
+2026-05-01 10:20:39,433 [INFO]   Condition D: 1850/1929 done
+2026-05-01 10:30:48,352 [INFO]   Condition D: 1900/1929 done
+2026-05-01 10:36:20,223 [INFO]   Condition D: 1929/1929 done
+2026-05-01 10:36:20,260 [INFO] Condition D: saved 1929 results → /usershome/cs671_user2/p16_blv/eval_outputs/condition_D_outputs.json
+2026-05-01 10:36:20,261 [INFO] Condition D: 0/1929 empty outputs (no valid keyframes)
+2026-05-01 10:36:20,279 [INFO] Model unloaded, GPU memory freed.
+2026-05-01 10:36:20,337 [INFO] === Inference complete for: D ===

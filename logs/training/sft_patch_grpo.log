@@ -1,0 +1,102 @@
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu128).
+======================================================================
+SFT PATCH — GRPO_best + 50 GEMMA captions — GPU 2
+Base    : HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+Adapter : models/student/grpo/best
+Data    : data/sft_patch_50.json
+Save    : models/student/sft_patch_grpo
+Epochs  : 3  |  LR: 5e-05  |  Batch: 2
+======================================================================
+
+Loading processor ...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Processor ready.
+Loaded 50 training entries.
+Pre-computing prompt lengths (CPU) ...
+Pre-computation done. Example prompt_len=3556
+
+Loading GRPO best and merging ...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  34%|███▍      | 167/489 [00:00<00:00, 1667.45it/s]Loading weights:  83%|████████▎ | 404/489 [00:00<00:00, 2080.11it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2206.99it/s]
+Merged. Attaching fresh LoRA ...
+/usershome/cs671_user2/miniconda3/lib/python3.13/site-packages/peft/tuners/tuners_utils.py:285: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!
+  warnings.warn(
+trainable params: 38,273,024 || all params: 545,755,328 || trainable%: 7.0129
+  [E1 step 5] loss=1.4056
+  [E1 step 10] loss=1.2134
+  [E1 step 15] loss=0.7508
+  [E1 step 20] loss=1.1482
+  [E1 step 25] loss=0.7198
+
+Epoch 1/3 done — avg loss: 1.7577
+
+  [E2 step 30] loss=0.9055
+  [E2 step 35] loss=0.5851
+  [E2 step 40] loss=0.8224
+  [E2 step 45] loss=0.7244
+  [E2 step 50] loss=10.0684
+
+Epoch 2/3 done — avg loss: 1.4721
+
+  [E3 step 55] loss=0.5454
+  [E3 step 60] loss=0.4497
+  [E3 step 65] loss=0.6161
+  [E3 step 70] loss=0.5724
+  [E3 step 75] loss=0.4320
+
+Epoch 3/3 done — avg loss: 1.1686
+
+
+Saved → models/student/sft_patch_grpo
+=== TRAINING DONE ===
+
+======================================================================
+POST-TRAINING INFERENCE — 5 videos
+======================================================================
+
+--------------------------------------------------
+VIDEO: 46GP8
+--------------------------------------------------
+[GEMMA REF]
+  Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A person in a white and navy hoodie and tan pants moves from center to left, reaching toward a stove approximately 1 meter ahead. A white refrigerator stands approximately 2 meters ahead. A blue metal frame is approximately 2 meters to your right.
+
+[SFT_PATCH]
+  Kitchen environment; CAUTION, hot stove approximately 1 meter ahead. A person in a white and black hoodie and tan pants moves from right to center, then turns and walks away. A white refrigerator is 1 meter ahead, and a window with blue blinds is 2 meters ahead to the right. A black wall with a white door is 2 meters ahead.
+
+--------------------------------------------------
+VIDEO: N11GT
+--------------------------------------------------
+[GEMMA REF]
+  Indoor hallway with steps ahead; CAUTION, steps begin approximately 1 meter ahead. A person in a pink top and black skirt stands approximately 2 meters ahead, moving toward the left. A handrail is approximately 1 meter to your left. Walls are on both the left and right sides.
+
+[SFT_PATCH]
+  Indoor hallway, no immediate hazards within 2 meters. A person in a pink shirt and black skirt stands approximately 1 meter ahead, moving toward a door. A wooden door frame is 1 meter to your left. A wooden handrail is 1 meter to your right.
+
+--------------------------------------------------
+VIDEO: 0IH69
+--------------------------------------------------
+[GEMMA REF]
+  Indoor room, no immediate hazards. A man in a red shirt and tan shorts stands approximately 2 meters ahead, moving right. A plastic chair is 1 meter to your left. A shelving unit is 2 meters ahead, and a wooden table with a television is 2 meters ahead to the right.
+
+[SFT_PATCH]
+  Indoor room, no immediate hazards. A man in a red t-shirt and tan shorts stands approximately 1 meter ahead, facing left. A black shelving unit with various items is approximately 1 meter ahead and to the right. A wooden desk with a monitor is approximately 1 meter ahead and to the right.
+
+--------------------------------------------------
+VIDEO: IA2O6
+--------------------------------------------------
+[GEMMA REF]
+  Kitchen environment; CAUTION, moving people 1 meter ahead. A person in a blue shirt and black pants moves right, carrying a purple vacuum canister 1 meter ahead. A person in a grey shirt and blue jeans stands 1 meter ahead, facing a pantry. A stove with a red cloth is 1 meter to your right.
+
+[SFT_PATCH]
+  Kitchen environment; CAUTION, hot stove approximately 1 meter ahead. A person in a blue shirt stands 1 meter ahead, moving right. A person in a grey shirt and blue jeans stands 1 meter to your left, moving right. A purple vacuum cleaner is 1 meter ahead.
+
+--------------------------------------------------
+VIDEO: PFOD8
+--------------------------------------------------
+[GEMMA REF]
+  Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A man in a grey shirt and black pants stands 1 meter ahead, facing left. He pours liquid from a pot into a cup at the counter. Wooden cabinets are 1 meter to the left and 2 meters ahead.
+
+[SFT_PATCH]
+  Kitchen environment; CAUTION, hot stove approximately 1 meter ahead. A man in a grey shirt and black pants stands center, moving from the sink 1 meter ahead to the right. He reaches for a pot on the counter 1 meter ahead. A black bag sits on the floor 1 meter to the right.
+
+Saved → outputs/raw_captions_sft_patch.json
+=== ALL DONE ===

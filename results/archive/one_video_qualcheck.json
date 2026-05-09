@@ -1,0 +1,13 @@
+{
+  "video_id": "001YG",
+  "ground_truth": "In the office or workspace scene, you are standing near a desk. The desk is at sitting height and has a smooth surface. There are chair wheels and desk legs visible, which are low obstacles. Cables may cross the floor paths, and there are narrow aisles between workstations. The environment is well-lit, and the surfaces are flat and even.",
+  "keyframe_paths": [
+    "/usershome/cs671_user2/p16_blv/data/keyframes/charades/001YG_kf00_frame0000.jpg",
+    "/usershome/cs671_user2/p16_blv/data/keyframes/charades/001YG_kf01_frame0059.jpg",
+    "/usershome/cs671_user2/p16_blv/data/keyframes/charades/001YG_kf02_frame0060.jpg",
+    "/usershome/cs671_user2/p16_blv/data/keyframes/charades/001YG_kf03_frame0063.jpg"
+  ],
+  "condition_A_base": " The video shows a person walking towards a table with a laptop, a water bottle, and a bag. The table has a laptop, a water bottle, and a bag.",
+  "condition_B_sft": " In the living room, a person is seated on a sofa, which is positioned centrally. The coffee table is located in front of the person, slightly to the left, posing a potential trip hazard. The room is spacious, allowing for easy movement.",
+  "condition_C_dpo": " The video shows a person walking towards a table with a laptop, a water bottle, and a bag. The table has a laptop, a water bottle, and a bag."
+}

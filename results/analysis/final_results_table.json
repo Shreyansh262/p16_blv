@@ -1,0 +1,74 @@
+{
+  "A": {
+    "judge": {
+      "spatial_orientation": 1.7486,
+      "social_interaction": 1.9529,
+      "action_events": 1.9229,
+      "ambience": 2.4314,
+      "descriptiveness": 2.0486,
+      "objectivity": 7.26,
+      "accuracy": 1.3557,
+      "clarity": 2.8971,
+      "MCF_Score": 2.0139,
+      "NAF_Score": 3.3904,
+      "n": 700
+    },
+    "nlp": {
+      "BLEU-1": 0.1929,
+      "BLEU-4": 0.0061,
+      "METEOR": 0.1044,
+      "ROUGE-L": 0.1576,
+      "CIDEr": 0.0213,
+      "SPICE": 0.0528,
+      "n": 700
+    }
+  },
+  "B": {
+    "judge": {
+      "spatial_orientation": 1.6657,
+      "social_interaction": 2.0457,
+      "action_events": 1.8543,
+      "ambience": 2.5243,
+      "descriptiveness": 1.8986,
+      "objectivity": 6.9857,
+      "accuracy": 1.27,
+      "clarity": 2.7543,
+      "MCF_Score": 2.0225,
+      "NAF_Score": 3.2271,
+      "n": 700
+    },
+    "nlp": {
+      "BLEU-1": 0.2138,
+      "BLEU-4": 0.0088,
+      "METEOR": 0.1016,
+      "ROUGE-L": 0.1574,
+      "CIDEr": 0.0276,
+      "SPICE": 0.0477,
+      "n": 700
+    }
+  },
+  "C": {
+    "judge": {
+      "spatial_orientation": 1.6629,
+      "social_interaction": 2.0214,
+      "action_events": 1.7886,
+      "ambience": 2.5414,
+      "descriptiveness": 1.9014,
+      "objectivity": 7.0986,
+      "accuracy": 1.3157,
+      "clarity": 2.7014,
+      "MCF_Score": 2.0036,
+      "NAF_Score": 3.2543,
+      "n": 700
+    },
+    "nlp": {
+      "BLEU-1": 0.215,
+      "BLEU-4": 0.009,
+      "METEOR": 0.1013,
+      "ROUGE-L": 0.1573,
+      "CIDEr": 0.0271,
+      "SPICE": 0.0474,
+      "n": 700
+    }
+  }
+}

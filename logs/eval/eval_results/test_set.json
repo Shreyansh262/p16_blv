@@ -1,0 +1,1402 @@
+[
+  {
+    "video_id": "ON2VH",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ON2VH_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ON2VH_kf01_frame0059.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ON2VH_kf02_frame0060.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ON2VH_kf03_frame0061.jpg"
+    ],
+    "original_caption": "One person cooks at the stove, then takes a book and a camera and leaves the room.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a significant portion of the space. On either side of the bed, there are bedside tables at a low height. The clear floor path from the door to the bed is visible, ensuring easy navigation.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "NP0OB",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/NP0OB_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/NP0OB_kf01_frame0003.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/NP0OB_kf02_frame0005.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/NP0OB_kf03_frame0011.jpg"
+    ],
+    "original_caption": "A person is smiling at the person's reflection in a mirror in the living room. The person sneezes and drops the bag that the person was holding.",
+    "blv_description": "In the bedroom, a bed is prominently positioned against the wall, taking up a large portion of the space. On either side of the bed, there are bedside tables at a low height. The floor is clear, providing a safe path from the door to the bed.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "D740L",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/D740L_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/D740L_kf01_frame0001.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/D740L_kf02_frame0002.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/D740L_kf03_frame0064.jpg"
+    ],
+    "original_caption": "A person is holding a bag of clothes. The person laughs as they begin to remove clothes from the bag.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, creating a maze-like environment. Reading tables are scattered throughout, providing spaces for study and relaxation. Low stools and bags on the floor present potential trip hazards. As you navigate, be cautious of the narrow paths and the objects on the floor to avoid accidents.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "6SB75",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/6SB75_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/6SB75_kf01_frame0001.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/6SB75_kf02_frame0014.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/6SB75_kf03_frame0020.jpg"
+    ],
+    "original_caption": "Person is lying on floor playing with phone book in garage.",
+    "blv_description": "In the gym, you are navigating through a narrow path between large exercise machines. The floor is covered with rubber matting, and moving equipment presents a hazard. Keep an eye out for the narrow paths and be cautious of the moving machines.",
+    "rag_context": "Gym or exercise facility. Large exercise equipment occupies floor space. Narrow paths between machines. Floor is rubber matting. Moving equipment presents hazard.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "6305304857",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6305304857_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6305304857_kf01_frame0039.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6305304857_kf02_frame0042.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6305304857_kf03_frame0067.jpg"
+    ],
+    "original_caption": "A girl is lying down and playing with a doll while her dad is talking to her.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a significant portion of the floor space. Two bedside tables are situated at low height on either side of the bed. The clear floor path from the door to the bed is unobstructed, allowing for safe navigation.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "K85A7",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/K85A7_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/K85A7_kf01_frame0017.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/K85A7_kf02_frame0020.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/K85A7_kf03_frame0031.jpg"
+    ],
+    "original_caption": "A person is snuggling with a pillow and looking at a laptop.  They begin sneezing.",
+    "blv_description": "In the office or workspace, you are seated at a desk with a chair that has wheels. The desk surface is at sitting height, and there are cables crossing the floor paths. As you navigate, be aware of the narrow aisles between workstations.",
+    "rag_context": "Office or workspace. Desk surfaces at sitting height throughout. Chair wheels and desk legs present as low obstacles. Cables may cross floor paths. Narrow aisles between workstations.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "AOBWQ",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/AOBWQ_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/AOBWQ_kf01_frame0035.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/AOBWQ_kf02_frame0041.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/AOBWQ_kf03_frame0055.jpg"
+    ],
+    "original_caption": "A person is vacuuming their room when they begin sneezing. They look on a table and begin throwing clothes on it.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a large portion of the space. On either side of the bed, there are bedside tables at a low height. The floor is clear, providing a safe path from the door to the bed.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "Q4932",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/Q4932_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/Q4932_kf01_frame0002.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/Q4932_kf02_frame0016.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/Q4932_kf03_frame0025.jpg"
+    ],
+    "original_caption": "A person is throwing a blanket on the bed and then jumps on it to eat a sandwich and smiles really big.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a large portion of the floor space. On either side of the bed, there are bedside tables at a low height. The clear path from the door to the bed is unobstructed, ensuring safe navigation.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "LKHKF",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LKHKF_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LKHKF_kf01_frame0024.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LKHKF_kf02_frame0027.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LKHKF_kf03_frame0049.jpg"
+    ],
+    "original_caption": "A person smiles as they read a book on the sofa. The person begins laughing hysterically.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, creating a maze-like environment. Reading tables are scattered throughout, providing spaces for study and relaxation. Low stools and bags on the floor are potential trip hazards, requiring careful navigation. The environment is quiet and studious, with the sound of pages turning and occasional whispers filling the air.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "ENCXV",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ENCXV_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ENCXV_kf01_frame0058.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ENCXV_kf02_frame0060.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ENCXV_kf03_frame0062.jpg"
+    ],
+    "original_caption": "A person is standing in their home office drinking from a glass of water. The person takes a medicine bottle from the desk and the glass and walks to their kitchen.",
+    "blv_description": "In the medical facility, you are approaching the reception desk or nursing station. The floor is smooth and clean, with no obstacles or level changes. You may encounter staff members in scrubs or white coats, but their specific positions are not visible. The environment is well-lit, and the space appears organized and professional.",
+    "rag_context": "Medical facility interior. Reception desk or nursing station ahead or to one side. Staff in scrubs or white coats present. Wheelchairs and medical equipment may be in corridors. Smooth linoleum floor.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "ENFL6",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ENFL6_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ENFL6_kf01_frame0010.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ENFL6_kf02_frame0032.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ENFL6_kf03_frame0062.jpg"
+    ],
+    "original_caption": "One person works on homework as another person holding a bag puts a blanket into it, then throws the bag down.",
+    "blv_description": "As you enter the library, you find yourself in a narrow aisle formed by tall bookshelves on both sides. The aisles are dimly lit, with the shelves illuminated by a soft, warm light. You can see several reading tables in the open areas, each equipped with a lamp. The tables are scattered throughout the space, providing ample seating for readers. On the floor, you notice a few low stools and bags, which could pose a trip hazard. As you navigate through the library, be cautious of these obstacles to ensure a safe and comfortable experience.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "WN2N7",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/WN2N7_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/WN2N7_kf01_frame0028.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/WN2N7_kf02_frame0035.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/WN2N7_kf03_frame0048.jpg"
+    ],
+    "original_caption": "A person is lying down on their bed in their bedroom. They begin taking out their phone and placing it on the desk in the room.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a significant portion of the space. On either side of the bed, there are bedside tables at a low height. The floor is clear, providing a safe path from the door to the bed.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "9GS13",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/9GS13_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/9GS13_kf01_frame0004.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/9GS13_kf02_frame0061.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/9GS13_kf03_frame0064.jpg"
+    ],
+    "original_caption": "The person walks into the laundry room with a bag of dirty clothes.  The person dumps the clothes in the washer.  The person then washes hands in the sink.  The person sits for a bit in the laundry room.  The person then takes the garment bag and leaves.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, creating a maze-like environment. Reading tables are scattered throughout, providing spaces for study and relaxation. Low stools and bags on the floor present potential trip hazards. The room is well-lit, with natural light streaming in from large windows.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "XZ2QQ",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/XZ2QQ_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/XZ2QQ_kf01_frame0037.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/XZ2QQ_kf02_frame0061.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/XZ2QQ_kf03_frame0066.jpg"
+    ],
+    "original_caption": "A person looks at their phone and laughs. The person puts the phone down and picks up a book.",
+    "blv_description": "As you enter the library, you find yourself in a narrow aisle bordered by tall bookshelves on both sides. The aisles are dimly lit, casting shadows that accentuate the height of the shelves. You can see reading tables scattered throughout the open areas, each equipped with a lamp and a comfortable chair. The floor is carpeted, and you notice a few low stools and bags on the floor, which could pose a trip hazard. As you navigate through the library, be cautious of these obstacles to ensure a safe and pleasant experience.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "B9F4P",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/B9F4P_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/B9F4P_kf01_frame0037.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/B9F4P_kf02_frame0038.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/B9F4P_kf03_frame0039.jpg"
+    ],
+    "original_caption": "A person wrapped in a towel is holding a mirror, while another person is closing the door to the bedroom.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a large portion of the floor space. On either side of the bed, there are bedside tables at a low height. The clear path from the door to the bed is unobstructed, allowing for safe navigation.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "7585333734",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/7585333734_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/7585333734_kf01_frame0009.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/7585333734_kf02_frame0013.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/7585333734_kf03_frame0020.jpg"
+    ],
+    "original_caption": "A group of children and two men are playing the violin on the street with emotional and beautiful piano music in the background.",
+    "blv_description": "You are walking on a sidewalk in an urban street environment. The pavement is beneath you, and there is road traffic to one or both sides. A raised curb separates the sidewalk from the road. Pedestrians may be present, and street furniture such as poles, bins, and benches may line the path.",
+    "rag_context": "Urban street environment. Pavement beneath you with road traffic to one or both sides. A raised curb separates the sidewalk from the road. Pedestrians may be present. Street furniture such as poles, bins, and benches may line the path.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "GXIWH",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/GXIWH_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/GXIWH_kf01_frame0005.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/GXIWH_kf02_frame0009.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/GXIWH_kf03_frame0020.jpg"
+    ],
+    "original_caption": "A person is smiling at the bag and opening the coffee.",
+    "blv_description": "In the living room, a person is seated on a sofa, which is positioned centrally in the room. The sofa is surrounded by a coffee table at a low height, posing a potential trip hazard. The room is spacious, allowing for easy movement.",
+    "rag_context": "Living room or lounge area. Sofa and seating furniture occupy the central space. Coffee table at low height presents trip hazard. Open space in center of room for movement.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "6PL9Z",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/6PL9Z_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/6PL9Z_kf01_frame0035.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/6PL9Z_kf02_frame0036.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/6PL9Z_kf03_frame0037.jpg"
+    ],
+    "original_caption": "A person stands up from the sofa then takes a book, and blanket out of the room.",
+    "blv_description": "You are in a bedroom. The bed is positioned against the wall, taking up a large portion of the floor space. There are two bedside tables, one on each side of the bed, at a low height. The floor is clear, providing a safe path from the door to the bed.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "D4LRR",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/D4LRR_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/D4LRR_kf01_frame0010.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/D4LRR_kf02_frame0011.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/D4LRR_kf03_frame0030.jpg"
+    ],
+    "original_caption": "A person smiles and takes a picture of themselves. The person throws the camera onto the bed and gets out their laptop.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a significant portion of the space. On either side of the bed, there are bedside tables at a low height. The floor is clear, providing a safe path from the door to the bed.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "3945952313",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3945952313_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3945952313_kf01_frame0053.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3945952313_kf02_frame0055.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3945952313_kf03_frame0064.jpg"
+    ],
+    "original_caption": "A baby is playing with toys while two people are speaking loudly in the house.",
+    "blv_description": "In the bedroom, a bed occupies a significant portion of the floor space against one wall. The bed is flanked by two bedside tables at a low height, positioned on either side of the bed. A clear path leads from the door to the bed, ensuring easy navigation.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "6ZTL6",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/6ZTL6_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/6ZTL6_kf01_frame0010.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/6ZTL6_kf02_frame0057.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/6ZTL6_kf03_frame0058.jpg"
+    ],
+    "original_caption": "A person in a walk-in closet grabs some dirty dishes next to a book,  while they are undressing and sneezing, they turn off the light and walk out.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, creating a maze-like environment. Reading tables are scattered throughout, providing spaces for study and relaxation. Low stools and bags on the floor present potential trip hazards. The library is well-lit, with natural light streaming in from large windows.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "D9UBV",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/D9UBV_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/D9UBV_kf01_frame0030.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/D9UBV_kf02_frame0044.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/D9UBV_kf03_frame0063.jpg"
+    ],
+    "original_caption": "The person is holding some shoes and a bag in their hands while standing in the hallway laughing.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, creating a maze-like environment. Reading tables are scattered throughout, providing spaces for study and relaxation. The floor is carpeted, with low stools and bags placed on the floor, posing potential trip hazards. As you navigate, be cautious of the narrow paths and the objects on the floor to avoid accidents.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "HRFGY",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/HRFGY_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/HRFGY_kf01_frame0010.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/HRFGY_kf02_frame0011.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/HRFGY_kf03_frame0012.jpg"
+    ],
+    "original_caption": "A person sneezes while putting a book on the shelf.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, creating a maze-like environment. Reading tables are scattered throughout, providing spaces for study and relaxation. Low stools and bags on the floor present potential trip hazards. As you navigate, be cautious of the uneven surfaces and the presence of obstacles to ensure safe passage through the library.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "XKM5R",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/XKM5R_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/XKM5R_kf01_frame0001.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/XKM5R_kf02_frame0002.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/XKM5R_kf03_frame0065.jpg"
+    ],
+    "original_caption": "A person can drink a glass of OJ in their bedroom, A person can hold onto dishes in their bedroom.",
+    "blv_description": "You are in a bedroom. The bed is positioned against the wall, taking up a large portion of the floor space. There are bedside tables on either side of the bed, both at a low height. The floor is clear, providing a safe path from the door to the bed.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "LUPRO",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LUPRO_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LUPRO_kf01_frame0041.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LUPRO_kf02_frame0042.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LUPRO_kf03_frame0049.jpg"
+    ],
+    "original_caption": "A person walks into the living room holding a towel.  Another person is laying on the couch eating crackers out of a box.",
+    "blv_description": "In the bedroom, a bed is prominently positioned against the wall, taking up a significant portion of the space. The bed is flanked by two bedside tables, one on each side, at a lower height. A clear path leads from the door to the bed, ensuring easy navigation.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "8183771503",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/8183771503_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/8183771503_kf01_frame0013.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/8183771503_kf02_frame0014.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/8183771503_kf03_frame0040.jpg"
+    ],
+    "original_caption": "A small child is playing with a mobile device while music plays in the background.",
+    "blv_description": "In the gym, you're navigating through a narrow path between large exercise machines. The floor is covered with rubber matting, and moving equipment presents a hazard. Keep an eye out for the narrow paths and be cautious of the moving machines.",
+    "rag_context": "Gym or exercise facility. Large exercise equipment occupies floor space. Narrow paths between machines. Floor is rubber matting. Moving equipment presents hazard.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "ZRITA",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ZRITA_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ZRITA_kf01_frame0023.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ZRITA_kf02_frame0025.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ZRITA_kf03_frame0035.jpg"
+    ],
+    "original_caption": "One person is lying on a small sofa with a sandwich and another person is tidying up a messy desk with a picture on it.",
+    "blv_description": "In the living room, a person is seated on a sofa, which is positioned centrally in the room. The sofa is surrounded by a coffee table at a low height, posing a potential trip hazard. The room is spacious, allowing for easy movement.",
+    "rag_context": "Living room or lounge area. Sofa and seating furniture occupy the central space. Coffee table at low height presents trip hazard. Open space in center of room for movement.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "4RVZB",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/4RVZB_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/4RVZB_kf01_frame0052.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/4RVZB_kf02_frame0058.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/4RVZB_kf03_frame0064.jpg"
+    ],
+    "original_caption": "A person is lying down and opening a box near a chair.",
+    "blv_description": "In the living room, a sofa is positioned centrally, surrounded by a coffee table at a low height, which poses a potential trip hazard. The space is open and clear, allowing for easy movement.",
+    "rag_context": "Living room or lounge area. Sofa and seating furniture occupy the central space. Coffee table at low height presents trip hazard. Open space in center of room for movement.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "A1U0W",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/A1U0W_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/A1U0W_kf01_frame0014.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/A1U0W_kf02_frame0017.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/A1U0W_kf03_frame0019.jpg"
+    ],
+    "original_caption": "Person is watching another person that is playing with pillow and box.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a large portion of the space. On either side of the bed, there are bedside tables at a low height. The floor is clear, providing a safe path from the door to the bed.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "2717265752",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/2717265752_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/2717265752_kf01_frame0043.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/2717265752_kf02_frame0060.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/2717265752_kf03_frame0063.jpg"
+    ],
+    "original_caption": "The baby is playing with a toy by biting it while sitting on the bed.",
+    "blv_description": "In the bedroom, a bed occupies a significant portion of the space against one wall. The bed is flanked by two bedside tables at a low height, positioned on either side of the bed. The clear floor path from the door to the bed is unobstructed, allowing for safe navigation.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "OX3BI",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/OX3BI_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/OX3BI_kf01_frame0027.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/OX3BI_kf02_frame0037.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/OX3BI_kf03_frame0053.jpg"
+    ],
+    "original_caption": "A person walks into the pantry and turns on the light. The person throws something onto the table and then walks out.",
+    "blv_description": "As you enter the library, you find yourself in a narrow aisle formed by tall bookshelves on both sides. The floor is carpeted, and there are low stools and bags on the floor, which could be trip hazards. Reading tables are placed in open areas, providing a safe space to sit and read. The environment is quiet, with the sound of pages turning and occasional whispers.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "KU656",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/KU656_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/KU656_kf01_frame0051.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/KU656_kf02_frame0052.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/KU656_kf03_frame0053.jpg"
+    ],
+    "original_caption": "A person awakens in bed. They pick up a towel from a shelf, leave, and close the door.",
+    "blv_description": "In the bedroom, a bed occupies a significant portion of the floor space against one wall. The bed is flanked by two bedside tables at a low height. A clear path leads from the door to the bed, ensuring easy navigation.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "LBG7L",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LBG7L_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LBG7L_kf01_frame0005.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LBG7L_kf02_frame0006.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LBG7L_kf03_frame0007.jpg"
+    ],
+    "original_caption": "A person walks over to the table.  The person takes a laptop computer out of a bag and opens it.  The person puts sits in a chair and starts doing homework.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, creating a maze-like environment. Reading tables are scattered throughout, providing spaces for study and relaxation. Low stools and bags on the floor present potential trip hazards, requiring careful navigation. The air is filled with the scent of old books and the soft hum of pages turning.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "BBQIS",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/BBQIS_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/BBQIS_kf01_frame0003.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/BBQIS_kf02_frame0004.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/BBQIS_kf03_frame0065.jpg"
+    ],
+    "original_caption": "A person walks into the closet and sits down. The person takes a pair of shoes from a box and puts them on.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, creating a maze-like environment. Reading tables are scattered throughout, providing spaces for study and relaxation. Low stools and bags on the floor are potential trip hazards, requiring careful navigation. The air is filled with the scent of paper and ink, a familiar aroma for book lovers.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "DVBVZ",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/DVBVZ_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/DVBVZ_kf01_frame0051.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/DVBVZ_kf02_frame0057.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/DVBVZ_kf03_frame0059.jpg"
+    ],
+    "original_caption": "One person takes a bag from a shelf and closes it while another person takes medicine and sneezes.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, creating a maze-like environment. Reading tables are scattered throughout, providing spaces for study and relaxation. Low stools and bags on the floor present potential trip hazards. The air is filled with the scent of old books and the soft hum of readers.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "2N5VN",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/2N5VN_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/2N5VN_kf01_frame0005.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/2N5VN_kf02_frame0038.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/2N5VN_kf03_frame0045.jpg"
+    ],
+    "original_caption": "One person is tidying the basement with a vacuum while another person is grasping a sandwich and drinking something.",
+    "blv_description": "In the bedroom, a bed is prominently positioned against the wall, taking up a significant portion of the space. The bed is flanked by two bedside tables, one on each side, at a lower height. The floor is clear, providing a safe path from the door to the bed.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "D8OSC",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/D8OSC_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/D8OSC_kf01_frame0024.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/D8OSC_kf02_frame0036.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/D8OSC_kf03_frame0066.jpg"
+    ],
+    "original_caption": "A person is seen taking a broom from a closet. They begin laughing as they accidentally drop their broom on their bed.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a large portion of the floor space. Two bedside tables are visible, one on each side of the bed. The clear path from the door to the bed is unobstructed, allowing safe navigation.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "6700025711",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6700025711_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6700025711_kf01_frame0003.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6700025711_kf02_frame0037.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6700025711_kf03_frame0038.jpg"
+    ],
+    "original_caption": "Two children are playing with a tent in the house while their father sings a song.",
+    "blv_description": "In the bedroom, a bed occupies a significant portion of the floor space against one wall. On either side of the bed, there are bedside tables at a low height. The clear floor path from the door to the bed is visible, indicating a safe and accessible route for navigation.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "WPFKR",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/WPFKR_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/WPFKR_kf01_frame0005.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/WPFKR_kf02_frame0034.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/WPFKR_kf03_frame0061.jpg"
+    ],
+    "original_caption": "A person is taking off their shoes and putting on their slippers instead. Then, smiling, the person walks to the cabinet and opens it.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, with reading tables occupying open areas. Be cautious of low stools and bags on the floor, which may pose a trip hazard.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "LKQQO",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LKQQO_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LKQQO_kf01_frame0005.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LKQQO_kf02_frame0006.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LKQQO_kf03_frame0019.jpg"
+    ],
+    "original_caption": "A person is seen putting coffee on a table. They then start eating some food while reading a book.",
+    "blv_description": "In the living room, a sofa is positioned centrally, surrounded by seating furniture. A coffee table is situated in the foreground, posing a potential trip hazard. The open space in the middle of the room allows for easy movement.",
+    "rag_context": "Living room or lounge area. Sofa and seating furniture occupy the central space. Coffee table at low height presents trip hazard. Open space in center of room for movement.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "9IT59",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/9IT59_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/9IT59_kf01_frame0021.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/9IT59_kf02_frame0043.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/9IT59_kf03_frame0044.jpg"
+    ],
+    "original_caption": "A person is holding a pillow. They put it in a cabinet and smile.",
+    "blv_description": "In the medical facility, you are approaching the reception desk or nursing station. The floor is smooth and clean, with no obstacles or level changes. Staff members in scrubs or white coats are present, indicating a professional medical environment. The area is well-lit, with no visible hazards or obstructions.",
+    "rag_context": "Medical facility interior. Reception desk or nursing station ahead or to one side. Staff in scrubs or white coats present. Wheelchairs and medical equipment may be in corridors. Smooth linoleum floor.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "3066398259",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3066398259_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3066398259_kf01_frame0035.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3066398259_kf02_frame0039.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3066398259_kf03_frame0054.jpg"
+    ],
+    "original_caption": "A baby and another child are playing with toys at home while a man speaks softly in the background.",
+    "blv_description": "In the bedroom, a bed occupies a large portion of the space against the wall, with clear pathways leading from the door to the bed. Two bedside tables are positioned at low height on either side of the bed. The room is well-lit, providing a safe and navigable environment.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "ED0VL",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ED0VL_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ED0VL_kf01_frame0001.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ED0VL_kf02_frame0002.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/ED0VL_kf03_frame0066.jpg"
+    ],
+    "original_caption": "One person puts homework and a small towel in a bag, then closes it.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, with reading tables occupying open areas. As you navigate, be aware of low stools and bags on the floor that could cause tripping.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "UG6NT",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/UG6NT_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/UG6NT_kf01_frame0002.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/UG6NT_kf02_frame0004.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/UG6NT_kf03_frame0006.jpg"
+    ],
+    "original_caption": "A person is throwing a pillow while another person is sitting and holding a camera.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a large portion of the space. On either side of the bed, there are bedside tables at a low height. The floor is clear, providing a safe path from the door to the bed.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "AC3T4",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/AC3T4_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/AC3T4_kf01_frame0016.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/AC3T4_kf02_frame0046.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/AC3T4_kf03_frame0065.jpg"
+    ],
+    "original_caption": "A person is grasping a book while walking around in shoes",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, with reading tables occupying open areas. Be cautious of low stools and bags on the floor, which may pose a trip hazard.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "HS3XP",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/HS3XP_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/HS3XP_kf01_frame0066.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/HS3XP_kf02_frame0067.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/HS3XP_kf03_frame0077.jpg"
+    ],
+    "original_caption": "A person stands in the bedroom, watching themselves in the mirror. The person turns off the light and goes to bed.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a large portion of the space. On either side of the bed, there are bedside tables at a low height. The floor is clear, providing a safe path from the door to the bed.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "6443440431",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6443440431_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6443440431_kf01_frame0022.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6443440431_kf02_frame0023.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6443440431_kf03_frame0040.jpg"
+    ],
+    "original_caption": "A baby is playing with a teddy bear while a woman converses with the child and music plays in the background.",
+    "blv_description": "In the living room, a sofa is positioned centrally, surrounded by a coffee table at a low height, which poses a potential trip hazard. The space is open and clear, allowing for easy movement.",
+    "rag_context": "Living room or lounge area. Sofa and seating furniture occupy the central space. Coffee table at low height presents trip hazard. Open space in center of room for movement.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "3004044251",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3004044251_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3004044251_kf01_frame0001.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3004044251_kf02_frame0017.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3004044251_kf03_frame0018.jpg"
+    ],
+    "original_caption": "A mother is recording a video with her baby at home, and the baby makes cooing sounds while she interacts with him.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a significant portion of the space. On either side of the bed, there are bedside tables at a low height. The floor is clear, providing a safe path from the door to the bed.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "0BZAD",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/0BZAD_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/0BZAD_kf01_frame0001.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/0BZAD_kf02_frame0006.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/0BZAD_kf03_frame0011.jpg"
+    ],
+    "original_caption": "A person holding a bag of food is watching writing in a book.  The person finishes writing and closes the book then eats the food in the bag.",
+    "blv_description": "As you enter the library, you find yourself in a narrow aisle formed by tall bookshelves on both sides. The aisles are dimly lit, with reading tables scattered throughout the open areas. Be cautious of the low stools and bags on the floor, which could be trip hazards.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "SAT9P",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/SAT9P_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/SAT9P_kf01_frame0010.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/SAT9P_kf02_frame0011.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/SAT9P_kf03_frame0021.jpg"
+    ],
+    "original_caption": "Seeing something out the bathroom window, the person pulled up a chair. Watching intently, they grabbed a blanket from the linen closet and began snuggling up. After a little while, the person picked up a book from the counter, and began reading for their homework.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, with reading tables occupying open areas. Be cautious of low stools and bags on the floor, which may pose a trip hazard.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "PM107",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/PM107_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/PM107_kf01_frame0017.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/PM107_kf02_frame0040.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/PM107_kf03_frame0041.jpg"
+    ],
+    "original_caption": "Person slings bag over back, and grabs a box.  Then the person walks to the top of the stairs.  Person puts down the bag and the box at the top of the stairs.  Person opens curtains, and starts watching out of the window.",
+    "blv_description": "As you approach the library, you'll find yourself navigating through tall bookshelves that form narrow aisles. Keep your eyes on the ground to avoid tripping over the low stools and bags that are scattered on the floor. The reading tables are situated in open areas, providing a safe space to sit and read.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "3120429335",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3120429335_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3120429335_kf01_frame0001.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3120429335_kf02_frame0013.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3120429335_kf03_frame0014.jpg"
+    ],
+    "original_caption": "People are talking and laughing together while enjoying a boat ride.",
+    "blv_description": "In the bustling transport hub, a person is seen navigating through a crowd of travelers, each carrying their luggage. The individual is moving swiftly along a well-lit pathway, avoiding obstacles and maintaining a safe distance from others. The floor is smooth and level, facilitating easy movement. Multiple lanes and pathways are visible, indicating a well-organized space designed to handle heavy foot traffic efficiently.",
+    "rag_context": "Transport hub interior such as train station or airport. Moving crowds with luggage present hazard. Multiple pathways and lanes. Moving walkways possible. Level smooth floor.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "KLO0K",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/KLO0K_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/KLO0K_kf01_frame0012.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/KLO0K_kf02_frame0015.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/KLO0K_kf03_frame0034.jpg"
+    ],
+    "original_caption": "A person is playing with a doorknob while another person is lying on a pillow.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a large portion of the space. On either side of the bed, there are bedside tables at a low height. The floor is clear, providing a safe path from the door to the bed.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "6516459343",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6516459343_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6516459343_kf01_frame0002.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6516459343_kf02_frame0026.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6516459343_kf03_frame0056.jpg"
+    ],
+    "original_caption": "Two young boys are cutting a shoe with a knife while having a conversation.",
+    "blv_description": "In the construction or roadworks area, a person is seen navigating through a temporary barrier that redirects the footpath. The surface beneath their feet appears uneven or loose, indicating a high hazard zone. An alternative path marked by temporary signage is visible, guiding individuals to a safer route.",
+    "rag_context": "Construction or roadworks area. Temporary barriers redirect the footpath. Uneven or loose surface beneath feet. High hazard zone. Alternative path marked by temporary signage.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "7TNGJ",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/7TNGJ_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/7TNGJ_kf01_frame0007.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/7TNGJ_kf02_frame0008.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/7TNGJ_kf03_frame0057.jpg"
+    ],
+    "original_caption": "A person is seen opening the medicine cabinet. They begin pulling out medicine and eating it. They then walk out the doorway.",
+    "blv_description": "In the medical facility, you are approaching a reception desk or nursing station. The floor is smooth and clean, with no obstacles or level changes. Staff members in scrubs or white coats are present, indicating a professional environment. The area is well-lit, with no visible hazards or obstructions.",
+    "rag_context": "Medical facility interior. Reception desk or nursing station ahead or to one side. Staff in scrubs or white coats present. Wheelchairs and medical equipment may be in corridors. Smooth linoleum floor.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "2851336169",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/2851336169_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/2851336169_kf01_frame0022.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/2851336169_kf02_frame0025.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/2851336169_kf03_frame0026.jpg"
+    ],
+    "original_caption": "A baby girl is dancing and playing with toys in the room.",
+    "blv_description": "In the bedroom, a bed occupies a significant portion of the floor space against one wall. The bed is flanked by two bedside tables at a low height, creating a clear path from the door to the bed. The room is well-lit, with natural light streaming in from a window.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "UL65N",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/UL65N_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/UL65N_kf01_frame0006.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/UL65N_kf02_frame0007.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/UL65N_kf03_frame0020.jpg"
+    ],
+    "original_caption": "A person walks into the bedroom and sits on the bed.  They pull a bag out from under the bad and put it on the bedside table.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a significant portion of the space. The bed is flanked by two bedside tables at a lower height, creating a clear path from the door to the bed. The room is well-lit, with no obstacles on the floor.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "6102982194",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6102982194_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6102982194_kf01_frame0001.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6102982194_kf02_frame0010.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6102982194_kf03_frame0029.jpg"
+    ],
+    "original_caption": "A group of boys is playing musical instruments and singing at a music event.",
+    "blv_description": "In the gym, you are navigating through a narrow path between large exercise machines. The floor is covered with rubber matting, and moving equipment presents a hazard. Keep an eye out for the narrow paths and be cautious of the moving machines.",
+    "rag_context": "Gym or exercise facility. Large exercise equipment occupies floor space. Narrow paths between machines. Floor is rubber matting. Moving equipment presents hazard.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "VIDIE",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/VIDIE_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/VIDIE_kf01_frame0065.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/VIDIE_kf02_frame0066.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/VIDIE_kf03_frame0067.jpg"
+    ],
+    "original_caption": "A person is holding a pair of shoes and a camera. The person sets the camera down on the desk, and throws the pair of shoes into the corner.",
+    "blv_description": "In the office or workspace, a person is seated at a desk with a chair that has wheels. The desk is at sitting height, and there are cables crossing the floor paths. The person is facing a computer monitor, and there are narrow aisles between workstations.",
+    "rag_context": "Office or workspace. Desk surfaces at sitting height throughout. Chair wheels and desk legs present as low obstacles. Cables may cross floor paths. Narrow aisles between workstations.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "5277922081",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/5277922081_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/5277922081_kf01_frame0001.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/5277922081_kf02_frame0005.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/5277922081_kf03_frame0027.jpg"
+    ],
+    "original_caption": "A group of people is gathered, talking and laughing, while a lady excitedly takes out gifts from a bag.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, creating a maze-like environment. Reading tables are scattered throughout, providing spaces for study and relaxation. Low stools and bags on the floor present potential trip hazards, so be cautious when navigating.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "S2FLE",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/S2FLE_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/S2FLE_kf01_frame0004.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/S2FLE_kf02_frame0060.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/S2FLE_kf03_frame0067.jpg"
+    ],
+    "original_caption": "A person is putting homework on a shelf.  Then a person is sneezing and taking a bag of groceries out of the living room.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, creating a maze-like environment. Reading tables are scattered throughout, providing spaces for study and relaxation. Low stools and bags on the floor are potential trip hazards, requiring careful navigation.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "RQVJK",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/RQVJK_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/RQVJK_kf01_frame0021.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/RQVJK_kf02_frame0023.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/RQVJK_kf03_frame0065.jpg"
+    ],
+    "original_caption": "A person is sitting on a couch, they begin sneezing and then reach for a glass of water and medicine nearby and drink the water in the process of taking the medicine.",
+    "blv_description": "In the living room, a sofa is positioned centrally, surrounded by a coffee table at a low height, which poses a potential trip hazard. The room is spacious, allowing for easy movement.",
+    "rag_context": "Living room or lounge area. Sofa and seating furniture occupy the central space. Coffee table at low height presents trip hazard. Open space in center of room for movement.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "8307248068",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/8307248068_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/8307248068_kf01_frame0052.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/8307248068_kf02_frame0053.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/8307248068_kf03_frame0054.jpg"
+    ],
+    "original_caption": "A woman and a boy are unwrapping a gift box while people chat and laugh happily.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a significant portion of the floor space. On either side of the bed, there are bedside tables at a low height. The clear path from the door to the bed is unobstructed, allowing for safe navigation.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "EQ36U",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/EQ36U_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/EQ36U_kf01_frame0028.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/EQ36U_kf02_frame0029.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/EQ36U_kf03_frame0030.jpg"
+    ],
+    "original_caption": "Person is tidying up floor in garage. Another person is looking at picture on phone and laughing.",
+    "blv_description": "In the gym, you are navigating through a narrow path between large exercise machines. The floor is covered with rubber matting, and moving equipment presents a hazard. Keep an eye out for the narrow paths and be cautious of the moving machines.",
+    "rag_context": "Gym or exercise facility. Large exercise equipment occupies floor space. Narrow paths between machines. Floor is rubber matting. Moving equipment presents hazard.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "3775071635",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3775071635_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3775071635_kf01_frame0007.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3775071635_kf02_frame0015.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3775071635_kf03_frame0040.jpg"
+    ],
+    "original_caption": "A baby boy is playing and reading a storybook while his mother is talking with him.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, creating a maze-like environment. Reading tables are scattered throughout, providing spaces for study and relaxation. Low stools and bags on the floor present potential trip hazards, requiring careful navigation. The environment is quiet and studious, with the sound of pages turning and occasional whispers filling the air.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "CWMSY",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/CWMSY_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/CWMSY_kf01_frame0009.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/CWMSY_kf02_frame0038.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/CWMSY_kf03_frame0062.jpg"
+    ],
+    "original_caption": "Person is tidying up bed fixing blanket and pillow. Another person is playing with shoes.",
+    "blv_description": "In the bedroom, a bed occupies a significant portion of the floor space against one wall. The bed is flanked by two bedside tables at a low height, positioned on either side of the bed. A clear path leads from the door to the bed, ensuring easy navigation.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "5801184682",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/5801184682_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/5801184682_kf01_frame0002.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/5801184682_kf02_frame0022.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/5801184682_kf03_frame0023.jpg"
+    ],
+    "original_caption": "A woman whispers softly to a child and a cat, which is playing with a boy's hand.",
+    "blv_description": "The video depicts a bedroom scene with a bed prominently positioned against one wall. The bed is large and occupies a significant portion of the floor space. On either side of the bed, there are bedside tables at a low height. The floor is clear, providing a safe path from the door to the bed. The room appears to be well-lit, with no visible obstacles on the floor.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "6142416815",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6142416815_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6142416815_kf01_frame0003.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6142416815_kf02_frame0008.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6142416815_kf03_frame0009.jpg"
+    ],
+    "original_caption": "A baby is peacefully sleeping on a blue bed.",
+    "blv_description": "In the bedroom, a bed occupies a large portion of the floor space against one wall. Two bedside tables are positioned at low height on either side of the bed. A clear path leads from the door to the bed, ensuring easy navigation.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "58VZI",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/58VZI_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/58VZI_kf01_frame0036.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/58VZI_kf02_frame0037.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/58VZI_kf03_frame0065.jpg"
+    ],
+    "original_caption": "A person is sitting in a chair playing video games.  The person grabs a glass of water off the shelf and takes a drink, then grabs a pillow off the floor and puts it behind their back.",
+    "blv_description": "In the living room, a sofa is positioned centrally, surrounded by a coffee table at a low height, which poses a potential trip hazard. The room is spacious, allowing for easy movement.",
+    "rag_context": "Living room or lounge area. Sofa and seating furniture occupy the central space. Coffee table at low height presents trip hazard. Open space in center of room for movement.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "4145193796",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/4145193796_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/4145193796_kf01_frame0010.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/4145193796_kf02_frame0011.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/4145193796_kf03_frame0013.jpg"
+    ],
+    "original_caption": "A young girl in a white dress is running and playing on the road while talking to someone.",
+    "blv_description": "You are walking on a sidewalk in an urban street environment. The pavement beneath you is flat and even, with road traffic visible to one or both sides. A raised curb separates the sidewalk from the road. Pedestrians may be present, and street furniture such as poles, bins, and benches may line the path.",
+    "rag_context": "Urban street environment. Pavement beneath you with road traffic to one or both sides. A raised curb separates the sidewalk from the road. Pedestrians may be present. Street furniture such as poles, bins, and benches may line the path.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "LPJWM",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LPJWM_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LPJWM_kf01_frame0026.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LPJWM_kf02_frame0027.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LPJWM_kf03_frame0053.jpg"
+    ],
+    "original_caption": "A person is in the laundry room undressing the pillow and laughing at the camera.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a significant portion of the space. On either side of the bed, there are bedside tables at a low height. The floor is clear, providing a safe path from the door to the bed.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "7834507362",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/7834507362_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/7834507362_kf01_frame0021.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/7834507362_kf02_frame0027.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/7834507362_kf03_frame0031.jpg"
+    ],
+    "original_caption": "A man is playing tennis on the ground, showing skillful strokes and quick movements.",
+    "blv_description": "In the gym, a person is seen moving a large exercise machine, which presents a hazard due to its size and the narrow paths between other equipment. The floor is covered with rubber matting, and the space is filled with various exercise machines, creating a challenging environment for navigation.",
+    "rag_context": "Gym or exercise facility. Large exercise equipment occupies floor space. Narrow paths between machines. Floor is rubber matting. Moving equipment presents hazard.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "K5IAK",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/K5IAK_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/K5IAK_kf01_frame0017.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/K5IAK_kf02_frame0027.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/K5IAK_kf03_frame0035.jpg"
+    ],
+    "original_caption": "Person enters the bedroom holding a vacuum and begins to vacuum the room.  Once finished Person begins working on homework that was on the desk.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a significant portion of the floor space. Two bedside tables are situated at low height on either side of the bed. The clear floor path from the door to the bed is unobstructed, ensuring safe navigation.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "8995900542",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/8995900542_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/8995900542_kf01_frame0033.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/8995900542_kf02_frame0034.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/8995900542_kf03_frame0058.jpg"
+    ],
+    "original_caption": "A boy is using a mobile phone and a laptop while talking to someone with background noise.",
+    "blv_description": "In the office or workspace scene, a person is seated at a desk, with their chair wheels and desk legs visible as low obstacles. The desk surfaces are at sitting height throughout, and cables may cross the floor paths. Narrow aisles between workstations are present, providing a clear path for navigation.",
+    "rag_context": "Office or workspace. Desk surfaces at sitting height throughout. Chair wheels and desk legs present as low obstacles. Cables may cross floor paths. Narrow aisles between workstations.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "L347E",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/L347E_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/L347E_kf01_frame0055.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/L347E_kf02_frame0056.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/L347E_kf03_frame0057.jpg"
+    ],
+    "original_caption": "A person is working on fixing their camera then vegins to throw a broom on the floor.",
+    "blv_description": "In the gym, you're navigating through a narrow path between large exercise machines. The floor is covered with rubber matting, and moving equipment presents a hazard. Keep an eye out for the narrow paths and be cautious of the moving machines.",
+    "rag_context": "Gym or exercise facility. Large exercise equipment occupies floor space. Narrow paths between machines. Floor is rubber matting. Moving equipment presents hazard.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "X42YA",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/X42YA_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/X42YA_kf01_frame0002.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/X42YA_kf02_frame0064.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/X42YA_kf03_frame0065.jpg"
+    ],
+    "original_caption": "One person runs through, sits in a chair, and puts on shoes in front of a mirror.",
+    "blv_description": "In the office or workspace, a person is seated at a desk, with their back to the viewer. The desk is at sitting height, and there are chair wheels and desk legs visible as low obstacles. Cables may cross the floor paths, and there are narrow aisles between workstations.",
+    "rag_context": "Office or workspace. Desk surfaces at sitting height throughout. Chair wheels and desk legs present as low obstacles. Cables may cross floor paths. Narrow aisles between workstations.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "PHH49",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/PHH49_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/PHH49_kf01_frame0022.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/PHH49_kf02_frame0023.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/PHH49_kf03_frame0024.jpg"
+    ],
+    "original_caption": "A person is laughing at a television then lying on clothes on the floor of a dining room.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a significant portion of the space. On either side of the bed, there are bedside tables at a low height. The floor is clear, providing a safe path from the door to the bed.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "KI0YZ",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/KI0YZ_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/KI0YZ_kf01_frame0001.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/KI0YZ_kf02_frame0002.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/KI0YZ_kf03_frame0003.jpg"
+    ],
+    "original_caption": "A person is in their bedroom lying on a pillow while laughing at a picture they took on their camera. They get up while grasping the camera in their left hand.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a significant portion of the floor space. On either side of the bed, there are bedside tables at a low height. The clear path from the door to the bed is unobstructed, allowing for safe navigation.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "RS9D9",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/RS9D9_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/RS9D9_kf01_frame0004.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/RS9D9_kf02_frame0062.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/RS9D9_kf03_frame0063.jpg"
+    ],
+    "original_caption": "A person in the closet is smiling and sitting in a chair while dressing and reading a book.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, creating a maze-like environment. Reading tables are scattered throughout, providing spaces for study and relaxation. Low stools and bags on the floor present potential trip hazards. As you navigate, be cautious of the uneven surfaces and the narrow paths between the bookshelves.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "NILOB",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/NILOB_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/NILOB_kf01_frame0008.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/NILOB_kf02_frame0024.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/NILOB_kf03_frame0025.jpg"
+    ],
+    "original_caption": "A person is sitting in a closet snuggling a book, and holding on to homework.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, creating a maze-like environment. Reading tables are scattered throughout, providing spaces for study and relaxation. Low stools and bags on the floor present potential trip hazards. The environment is well-lit, with natural light streaming in from windows, creating a calm and inviting atmosphere.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "NDBXV",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/NDBXV_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/NDBXV_kf01_frame0021.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/NDBXV_kf02_frame0028.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/NDBXV_kf03_frame0065.jpg"
+    ],
+    "original_caption": "A person is seen grasping a vacuum while laughing. They begin cleaning the area but notice a camera which they start to fiddle with.",
+    "blv_description": "In the gym, a person is seen walking through a narrow path between large exercise machines. The floor is covered with rubber matting, and moving equipment presents a hazard.",
+    "rag_context": "Gym or exercise facility. Large exercise equipment occupies floor space. Narrow paths between machines. Floor is rubber matting. Moving equipment presents hazard.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "7403938330",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/7403938330_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/7403938330_kf01_frame0057.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/7403938330_kf02_frame0058.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/7403938330_kf03_frame0059.jpg"
+    ],
+    "original_caption": "The baby is playing and making sounds while sitting on his father's arm.",
+    "blv_description": "In the living room, a sofa is positioned centrally, flanked by seating furniture on either side. A coffee table is situated in the foreground, posing a potential trip hazard. The open space in the middle of the room allows for easy movement.",
+    "rag_context": "Living room or lounge area. Sofa and seating furniture occupy the central space. Coffee table at low height presents trip hazard. Open space in center of room for movement.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "3214351987",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3214351987_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3214351987_kf01_frame0025.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3214351987_kf02_frame0026.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3214351987_kf03_frame0056.jpg"
+    ],
+    "original_caption": "A mother and her baby are in a play area, with music in the background.",
+    "blv_description": "In the medical facility, you are approaching the reception desk or nursing station. The floor is smooth and clean, with no obstacles or level changes. Staff members in scrubs or white coats are present, indicating a professional medical environment. The area is well-lit, with no visible hazards or obstructions.",
+    "rag_context": "Medical facility interior. Reception desk or nursing station ahead or to one side. Staff in scrubs or white coats present. Wheelchairs and medical equipment may be in corridors. Smooth linoleum floor.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "3832159922",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3832159922_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3832159922_kf01_frame0017.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3832159922_kf02_frame0018.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3832159922_kf03_frame0019.jpg"
+    ],
+    "original_caption": "Three musicians are playing music with great emotion, including a woman on the piano and a man on the drums.",
+    "blv_description": "In the bustling transport hub, a person is seen navigating through the crowd, their movements guided by the bustling activity around them. The floor is smooth and level, providing a safe path for the individual. Various pathways and lanes are visible, with moving walkways providing an alternative route for travelers. The crowd, filled with people carrying luggage, presents a potential hazard, requiring careful navigation.",
+    "rag_context": "Transport hub interior such as train station or airport. Moving crowds with luggage present hazard. Multiple pathways and lanes. Moving walkways possible. Level smooth floor.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "RECCV",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/RECCV_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/RECCV_kf01_frame0001.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/RECCV_kf02_frame0025.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/RECCV_kf03_frame0028.jpg"
+    ],
+    "original_caption": "A person is lying on a blanket by the closet door, playing a game of hide-and-seek.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a large portion of the floor space. Two bedside tables are situated at a low height on either side of the bed. The clear path from the door to the bed is unobstructed, ensuring safe navigation.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "G2NY6",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/G2NY6_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/G2NY6_kf01_frame0004.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/G2NY6_kf02_frame0005.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/G2NY6_kf03_frame0046.jpg"
+    ],
+    "original_caption": "A person standing in front of a table in the bedroom washing a box that holds there shoes.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a significant portion of the space. On either side of the bed, there are bedside tables at a low height. The floor is clear, providing a safe path from the door to the bed.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "4090151914",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/4090151914_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/4090151914_kf01_frame0011.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/4090151914_kf02_frame0037.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/4090151914_kf03_frame0046.jpg"
+    ],
+    "original_caption": "A father is playing with his baby, making the baby happy while the baby is in a jumping chair.",
+    "blv_description": "In the living room, a sofa is positioned centrally, surrounded by seating furniture. A coffee table is situated in the foreground, posing a potential trip hazard. The open space in the middle of the room allows for easy movement.",
+    "rag_context": "Living room or lounge area. Sofa and seating furniture occupy the central space. Coffee table at low height presents trip hazard. Open space in center of room for movement.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "H5TGJ",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/H5TGJ_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/H5TGJ_kf01_frame0024.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/H5TGJ_kf02_frame0027.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/H5TGJ_kf03_frame0052.jpg"
+    ],
+    "original_caption": "A person awakens in a bedroom, takes a sweater from a bag and begins dressing in front of  a mirror.",
+    "blv_description": "In the bedroom, a bed occupies a significant portion of the floor space against one wall. The room is well-lit, and the bed is positioned centrally. On either side of the bed, there are bedside tables at a low height, providing a clear path from the door to the bed. The room appears to be spacious and well-organized, with no obstacles in the path.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "QZPO6",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/QZPO6_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/QZPO6_kf01_frame0001.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/QZPO6_kf02_frame0032.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/QZPO6_kf03_frame0036.jpg"
+    ],
+    "original_caption": "A person is snuggling a bag while holding a mirror.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, creating a maze-like environment. Reading tables are scattered throughout, providing spaces for study and relaxation. Low stools and bags on the floor present potential trip hazards. The library is well-lit, with natural light streaming in from large windows.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "HONL7",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/HONL7_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/HONL7_kf01_frame0031.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/HONL7_kf02_frame0032.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/HONL7_kf03_frame0039.jpg"
+    ],
+    "original_caption": "One person lying near the doorway throws down a book and starts playing games on a laptop.",
+    "blv_description": "In the library, tall bookshelves form narrow aisles, creating a maze-like environment. Reading tables are scattered throughout, providing spaces for study and relaxation. Low stools and bags on the floor present potential trip hazards. The air is filled with the scent of paper and ink, and the sound of pages turning is a constant hum.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "Z0O2V",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/Z0O2V_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/Z0O2V_kf01_frame0044.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/Z0O2V_kf02_frame0061.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/Z0O2V_kf03_frame0063.jpg"
+    ],
+    "original_caption": "One person opens a cabinet with dishes on a shelf, then closes it. Another person in the doorway throws a book.",
+    "blv_description": "As you enter the library, you find yourself in a narrow aisle formed by tall bookshelves on both sides. The aisles are dimly lit, with reading tables scattered throughout the open areas. Be cautious of the low stools and bags on the floor, which could be trip hazards.",
+    "rag_context": "Library environment. Tall bookshelves form narrow aisles. Reading tables occupy open areas. Low stools and bags on floor present trip hazards.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "LNEAG",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LNEAG_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LNEAG_kf01_frame0013.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LNEAG_kf02_frame0014.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/LNEAG_kf03_frame0061.jpg"
+    ],
+    "original_caption": "Person is holding picture, then puts picture on top of pillow then starts laughing.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a large portion of the space. On either side of the bed, there are bedside tables at a low height. The floor is clear, providing a safe path from the door to the bed.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "V58VE",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/V58VE_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/V58VE_kf01_frame0009.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/V58VE_kf02_frame0010.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/V58VE_kf03_frame0037.jpg"
+    ],
+    "original_caption": "A person is seen snuggling up with their laptop on their bed. They are smiling while holding their laptop.",
+    "blv_description": "In the bedroom, a bed is prominently positioned against the wall, taking up a significant portion of the space. On either side of the bed, there are bedside tables at a low height, providing a clear path from the door to the bed. The room is well-lit, with no visible obstacles on the floor.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "6643743435",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6643743435_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6643743435_kf01_frame0010.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6643743435_kf02_frame0012.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/6643743435_kf03_frame0013.jpg"
+    ],
+    "original_caption": "A mother is talking with her child at home while the grandfather and father play with the child and a train set.",
+    "blv_description": "In the bustling transport hub, a person is seen navigating through the crowd, their movements guided by the bustling activity around them. The floor is smooth and level, providing a safe passage for travelers. The crowd, with their luggage in tow, moves in various directions, creating a dynamic and busy environment. The person's path is clear, with no immediate obstacles in their way, allowing them to move efficiently through the space.",
+    "rag_context": "Transport hub interior such as train station or airport. Moving crowds with luggage present hazard. Multiple pathways and lanes. Moving walkways possible. Level smooth floor.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "WE2PF",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/WE2PF_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/WE2PF_kf01_frame0048.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/WE2PF_kf02_frame0049.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/WE2PF_kf03_frame0061.jpg"
+    ],
+    "original_caption": "A person is sitting upon a sofa, unsuccessfully, grasps for the bag from their sandwich as a gust of wind from their sneeze leaves it lying on the floor near their shoes.",
+    "blv_description": "In the living room, a sofa is positioned centrally, surrounded by a coffee table at a low height, which poses a potential trip hazard. The room is spacious, allowing for easy movement.",
+    "rag_context": "Living room or lounge area. Sofa and seating furniture occupy the central space. Coffee table at low height presents trip hazard. Open space in center of room for movement.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "5309090557",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/5309090557_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/5309090557_kf01_frame0006.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/5309090557_kf02_frame0025.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/5309090557_kf03_frame0027.jpg"
+    ],
+    "original_caption": "The baby is happily playing in a swing at home.",
+    "blv_description": "In the living room, a sofa is positioned centrally, surrounded by a coffee table at a low height, which poses a potential trip hazard. The space is open and clear, providing ample room for movement.",
+    "rag_context": "Living room or lounge area. Sofa and seating furniture occupy the central space. Coffee table at low height presents trip hazard. Open space in center of room for movement.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "3149819375",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3149819375_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3149819375_kf01_frame0043.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3149819375_kf02_frame0054.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/3149819375_kf03_frame0055.jpg"
+    ],
+    "original_caption": "A young lady arrived at the beach with her friends for a vacation, while a baby boy is playing with toy cars in the sand.",
+    "blv_description": "In the open parking area, a person is walking towards the camera, moving through the space between the vehicle bays. The ground is marked with painted lines, indicating the boundaries of the bays. The person is wearing a light-colored top and dark pants. The parking area is spacious, with no obstacles in the immediate path. The surface is level tarmac, and there are no visible speed bumps. The person is moving at a steady pace, indicating a safe and controlled environment.",
+    "rag_context": "Open parking area. Vehicle bays extend ahead and to the sides. Moving vehicles are possible. Painted lines mark bays on the ground. Speed bumps may be present. Surface is typically level tarmac.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "7546030642",
+    "dataset": "avcaps",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/7546030642_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/7546030642_kf01_frame0017.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/7546030642_kf02_frame0018.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/avcaps/7546030642_kf03_frame0019.jpg"
+    ],
+    "original_caption": "A mother and her baby girl are on the bed, with the baby playing and the mother occasionally checking on her.",
+    "blv_description": "In the bedroom, a bed is prominently positioned against the wall, taking up a significant portion of the space. The bed is flanked by two bedside tables, one on each side, at a lower height. A clear path leads from the door to the bed, ensuring easy navigation.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "N2OCX",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/N2OCX_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/N2OCX_kf01_frame0008.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/N2OCX_kf02_frame0060.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/N2OCX_kf03_frame0061.jpg"
+    ],
+    "original_caption": "A person laughs while holding a broom in the basement, then sneezes on a chair.",
+    "blv_description": "In the office or workspace scene, a desk is positioned in the foreground, with another desk visible in the background. The desk surfaces are at sitting height, and there are chair wheels and desk legs present as low obstacles. Cables may cross the floor paths, and narrow aisles between workstations are present.",
+    "rag_context": "Office or workspace. Desk surfaces at sitting height throughout. Chair wheels and desk legs present as low obstacles. Cables may cross floor paths. Narrow aisles between workstations.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  },
+  {
+    "video_id": "6W2MO",
+    "dataset": "charades",
+    "keyframe_paths": [
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/6W2MO_kf00_frame0000.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/6W2MO_kf01_frame0040.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/6W2MO_kf02_frame0045.jpg",
+      "/usershome/cs671_user2/p16_blv/data/keyframes/charades/6W2MO_kf03_frame0062.jpg"
+    ],
+    "original_caption": "A person is smiling while on the phone and then sneezing while taking off shoes in a dining room.",
+    "blv_description": "In the bedroom, a bed is positioned against the wall, taking up a large portion of the space. On either side of the bed, there are bedside tables at a low height. The floor is clear, providing a safe path from the door to the bed.",
+    "rag_context": "Bedroom environment. Bed occupies significant floor space against one wall. Bedside tables at low height on either side. Clear floor path from door to bed.",
+    "teacher_model": "Qwen/Qwen2-VL-7B-Instruct"
+  }
+]

@@ -1,0 +1,21 @@
+Collapse Diagnosis — SFT Stage 2, do_sample=True, temperature=0.7, repetition_penalty=1.3
+================================================================================
+
+Video: ON2VH
+Condition B (greedy): The scene is an indoor kitchen. There are wooden cabinets, a white stove, and a white microwave oven. A person is standing in the kitchen, holding a blue box. The person is wearing a black shirt and dark pants. The kitchen is well-lit with natural light coming in from the windows.
+
+SFT sampled (t=0.7):  In the living room or lounge area depicted in the scene, a person can be seen standing near a sofa, which occupies a significant portion of the floor space. The coffee table situated in front of the sofa presents a potential trip hazard for anyone navigating through the open space. The surrounding environment shows another seating arrangement with chairs and possibly other furniture items at various distances from the camera, all occupying different levels of ground clearance.
+--------------------------------------------------------------------------------
+
+Video: SAT9P
+Condition B (greedy): The scene is an indoor bathroom. The person is wearing a striped shirt and a cap. The person is standing in front of a sink and washing their hands.
+
+SFT sampled (t=0.7):  In the public transport waiting area, a person is seen standing near the shelter structure, which is located to the left side of the frame. The pavement edge and road are directly visible adjacent to the waiting area. Other waitlisted passengers may be seated or standing nearby, creating a typical scene for those using public transportation.
+--------------------------------------------------------------------------------
+
+Video: 6W2MO
+Condition B (greedy): The scene is an indoor setting with pink walls and a wooden floor. There are two people in the room. One person is standing and talking on the phone, while the other person is sitting on a bed. The person on the phone is wearing a green shirt and the person on the bed is wearing a black shirt. The lighting is bright and even.
+
+SFT sampled (t=0.7):  In the bedroom or lounge area shown in the office space scene, you can observe a bed positioned against one wall with clear pathways from the door to the bed. A person is seated at a desk near the center of the room, suggesting work or study activities might be occurring there. The open space between the desks allows for easy movement without obstacles like furniture items blocking your path.
+--------------------------------------------------------------------------------
+

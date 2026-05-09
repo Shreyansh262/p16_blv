@@ -1,0 +1,42 @@
+Ollama OK. Models: ['p16-smolvlm2-vision:latest', 'qwen2.5:7b', 'qwen2.5:32b', 'qwen3.5:9b', 'mistral:latest']
+
+=== Condition E: scoring 200/1929 samples (seed=42) ===
+  [E] 10/200 done | 2.8s/sample | ETA 12.6min | failed=0
+  [E] 20/200 done | 2.9s/sample | ETA 10.3min | failed=0
+  [E] 30/200 done | 2.9s/sample | ETA 9.2min | failed=0
+  [E] 40/200 done | 2.9s/sample | ETA 8.4min | failed=0
+  [E] 50/200 done | 2.9s/sample | ETA 7.7min | failed=0
+  [E] 60/200 done | 2.9s/sample | ETA 7.1min | failed=0
+  [E] 70/200 done | 2.9s/sample | ETA 6.6min | failed=0
+  [E] 80/200 done | 2.9s/sample | ETA 6.0min | failed=0
+  [E] 90/200 done | 2.9s/sample | ETA 5.5min | failed=0
+  [E] 100/200 done | 2.9s/sample | ETA 5.0min | failed=0
+  [E] 110/200 done | 2.8s/sample | ETA 4.5min | failed=0
+  [E] 120/200 done | 2.9s/sample | ETA 4.0min | failed=0
+  [E] 130/200 done | 2.8s/sample | ETA 3.4min | failed=0
+  [E] 140/200 done | 2.9s/sample | ETA 2.9min | failed=0
+  [E] 150/200 done | 2.8s/sample | ETA 2.5min | failed=0
+  [E] 160/200 done | 2.9s/sample | ETA 2.0min | failed=0
+  [E] 170/200 done | 2.8s/sample | ETA 1.5min | failed=0
+  [E] 180/200 done | 2.8s/sample | ETA 1.0min | failed=0
+  [E] 190/200 done | 2.9s/sample | ETA 0.5min | failed=0
+  [E] 200/200 done | 2.8s/sample | ETA 0.0min | failed=0
+  [E] DONE: MCF=2.527 NAF=3.396 (scored=200, failed=0)
+
+================================================================================
+FINAL LLM JUDGE RESULTS (qwen2.5:32b, n=200/condition)
+================================================================================
+Metric                       E(SFTv3)
+-------------------------------------------------------------------------
+Spatial Orientation             2.17*
+Social Interaction             2.145*
+Action & Events                 2.39*
+Ambience                       3.405*
+--- MCF Score ---              2.527 
+Descriptiveness                2.395*
+Objectivity                    5.835*
+Accuracy                       2.125*
+Clarity                         3.23*
+--- NAF Score ---              3.396 
+
+Saved: eval_outputs/llm_judge_all.json

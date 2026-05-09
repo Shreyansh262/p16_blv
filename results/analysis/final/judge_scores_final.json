@@ -1,0 +1,54 @@
+{
+  "base": {
+    "n": 454,
+    "spatial_orientation": 1.207,
+    "social_interaction": 1.4692,
+    "action_events": 2.1586,
+    "ambience": 2.6982,
+    "descriptiveness": 1.4581,
+    "objectivity": 2.7137,
+    "accuracy": 1.0903,
+    "clarity": 2.0903,
+    "MCF": 1.8832,
+    "NAF": 1.8381
+  },
+  "sft_v2": {
+    "n": 458,
+    "spatial_orientation": 1.7052,
+    "social_interaction": 1.6201,
+    "action_events": 2.3581,
+    "ambience": 3.3734,
+    "descriptiveness": 1.845,
+    "objectivity": 3.7729,
+    "accuracy": 1.5939,
+    "clarity": 2.5459,
+    "MCF": 2.2642,
+    "NAF": 2.4394
+  },
+  "grpo": {
+    "n": 458,
+    "spatial_orientation": 1.8493,
+    "social_interaction": 1.8188,
+    "action_events": 2.4738,
+    "ambience": 3.4367,
+    "descriptiveness": 1.9192,
+    "objectivity": 3.3755,
+    "accuracy": 1.548,
+    "clarity": 2.5371,
+    "MCF": 2.3946,
+    "NAF": 2.345
+  },
+  "sft_patch_v2": {
+    "n": 458,
+    "spatial_orientation": 3.2293,
+    "social_interaction": 2.5983,
+    "action_events": 3.0022,
+    "ambience": 2.9432,
+    "descriptiveness": 2.8668,
+    "objectivity": 5.3821,
+    "accuracy": 2.417,
+    "clarity": 3.6266,
+    "MCF": 2.9432,
+    "NAF": 3.5731
+  }
+}
