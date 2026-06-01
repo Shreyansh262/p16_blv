@@ -66,3 +66,8 @@ Thumbs.db
 .env
 *.key
 *.pem
+
+# ── Top-level large directories ──────────────────────────────────────────────
+tools/
+models/
+data/
