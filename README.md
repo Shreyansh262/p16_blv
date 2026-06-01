@@ -4,7 +4,7 @@ Course: CS671 Deep Learning  |  Team: P16  |  Model: SmolVLM2-500M
 
 Fine-tuning a lightweight vision-language model to generate accessibility-focused
 video descriptions for blind and low-vision users. Pipeline covers teacher-student
-distillation, SFT, GRPO, and SFT-patch, with a final GGUF export for deployment.
+distillation , SFT, GRPO, and SFT-patch, with a final GGUF export for deployment.
 
 ---
 
@@ -132,4 +132,4 @@ Reproduce final table (conditions A-D):
 - Never kill tmux session     : p16
 - Use GPU 6 by default (check nvidia-smi first -- shared server)
 - Run all long jobs inside tmux
-- Never use sudo or write outside ~/p16_blv
+- Never use sudo or write outside ~/p16_blv 
