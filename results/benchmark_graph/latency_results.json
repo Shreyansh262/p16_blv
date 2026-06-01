@@ -1,0 +1,55 @@
+[
+  {
+    "model_id": "SmolVLM2-500M-base",
+    "params_b": 0.5,
+    "n": 47,
+    "mean_ms": 1955.9,
+    "p95_ms": 2174.5,
+    "fps": 0.511,
+    "outputs_file": "results/benchmark_graph/SmolVLM2-500M-base_outputs.json"
+  },
+  {
+    "model_id": "sft_patch_grpo_v2-ours",
+    "params_b": 0.5,
+    "n": 47,
+    "mean_ms": 2444.4,
+    "p95_ms": 2634.7,
+    "fps": 0.409,
+    "outputs_file": "results/benchmark_graph/sft_patch_grpo_v2-ours_outputs.json"
+  },
+  {
+    "model_id": "SmolVLM2-2.2B",
+    "params_b": 2.2,
+    "n": 47,
+    "mean_ms": 1860.0,
+    "p95_ms": 1977.2,
+    "fps": 0.538,
+    "outputs_file": "results/benchmark_graph/SmolVLM2-2.2B_outputs.json"
+  },
+  {
+    "model_id": "Qwen2.5-VL-3B",
+    "params_b": 3.0,
+    "n": 47,
+    "mean_ms": 3957.4,
+    "p95_ms": 5036.8,
+    "fps": 0.253
+  },
+  {
+    "model_id": "PaliGemma2-3B",
+    "params_b": 3.0,
+    "n": 47,
+    "mean_ms": 414.3,
+    "p95_ms": 816.5,
+    "fps": 2.414,
+    "outputs_file": "results/benchmark_graph/PaliGemma2-3B_outputs.json"
+  },
+  {
+    "model_id": "moondream2",
+    "params_b": 1.8,
+    "n": 47,
+    "mean_ms": 20573.6,
+    "p95_ms": 20573.3,
+    "fps": 0.049,
+    "outputs_file": "results/benchmark_graph/moondream2_outputs.json"
+  }
+]

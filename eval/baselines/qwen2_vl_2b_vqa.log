@@ -1,0 +1,60 @@
+Detected model_type: qwen2_vl
+Loading qwen2_vl on GPU 6...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   4%|▍         | 32/729 [00:00<00:03, 232.10it/s]Loading weights:  14%|█▍        | 104/729 [00:00<00:01, 478.73it/s]Loading weights:  21%|██▏       | 156/729 [00:00<00:01, 390.24it/s]Loading weights:  29%|██▉       | 215/729 [00:00<00:01, 452.20it/s]Loading weights:  39%|███▉      | 284/729 [00:00<00:00, 509.82it/s]Loading weights:  46%|████▋     | 338/729 [00:00<00:00, 431.18it/s]Loading weights:  68%|██████▊   | 498/729 [00:00<00:00, 737.44it/s]Loading weights:  89%|████████▉ | 649/729 [00:00<00:00, 937.55it/s]Loading weights: 100%|██████████| 729/729 [00:01<00:00, 700.19it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Model loaded.
+[0/5000] dakota
+[200/5000] baseball
+[400/5000] macy's
+[600/5000] 38
+[800/5000] 800 677 2367
+[1000/5000] Buckminster fuller
+[1200/5000] tab
+[1400/5000] yes
+[1600/5000] afterglow
+[1800/5000] 2010
+[2000/5000] 9
+[2200/5000] history
+[2400/5000] george washington
+[2600/5000] 401 057-5
+[2800/5000] 1892
+[3000/5000] les socialistes
+[3200/5000] seiko
+[3400/5000] google
+[3600/5000] toshiba
+[3800/5000] extra
+[4000/5000] 1919
+[4200/5000] 1995
+[4400/5000] 10:10
+[4600/5000] the wipers times
+[4800/5000] 6
+Saved 5000 (skipped 0) -> /usershome/cs671_user2/p16_blv/eval/baselines/qwen2_vl_2b_vqa_preds.json
+████▍     | 326/729 [00:00<00:01, 374.18it/s]Loading weights:  64%|██████▍   | 467/729 [00:01<00:00, 654.07it/s]Loading weights:  80%|████████  | 586/729 [00:01<00:00, 800.87it/s]Loading weights:  96%|█████████▋| 703/729 [00:01<00:00, 905.05it/s]Loading weights: 100%|██████████| 729/729 [00:01<00:00, 564.49it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Model loaded.
+[0/5000] dakota
+[200/5000] baseball
+[400/5000] macy's
+[600/5000] 38
+[800/5000] 800 677 2367
+[1000/5000] Buckminster fuller
+[1200/5000] tab
+[1400/5000] yes
+[1600/5000] afterglow
+[1800/5000] 2010
+[2000/5000] 9
+[2200/5000] history
+[2400/5000] george washington
+[2600/5000] 401 057-5
+[2800/5000] 1892
+[3000/5000] les socialistes
+[3200/5000] seiko
+[3400/5000] google
+[3600/5000] toshiba
+[3800/5000] extra
+[4000/5000] 1919
+[4200/5000] 1995
+[4400/5000] 10:10
+[4600/5000] the wipers times
+[4800/5000] 6
+Saved 5000 (skipped 0) -> /usershome/cs671_user2/p16_blv/eval/baselines/qwen2_vl_2b_vqa_preds.json

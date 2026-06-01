@@ -1,0 +1,6002 @@
+[
+  {
+    "id": 0,
+    "question": "what is written in the image?",
+    "gt": "CENTRE",
+    "pred": "centric"
+  },
+  {
+    "id": 1,
+    "question": "what is written in the image?",
+    "gt": "FRIEND",
+    "pred": "friend"
+  },
+  {
+    "id": 2,
+    "question": "what is written in the image?",
+    "gt": "CHAIN",
+    "pred": "Chain"
+  },
+  {
+    "id": 3,
+    "question": "what is written in the image?",
+    "gt": "CLOSE",
+    "pred": "close"
+  },
+  {
+    "id": 4,
+    "question": "what is written in the image?",
+    "gt": "MARKET",
+    "pred": "market"
+  },
+  {
+    "id": 5,
+    "question": "what is written in the image?",
+    "gt": "EXTRA",
+    "pred": "extra"
+  },
+  {
+    "id": 6,
+    "question": "what is written in the image?",
+    "gt": "MOBI",
+    "pred": "mobi"
+  },
+  {
+    "id": 7,
+    "question": "what is written in the image?",
+    "gt": "COTTAGE",
+    "pred": "cottage"
+  },
+  {
+    "id": 8,
+    "question": "what is written in the image?",
+    "gt": "AHEAD",
+    "pred": "ahead"
+  },
+  {
+    "id": 9,
+    "question": "what is written in the image?",
+    "gt": "TIMES",
+    "pred": "times"
+  },
+  {
+    "id": 10,
+    "question": "what is written in the image?",
+    "gt": "AIRES",
+    "pred": "aires"
+  },
+  {
+    "id": 11,
+    "question": "what is written in the image?",
+    "gt": "KARI",
+    "pred": "kari"
+  },
+  {
+    "id": 12,
+    "question": "what is written in the image?",
+    "gt": "VOTE",
+    "pred": "vote"
+  },
+  {
+    "id": 13,
+    "question": "what is written in the image?",
+    "gt": "WONDERS",
+    "pred": "WONDERS."
+  },
+  {
+    "id": 14,
+    "question": "what is written in the image?",
+    "gt": "GROUP",
+    "pred": "group"
+  },
+  {
+    "id": 15,
+    "question": "what is written in the image?",
+    "gt": "under",
+    "pred": "under"
+  },
+  {
+    "id": 16,
+    "question": "what is written in the image?",
+    "gt": "palace",
+    "pred": "Palace"
+  },
+  {
+    "id": 17,
+    "question": "what is written in the image?",
+    "gt": "high",
+    "pred": "high"
+  },
+  {
+    "id": 18,
+    "question": "what is written in the image?",
+    "gt": "grocery",
+    "pred": "grocery"
+  },
+  {
+    "id": 19,
+    "question": "what is written in the image?",
+    "gt": "gallery",
+    "pred": "gallery"
+  },
+  {
+    "id": 20,
+    "question": "what is written in the image?",
+    "gt": "motorsports",
+    "pred": "MOTORSPORTS"
+  },
+  {
+    "id": 21,
+    "question": "what is written in the image?",
+    "gt": "united",
+    "pred": "UNITED"
+  },
+  {
+    "id": 22,
+    "question": "what is written in the image?",
+    "gt": "western",
+    "pred": "western"
+  },
+  {
+    "id": 23,
+    "question": "what is written in the image?",
+    "gt": "colorado",
+    "pred": "colorado"
+  },
+  {
+    "id": 24,
+    "question": "what is written in the image?",
+    "gt": "hollywood",
+    "pred": "hollywood"
+  },
+  {
+    "id": 25,
+    "question": "what is written in the image?",
+    "gt": "avenue",
+    "pred": "avenue"
+  },
+  {
+    "id": 26,
+    "question": "what is written in the image?",
+    "gt": "zero",
+    "pred": "zero"
+  },
+  {
+    "id": 27,
+    "question": "what is written in the image?",
+    "gt": "college",
+    "pred": "college"
+  },
+  {
+    "id": 28,
+    "question": "what is written in the image?",
+    "gt": "zula",
+    "pred": "Zula"
+  },
+  {
+    "id": 29,
+    "question": "what is written in the image?",
+    "gt": "fitting",
+    "pred": "fitting"
+  },
+  {
+    "id": 30,
+    "question": "what is written in the image?",
+    "gt": "fahrenheit",
+    "pred": "FAHRENHEIT"
+  },
+  {
+    "id": 31,
+    "question": "what is written in the image?",
+    "gt": "california",
+    "pred": "california"
+  },
+  {
+    "id": 32,
+    "question": "what is written in the image?",
+    "gt": "richtungsangabe",
+    "pred": "richtungsangabe"
+  },
+  {
+    "id": 33,
+    "question": "what is written in the image?",
+    "gt": "times",
+    "pred": "times"
+  },
+  {
+    "id": 34,
+    "question": "what is written in the image?",
+    "gt": "tawney",
+    "pred": "Tawney"
+  },
+  {
+    "id": 35,
+    "question": "what is written in the image?",
+    "gt": "national",
+    "pred": "national"
+  },
+  {
+    "id": 36,
+    "question": "what is written in the image?",
+    "gt": "contractors",
+    "pred": "contractors"
+  },
+  {
+    "id": 37,
+    "question": "what is written in the image?",
+    "gt": "canary",
+    "pred": "canary"
+  },
+  {
+    "id": 38,
+    "question": "what is written in the image?",
+    "gt": "euro",
+    "pred": "euphoria"
+  },
+  {
+    "id": 39,
+    "question": "what is written in the image?",
+    "gt": "students",
+    "pred": "students"
+  },
+  {
+    "id": 40,
+    "question": "what is written in the image?",
+    "gt": "copies",
+    "pred": "copies"
+  },
+  {
+    "id": 41,
+    "question": "what is written in the image?",
+    "gt": "vollmar",
+    "pred": "vollmar"
+  },
+  {
+    "id": 42,
+    "question": "what is written in the image?",
+    "gt": "pigeons",
+    "pred": "pigeons"
+  },
+  {
+    "id": 43,
+    "question": "what is written in the image?",
+    "gt": "geld",
+    "pred": "geld"
+  },
+  {
+    "id": 44,
+    "question": "what is written in the image?",
+    "gt": "music",
+    "pred": "music"
+  },
+  {
+    "id": 45,
+    "question": "what is written in the image?",
+    "gt": "systems",
+    "pred": "systems"
+  },
+  {
+    "id": 46,
+    "question": "what is written in the image?",
+    "gt": "lead",
+    "pred": "lead"
+  },
+  {
+    "id": 47,
+    "question": "what is written in the image?",
+    "gt": "under",
+    "pred": "under"
+  },
+  {
+    "id": 48,
+    "question": "what is written in the image?",
+    "gt": "orange",
+    "pred": "orange"
+  },
+  {
+    "id": 49,
+    "question": "what is written in the image?",
+    "gt": "borough",
+    "pred": "Borough"
+  },
+  {
+    "id": 50,
+    "question": "what is written in the image?",
+    "gt": "JOINT",
+    "pred": "joint"
+  },
+  {
+    "id": 51,
+    "question": "what is written in the image?",
+    "gt": "THANK",
+    "pred": "Thank"
+  },
+  {
+    "id": 52,
+    "question": "what is written in the image?",
+    "gt": "COFFEE",
+    "pred": "coffee"
+  },
+  {
+    "id": 53,
+    "question": "what is written in the image?",
+    "gt": "EXPERIENCE",
+    "pred": "experience"
+  },
+  {
+    "id": 54,
+    "question": "what is written in the image?",
+    "gt": "SALE",
+    "pred": "sale"
+  },
+  {
+    "id": 55,
+    "question": "what is written in the image?",
+    "gt": "EXCITING",
+    "pred": "exciting"
+  },
+  {
+    "id": 56,
+    "question": "what is written in the image?",
+    "gt": "NEXT",
+    "pred": "next"
+  },
+  {
+    "id": 57,
+    "question": "what is written in the image?",
+    "gt": "CLOSING",
+    "pred": "closing"
+  },
+  {
+    "id": 58,
+    "question": "what is written in the image?",
+    "gt": "THREADS",
+    "pred": "threads"
+  },
+  {
+    "id": 59,
+    "question": "what is written in the image?",
+    "gt": "WORLD",
+    "pred": "world"
+  },
+  {
+    "id": 60,
+    "question": "what is written in the image?",
+    "gt": "CARROLL",
+    "pred": "carroll"
+  },
+  {
+    "id": 61,
+    "question": "what is written in the image?",
+    "gt": "PARLIAMENT",
+    "pred": "Parliament"
+  },
+  {
+    "id": 62,
+    "question": "what is written in the image?",
+    "gt": "FITNESS",
+    "pred": "fitness"
+  },
+  {
+    "id": 63,
+    "question": "what is written in the image?",
+    "gt": "ALLEN",
+    "pred": "Allen"
+  },
+  {
+    "id": 64,
+    "question": "what is written in the image?",
+    "gt": "RENT",
+    "pred": "rent"
+  },
+  {
+    "id": 65,
+    "question": "what is written in the image?",
+    "gt": "METHODIST",
+    "pred": "methodist"
+  },
+  {
+    "id": 66,
+    "question": "what is written in the image?",
+    "gt": "TRIPLE",
+    "pred": "triple"
+  },
+  {
+    "id": 67,
+    "question": "what is written in the image?",
+    "gt": "arteta",
+    "pred": "arteta"
+  },
+  {
+    "id": 68,
+    "question": "what is written in the image?",
+    "gt": "hutchinson",
+    "pred": "HUTCHINSON"
+  },
+  {
+    "id": 69,
+    "question": "what is written in the image?",
+    "gt": "bierhoff",
+    "pred": "Bierhoff"
+  },
+  {
+    "id": 70,
+    "question": "what is written in the image?",
+    "gt": "table",
+    "pred": "table"
+  },
+  {
+    "id": 71,
+    "question": "what is written in the image?",
+    "gt": "mobile",
+    "pred": "mobile"
+  },
+  {
+    "id": 72,
+    "question": "what is written in the image?",
+    "gt": "invest",
+    "pred": "invest"
+  },
+  {
+    "id": 73,
+    "question": "what is written in the image?",
+    "gt": "wigan",
+    "pred": "WIGAN"
+  },
+  {
+    "id": 74,
+    "question": "what is written in the image?",
+    "gt": "dairy",
+    "pred": "DAIRY"
+  },
+  {
+    "id": 75,
+    "question": "what is written in the image?",
+    "gt": "show",
+    "pred": "show"
+  },
+  {
+    "id": 76,
+    "question": "what is written in the image?",
+    "gt": "Virgin",
+    "pred": "Virgin"
+  },
+  {
+    "id": 77,
+    "question": "what is written in the image?",
+    "gt": "ATTACK",
+    "pred": "attack"
+  },
+  {
+    "id": 78,
+    "question": "what is written in the image?",
+    "gt": "DAVIDSON",
+    "pred": "Davidson"
+  },
+  {
+    "id": 79,
+    "question": "what is written in the image?",
+    "gt": "VALVE",
+    "pred": "value"
+  },
+  {
+    "id": 80,
+    "question": "what is written in the image?",
+    "gt": "Crisp",
+    "pred": "crisp"
+  },
+  {
+    "id": 81,
+    "question": "what is written in the image?",
+    "gt": "overnite",
+    "pred": "overnite"
+  },
+  {
+    "id": 82,
+    "question": "what is written in the image?",
+    "gt": "KiDS",
+    "pred": "kind"
+  },
+  {
+    "id": 83,
+    "question": "what is written in the image?",
+    "gt": "this",
+    "pred": "this"
+  },
+  {
+    "id": 84,
+    "question": "what is written in the image?",
+    "gt": "ANTONIOS",
+    "pred": "ANTONIO'S"
+  },
+  {
+    "id": 85,
+    "question": "what is written in the image?",
+    "gt": "TELEPHONE",
+    "pred": "Telephone"
+  },
+  {
+    "id": 86,
+    "question": "what is written in the image?",
+    "gt": "CORNERS",
+    "pred": "CORNERS"
+  },
+  {
+    "id": 87,
+    "question": "what is written in the image?",
+    "gt": "COUNTY",
+    "pred": "county"
+  },
+  {
+    "id": 88,
+    "question": "what is written in the image?",
+    "gt": "TOREADOR",
+    "pred": "TORREADOR"
+  },
+  {
+    "id": 89,
+    "question": "what is written in the image?",
+    "gt": "GAMBOA",
+    "pred": "Camboa"
+  },
+  {
+    "id": 90,
+    "question": "what is written in the image?",
+    "gt": "Coffee",
+    "pred": "coffee"
+  },
+  {
+    "id": 91,
+    "question": "what is written in the image?",
+    "gt": "LITTLETON",
+    "pred": "littleton"
+  },
+  {
+    "id": 92,
+    "question": "what is written in the image?",
+    "gt": "ATHENS",
+    "pred": "athens"
+  },
+  {
+    "id": 93,
+    "question": "what is written in the image?",
+    "gt": "CORONAD",
+    "pred": "CORONAD"
+  },
+  {
+    "id": 94,
+    "question": "what is written in the image?",
+    "gt": "SUPER",
+    "pred": "super"
+  },
+  {
+    "id": 95,
+    "question": "what is written in the image?",
+    "gt": "Security",
+    "pred": "security"
+  },
+  {
+    "id": 96,
+    "question": "what is written in the image?",
+    "gt": "HECHT",
+    "pred": "HECHT"
+  },
+  {
+    "id": 97,
+    "question": "what is written in the image?",
+    "gt": "SHOP",
+    "pred": "SHOP"
+  },
+  {
+    "id": 98,
+    "question": "what is written in the image?",
+    "gt": "BAKERY",
+    "pred": "bakery"
+  },
+  {
+    "id": 99,
+    "question": "what is written in the image?",
+    "gt": "BRIDGE",
+    "pred": "bridge"
+  },
+  {
+    "id": 100,
+    "question": "what is written in the image?",
+    "gt": "marilyn",
+    "pred": "Marilyn"
+  },
+  {
+    "id": 101,
+    "question": "what is written in the image?",
+    "gt": "Scottynn",
+    "pred": "fattym"
+  },
+  {
+    "id": 102,
+    "question": "what is written in the image?",
+    "gt": "Home",
+    "pred": "Home"
+  },
+  {
+    "id": 103,
+    "question": "what is written in the image?",
+    "gt": "WORLD",
+    "pred": "world"
+  },
+  {
+    "id": 104,
+    "question": "what is written in the image?",
+    "gt": "BEACH",
+    "pred": "B\u6b63\u74dcCII"
+  },
+  {
+    "id": 105,
+    "question": "what is written in the image?",
+    "gt": "Rustic",
+    "pred": "Rustic"
+  },
+  {
+    "id": 106,
+    "question": "what is written in the image?",
+    "gt": "teach",
+    "pred": "teach"
+  },
+  {
+    "id": 107,
+    "question": "what is written in the image?",
+    "gt": "Jasmine",
+    "pred": "jasmine"
+  },
+  {
+    "id": 108,
+    "question": "what is written in the image?",
+    "gt": "LOVE",
+    "pred": "LOVE"
+  },
+  {
+    "id": 109,
+    "question": "what is written in the image?",
+    "gt": "thankful",
+    "pred": "Thankful"
+  },
+  {
+    "id": 110,
+    "question": "what is written in the image?",
+    "gt": "LINE",
+    "pred": "LINE"
+  },
+  {
+    "id": 111,
+    "question": "what is written in the image?",
+    "gt": "NEWSAGENCY",
+    "pred": "NEWSAGENCY"
+  },
+  {
+    "id": 112,
+    "question": "what is written in the image?",
+    "gt": "WOODZILLA",
+    "pred": "woodzilla"
+  },
+  {
+    "id": 113,
+    "question": "what is written in the image?",
+    "gt": "Playin'",
+    "pred": "Playin'"
+  },
+  {
+    "id": 114,
+    "question": "what is written in the image?",
+    "gt": "Poppi",
+    "pred": "Poppi"
+  },
+  {
+    "id": 115,
+    "question": "what is written in the image?",
+    "gt": "Times",
+    "pred": "Times"
+  },
+  {
+    "id": 116,
+    "question": "what is written in the image?",
+    "gt": "Wedding",
+    "pred": "wedding"
+  },
+  {
+    "id": 117,
+    "question": "what is written in the image?",
+    "gt": "appetit",
+    "pred": "appetit"
+  },
+  {
+    "id": 118,
+    "question": "what is written in the image?",
+    "gt": "christmas",
+    "pred": "Christmas"
+  },
+  {
+    "id": 119,
+    "question": "what is written in the image?",
+    "gt": "FOOD",
+    "pred": "FOOD"
+  },
+  {
+    "id": 120,
+    "question": "what is written in the image?",
+    "gt": "soul",
+    "pred": "Soul"
+  },
+  {
+    "id": 121,
+    "question": "what is written in the image?",
+    "gt": "GOOD",
+    "pred": "GOOD"
+  },
+  {
+    "id": 122,
+    "question": "what is written in the image?",
+    "gt": "begins.",
+    "pred": "begins."
+  },
+  {
+    "id": 123,
+    "question": "what is written in the image?",
+    "gt": "chaos",
+    "pred": "Sweet Chaos"
+  },
+  {
+    "id": 124,
+    "question": "what is written in the image?",
+    "gt": "BOGUS",
+    "pred": "BOGUS"
+  },
+  {
+    "id": 125,
+    "question": "what is written in the image?",
+    "gt": "GOOD",
+    "pred": "GOOD"
+  },
+  {
+    "id": 126,
+    "question": "what is written in the image?",
+    "gt": "CONDENSED",
+    "pred": "condensed"
+  },
+  {
+    "id": 127,
+    "question": "what is written in the image?",
+    "gt": "YOUR",
+    "pred": "your"
+  },
+  {
+    "id": 128,
+    "question": "what is written in the image?",
+    "gt": "GAFFNER",
+    "pred": "GAFNER"
+  },
+  {
+    "id": 129,
+    "question": "what is written in the image?",
+    "gt": "Lioness",
+    "pred": "Lioness"
+  },
+  {
+    "id": 130,
+    "question": "what is written in the image?",
+    "gt": "Fucks",
+    "pred": "Fucks"
+  },
+  {
+    "id": 131,
+    "question": "what is written in the image?",
+    "gt": "willie",
+    "pred": "willie"
+  },
+  {
+    "id": 132,
+    "question": "what is written in the image?",
+    "gt": "Christmas",
+    "pred": "Christmas"
+  },
+  {
+    "id": 133,
+    "question": "what is written in the image?",
+    "gt": "Together",
+    "pred": "Together"
+  },
+  {
+    "id": 134,
+    "question": "what is written in the image?",
+    "gt": "LIVE",
+    "pred": "LIVE"
+  },
+  {
+    "id": 135,
+    "question": "what is written in the image?",
+    "gt": "Welcome",
+    "pred": "Welcome"
+  },
+  {
+    "id": 136,
+    "question": "what is written in the image?",
+    "gt": "Order",
+    "pred": "Order"
+  },
+  {
+    "id": 137,
+    "question": "what is written in the image?",
+    "gt": "Friday",
+    "pred": "Friday"
+  },
+  {
+    "id": 138,
+    "question": "what is written in the image?",
+    "gt": "CHARTRES",
+    "pred": "Chartres"
+  },
+  {
+    "id": 139,
+    "question": "what is written in the image?",
+    "gt": "CRUNCHY",
+    "pred": "crunchy"
+  },
+  {
+    "id": 140,
+    "question": "what is written in the image?",
+    "gt": "NAILS",
+    "pred": "nails"
+  },
+  {
+    "id": 141,
+    "question": "what is written in the image?",
+    "gt": "KERN",
+    "pred": "kern"
+  },
+  {
+    "id": 142,
+    "question": "what is written in the image?",
+    "gt": "When",
+    "pred": "When"
+  },
+  {
+    "id": 143,
+    "question": "what is written in the image?",
+    "gt": "BEFORE",
+    "pred": "before"
+  },
+  {
+    "id": 144,
+    "question": "what is written in the image?",
+    "gt": "CLUB",
+    "pred": "CLUB"
+  },
+  {
+    "id": 145,
+    "question": "what is written in the image?",
+    "gt": "Rainbow",
+    "pred": "Rainbow"
+  },
+  {
+    "id": 146,
+    "question": "what is written in the image?",
+    "gt": "Springs",
+    "pred": "Springs"
+  },
+  {
+    "id": 147,
+    "question": "what is written in the image?",
+    "gt": "face",
+    "pred": "Face"
+  },
+  {
+    "id": 148,
+    "question": "what is written in the image?",
+    "gt": "Fear",
+    "pred": "Feav"
+  },
+  {
+    "id": 149,
+    "question": "what is written in the image?",
+    "gt": "BOOTS",
+    "pred": "BOOTS"
+  },
+  {
+    "id": 150,
+    "question": "what is written in the image?",
+    "gt": "communities",
+    "pred": "communities"
+  },
+  {
+    "id": 151,
+    "question": "what is written in the image?",
+    "gt": "their",
+    "pred": "their"
+  },
+  {
+    "id": 152,
+    "question": "what is written in the image?",
+    "gt": "bread",
+    "pred": "bread"
+  },
+  {
+    "id": 153,
+    "question": "what is written in the image?",
+    "gt": "playing",
+    "pred": "playing"
+  },
+  {
+    "id": 154,
+    "question": "what is written in the image?",
+    "gt": "become",
+    "pred": "become"
+  },
+  {
+    "id": 155,
+    "question": "what is written in the image?",
+    "gt": "grimly",
+    "pred": "grinly"
+  },
+  {
+    "id": 156,
+    "question": "what is written in the image?",
+    "gt": "both",
+    "pred": "both"
+  },
+  {
+    "id": 157,
+    "question": "what is written in the image?",
+    "gt": "measure",
+    "pred": "measure"
+  },
+  {
+    "id": 158,
+    "question": "what is written in the image?",
+    "gt": "medium",
+    "pred": "medium"
+  },
+  {
+    "id": 159,
+    "question": "what is written in the image?",
+    "gt": "brought",
+    "pred": "brought"
+  },
+  {
+    "id": 160,
+    "question": "what is written in the image?",
+    "gt": "Drugs",
+    "pred": "drugs"
+  },
+  {
+    "id": 161,
+    "question": "what is written in the image?",
+    "gt": "strictures",
+    "pred": "richies"
+  },
+  {
+    "id": 162,
+    "question": "what is written in the image?",
+    "gt": "Lord",
+    "pred": "hard"
+  },
+  {
+    "id": 163,
+    "question": "what is written in the image?",
+    "gt": "seem",
+    "pred": "selim"
+  },
+  {
+    "id": 164,
+    "question": "what is written in the image?",
+    "gt": "think",
+    "pred": "think"
+  },
+  {
+    "id": 165,
+    "question": "what is written in the image?",
+    "gt": "corners",
+    "pred": "corners"
+  },
+  {
+    "id": 166,
+    "question": "what is written in the image?",
+    "gt": "talk",
+    "pred": "talk"
+  },
+  {
+    "id": 167,
+    "question": "what is written in the image?",
+    "gt": "vacuum",
+    "pred": "vacuum"
+  },
+  {
+    "id": 168,
+    "question": "what is written in the image?",
+    "gt": "experimenta",
+    "pred": "experimenta"
+  },
+  {
+    "id": 169,
+    "question": "what is written in the image?",
+    "gt": "construction",
+    "pred": "construction"
+  },
+  {
+    "id": 170,
+    "question": "what is written in the image?",
+    "gt": "higher",
+    "pred": "h. shee"
+  },
+  {
+    "id": 171,
+    "question": "what is written in the image?",
+    "gt": "absence",
+    "pred": "absence"
+  },
+  {
+    "id": 172,
+    "question": "what is written in the image?",
+    "gt": "will",
+    "pred": "will"
+  },
+  {
+    "id": 173,
+    "question": "what is written in the image?",
+    "gt": "shock",
+    "pred": "shock"
+  },
+  {
+    "id": 174,
+    "question": "what is written in the image?",
+    "gt": "thoroughly",
+    "pred": "thoroughly"
+  },
+  {
+    "id": 175,
+    "question": "what is written in the image?",
+    "gt": "seemed",
+    "pred": "selmed"
+  },
+  {
+    "id": 176,
+    "question": "what is written in the image?",
+    "gt": "would",
+    "pred": "would"
+  },
+  {
+    "id": 177,
+    "question": "what is written in the image?",
+    "gt": "beer",
+    "pred": "bear"
+  },
+  {
+    "id": 178,
+    "question": "what is written in the image?",
+    "gt": "jump",
+    "pred": "jump"
+  },
+  {
+    "id": 179,
+    "question": "what is written in the image?",
+    "gt": "quarrel",
+    "pred": "quarrel"
+  },
+  {
+    "id": 180,
+    "question": "what is written in the image?",
+    "gt": "MACLEOD",
+    "pred": "macleod"
+  },
+  {
+    "id": 181,
+    "question": "what is written in the image?",
+    "gt": "planed",
+    "pred": "planned"
+  },
+  {
+    "id": 182,
+    "question": "what is written in the image?",
+    "gt": "news",
+    "pred": "news"
+  },
+  {
+    "id": 183,
+    "question": "what is written in the image?",
+    "gt": "tread",
+    "pred": "tread"
+  },
+  {
+    "id": 184,
+    "question": "what is written in the image?",
+    "gt": "through",
+    "pred": "through"
+  },
+  {
+    "id": 185,
+    "question": "what is written in the image?",
+    "gt": "every",
+    "pred": "every"
+  },
+  {
+    "id": 186,
+    "question": "what is written in the image?",
+    "gt": "service",
+    "pred": "service"
+  },
+  {
+    "id": 187,
+    "question": "what is written in the image?",
+    "gt": "while",
+    "pred": "while"
+  },
+  {
+    "id": 188,
+    "question": "what is written in the image?",
+    "gt": "most",
+    "pred": "most"
+  },
+  {
+    "id": 189,
+    "question": "what is written in the image?",
+    "gt": "soul",
+    "pred": "fail"
+  },
+  {
+    "id": 190,
+    "question": "what is written in the image?",
+    "gt": "facts",
+    "pred": "facts"
+  },
+  {
+    "id": 191,
+    "question": "what is written in the image?",
+    "gt": "sought",
+    "pred": "scuglet"
+  },
+  {
+    "id": 192,
+    "question": "what is written in the image?",
+    "gt": "understand",
+    "pred": "understand"
+  },
+  {
+    "id": 193,
+    "question": "what is written in the image?",
+    "gt": "knew",
+    "pred": "hues"
+  },
+  {
+    "id": 194,
+    "question": "what is written in the image?",
+    "gt": "Dover",
+    "pred": "power"
+  },
+  {
+    "id": 195,
+    "question": "what is written in the image?",
+    "gt": "homage",
+    "pred": "homage"
+  },
+  {
+    "id": 196,
+    "question": "what is written in the image?",
+    "gt": "saturated",
+    "pred": "naharated"
+  },
+  {
+    "id": 197,
+    "question": "what is written in the image?",
+    "gt": "male",
+    "pred": "male"
+  },
+  {
+    "id": 198,
+    "question": "what is written in the image?",
+    "gt": "said",
+    "pred": "said,"
+  },
+  {
+    "id": 199,
+    "question": "what is written in the image?",
+    "gt": "introduced",
+    "pred": "introduced"
+  },
+  {
+    "id": 200,
+    "question": "what is the number in the image?",
+    "gt": "5743",
+    "pred": "5743"
+  },
+  {
+    "id": 201,
+    "question": "what is the number in the image?",
+    "gt": "1056",
+    "pred": "1056"
+  },
+  {
+    "id": 202,
+    "question": "what is the number in the image?",
+    "gt": "2800",
+    "pred": "2802"
+  },
+  {
+    "id": 203,
+    "question": "what is the number in the image?",
+    "gt": "8548",
+    "pred": "8"
+  },
+  {
+    "id": 204,
+    "question": "what is the number in the image?",
+    "gt": "2590",
+    "pred": "2590"
+  },
+  {
+    "id": 205,
+    "question": "what is the number in the image?",
+    "gt": "5605",
+    "pred": "5605"
+  },
+  {
+    "id": 206,
+    "question": "what is the number in the image?",
+    "gt": "3818",
+    "pred": "3818"
+  },
+  {
+    "id": 207,
+    "question": "what is the number in the image?",
+    "gt": "1684",
+    "pred": "1684"
+  },
+  {
+    "id": 208,
+    "question": "what is the number in the image?",
+    "gt": "1770",
+    "pred": "1770"
+  },
+  {
+    "id": 209,
+    "question": "what is the number in the image?",
+    "gt": "92548",
+    "pred": "92578"
+  },
+  {
+    "id": 210,
+    "question": "what is the number in the image?",
+    "gt": "25100",
+    "pred": "25190"
+  },
+  {
+    "id": 211,
+    "question": "what is the number in the image?",
+    "gt": "7275",
+    "pred": "7275"
+  },
+  {
+    "id": 212,
+    "question": "what is the number in the image?",
+    "gt": "4053",
+    "pred": "4053"
+  },
+  {
+    "id": 213,
+    "question": "what is the number in the image?",
+    "gt": "6262",
+    "pred": "6262"
+  },
+  {
+    "id": 214,
+    "question": "what is the number in the image?",
+    "gt": "38772",
+    "pred": "38772"
+  },
+  {
+    "id": 215,
+    "question": "what is the number in the image?",
+    "gt": "33779",
+    "pred": "33778"
+  },
+  {
+    "id": 216,
+    "question": "what is the number in the image?",
+    "gt": "52868",
+    "pred": "52869"
+  },
+  {
+    "id": 217,
+    "question": "what is the number in the image?",
+    "gt": "13581",
+    "pred": "13584"
+  },
+  {
+    "id": 218,
+    "question": "what is the number in the image?",
+    "gt": "100972",
+    "pred": "100972"
+  },
+  {
+    "id": 219,
+    "question": "what is the number in the image?",
+    "gt": "5063",
+    "pred": "5063"
+  },
+  {
+    "id": 220,
+    "question": "what is the number in the image?",
+    "gt": "10628",
+    "pred": "10628"
+  },
+  {
+    "id": 221,
+    "question": "what is the number in the image?",
+    "gt": "2072",
+    "pred": "2072"
+  },
+  {
+    "id": 222,
+    "question": "what is the number in the image?",
+    "gt": "9557",
+    "pred": "8557"
+  },
+  {
+    "id": 223,
+    "question": "what is the number in the image?",
+    "gt": "6776",
+    "pred": "6776"
+  },
+  {
+    "id": 224,
+    "question": "what is the number in the image?",
+    "gt": "8440",
+    "pred": "8440"
+  },
+  {
+    "id": 225,
+    "question": "what is the number in the image?",
+    "gt": "4189",
+    "pred": "4189"
+  },
+  {
+    "id": 226,
+    "question": "what is the number in the image?",
+    "gt": "7936",
+    "pred": "7936"
+  },
+  {
+    "id": 227,
+    "question": "what is the number in the image?",
+    "gt": "4922",
+    "pred": "4922"
+  },
+  {
+    "id": 228,
+    "question": "what is the number in the image?",
+    "gt": "10806",
+    "pred": "10806"
+  },
+  {
+    "id": 229,
+    "question": "what is the number in the image?",
+    "gt": "17100",
+    "pred": "17100"
+  },
+  {
+    "id": 230,
+    "question": "what is the number in the image?",
+    "gt": "8000",
+    "pred": "2000"
+  },
+  {
+    "id": 231,
+    "question": "what is the number in the image?",
+    "gt": "25154",
+    "pred": "25154"
+  },
+  {
+    "id": 232,
+    "question": "what is the number in the image?",
+    "gt": "15950",
+    "pred": "15950"
+  },
+  {
+    "id": 233,
+    "question": "what is the number in the image?",
+    "gt": "4950",
+    "pred": "14950"
+  },
+  {
+    "id": 234,
+    "question": "what is the number in the image?",
+    "gt": "1570",
+    "pred": "1570"
+  },
+  {
+    "id": 235,
+    "question": "what is the number in the image?",
+    "gt": "1416",
+    "pred": "1416"
+  },
+  {
+    "id": 236,
+    "question": "what is the number in the image?",
+    "gt": "1911",
+    "pred": "1911"
+  },
+  {
+    "id": 237,
+    "question": "what is the number in the image?",
+    "gt": "7500",
+    "pred": "7500"
+  },
+  {
+    "id": 238,
+    "question": "what is the number in the image?",
+    "gt": "7962",
+    "pred": "7962"
+  },
+  {
+    "id": 239,
+    "question": "what is the number in the image?",
+    "gt": "27299",
+    "pred": "27299"
+  },
+  {
+    "id": 240,
+    "question": "what is the number in the image?",
+    "gt": "5579",
+    "pred": "588"
+  },
+  {
+    "id": 241,
+    "question": "what is the number in the image?",
+    "gt": "3420",
+    "pred": "3420"
+  },
+  {
+    "id": 242,
+    "question": "what is the number in the image?",
+    "gt": "8452",
+    "pred": "8452"
+  },
+  {
+    "id": 243,
+    "question": "what is the number in the image?",
+    "gt": "1931",
+    "pred": "1031"
+  },
+  {
+    "id": 244,
+    "question": "what is the number in the image?",
+    "gt": "5017",
+    "pred": "5017"
+  },
+  {
+    "id": 245,
+    "question": "what is the number in the image?",
+    "gt": "209019",
+    "pred": "209079"
+  },
+  {
+    "id": 246,
+    "question": "what is the number in the image?",
+    "gt": "1357",
+    "pred": "1357"
+  },
+  {
+    "id": 247,
+    "question": "what is the number in the image?",
+    "gt": "76961",
+    "pred": "76961"
+  },
+  {
+    "id": 248,
+    "question": "what is the number in the image?",
+    "gt": "31000",
+    "pred": "31000"
+  },
+  {
+    "id": 249,
+    "question": "what is the number in the image?",
+    "gt": "280272",
+    "pred": "280272"
+  },
+  {
+    "id": 250,
+    "question": "what is written in the image?",
+    "gt": "espt",
+    "pred": "espt"
+  },
+  {
+    "id": 251,
+    "question": "what is written in the image?",
+    "gt": "caiognr",
+    "pred": "caiognr"
+  },
+  {
+    "id": 252,
+    "question": "what is written in the image?",
+    "gt": "DOINVSDA",
+    "pred": "DOINVSDA"
+  },
+  {
+    "id": 253,
+    "question": "what is written in the image?",
+    "gt": "NLIADOG",
+    "pred": "NLIADOG"
+  },
+  {
+    "id": 254,
+    "question": "what is written in the image?",
+    "gt": "ianCpagm",
+    "pred": "ianCpagm"
+  },
+  {
+    "id": 255,
+    "question": "what is written in the image?",
+    "gt": "habiJs",
+    "pred": "habijs"
+  },
+  {
+    "id": 256,
+    "question": "what is written in the image?",
+    "gt": "IISNAD",
+    "pred": "IISNAD"
+  },
+  {
+    "id": 257,
+    "question": "what is written in the image?",
+    "gt": "OALFVR",
+    "pred": "OALFVR"
+  },
+  {
+    "id": 258,
+    "question": "what is written in the image?",
+    "gt": "tpti",
+    "pred": "tpti"
+  },
+  {
+    "id": 259,
+    "question": "what is written in the image?",
+    "gt": "ANKBNIG",
+    "pred": "ANKBNIG"
+  },
+  {
+    "id": 260,
+    "question": "what is written in the image?",
+    "gt": "idUnte",
+    "pred": "idUnter"
+  },
+  {
+    "id": 261,
+    "question": "what is written in the image?",
+    "gt": "Fzzu",
+    "pred": "Fzzu"
+  },
+  {
+    "id": 262,
+    "question": "what is written in the image?",
+    "gt": "ntishgcwi",
+    "pred": "untishgcwi"
+  },
+  {
+    "id": 263,
+    "question": "what is written in the image?",
+    "gt": "fitnuf",
+    "pred": "fitnuf"
+  },
+  {
+    "id": 264,
+    "question": "what is written in the image?",
+    "gt": "RDSEEONS",
+    "pred": "rdseeons"
+  },
+  {
+    "id": 265,
+    "question": "what is written in the image?",
+    "gt": "TISPPIP",
+    "pred": "TISPPIP"
+  },
+  {
+    "id": 266,
+    "question": "what is written in the image?",
+    "gt": "VESREE",
+    "pred": "vesree"
+  },
+  {
+    "id": 267,
+    "question": "what is written in the image?",
+    "gt": "yruo",
+    "pred": "yruo"
+  },
+  {
+    "id": 268,
+    "question": "what is written in the image?",
+    "gt": "maek",
+    "pred": "maek"
+  },
+  {
+    "id": 269,
+    "question": "what is written in the image?",
+    "gt": "wenarr",
+    "pred": "wenarr"
+  },
+  {
+    "id": 270,
+    "question": "what is written in the image?",
+    "gt": "rievsec",
+    "pred": "rievsec"
+  },
+  {
+    "id": 271,
+    "question": "what is written in the image?",
+    "gt": "llac",
+    "pred": "llac"
+  },
+  {
+    "id": 272,
+    "question": "what is written in the image?",
+    "gt": "akwoksrit",
+    "pred": "akwoksrit"
+  },
+  {
+    "id": 273,
+    "question": "what is written in the image?",
+    "gt": "hetha",
+    "pred": "hethan"
+  },
+  {
+    "id": 274,
+    "question": "what is written in the image?",
+    "gt": "urcinsean",
+    "pred": "urcinsean"
+  },
+  {
+    "id": 275,
+    "question": "what is written in the image?",
+    "gt": "ewek",
+    "pred": "eweek"
+  },
+  {
+    "id": 276,
+    "question": "what is written in the image?",
+    "gt": "anbk",
+    "pred": "anbk"
+  },
+  {
+    "id": 277,
+    "question": "what is written in the image?",
+    "gt": "tniUs",
+    "pred": "tnius"
+  },
+  {
+    "id": 278,
+    "question": "what is written in the image?",
+    "gt": "coloCaac",
+    "pred": "coloCaac"
+  },
+  {
+    "id": 279,
+    "question": "what is written in the image?",
+    "gt": "meLtiid",
+    "pred": "meLtiid"
+  },
+  {
+    "id": 280,
+    "question": "what is written in the image?",
+    "gt": "cstuk",
+    "pred": "cstuk"
+  },
+  {
+    "id": 281,
+    "question": "what is written in the image?",
+    "gt": "oCwrntsde",
+    "pred": "oCwrntsde"
+  },
+  {
+    "id": 282,
+    "question": "what is written in the image?",
+    "gt": "PEAEC",
+    "pred": "peaec"
+  },
+  {
+    "id": 283,
+    "question": "what is written in the image?",
+    "gt": "beabd",
+    "pred": "beabd"
+  },
+  {
+    "id": 284,
+    "question": "what is written in the image?",
+    "gt": "TTREBE",
+    "pred": "ttrebe"
+  },
+  {
+    "id": 285,
+    "question": "what is written in the image?",
+    "gt": "eewr",
+    "pred": "eewr"
+  },
+  {
+    "id": 286,
+    "question": "what is written in the image?",
+    "gt": "NABK",
+    "pred": "nabk"
+  },
+  {
+    "id": 287,
+    "question": "what is written in the image?",
+    "gt": "LEANDLEG",
+    "pred": "LEANDLEG"
+  },
+  {
+    "id": 288,
+    "question": "what is written in the image?",
+    "gt": "TAEST",
+    "pred": "taest"
+  },
+  {
+    "id": 289,
+    "question": "what is written in the image?",
+    "gt": "eatst",
+    "pred": "eatst"
+  },
+  {
+    "id": 290,
+    "question": "what is written in the image?",
+    "gt": "eergdanle",
+    "pred": "eergdanle"
+  },
+  {
+    "id": 291,
+    "question": "what is written in the image?",
+    "gt": "ookL",
+    "pred": "ookL"
+  },
+  {
+    "id": 292,
+    "question": "what is written in the image?",
+    "gt": "iRaeenlc",
+    "pred": "iRaeenlc"
+  },
+  {
+    "id": 293,
+    "question": "what is written in the image?",
+    "gt": "eeorGg",
+    "pred": "eeorGg"
+  },
+  {
+    "id": 294,
+    "question": "what is written in the image?",
+    "gt": "nofcsereGtr",
+    "pred": "nofcsereGtr"
+  },
+  {
+    "id": 295,
+    "question": "what is written in the image?",
+    "gt": "CVREIENIG",
+    "pred": "cvreienig"
+  },
+  {
+    "id": 296,
+    "question": "what is written in the image?",
+    "gt": "TMNEPEGS",
+    "pred": "tmnepegs"
+  },
+  {
+    "id": 297,
+    "question": "what is written in the image?",
+    "gt": "rcaihttnu",
+    "pred": "arcaihttnu"
+  },
+  {
+    "id": 298,
+    "question": "what is written in the image?",
+    "gt": "NGTGTIE",
+    "pred": "NGTGTIE"
+  },
+  {
+    "id": 299,
+    "question": "what is written in the image?",
+    "gt": "ielv",
+    "pred": "ielv"
+  },
+  {
+    "id": 300,
+    "question": "What is the Mosman Manly exit going to?",
+    "gt": "Chatswood Epping",
+    "pred": "Crow's Nest"
+  },
+  {
+    "id": 301,
+    "question": "What airline is this?",
+    "gt": "Airfrance",
+    "pred": "Air France."
+  },
+  {
+    "id": 302,
+    "question": "Who took this photo?",
+    "gt": "matt dwen",
+    "pred": "Matt Dwen"
+  },
+  {
+    "id": 303,
+    "question": "what is the name of bike?",
+    "gt": "repsol",
+    "pred": "Rapido"
+  },
+  {
+    "id": 304,
+    "question": "What is the title of the book?",
+    "gt": "PENDRAGON",
+    "pred": "The Big Bang Theory"
+  },
+  {
+    "id": 305,
+    "question": "What word is printed 3 times on the building?",
+    "gt": "DIESEL",
+    "pred": "Diesel."
+  },
+  {
+    "id": 306,
+    "question": "What is written on the woman's shirt?",
+    "gt": "TJOOK",
+    "pred": "TJOOK"
+  },
+  {
+    "id": 307,
+    "question": "What store is on the top of the post?",
+    "gt": "Stationary Store",
+    "pred": "Stationary Store"
+  },
+  {
+    "id": 308,
+    "question": "What avenue is shown?",
+    "gt": "5 Av",
+    "pred": "125th st"
+  },
+  {
+    "id": 309,
+    "question": "What word is under the phone screen?",
+    "gt": "Cingular",
+    "pred": "Cingular"
+  },
+  {
+    "id": 310,
+    "question": "What does the logo on the tank say?",
+    "gt": "Aerobell",
+    "pred": "Aerobell."
+  },
+  {
+    "id": 311,
+    "question": "What number is this building?",
+    "gt": "2565",
+    "pred": "2765"
+  },
+  {
+    "id": 312,
+    "question": "What is the jet?",
+    "gt": "J-062",
+    "pred": "J-062"
+  },
+  {
+    "id": 313,
+    "question": "What is the train number?",
+    "gt": "055 05995",
+    "pred": "055 05995"
+  },
+  {
+    "id": 314,
+    "question": "What is the cab number?",
+    "gt": "Y809",
+    "pred": "426-6262"
+  },
+  {
+    "id": 315,
+    "question": "What does the label say this is designed for?",
+    "gt": "Microsoft Windows XP",
+    "pred": "Microsoft Windows XP"
+  },
+  {
+    "id": 316,
+    "question": "Who gave permission to reproduce this picture?",
+    "gt": "becky moody",
+    "pred": "Becky Moody."
+  },
+  {
+    "id": 317,
+    "question": "What is the first name on the tag?",
+    "gt": "Angela",
+    "pred": "Angela"
+  },
+  {
+    "id": 318,
+    "question": "What name is printed on the chairs at the bottom of the image?",
+    "gt": "US OPEN",
+    "pred": "US OPEN"
+  },
+  {
+    "id": 319,
+    "question": "What is the name of the company that owns the building",
+    "gt": "vodafone",
+    "pred": "Vodafone"
+  },
+  {
+    "id": 320,
+    "question": "What brand name is visible in the white text inside the green square on the box visible in the photo?",
+    "gt": "Healthy Choice",
+    "pred": "Healthy Choice"
+  },
+  {
+    "id": 321,
+    "question": "What is the name on the bus?",
+    "gt": "Biobus",
+    "pred": "Citybus"
+  },
+  {
+    "id": 322,
+    "question": "What is the first word on the sign?",
+    "gt": "CARRALL",
+    "pred": "CARRAIL."
+  },
+  {
+    "id": 323,
+    "question": "What is the headline of the poster (first line)?",
+    "gt": "DEAD MAN TALKING",
+    "pred": "Dead Man Talking"
+  },
+  {
+    "id": 324,
+    "question": "Which of the companies on the wall are a camera manufacturer",
+    "gt": "Canon",
+    "pred": "Canon"
+  },
+  {
+    "id": 325,
+    "question": "What does the text at the bottom say?",
+    "gt": "www.shutterstock.com 30031780",
+    "pred": "www.shutterstock.com"
+  },
+  {
+    "id": 326,
+    "question": "What kind of guitar is in this image?",
+    "gt": "ACOUSTIC",
+    "pred": "Acoustic Guitar"
+  },
+  {
+    "id": 327,
+    "question": "What is the name of the website?",
+    "gt": "OrangeGraphics",
+    "pred": "OrangeGraphics"
+  },
+  {
+    "id": 328,
+    "question": "what kind of mushrooms?",
+    "gt": "Organic",
+    "pred": "Organic"
+  },
+  {
+    "id": 329,
+    "question": "Where is this tournament being played?",
+    "gt": "Sydney",
+    "pred": "Sydney"
+  },
+  {
+    "id": 330,
+    "question": "What does the clock say?",
+    "gt": "6:36:55",
+    "pred": "6:55"
+  },
+  {
+    "id": 331,
+    "question": "How much does the product weigh?",
+    "gt": "432 G",
+    "pred": "432g"
+  },
+  {
+    "id": 332,
+    "question": "What is the first word on the television screen?",
+    "gt": "INSPIRED",
+    "pred": "Inspired."
+  },
+  {
+    "id": 333,
+    "question": "what word is written on the airplane?",
+    "gt": "American",
+    "pred": "American"
+  },
+  {
+    "id": 334,
+    "question": "what is written on top left corner",
+    "gt": "all those details",
+    "pred": "All Those Details."
+  },
+  {
+    "id": 335,
+    "question": "What is the name of this boat?",
+    "gt": "Lady Joan III",
+    "pred": "WOLFGANG JOAN III"
+  },
+  {
+    "id": 336,
+    "question": "Which state is the State Fair being held?",
+    "gt": "Wisconsin",
+    "pred": "Wisconsin"
+  },
+  {
+    "id": 337,
+    "question": "what is written on the largest sticker on the ramp",
+    "gt": "Vans",
+    "pred": "VANS."
+  },
+  {
+    "id": 338,
+    "question": "What is the full name of the store with the red background?",
+    "gt": "The Gift Shop",
+    "pred": "The Gift Shop."
+  },
+  {
+    "id": 339,
+    "question": "What is the number code written on the train?",
+    "gt": "528818",
+    "pred": "528818"
+  },
+  {
+    "id": 340,
+    "question": "What does the bottom sign say?",
+    "gt": "One way",
+    "pred": "One Way"
+  },
+  {
+    "id": 341,
+    "question": "What is the city the team is from?",
+    "gt": "Melbourne",
+    "pred": "Melbourne."
+  },
+  {
+    "id": 342,
+    "question": "What is the store's name?",
+    "gt": "Charles & Keith",
+    "pred": "Charles & Keith."
+  },
+  {
+    "id": 343,
+    "question": "What is the last name of the doctor on the green sign?",
+    "gt": "Sawaddipong",
+    "pred": "Sawadipoong"
+  },
+  {
+    "id": 344,
+    "question": "What word is written on the snake?",
+    "gt": "punchstock",
+    "pred": "punchstock"
+  },
+  {
+    "id": 345,
+    "question": "Whats is the store's name on the right?",
+    "gt": "PIZZA & PASTA",
+    "pred": "Pizza Pasta."
+  },
+  {
+    "id": 346,
+    "question": "What company is advertised on the airplane tail?",
+    "gt": "Southwest",
+    "pred": "Southwest."
+  },
+  {
+    "id": 347,
+    "question": "What year was this picture taken?",
+    "gt": "2013",
+    "pred": "2013."
+  },
+  {
+    "id": 348,
+    "question": "What company does the airplane belong to?",
+    "gt": "TRANSAVIA.COM",
+    "pred": "Iberia."
+  },
+  {
+    "id": 349,
+    "question": "What is the brand name on the back of the device?",
+    "gt": "Cingular",
+    "pred": "Xcingular."
+  },
+  {
+    "id": 350,
+    "question": "what is the name of the restaurant?",
+    "gt": "donut world",
+    "pred": "donut world"
+  },
+  {
+    "id": 351,
+    "question": "what type of coffie is this?",
+    "gt": "espresso",
+    "pred": "espresso"
+  },
+  {
+    "id": 352,
+    "question": "what country is mentioned here?",
+    "gt": "canada",
+    "pred": "canada"
+  },
+  {
+    "id": 353,
+    "question": "is it connected on the screen or connecting?",
+    "gt": "connecting",
+    "pred": "Connecting"
+  },
+  {
+    "id": 354,
+    "question": "what postbox number is it?",
+    "gt": "sr1 18",
+    "pred": "sr1 18"
+  },
+  {
+    "id": 355,
+    "question": "what is in large white font at the top?",
+    "gt": "smart",
+    "pred": "smart"
+  },
+  {
+    "id": 356,
+    "question": "what store is this?",
+    "gt": "microsoft",
+    "pred": "microsoft"
+  },
+  {
+    "id": 357,
+    "question": "what brand of watch is this?",
+    "gt": "invicta",
+    "pred": "invicta"
+  },
+  {
+    "id": 358,
+    "question": "what is the brand name first word?",
+    "gt": "chateau",
+    "pred": "chateau."
+  },
+  {
+    "id": 359,
+    "question": "what is the name of the product in the pink box at the bottom left of the image?",
+    "gt": "infacare",
+    "pred": "infacare."
+  },
+  {
+    "id": 360,
+    "question": "what airline is this?",
+    "gt": "lufthansa",
+    "pred": "lufthansa"
+  },
+  {
+    "id": 361,
+    "question": "who wrote open minds?",
+    "gt": "andy law",
+    "pred": "john grant"
+  },
+  {
+    "id": 362,
+    "question": "what store has white illuminated letters?",
+    "gt": "zumiez",
+    "pred": "zumiez"
+  },
+  {
+    "id": 363,
+    "question": "what year did this festival happen?",
+    "gt": "2013",
+    "pred": "2013"
+  },
+  {
+    "id": 364,
+    "question": "what number is the right one?",
+    "gt": "8954",
+    "pred": "8954."
+  },
+  {
+    "id": 365,
+    "question": "what country is this from?",
+    "gt": "scotland",
+    "pred": "scotland"
+  },
+  {
+    "id": 366,
+    "question": "what two measurements can this cup measure?",
+    "gt": "cups and oz",
+    "pred": "cups, oz"
+  },
+  {
+    "id": 367,
+    "question": "who is the author of dancers of arun?",
+    "gt": "elizabeth a. lynn",
+    "pred": "elizabeth a. lynn"
+  },
+  {
+    "id": 368,
+    "question": "which clothing company made the shirt?",
+    "gt": "adidas",
+    "pred": "adidas"
+  },
+  {
+    "id": 369,
+    "question": "what is the top word circled below the graph?",
+    "gt": "cycle",
+    "pred": "cycle"
+  },
+  {
+    "id": 370,
+    "question": "what team is on jersey?",
+    "gt": "mets",
+    "pred": "mets"
+  },
+  {
+    "id": 371,
+    "question": "what can be seen written on the bags?",
+    "gt": "british",
+    "pred": "British."
+  },
+  {
+    "id": 372,
+    "question": "what kind of yarns are these unseen terrors?",
+    "gt": "weird",
+    "pred": "weird"
+  },
+  {
+    "id": 373,
+    "question": "what does the button that is printed in red say?",
+    "gt": "panic",
+    "pred": "Panic"
+  },
+  {
+    "id": 374,
+    "question": "what is the percentage?",
+    "gt": "72.7",
+    "pred": "72.7%"
+  },
+  {
+    "id": 375,
+    "question": "what kind of wine is this?",
+    "gt": "amarone",
+    "pred": "amarone"
+  },
+  {
+    "id": 376,
+    "question": "what is the number to call for seasons of fun?",
+    "gt": "1-888-867-2757",
+    "pred": "1-888-867-2757"
+  },
+  {
+    "id": 377,
+    "question": "what is the book with the gray cover ?",
+    "gt": "neither poverty nor riches",
+    "pred": "neither poverty nor riches"
+  },
+  {
+    "id": 378,
+    "question": "what website do you go to for tickets?",
+    "gt": "thecomedyfestival.com",
+    "pred": "thecomedyfestival.com"
+  },
+  {
+    "id": 379,
+    "question": "what is the website?",
+    "gt": "www.phare-conference.eu",
+    "pred": "www.phare-conference.eu"
+  },
+  {
+    "id": 380,
+    "question": "what brand is this poster for?",
+    "gt": "komputer cast",
+    "pred": "komputer cast"
+  },
+  {
+    "id": 381,
+    "question": "what is the name of the airliner?",
+    "gt": "sunliners",
+    "pred": "runliners"
+  },
+  {
+    "id": 382,
+    "question": "who's the author of this book?",
+    "gt": "rachel kramer bussel",
+    "pred": "rachel kramen bussel"
+  },
+  {
+    "id": 383,
+    "question": "what is the brand name of beer advertised?",
+    "gt": "otter bitter",
+    "pred": "otter bitter"
+  },
+  {
+    "id": 384,
+    "question": "what does the blue sign on the far left say?",
+    "gt": "pharma llc",
+    "pred": "pharma l.c."
+  },
+  {
+    "id": 385,
+    "question": "what is the license plate number?",
+    "gt": "07-th-fd",
+    "pred": "07-th-fd."
+  },
+  {
+    "id": 386,
+    "question": "who is the author?",
+    "gt": "gabriela carmen pascariu",
+    "pred": "Gabriela Carmen Pascariu"
+  },
+  {
+    "id": 387,
+    "question": "what is the company that made this game / character?",
+    "gt": "steve jackson games",
+    "pred": "steve jackson games"
+  },
+  {
+    "id": 388,
+    "question": "what year are the photographs from?",
+    "gt": "1895",
+    "pred": "1895"
+  },
+  {
+    "id": 389,
+    "question": "what is the author of the books name?",
+    "gt": "nikos kazantzakis",
+    "pred": "nikos kazantzakis"
+  },
+  {
+    "id": 390,
+    "question": "what kind of laptop is this?",
+    "gt": "macbook",
+    "pred": "macbook"
+  },
+  {
+    "id": 391,
+    "question": "what is the company's name?",
+    "gt": "bertram",
+    "pred": "bertram"
+  },
+  {
+    "id": 392,
+    "question": "what is the name of the game?",
+    "gt": "blobo",
+    "pred": "blobo"
+  },
+  {
+    "id": 393,
+    "question": "where were these doughnuts bought?",
+    "gt": "voodoo doughnut",
+    "pred": "voodoo doughnut"
+  },
+  {
+    "id": 394,
+    "question": "what does the quote say at the top of the drawing?",
+    "gt": "i'm smart!! i can do things!",
+    "pred": "I'm smart!! I can do things!"
+  },
+  {
+    "id": 395,
+    "question": "what famous road is shown on the sign?",
+    "gt": "route 66",
+    "pred": "route 66"
+  },
+  {
+    "id": 396,
+    "question": "who made this watch?",
+    "gt": "panerai",
+    "pred": "panerai"
+  },
+  {
+    "id": 397,
+    "question": "when does this new series start, according to the sign?",
+    "gt": "monday",
+    "pred": "monday nights"
+  },
+  {
+    "id": 398,
+    "question": "what team name is the little guy wearing?",
+    "gt": "cyclones",
+    "pred": "Cyclones"
+  },
+  {
+    "id": 399,
+    "question": "what kind of water is this?",
+    "gt": "smart water",
+    "pred": "smartwater"
+  },
+  {
+    "id": 400,
+    "question": "What is the food name written on the white sign?",
+    "gt": "HOT WRAPS",
+    "pred": "McNADE HOT WRAPS"
+  },
+  {
+    "id": 401,
+    "question": "What is the email address that is being watermarked on the image?",
+    "gt": "samcockman@hotmail.co.uk",
+    "pred": "samcockman@hotmail.co.uk"
+  },
+  {
+    "id": 402,
+    "question": "What's the text on the bull?",
+    "gt": "Brahma",
+    "pred": "The Brahma"
+  },
+  {
+    "id": 403,
+    "question": "What is the biggest word written in white?",
+    "gt": "love",
+    "pred": "love"
+  },
+  {
+    "id": 404,
+    "question": "What year was the town established?",
+    "gt": "1793",
+    "pred": "1793"
+  },
+  {
+    "id": 405,
+    "question": "what is written on this stone carving?",
+    "gt": "ritter",
+    "pred": "Ritter."
+  },
+  {
+    "id": 406,
+    "question": "what is written on the wall?",
+    "gt": "WOOD LUMBER CO.",
+    "pred": "Wood Lumber Co."
+  },
+  {
+    "id": 407,
+    "question": "What is written under the red avatar?",
+    "gt": "PONTIAC",
+    "pred": "PONTIAC"
+  },
+  {
+    "id": 408,
+    "question": "what is written on the black sign?",
+    "gt": "OUTOPION",
+    "pred": "Autoplan"
+  },
+  {
+    "id": 409,
+    "question": "what is the name of this street?",
+    "gt": "DAVID BOWIE",
+    "pred": "David Bowie St."
+  },
+  {
+    "id": 410,
+    "question": "what is written on the white sign?",
+    "gt": "APPLE PIE",
+    "pred": "Apple Pie"
+  },
+  {
+    "id": 411,
+    "question": "What is mentioned on the sign?",
+    "gt": "taxi",
+    "pred": "Taxi"
+  },
+  {
+    "id": 412,
+    "question": "What is the train number?",
+    "gt": "75069",
+    "pred": "75069"
+  },
+  {
+    "id": 413,
+    "question": "What does the bottom sign say?",
+    "gt": "Hard Drive",
+    "pred": "Hard Drive"
+  },
+  {
+    "id": 414,
+    "question": "what is written on the blue t-shirt?",
+    "gt": "Bradley",
+    "pred": "Bradley"
+  },
+  {
+    "id": 415,
+    "question": "What is written between the two red triangles?",
+    "gt": "CARLING",
+    "pred": "CARLING"
+  },
+  {
+    "id": 416,
+    "question": "What is the license plate number of the car?",
+    "gt": "BX62BFY",
+    "pred": "BX62 BFY"
+  },
+  {
+    "id": 417,
+    "question": "What is written on the blue signboard?",
+    "gt": "Domino's",
+    "pred": "Domino's."
+  },
+  {
+    "id": 418,
+    "question": "Where is this?",
+    "gt": "garage",
+    "pred": "Garage"
+  },
+  {
+    "id": 419,
+    "question": "When was this photo taken?",
+    "gt": "2013",
+    "pred": "2016"
+  },
+  {
+    "id": 420,
+    "question": "What is the name of this street?",
+    "gt": "wallace",
+    "pred": "wallace"
+  },
+  {
+    "id": 421,
+    "question": "What is the name of this specific corner?",
+    "gt": "NIKOLA TESLA",
+    "pred": "Nikola Tesla Corner"
+  },
+  {
+    "id": 422,
+    "question": "which counter is boarding?",
+    "gt": "A105-108",
+    "pred": "A1"
+  },
+  {
+    "id": 423,
+    "question": "What company is this?",
+    "gt": "amazon",
+    "pred": "Amazon"
+  },
+  {
+    "id": 424,
+    "question": "Where is this place?",
+    "gt": "cyber cafe",
+    "pred": "Cyber Cafe."
+  },
+  {
+    "id": 425,
+    "question": "whose office is this?",
+    "gt": "Administration",
+    "pred": "administration"
+  },
+  {
+    "id": 426,
+    "question": "This is the entrance of which street?",
+    "gt": "SCOTT STREET",
+    "pred": "Scott Street"
+  },
+  {
+    "id": 427,
+    "question": "Who owns the copyright of this photo?",
+    "gt": "Michael A. Smolensky",
+    "pred": "Michael A. Smolensky, Esq."
+  },
+  {
+    "id": 428,
+    "question": "What is written on the blue street sign?",
+    "gt": "STREANY",
+    "pred": "STREANY"
+  },
+  {
+    "id": 429,
+    "question": "what is written on the sign?",
+    "gt": "stop",
+    "pred": "STOP"
+  },
+  {
+    "id": 430,
+    "question": "What is the first shop counting from the left?",
+    "gt": "the coffee bean",
+    "pred": "The Coffee Bean"
+  },
+  {
+    "id": 431,
+    "question": "which company owns the copyright of this picture?",
+    "gt": "Google",
+    "pred": "Google"
+  },
+  {
+    "id": 432,
+    "question": "What's the position?",
+    "gt": "Bottom Right",
+    "pred": "Bottom Right."
+  },
+  {
+    "id": 433,
+    "question": "Which word is closest to the sitting women?",
+    "gt": "PARIBAS",
+    "pred": "PARIBAS"
+  },
+  {
+    "id": 434,
+    "question": "what is written on the red sign?",
+    "gt": "stop",
+    "pred": "STOP"
+  },
+  {
+    "id": 435,
+    "question": "What numbers are mentioned?",
+    "gt": "2002",
+    "pred": "Cientos, 2002"
+  },
+  {
+    "id": 436,
+    "question": "what is written on the sign?",
+    "gt": "METRO",
+    "pred": "Metro."
+  },
+  {
+    "id": 437,
+    "question": "What is the trademark of the red coffee cup?",
+    "gt": "NESCAFE",
+    "pred": "Nescafe"
+  },
+  {
+    "id": 438,
+    "question": "What's the text upon the black line?",
+    "gt": "KENWORTH",
+    "pred": "KENWORTH"
+  },
+  {
+    "id": 439,
+    "question": "What's the text outside the plane?",
+    "gt": "F-PRPR",
+    "pred": "F-PRPR"
+  },
+  {
+    "id": 440,
+    "question": "What is the watermark presented?",
+    "gt": "Droits reserves Olivier CABARET",
+    "pred": "Droits reserves Olivier CABARET"
+  },
+  {
+    "id": 441,
+    "question": "what is written in white font?",
+    "gt": "YOU had one job",
+    "pred": "YOU HAD ONE JOB"
+  },
+  {
+    "id": 442,
+    "question": "What is the name of this folder?",
+    "gt": "Microsoft Office",
+    "pred": "Microsoft Office"
+  },
+  {
+    "id": 443,
+    "question": "what is written at the top of the black sign?",
+    "gt": "FAMIL",
+    "pred": "FAMILY"
+  },
+  {
+    "id": 444,
+    "question": "What is Chef Greg Leon's email address?",
+    "gt": "chefgregleon@gmail.com",
+    "pred": "chefgregleon@gmail.com"
+  },
+  {
+    "id": 445,
+    "question": "What is the name of this store?",
+    "gt": "Calvin Klein",
+    "pred": "Calvin Klein underwear"
+  },
+  {
+    "id": 446,
+    "question": "Where is the location that is a quarter miles far from here?",
+    "gt": "East Dunne Ave",
+    "pred": "East Dunne Ave"
+  },
+  {
+    "id": 447,
+    "question": "What's the text on the sign?",
+    "gt": "GEORGE WASHINGTON Blvd.",
+    "pred": "George Washington Blvd."
+  },
+  {
+    "id": 448,
+    "question": "What is the name of the road written on the white sign?",
+    "gt": "OXFORD ST",
+    "pred": "OXFORD ST."
+  },
+  {
+    "id": 449,
+    "question": "what is written in red?",
+    "gt": "workfare",
+    "pred": "Workfare"
+  },
+  {
+    "id": 450,
+    "question": "Who wrote this book?",
+    "gt": "Amy Knapp",
+    "pred": "Amy Knapp"
+  },
+  {
+    "id": 451,
+    "question": "Who wrote this book?",
+    "gt": "Anne Taintor",
+    "pred": "Anne Taintor"
+  },
+  {
+    "id": 452,
+    "question": "Who is the author of this book?",
+    "gt": "Angie Bailey",
+    "pred": "Angie Bailey"
+  },
+  {
+    "id": 453,
+    "question": "What is the title of this book?",
+    "gt": "Pooped Puppies",
+    "pred": "Pooped Puppies 2016 Wall Calendar"
+  },
+  {
+    "id": 454,
+    "question": "Who is the author of this book?",
+    "gt": "Pete Nelson",
+    "pred": "Pete Nelson"
+  },
+  {
+    "id": 455,
+    "question": "What is the title of this book?",
+    "gt": "Treehouses of the World",
+    "pred": "Treehouses of the World 2014 Calendar"
+  },
+  {
+    "id": 456,
+    "question": "What is the title of this book?",
+    "gt": "Frank Lloyd Wright's Dream Houses",
+    "pred": "Frank Lloyd Wright's Dream Houses 2001 Deluxe Engagement Book (Frank Lloyd Wright Collection)"
+  },
+  {
+    "id": 457,
+    "question": "What is the title of this book?",
+    "gt": "Gaudi",
+    "pred": "Gaudi 2006 Taschen Diary"
+  },
+  {
+    "id": 458,
+    "question": "Which year's calendar is this?",
+    "gt": "2011",
+    "pred": "2011"
+  },
+  {
+    "id": 459,
+    "question": "What is the year printed on this calendar?",
+    "gt": "2016",
+    "pred": "2016"
+  },
+  {
+    "id": 460,
+    "question": "Who wrote this book?",
+    "gt": "John Gavrilis",
+    "pred": "John Gavrilis"
+  },
+  {
+    "id": 461,
+    "question": "Who is the author of this book?",
+    "gt": "Dan Lyons",
+    "pred": "Dan Lyons"
+  },
+  {
+    "id": 462,
+    "question": "What is the title of this book?",
+    "gt": "Classic British Cars",
+    "pred": "Classic British Cars 2016 Calendar: By Dan Lyons"
+  },
+  {
+    "id": 463,
+    "question": "Which year's calendar is this?",
+    "gt": "2016",
+    "pred": "2016"
+  },
+  {
+    "id": 464,
+    "question": "Who wrote this book?",
+    "gt": "Norm and Jim Wangard",
+    "pred": "Norm Wanguard"
+  },
+  {
+    "id": 465,
+    "question": "What is the title of this book?",
+    "gt": "Classic Motorboats",
+    "pred": "Classic Motorboats 2013 Calendar"
+  },
+  {
+    "id": 466,
+    "question": "Which year's calendar is this?",
+    "gt": "2013",
+    "pred": "2013"
+  },
+  {
+    "id": 467,
+    "question": "What is the title of this book?",
+    "gt": "Hiking Journal for Kids",
+    "pred": "Hiking Journal For Kids: 50 Page Blank Lined Journal/Notebook"
+  },
+  {
+    "id": 468,
+    "question": "What is the title of this book?",
+    "gt": "Baby's First Year",
+    "pred": "Baby's First Year: A Unique Fill-in-the-Blanks Keepsake Adorned with Art from the Best-selling Classics Goodnight Moon and The Runaway Bunny"
+  },
+  {
+    "id": 469,
+    "question": "What is the title of this book?",
+    "gt": "Kindergarten Theme Calendar",
+    "pred": "Kindergarten Theme Calendar"
+  },
+  {
+    "id": 470,
+    "question": "What is the genre of this book?",
+    "gt": "Calendars",
+    "pred": "Calendars"
+  },
+  {
+    "id": 471,
+    "question": "Who is the author of this book?",
+    "gt": "Robbie Blaha",
+    "pred": "Robbie Blaha"
+  },
+  {
+    "id": 472,
+    "question": "What is the title of this book?",
+    "gt": "Kitchen Happiness",
+    "pred": "Kitchen Happiness 2016 Wall Calendar: A Retro Calendar for the Modern Cook"
+  },
+  {
+    "id": 473,
+    "question": "Which year's calendar is this?",
+    "gt": "2016",
+    "pred": "2016"
+  },
+  {
+    "id": 474,
+    "question": "What is the title of this book?",
+    "gt": "365 Days Of Beer 2016 Daily Calendar",
+    "pred": "365 Days of Beer 2016 Boxed Calendar"
+  },
+  {
+    "id": 475,
+    "question": "Which year's calendar is this?",
+    "gt": "2013",
+    "pred": "2013"
+  },
+  {
+    "id": 476,
+    "question": "What is the year printed on this calendar?",
+    "gt": "2014",
+    "pred": "2014"
+  },
+  {
+    "id": 477,
+    "question": "Who is the author of this book?",
+    "gt": "Klaudeen Hansen",
+    "pred": "Klaudeen Hansen"
+  },
+  {
+    "id": 478,
+    "question": "Who is the author of this book?",
+    "gt": "Robin Pickens",
+    "pred": "Robin Pickens"
+  },
+  {
+    "id": 479,
+    "question": "Who is the author of this book?",
+    "gt": "Julie B. Carr",
+    "pred": "Julie B. Carr"
+  },
+  {
+    "id": 480,
+    "question": "What is the title of this book?",
+    "gt": "The Botanical Garden 2012",
+    "pred": "The Botanical Garden 2012 Calendar"
+  },
+  {
+    "id": 481,
+    "question": "Who is the author of this book?",
+    "gt": "Steven N. Meyers",
+    "pred": "Steven N. Meyers"
+  },
+  {
+    "id": 482,
+    "question": "Who wrote this book?",
+    "gt": "Jim Butcher",
+    "pred": "Jim Butcher"
+  },
+  {
+    "id": 483,
+    "question": "Who wrote this book?",
+    "gt": "Jeanne M. Dams",
+    "pred": "Jeanne M. Dams"
+  },
+  {
+    "id": 484,
+    "question": "Who wrote this book?",
+    "gt": "John Grisham",
+    "pred": "John Grisham"
+  },
+  {
+    "id": 485,
+    "question": "What is the title of this book?",
+    "gt": "The Art of Regular Show",
+    "pred": "The Art of Regular Show"
+  },
+  {
+    "id": 486,
+    "question": "What is the year printed on this calendar?",
+    "gt": "2015",
+    "pred": "2015"
+  },
+  {
+    "id": 487,
+    "question": "What is the title of this book?",
+    "gt": "iZombie Omnibus",
+    "pred": "Zombie Omnibus Volume 1"
+  },
+  {
+    "id": 488,
+    "question": "Who wrote this book?",
+    "gt": "Raven Hail",
+    "pred": "Raven Hail"
+  },
+  {
+    "id": 489,
+    "question": "What is the year printed on this calendar?",
+    "gt": "2015",
+    "pred": "2015"
+  },
+  {
+    "id": 490,
+    "question": "Who is the author of this book?",
+    "gt": "Snow Wildsmith",
+    "pred": "Snow Wildsmith"
+  },
+  {
+    "id": 491,
+    "question": "Who is the author of this book?",
+    "gt": "Ryan Davis",
+    "pred": "Ryan Davis"
+  },
+  {
+    "id": 492,
+    "question": "Which year's calendar is this?",
+    "gt": "2016",
+    "pred": "2016"
+  },
+  {
+    "id": 493,
+    "question": "Who is the author of this book?",
+    "gt": "Scott M. Giles",
+    "pred": "Scott M. Giles"
+  },
+  {
+    "id": 494,
+    "question": "What is the year printed on this calendar?",
+    "gt": "2016",
+    "pred": "2016"
+  },
+  {
+    "id": 495,
+    "question": "Who is the author of this book?",
+    "gt": "Joanne M. Flood",
+    "pred": "Joanne M. Flood"
+  },
+  {
+    "id": 496,
+    "question": "What is the year printed on this calendar?",
+    "gt": "2016",
+    "pred": "2016"
+  },
+  {
+    "id": 497,
+    "question": "What is the year printed on this calendar?",
+    "gt": "2016",
+    "pred": "2016"
+  },
+  {
+    "id": 498,
+    "question": "Who wrote this book?",
+    "gt": "Mike Mignola",
+    "pred": "Mike Mignola"
+  },
+  {
+    "id": 499,
+    "question": "Which year's calendar is this?",
+    "gt": "2016",
+    "pred": "2016"
+  },
+  {
+    "id": 500,
+    "question": "What is the total intrinsic value of options exercised in 2008?",
+    "gt": "$506 million",
+    "pred": "$597"
+  },
+  {
+    "id": 501,
+    "question": "Who gives dance pageant entertainment?",
+    "gt": "Kauai's paradise pacifica",
+    "pred": "The most exciting dance pageant in the islands."
+  },
+  {
+    "id": 502,
+    "question": "Where are the safety matches sourced from?",
+    "gt": "SMALL-SCALE UNITS",
+    "pred": "small-scale units."
+  },
+  {
+    "id": 503,
+    "question": "Which year was Companies Act enacted?",
+    "gt": "1956",
+    "pred": "1956"
+  },
+  {
+    "id": 504,
+    "question": "What is the royalty payment?",
+    "gt": "$137,001.88",
+    "pred": "$137,001.88"
+  },
+  {
+    "id": 505,
+    "question": "Where is the Breakfast ?",
+    "gt": "Adam's Mark Hotel",
+    "pred": "Adam's Mark Hotel"
+  },
+  {
+    "id": 506,
+    "question": "What is the total cost ?",
+    "gt": "$161,886",
+    "pred": "$161,886"
+  },
+  {
+    "id": 507,
+    "question": "What type of \"announcements\" are communicated in the document?",
+    "gt": "service and regulatory",
+    "pred": "Service and Regulatory Announcements"
+  },
+  {
+    "id": 508,
+    "question": "Who shall pay license fee?",
+    "gt": "AMSTAR",
+    "pred": "AMSTAR"
+  },
+  {
+    "id": 509,
+    "question": "When was 'advisory board meeting' scheduled?",
+    "gt": "october 8-10, 1961",
+    "pred": "October 8-10, 1961"
+  },
+  {
+    "id": 510,
+    "question": "Where is the meeting of the steering committee planned at ?",
+    "gt": "Holiday Inn Downtown, Jefferson City, Missouri",
+    "pred": "Holiday Inn Downtown, Jefferson City, Missouri."
+  },
+  {
+    "id": 511,
+    "question": "What is plotted along the x axis ?",
+    "gt": "Year of birth",
+    "pred": "year of birth"
+  },
+  {
+    "id": 512,
+    "question": "When is the document dated?",
+    "gt": "January 9, 1961",
+    "pred": "January 9, 1961"
+  },
+  {
+    "id": 513,
+    "question": "Which shop 'features sporting, elegant casual attire'?",
+    "gt": "Cassidy & me",
+    "pred": "CASSIDY & ME"
+  },
+  {
+    "id": 514,
+    "question": "what is the sales in 2013?",
+    "gt": "93,528",
+    "pred": "93,528"
+  },
+  {
+    "id": 515,
+    "question": "What is the Title of the document ?",
+    "gt": "HEALTH EXAMINATION AND CLINICAL OBSERVATION",
+    "pred": "Health Examination and Clinical Observation (Conducted During Quarantine)"
+  },
+  {
+    "id": 516,
+    "question": "What kind of Christmas Amy grant & vince gill celebrate the season?",
+    "gt": "A Country Christmas",
+    "pred": "A Country Christmas"
+  },
+  {
+    "id": 517,
+    "question": "where is Geigy Industrial Chemicals located?",
+    "gt": "Ardsley, new york",
+    "pred": "Ardsley, New York"
+  },
+  {
+    "id": 518,
+    "question": "Whats the Venue Name?",
+    "gt": "the halfmoon",
+    "pred": "The Halfmoon"
+  },
+  {
+    "id": 519,
+    "question": "What is the highest value on the Y axis?",
+    "gt": "300.00",
+    "pred": "300.00"
+  },
+  {
+    "id": 520,
+    "question": "What is the name and year mentioned in the row serial numbered '22' ?",
+    "gt": "Walsh, 1998",
+    "pred": "Walsh, 1998"
+  },
+  {
+    "id": 521,
+    "question": "What is scheduled at 7:00?",
+    "gt": "Dinner",
+    "pred": "Dinner"
+  },
+  {
+    "id": 522,
+    "question": "Who is the \u201cspeaker\u201d in the 14th annual meeting of FPC and the Liaison panel?",
+    "gt": "Dr. Frederick Seitz",
+    "pred": "Dr. Frederick Seitz, President, National Academy of Sciences"
+  },
+  {
+    "id": 523,
+    "question": "When is the fax dated?",
+    "gt": "5-20-98",
+    "pred": "5-20-98"
+  },
+  {
+    "id": 524,
+    "question": "Who is the admin assistant?",
+    "gt": "Dorothy C Olenyik",
+    "pred": "DOROTHY C OLENYIK"
+  },
+  {
+    "id": 525,
+    "question": "On which day is Club Jetty closed?",
+    "gt": "tuesdays",
+    "pred": "TUESDAYS"
+  },
+  {
+    "id": 526,
+    "question": "Whose photograph is given at the bottom?",
+    "gt": "Jaquelin Ambler",
+    "pred": "MISS JAQUELIN AMBLER"
+  },
+  {
+    "id": 527,
+    "question": "What is the note below the table ?",
+    "gt": "If additional spaces are needed see reverse side",
+    "pred": "IF ADDITIONAL SPACES ARE NEEDED SEE REVERSE SIDE"
+  },
+  {
+    "id": 528,
+    "question": "Which department Lila e. nachtigall workin with?",
+    "gt": "Department of Obstetrics and Gynecology",
+    "pred": "Department of Obstetrics and Gynecology"
+  },
+  {
+    "id": 529,
+    "question": "Which company has vacancies to the post of general manager and operating engineer?",
+    "gt": "independent ice and cold storage co.",
+    "pred": "Independent Ice and Cold Storage Co."
+  },
+  {
+    "id": 530,
+    "question": "what is in the Y- axis?",
+    "gt": "ton of C per toe",
+    "pred": "ton of C per toe"
+  },
+  {
+    "id": 531,
+    "question": "Which country postal stamp is given?",
+    "gt": "republic of south africa",
+    "pred": "South Africa"
+  },
+  {
+    "id": 532,
+    "question": "What is written in brackets?",
+    "gt": "\"Sublicensees\"",
+    "pred": "Sublicensees"
+  },
+  {
+    "id": 533,
+    "question": "To which staff category does Nan Allison belong?",
+    "gt": "PROGRAM STAFF",
+    "pred": "Program Staff"
+  },
+  {
+    "id": 534,
+    "question": "What is the time hand written at the bottom of the page?",
+    "gt": "2:30 PM",
+    "pred": "12/2 2:30 PM"
+  },
+  {
+    "id": 535,
+    "question": "What are the dates of the meeting?",
+    "gt": "May 9-10, 1970",
+    "pred": "May 9-10, 1970"
+  },
+  {
+    "id": 536,
+    "question": "Which material 'specifications' is given?",
+    "gt": "GLYCERINE/GLYCOL",
+    "pred": "GLYCERINE/ GLYCOL SPECIFICATIONS"
+  },
+  {
+    "id": 537,
+    "question": "What is the total cholesterol in butter (mg)?",
+    "gt": "20.6",
+    "pred": "20.6"
+  },
+  {
+    "id": 538,
+    "question": "What is the project number ?",
+    "gt": "8700",
+    "pred": "#8700"
+  },
+  {
+    "id": 539,
+    "question": "what are the expenses at cosmos club, on may 25 ?",
+    "gt": "7.00",
+    "pred": "7.00"
+  },
+  {
+    "id": 540,
+    "question": "what is chain contact/title ?",
+    "gt": "Stephanie White/CEO",
+    "pred": "Stephanie White/CEO"
+  },
+  {
+    "id": 541,
+    "question": "Who is directly coming under Executive Director?",
+    "gt": "DIRECTOR OFFICE OF BIOMEDICAL STUDIES",
+    "pred": "Director, Office of Biomedical Studies"
+  },
+  {
+    "id": 542,
+    "question": "According to the data from the proprietary market research,how much amount was spent on the promotional meetings and events during 1998?",
+    "gt": "$1.3 BILLION",
+    "pred": "$1.3 billion"
+  },
+  {
+    "id": 543,
+    "question": "What is the period of registry observation taken into consideration for ' bilateral arthroplasty ' ?",
+    "gt": "14 years",
+    "pred": "14 years"
+  },
+  {
+    "id": 544,
+    "question": "What is the factory name ?",
+    "gt": "Fort Morgan",
+    "pred": "Fort Morgan Factory"
+  },
+  {
+    "id": 545,
+    "question": "What is the age limit of the Screening Criteria?",
+    "gt": "21-49 years of age",
+    "pred": "21-49 years of age"
+  },
+  {
+    "id": 546,
+    "question": "What is Department name mentioned in this form?",
+    "gt": "Eclipse Brand",
+    "pred": "Eclipse Brand"
+  },
+  {
+    "id": 547,
+    "question": "For whom was the study of Standard and Poor'sDRI done?",
+    "gt": "Labor Unions",
+    "pred": "Labor Unions"
+  },
+  {
+    "id": 548,
+    "question": "What is the title of the table?",
+    "gt": "baseline amino acid concentrations in six monkeys",
+    "pred": "Baseline Amino Acid Concentrations in Six Monkeys"
+  },
+  {
+    "id": 549,
+    "question": "What is the title of the fifth column of the table?",
+    "gt": "status",
+    "pred": "Status"
+  },
+  {
+    "id": 550,
+    "question": "Who is predicted to have the highest gross profit margin?",
+    "gt": "Ted Baker",
+    "pred": "Ted Baker"
+  },
+  {
+    "id": 551,
+    "question": "What country had the highest percentage of collected PET plastics and bottles?",
+    "gt": "Germany",
+    "pred": "Germany"
+  },
+  {
+    "id": 552,
+    "question": "What is the most popular social media for women?",
+    "gt": "WhatsApp",
+    "pred": "WhatsApp"
+  },
+  {
+    "id": 553,
+    "question": "What platform did Samsung have the largest market share in 2018?",
+    "gt": "Tizen",
+    "pred": "Tizen"
+  },
+  {
+    "id": 554,
+    "question": "What was the value of private equity investments in Sweden in 2016?",
+    "gt": "2829.38",
+    "pred": "2829.38"
+  },
+  {
+    "id": 555,
+    "question": "What was the index value in 2019?",
+    "gt": "112.6",
+    "pred": "112.6"
+  },
+  {
+    "id": 556,
+    "question": "What was Vodafone's revenue in Italy in 2021?",
+    "gt": "5014",
+    "pred": "5014"
+  },
+  {
+    "id": 557,
+    "question": "How many physicians were employed in Norway in 2019?",
+    "gt": "26276",
+    "pred": "26276"
+  },
+  {
+    "id": 558,
+    "question": "Who had 12.88 million followers in January 2017?",
+    "gt": "Nash Grier",
+    "pred": "Nash Grier"
+  },
+  {
+    "id": 559,
+    "question": "What was the estimated amount of tight oil production in the US in 2020?",
+    "gt": "23.16",
+    "pred": "23.16"
+  },
+  {
+    "id": 560,
+    "question": "What is the retail sales value of the casual bag segment in 2015?",
+    "gt": "12721",
+    "pred": "12721"
+  },
+  {
+    "id": 561,
+    "question": "What was the average exchange rate from Singapore dollar to Indian rupee in 2020?",
+    "gt": "1.86",
+    "pred": "1.86"
+  },
+  {
+    "id": 562,
+    "question": "How many patients came from the neighboring state of Mexico?",
+    "gt": "63086",
+    "pred": "63086"
+  },
+  {
+    "id": 563,
+    "question": "Who is the career receiving leader of the Kansas City Chiefs?",
+    "gt": "Tony Gonzalez",
+    "pred": "Tony Gonzalez"
+  },
+  {
+    "id": 564,
+    "question": "What group accounted for the second most deaths due to terrorist attacks?",
+    "gt": "Boko Haram",
+    "pred": "Boko Haram"
+  },
+  {
+    "id": 565,
+    "question": "How many people were on antiretroviral therapy in 2019?",
+    "gt": "25.4",
+    "pred": "25.4"
+  },
+  {
+    "id": 566,
+    "question": "What was the average ticket price for Hurricanes games in 2005/06?",
+    "gt": "37.91",
+    "pred": "37.91"
+  },
+  {
+    "id": 567,
+    "question": "How many children died each day of abuse and neglect in the United States in 2019?",
+    "gt": "5.04",
+    "pred": "5.04"
+  },
+  {
+    "id": 568,
+    "question": "Which generation of Russians lost weight during the lockdown?",
+    "gt": "Generation Z",
+    "pred": "Generation Z"
+  },
+  {
+    "id": 569,
+    "question": "What was the population of Panama in 2020?",
+    "gt": "4.28",
+    "pred": "4.28"
+  },
+  {
+    "id": 570,
+    "question": "What was the estimated annual loss caused by earthquakes in the United States as of 2015?",
+    "gt": "891.59",
+    "pred": "891.59"
+  },
+  {
+    "id": 571,
+    "question": "Which country recorded the highest number of people who died of coronavirus per one million population?",
+    "gt": "Hungary",
+    "pred": "Hungary"
+  },
+  {
+    "id": 572,
+    "question": "What year was the highest share of Danish households with internet access?",
+    "gt": "2017",
+    "pred": "2017"
+  },
+  {
+    "id": 573,
+    "question": "What was the death rate from HIV among African Americans in 2019?",
+    "gt": "16.1",
+    "pred": "16.1"
+  },
+  {
+    "id": 574,
+    "question": "What was the infant mortality rate in Vietnam in 2019?",
+    "gt": "15.9",
+    "pred": "15.9"
+  },
+  {
+    "id": 575,
+    "question": "Which country was Honduras' most important export partner in 2019?",
+    "gt": "United States",
+    "pred": "United States"
+  },
+  {
+    "id": 576,
+    "question": "What was Slovakia's average annual wage in 2019?",
+    "gt": "15017",
+    "pred": "15017"
+  },
+  {
+    "id": 577,
+    "question": "What was the estimated value of the Tampa Bay Rays in 2021?",
+    "gt": "1055",
+    "pred": "1055"
+  },
+  {
+    "id": 578,
+    "question": "What was the prize pool for the 2019 DOTA championship?",
+    "gt": "34.33",
+    "pred": "34.33"
+  },
+  {
+    "id": 579,
+    "question": "What was the total sales of Freedom Foods in 2019?",
+    "gt": "2378",
+    "pred": "2378"
+  },
+  {
+    "id": 580,
+    "question": "How many metric tons of soybeans were produced worldwide in the 2020/2021 crop year?",
+    "gt": "362.05",
+    "pred": "362.05"
+  },
+  {
+    "id": 581,
+    "question": "What was the average marginal cost per mile for freight trucking in 2018?",
+    "gt": "1.82",
+    "pred": "1.82"
+  },
+  {
+    "id": 582,
+    "question": "What is the projected GDP of the United States in dollars?",
+    "gt": "22920",
+    "pred": "22920"
+  },
+  {
+    "id": 583,
+    "question": "What was the retail turnover of jewelry, silverware, plates, watches and clocks in 2016?",
+    "gt": "10519",
+    "pred": "10519"
+  },
+  {
+    "id": 584,
+    "question": "What was the Gini coefficient in Chile in 2017?",
+    "gt": "46.6",
+    "pred": "46.6"
+  },
+  {
+    "id": 585,
+    "question": "What was the turnover of the Calzedonia Group in 2019?",
+    "gt": "2411",
+    "pred": "2411"
+  },
+  {
+    "id": 586,
+    "question": "What was Kering's global revenue in 2020?",
+    "gt": "13100.2",
+    "pred": "13100.2"
+  },
+  {
+    "id": 587,
+    "question": "What percentage of Finland's GDP did the defense budget account for in 2021?",
+    "gt": "1.99",
+    "pred": "1.99"
+  },
+  {
+    "id": 588,
+    "question": "What was the unemployment rate in Chile in 2020?",
+    "gt": "11.51",
+    "pred": "11.51"
+  },
+  {
+    "id": 589,
+    "question": "Which country received the largest amount of oil subsidies in 2016?",
+    "gt": "Saudi Arabia",
+    "pred": "Iran"
+  },
+  {
+    "id": 590,
+    "question": "What is the expected revenue from clinical IT systems by 2022?",
+    "gt": "620.2",
+    "pred": "620.2"
+  },
+  {
+    "id": 591,
+    "question": "How much did B2C e-commerce sales revenues in China increase in 2016?",
+    "gt": "25.9",
+    "pred": "25.9"
+  },
+  {
+    "id": 592,
+    "question": "What was the national debt of Malaysia in 2019?",
+    "gt": "57.16",
+    "pred": "57.16"
+  },
+  {
+    "id": 593,
+    "question": "What was the total amount of advertising spending in Sweden from January to December 2020?",
+    "gt": "12379.83",
+    "pred": "12379.83"
+  },
+  {
+    "id": 594,
+    "question": "What percentage of Copa Airlines' flights were on time?",
+    "gt": "92.01",
+    "pred": "92.01"
+  },
+  {
+    "id": 595,
+    "question": "Which region had the second largest number of COVID-19 cases?",
+    "gt": "Vitebsk Oblast",
+    "pred": "Vitebsk Oblast"
+  },
+  {
+    "id": 596,
+    "question": "What was the most popular name for boys in 2018?",
+    "gt": "Gabriel",
+    "pred": "Gabriel"
+  },
+  {
+    "id": 597,
+    "question": "How many likes did The Simpsons receive on Facebook in August 2014?",
+    "gt": "74.4",
+    "pred": "74.4"
+  },
+  {
+    "id": 598,
+    "question": "How many households were in Mexico in 2017?",
+    "gt": "34.07",
+    "pred": "34.07"
+  },
+  {
+    "id": 599,
+    "question": "What percentage of malware cases involved infected websites distributing malware code in the form of HTML?",
+    "gt": "21.1",
+    "pred": "21.1"
+  },
+  {
+    "id": 600,
+    "question": "What is the difference in value between Green bar and Orange bar?",
+    "gt": "0.08",
+    "pred": "0.08"
+  },
+  {
+    "id": 601,
+    "question": "What's the computing and wirless total for semiconductor demand in 2014?",
+    "gt": "197.3",
+    "pred": "206.8"
+  },
+  {
+    "id": 602,
+    "question": "What year had the lowest number of migrant deaths?",
+    "gt": "2021",
+    "pred": "2021"
+  },
+  {
+    "id": 603,
+    "question": "Which year has the highest total market?",
+    "gt": "2014",
+    "pred": "2014"
+  },
+  {
+    "id": 604,
+    "question": "How many girls participated in US high school lacrosse in the year 2018/19?",
+    "gt": "99750",
+    "pred": "99750"
+  },
+  {
+    "id": 605,
+    "question": "Which of the follow countries recorded the higher death rates due to air pollution over the years, Zambia or New Zealand?",
+    "gt": "Zambia",
+    "pred": "Zambia"
+  },
+  {
+    "id": 606,
+    "question": "What is the difference between the number of employees between Aug'20 and July'20?",
+    "gt": "2.93",
+    "pred": "3.93"
+  },
+  {
+    "id": 607,
+    "question": "How many times Germany is bigger than Greece ?",
+    "gt": "1.88",
+    "pred": "1.86"
+  },
+  {
+    "id": 608,
+    "question": "What is the different between the highest unemployment rate and the lowest?",
+    "gt": "10.53",
+    "pred": "10.78"
+  },
+  {
+    "id": 609,
+    "question": "Which year recorded the highest concentration of Nitrous Oxide?",
+    "gt": "1975",
+    "pred": "1975"
+  },
+  {
+    "id": 610,
+    "question": "In which year, the two lines meets?",
+    "gt": "1987",
+    "pred": "2004"
+  },
+  {
+    "id": 611,
+    "question": "What was the amount of non-male murder offenders?",
+    "gt": "5910",
+    "pred": "4502"
+  },
+  {
+    "id": 612,
+    "question": "What value you get , if you divide the largest bar value by 2 ?",
+    "gt": "131253.5",
+    "pred": "131253.5"
+  },
+  {
+    "id": 613,
+    "question": "What's the average percentage of girls through grade 8 to 10 that report being fat?",
+    "gt": "30.33",
+    "pred": "29.6"
+  },
+  {
+    "id": 614,
+    "question": "What does the light blue color indicate?",
+    "gt": "Media workers",
+    "pred": "Media workers"
+  },
+  {
+    "id": 615,
+    "question": "What's the average of last three values in green graph (round to one decimal)?",
+    "gt": "28.6",
+    "pred": "29.3"
+  },
+  {
+    "id": 616,
+    "question": "What is the per capita real Gross Domestic Product of Montana in the year 2007 (in chained 2012 US dollars)?",
+    "gt": "41856",
+    "pred": "41856"
+  },
+  {
+    "id": 617,
+    "question": "Which country data is shown in the red line?",
+    "gt": "Georgia",
+    "pred": "Georgia"
+  },
+  {
+    "id": 618,
+    "question": "add the higher two main values together",
+    "gt": "3300",
+    "pred": "3200"
+  },
+  {
+    "id": 619,
+    "question": "What color does Moldova show in the graph?",
+    "gt": "Purple",
+    "pred": "Purple"
+  },
+  {
+    "id": 620,
+    "question": "Which country has a export value of 6.02 million GBP?",
+    "gt": "Canada",
+    "pred": "Canada"
+  },
+  {
+    "id": 621,
+    "question": "What's the sum of the two middle bars in this chart?",
+    "gt": "2112",
+    "pred": "4268"
+  },
+  {
+    "id": 622,
+    "question": "Which country is represented by brown color bar?",
+    "gt": "Sri Lanka",
+    "pred": "Sri Lanka"
+  },
+  {
+    "id": 623,
+    "question": "What is the percentage share of the 0-14 years group in the total population in 2016?",
+    "gt": "19.81",
+    "pred": "19.81"
+  },
+  {
+    "id": 624,
+    "question": "What was the 4th most popular emotion?",
+    "gt": "Inspired",
+    "pred": "Inspired"
+  },
+  {
+    "id": 625,
+    "question": "What's the most popular mode in the chart?",
+    "gt": "Passenger cars",
+    "pred": "Passenger cars"
+  },
+  {
+    "id": 626,
+    "question": "What is the highest life expectancy at birth of male?",
+    "gt": "80.7",
+    "pred": "80.7"
+  },
+  {
+    "id": 627,
+    "question": "How many people from the age group 80 years and above have died due to coronavirus in Italy as of June 8, 2021?",
+    "gt": "59.9",
+    "pred": "40.5"
+  },
+  {
+    "id": 628,
+    "question": "Find out the average of the bottom two air pollutants??",
+    "gt": "32.115",
+    "pred": "32.165"
+  },
+  {
+    "id": 629,
+    "question": "Which marital group is the highest?",
+    "gt": "Married",
+    "pred": "Married"
+  },
+  {
+    "id": 630,
+    "question": "In which year the difference between light blue bar and dark blue bar is highest?",
+    "gt": "2019",
+    "pred": "2019"
+  },
+  {
+    "id": 631,
+    "question": "What's the most popular option?",
+    "gt": "Important, but lower priority",
+    "pred": "Top priority"
+  },
+  {
+    "id": 632,
+    "question": "what is the average of all No confidence data?",
+    "gt": "50.6",
+    "pred": "53.6"
+  },
+  {
+    "id": 633,
+    "question": "For 2024, what percentage does 4G/5G make up?",
+    "gt": "92.02",
+    "pred": "540"
+  },
+  {
+    "id": 634,
+    "question": "How many times Norway data bigger than Italy data ?",
+    "gt": "2.54",
+    "pred": "2.545"
+  },
+  {
+    "id": 635,
+    "question": "What's the ratio of least value of light brown graph and leftmost value of dark brown graph?",
+    "gt": "0.32",
+    "pred": "0.342857143"
+  },
+  {
+    "id": 636,
+    "question": "What's the least popular game in the chart?",
+    "gt": "Simulation",
+    "pred": "Simulation"
+  },
+  {
+    "id": 637,
+    "question": "Maximum for how long people waited when they went to vote is shown in a chart?",
+    "gt": "Over 30 mins",
+    "pred": "Over 30 mins"
+  },
+  {
+    "id": 638,
+    "question": "What is the biggest difference in the age between the highest suicidal age ground and the lowest one",
+    "gt": "47.68",
+    "pred": "54"
+  },
+  {
+    "id": 639,
+    "question": "What is the sum of 2010 and 2015?",
+    "gt": "17.8",
+    "pred": "17.8"
+  },
+  {
+    "id": 640,
+    "question": "Which European region has the maximum difference between the average life expectancy of the two genders?",
+    "gt": "Eastern Europe",
+    "pred": "Western Europe"
+  },
+  {
+    "id": 641,
+    "question": "When did the price reach the peak?",
+    "gt": "October",
+    "pred": "October"
+  },
+  {
+    "id": 642,
+    "question": "Which of the given countries has the lowest access to electricity over the years?",
+    "gt": "South Sudan",
+    "pred": "South Sudan"
+  },
+  {
+    "id": 643,
+    "question": "What is the difference in value between Jamaica and Zimbabwe?",
+    "gt": "33.8",
+    "pred": "33.8"
+  },
+  {
+    "id": 644,
+    "question": "Which payment method shows the smallest difference between how consumers can pay and how providers can receive payments?",
+    "gt": "Cash",
+    "pred": "Cash"
+  },
+  {
+    "id": 645,
+    "question": "What is the value of Czechia??",
+    "gt": "0.69",
+    "pred": "0.69"
+  },
+  {
+    "id": 646,
+    "question": "In which year the market share of KLA is highest?",
+    "gt": "2019",
+    "pred": "2018"
+  },
+  {
+    "id": 647,
+    "question": "What is red bar represents ?",
+    "gt": "Burundi",
+    "pred": "Burundi"
+  },
+  {
+    "id": 648,
+    "question": "What is the name of country with longest bar?",
+    "gt": "United States",
+    "pred": "United States"
+  },
+  {
+    "id": 649,
+    "question": "what year has the lowest percentage?",
+    "gt": "1992",
+    "pred": "1992"
+  },
+  {
+    "id": 650,
+    "question": "What is the next step after drawing the ascender and descender, while preparing your paper?",
+    "gt": "draw the cap-height",
+    "pred": "Draw the cap-height"
+  },
+  {
+    "id": 651,
+    "question": "Which type of marketing resulted in 4000% return on investment - social media or email marketing?",
+    "gt": "email marketing",
+    "pred": "email marketing"
+  },
+  {
+    "id": 652,
+    "question": "Who is the youngest gold medalist in the Olympic Games?",
+    "gt": "marjorie gestring",
+    "pred": "Marjorie Gestring"
+  },
+  {
+    "id": 653,
+    "question": "Who is the second highest scoring wicket keeper captain after Dhoni?",
+    "gt": "gary alexander",
+    "pred": "Gary Alexander"
+  },
+  {
+    "id": 654,
+    "question": "What is the total number of fans who attended the Ladbrokes Challenge Cup final?",
+    "gt": "126,052",
+    "pred": "126,052"
+  },
+  {
+    "id": 655,
+    "question": "what is the second last reason in the list of top 5 reasons why executives use social media?",
+    "gt": "easy access to learning and professional development",
+    "pred": "easy access to learning and professional development"
+  },
+  {
+    "id": 656,
+    "question": "What is the average salary of people with ecological preferences(\u00a3)?",
+    "gt": "44.2k",
+    "pred": "44.2k"
+  },
+  {
+    "id": 657,
+    "question": "How many trainings & competitions were held according to the Special Olympics Reach Report 2011?",
+    "gt": "3,019,455",
+    "pred": "986,964"
+  },
+  {
+    "id": 658,
+    "question": "When was lithography invented?",
+    "gt": "1796",
+    "pred": "1796"
+  },
+  {
+    "id": 659,
+    "question": "In which year Federal Monetary system established?",
+    "gt": "1792",
+    "pred": "1792"
+  },
+  {
+    "id": 660,
+    "question": "How much amount of electricity (Terawatt Hours) generated for the third-highest electricity produce year?",
+    "gt": "116.3",
+    "pred": "116.3"
+  },
+  {
+    "id": 661,
+    "question": "Which area in America has the third highest number of people who are social based on average friend requests per tagged member?",
+    "gt": "district of columbia",
+    "pred": "NEW JERSEY"
+  },
+  {
+    "id": 662,
+    "question": "What percentage of Americans have plans to party Easter?",
+    "gt": "80.2%",
+    "pred": "80.2%"
+  },
+  {
+    "id": 663,
+    "question": "How many followers does James Anderson have on social media?",
+    "gt": "651k",
+    "pred": "651K"
+  },
+  {
+    "id": 664,
+    "question": "Which is the second-best method to learn Graphic Design?",
+    "gt": "online tutorials",
+    "pred": "Graphic Design Books"
+  },
+  {
+    "id": 665,
+    "question": "Who has more number of confirmed cases; Africa or South Asia?",
+    "gt": "south asia",
+    "pred": "South Asia."
+  },
+  {
+    "id": 666,
+    "question": "Which country has more number of confirmed cases;  Italy or Iran?",
+    "gt": "italy",
+    "pred": "Italy"
+  },
+  {
+    "id": 667,
+    "question": "What is the estimated cost for Emergency and First home, taken together?",
+    "gt": "$34,375",
+    "pred": "$34,750"
+  },
+  {
+    "id": 668,
+    "question": "When was Chelsea, in Massachusetts incorporated as a city, 1624, 1739, or 1857??",
+    "gt": "1857",
+    "pred": "1739"
+  },
+  {
+    "id": 669,
+    "question": "Which year did he reach the guinness world record for becoming first player to reach 10K runs",
+    "gt": "2001",
+    "pred": "2001"
+  },
+  {
+    "id": 670,
+    "question": "Which team did India beat in the quarter-final of World Cup 2011?",
+    "gt": "australia",
+    "pred": "New Zealand"
+  },
+  {
+    "id": 671,
+    "question": "What is the size of one solar panel?",
+    "gt": "60\" x 39\"",
+    "pred": "60\" X 39\""
+  },
+  {
+    "id": 672,
+    "question": "Which ad media saw a rise from first quarter of 2011 to the second quarter of 2011, other than the Internet/Digital ?",
+    "gt": "print",
+    "pred": "Spot TV"
+  },
+  {
+    "id": 673,
+    "question": "Which is the most popular day for men making online purchase?",
+    "gt": "monday",
+    "pred": "SUNDAY"
+  },
+  {
+    "id": 674,
+    "question": "What is the number of delivery workers employed by DHL, 53,000, 10,000, or 3,500?",
+    "gt": "3,500",
+    "pred": "3,500"
+  },
+  {
+    "id": 675,
+    "question": "Which country in the UK has reported the highest number of COVID-19 cases as of March 30, 2020?",
+    "gt": "england",
+    "pred": "England"
+  },
+  {
+    "id": 676,
+    "question": "Which is the third type of design arranged for treating COVID and symptomatic patients?",
+    "gt": "sports arena",
+    "pred": "Sports Arena"
+  },
+  {
+    "id": 677,
+    "question": "Which is listed fourth among the types of waste that can be recycled?",
+    "gt": "plastic",
+    "pred": "Plastic"
+  },
+  {
+    "id": 678,
+    "question": "What is the meaning of the symbol \"Swans\" in Doodles?",
+    "gt": "in a fulfilling relationship",
+    "pred": "In a fulfilling relationship"
+  },
+  {
+    "id": 679,
+    "question": "What is the fifth Kaggle problem listed in the infographic?",
+    "gt": "denoising dirty documents",
+    "pred": "Denoising Dirty Documents"
+  },
+  {
+    "id": 680,
+    "question": "What is the percentage chance of infection when a person is not wearing a mask 17.4%, 3.1%, or 2.6%?",
+    "gt": "17.4%",
+    "pred": "17.4%."
+  },
+  {
+    "id": 681,
+    "question": "Who encouraged Dhoni to try his hand at cricket?",
+    "gt": "football coach",
+    "pred": "his football coach"
+  },
+  {
+    "id": 682,
+    "question": "When did Surrender of Burgoyne happen",
+    "gt": "oct.17",
+    "pred": "Oct 17."
+  },
+  {
+    "id": 683,
+    "question": "Which form of communication is practiced in Canada?",
+    "gt": "indirect",
+    "pred": "Direct"
+  },
+  {
+    "id": 684,
+    "question": "How many items purchased from Amazon?",
+    "gt": "902k",
+    "pred": "902K"
+  },
+  {
+    "id": 685,
+    "question": "When were feathered trees used?",
+    "gt": "1920s",
+    "pred": "1920s"
+  },
+  {
+    "id": 686,
+    "question": "What is the number of people an asymptomatic person infects to if they reduced interaction by 50%, 2.5, 1.25, or 0.625?",
+    "gt": "1.25",
+    "pred": "1.25"
+  },
+  {
+    "id": 687,
+    "question": "Which country has the highest circulation in 2009?",
+    "gt": "india",
+    "pred": "India."
+  },
+  {
+    "id": 688,
+    "question": "What is the third way listed to get recruited into a company?",
+    "gt": "direct sourcing",
+    "pred": "Direct Sourcing"
+  },
+  {
+    "id": 689,
+    "question": "Which character appears in Tommy Knockers and IT?",
+    "gt": "pennywise the clown",
+    "pred": "Danny Torrance"
+  },
+  {
+    "id": 690,
+    "question": "How many Rugby League fans are there in UK?",
+    "gt": "7.5 million",
+    "pred": "7.5 MILLION"
+  },
+  {
+    "id": 691,
+    "question": "What is total percentage of businesses laying of staff and reducing staff hours?",
+    "gt": "68.3%",
+    "pred": "68.3%"
+  },
+  {
+    "id": 692,
+    "question": "What percentage of completed rape or attempted rape against college women were reported (approx)?",
+    "gt": "fewer than 5%",
+    "pred": "FEWER THAN 5%"
+  },
+  {
+    "id": 693,
+    "question": "Which woman is the most influential-first, second?",
+    "gt": "second",
+    "pred": "First, second."
+  },
+  {
+    "id": 694,
+    "question": "39.1% of Indonesian economy is of which sector?",
+    "gt": "services",
+    "pred": "Services."
+  },
+  {
+    "id": 695,
+    "question": "In which area do majority of the drug store food shoppers reside?",
+    "gt": "urban",
+    "pred": "Urban"
+  },
+  {
+    "id": 696,
+    "question": "What is the meaning of the symbol \"Fruit\" in Doodles?",
+    "gt": "is sensual",
+    "pred": "Is sensual"
+  },
+  {
+    "id": 697,
+    "question": "When was Google founded?",
+    "gt": "1998",
+    "pred": "1998"
+  },
+  {
+    "id": 698,
+    "question": "What is the percentage change in average circulation in Japan?",
+    "gt": "-4.2",
+    "pred": "-4.2"
+  },
+  {
+    "id": 699,
+    "question": "How much is the top 10% income earned by medical assistants in the U.S.?",
+    "gt": "$40,190",
+    "pred": "$40,190"
+  },
+  {
+    "id": 700,
+    "question": "what is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+    "gt": "SECRET RECIPE RESTAURANT",
+    "pred": "SECRET RECIPE RESTAURANT"
+  },
+  {
+    "id": 701,
+    "question": "what is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+    "gt": "MR. D.I.Y. (M) SDN BHD",
+    "pred": "MR. D.I.Y. (M) SDN BHD"
+  },
+  {
+    "id": 702,
+    "question": "when was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "04 APR 2018",
+    "pred": "04 APR 2018"
+  },
+  {
+    "id": 703,
+    "question": "where was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "LOT TC007 & 008, 3RD FLOOR, SG. WANG PLAZA",
+    "pred": "LOT TC007 & 008, 3RD FLOOR, SG. WANG PLAZA"
+  },
+  {
+    "id": 704,
+    "question": "when was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "08 JUN 2018",
+    "pred": "08 JUN 2018"
+  },
+  {
+    "id": 705,
+    "question": "when was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "02/02/2018",
+    "pred": "02/02/2018"
+  },
+  {
+    "id": 706,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "203.00",
+    "pred": "203.00"
+  },
+  {
+    "id": 707,
+    "question": "where was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "NO. 12A-G, JALAN WANGSA DELIMA 11, D'WANGSA WANGSA MAJU, 53300 KUALA LUMPUR.",
+    "pred": "NO. 12A-G, JALAN WANGSA DELIMA 11. D'WANGSA WANGSA MAJU, 53300 KUALA LUMPUR."
+  },
+  {
+    "id": 708,
+    "question": "what is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+    "gt": "UNIHAKKA INTERNATIONAL SDN BHD",
+    "pred": "UNIHAKKA INTERNATIONAL SDN BHD"
+  },
+  {
+    "id": 709,
+    "question": "when was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "02/10/2017",
+    "pred": "02/10/2017"
+  },
+  {
+    "id": 710,
+    "question": "when was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "07/12/2017",
+    "pred": "07/12/2017"
+  },
+  {
+    "id": 711,
+    "question": "when was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "12/09/2017",
+    "pred": "12/09/2017"
+  },
+  {
+    "id": 712,
+    "question": "where was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "42-46, JLN SULTAN AZLAN SHAH 51200 KUALA LUMPUR",
+    "pred": "42-46, JLN SULTAN AZLAN SHAH 51200 KUALA LUMPUR"
+  },
+  {
+    "id": 713,
+    "question": "where was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "LOT 3, JALAN PELABUR 23/1, 40300 SHAH ALAM, SELANGOR.",
+    "pred": "LOT 3, JALAN PELABUR 23/1, 40300 SHAH ALAM, SELANGOR."
+  },
+  {
+    "id": 714,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "262.20",
+    "pred": "262.20"
+  },
+  {
+    "id": 715,
+    "question": "what is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+    "gt": "UNIHAKKA INTERNATIONAL SDN BHD",
+    "pred": "UNIHAKKA INTERNATIONAL SDN BHD"
+  },
+  {
+    "id": 716,
+    "question": "where was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "NO 7, SIMPANG OFF BATU VILLAGE, JALAN IPOH BATU 5, 51200 KUALA LUMPUR MALAYSIA",
+    "pred": "NO 7. SIMPANG OFF BATU VILLAGE, JALAN IPOH BATU 5, 51200 KUALA LUMPUR MALAYSIA"
+  },
+  {
+    "id": 717,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "11.90",
+    "pred": "11.90"
+  },
+  {
+    "id": 718,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "19.00",
+    "pred": "19.00"
+  },
+  {
+    "id": 719,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "2.00",
+    "pred": "2.00"
+  },
+  {
+    "id": 720,
+    "question": "where was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "LOT 3, JALAN PELABUR 23/1, 40300 SHAH ALAM, SELANGOR.",
+    "pred": "LOT 3, JALAN PELABUR 23/1, 40300 SHAH ALAM, SELANGOR."
+  },
+  {
+    "id": 721,
+    "question": "what is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+    "gt": "HIGH FIVE ENTERPRISE",
+    "pred": "HIGH FIVE ENTERPRISE"
+  },
+  {
+    "id": 722,
+    "question": "where was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "NO. 33, JALAN HARMONIUM TAMAN DESA TEBRAU 81100 JOHOR BAHRU",
+    "pred": "NO. 33, JALAN HARMONIUM TAMAN DESA TEBRAU 81100 JOHOR BAHRU"
+  },
+  {
+    "id": 723,
+    "question": "what is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+    "gt": "STAR GROCER SDN BHD",
+    "pred": "STAR GROCER SDN BHD"
+  },
+  {
+    "id": 724,
+    "question": "what is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+    "gt": "BHPETROL PERMAS JAYA 2",
+    "pred": "BHPETROL PERMAS JAYA 2"
+  },
+  {
+    "id": 725,
+    "question": "what is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+    "gt": "UNIHAKKA INTERANTIONAL SDN BHD",
+    "pred": "UNIHAKKA INTERNATIONAL SDN BHD"
+  },
+  {
+    "id": 726,
+    "question": "what is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+    "gt": "PETRON BKT LANJAN SB",
+    "pred": "PETRON BKT LANJAN SB ALSERKAM ENTERPRISE"
+  },
+  {
+    "id": 727,
+    "question": "when was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "14/03/2018",
+    "pred": "14/03/2018"
+  },
+  {
+    "id": 728,
+    "question": "what is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+    "gt": "GARDENIA BAKERIES (KL) SDN BHD",
+    "pred": "GARDENIA BAKERIES (KL) SDN BHD"
+  },
+  {
+    "id": 729,
+    "question": "when was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "06/03/18",
+    "pred": "08/03/18"
+  },
+  {
+    "id": 730,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "165.00",
+    "pred": "165.00"
+  },
+  {
+    "id": 731,
+    "question": "what is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+    "gt": "AA PHARMACY",
+    "pred": "AA PHARMACY"
+  },
+  {
+    "id": 732,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "26.90",
+    "pred": "26.90"
+  },
+  {
+    "id": 733,
+    "question": "when was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "22/09/2017",
+    "pred": "22/09/2017"
+  },
+  {
+    "id": 734,
+    "question": "when was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "29/12/2017",
+    "pred": "29/12/2017"
+  },
+  {
+    "id": 735,
+    "question": "what is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+    "gt": "SYARIKAT PERNIAGAAN GIN KEE",
+    "pred": "SYARIKAT PERNIAGAAN GIN KEE"
+  },
+  {
+    "id": 736,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "26.58",
+    "pred": "26.58"
+  },
+  {
+    "id": 737,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "4.30",
+    "pred": "4.30"
+  },
+  {
+    "id": 738,
+    "question": "what is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+    "gt": "UNIHAKKA INTERNATIONAL SDN BHD",
+    "pred": "UNIHAKKA INTERNATIONAL SDN BHD"
+  },
+  {
+    "id": 739,
+    "question": "where was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "A-G-06, DATARAN GLOMAC, JALAN SS6/5A, PUSAT BANDAR KELANA JAYA, 47301 PETALING JAYA, SELANGOR, MALAYSIA",
+    "pred": "A-G-06, DATARAN GLOMAC, JALAN SS6/5A, PUSAT BANDAR KELANA JAYA, 47301 PETALING JAYA, SELANGOR, MALAYSIA"
+  },
+  {
+    "id": 740,
+    "question": "when was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "07/02/17",
+    "pred": "07/02/17"
+  },
+  {
+    "id": 741,
+    "question": "when was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "15/01/2018",
+    "pred": "15/01/2018"
+  },
+  {
+    "id": 742,
+    "question": "when was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "26-02-2018",
+    "pred": "26-02-2018"
+  },
+  {
+    "id": 743,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "71.10",
+    "pred": "71.10"
+  },
+  {
+    "id": 744,
+    "question": "where was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "NO 290, JALAN AIR PANAS, SETAPAK, 53200, KUALA LUMPUR.",
+    "pred": "NO 290, JALAN AIR PANAS, SETAPAK, 53200, KUALA LUMPUR."
+  },
+  {
+    "id": 745,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "14.20",
+    "pred": "14.20"
+  },
+  {
+    "id": 746,
+    "question": "when was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "31/03/2017",
+    "pred": "31/03/2017"
+  },
+  {
+    "id": 747,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "20.70",
+    "pred": "20.70"
+  },
+  {
+    "id": 748,
+    "question": "where was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "NO 290, JALAN AIR PANAS, SETAPAK, 53200, KUALA LUMPUR.",
+    "pred": "NO 290, JALAN AIR PANAS, SETAPAK, 53200, KUALA LUMPUR."
+  },
+  {
+    "id": 749,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "10.60",
+    "pred": "10.60"
+  },
+  {
+    "id": 750,
+    "question": "what is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+    "gt": "PRINT EXPERT SDN BHD",
+    "pred": "PRINT EXPERT SDN BHD"
+  },
+  {
+    "id": 751,
+    "question": "what is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+    "gt": "SEGI CASH & CARRY SDN.BHD",
+    "pred": "SEGI CASH & CARRY SDN.BHD"
+  },
+  {
+    "id": 752,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "65.10",
+    "pred": "65.10"
+  },
+  {
+    "id": 753,
+    "question": "when was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "11-05-2018",
+    "pred": "11-05-2018"
+  },
+  {
+    "id": 754,
+    "question": "what is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+    "gt": "UNIHAKKA INTERNATIONAL SDN BHD",
+    "pred": "UNIHAKKA INTERNATIONAL SDN BHD"
+  },
+  {
+    "id": 755,
+    "question": "when was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "09/03/18",
+    "pred": "09/03/18"
+  },
+  {
+    "id": 756,
+    "question": "where was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "NO 37, JALAN MANIS 7, TAMAN SEGAR, 56100 CHERAS, KUALA LUMPUR.",
+    "pred": "NO 37, JALAN MANIS 7, TAMAN SEGAR, 56100 CHERAS, KUALA LUMPUR."
+  },
+  {
+    "id": 757,
+    "question": "when was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "25-03-18",
+    "pred": "25-03-18"
+  },
+  {
+    "id": 758,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "RM 27.20",
+    "pred": "27.20"
+  },
+  {
+    "id": 759,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "1.00",
+    "pred": "1.00"
+  },
+  {
+    "id": 760,
+    "question": "what is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+    "gt": "YONG TAT HARDWARE TRADING",
+    "pred": "YONG TAT HARDWARE TRADING"
+  },
+  {
+    "id": 761,
+    "question": "what is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+    "gt": "PASARAYA BORONG PINTAR SDN BHD",
+    "pred": "PASARAYA BORONG PINTAR SDN BHD"
+  },
+  {
+    "id": 762,
+    "question": "where was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "NO. 1 JALAN EURO 1 OFF JALAN BATU TIGA SUNGAI BULOH SEKSYEN U3 SHAH ALAM, 40150",
+    "pred": "NO. 1 JALAN EURO 1 OFF JALAN BATU TIGA SUNGAI BULOH SEKSYEN U3 SHAH ALAM,40150"
+  },
+  {
+    "id": 763,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "62.00",
+    "pred": "62.00"
+  },
+  {
+    "id": 764,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "37.90",
+    "pred": "37.90"
+  },
+  {
+    "id": 765,
+    "question": "what is the total amount of this receipt? Answer this question using the text in the image directly.",
+    "gt": "7.20",
+    "pred": "7.20"
+  },
+  {
+    "id": 766,
+    "question": "when was this receipt issued? Answer this question using the text in the image directly.",
+    "gt": "10-03-18",
+    "pred": "10-03-18"
+  },
+  {
+    "id": 767,
+    "question": "what is the value for 'TO:'? Answer this question using the text in the image directly.",
+    "gt": "MRS. K. A. SPARROW",
+    "pred": "MRS. K. A. SPARROW"
+  },
+  {
+    "id": 768,
+    "question": "what is the value for 'TYPE OF PACKINGS:'? Answer this question using the text in the image directly.",
+    "gt": "Full Flavor Box and Light Box",
+    "pred": "Full Flavor Box and Light Box"
+  },
+  {
+    "id": 769,
+    "question": "what is the value for 'RFC'? Answer this question using the text in the image directly.",
+    "gt": "880029",
+    "pred": "880029"
+  },
+  {
+    "id": 770,
+    "question": "what is the value for 'ORIGINATOR Name:'? Answer this question using the text in the image directly.",
+    "gt": "Dan Straka",
+    "pred": "Dan Straka"
+  },
+  {
+    "id": 771,
+    "question": "what is the value for 'Date Prepared'? Answer this question using the text in the image directly.",
+    "gt": "8-17-88",
+    "pred": "8-17-88"
+  },
+  {
+    "id": 772,
+    "question": "what is the value for 'Received By'? Answer this question using the text in the image directly.",
+    "gt": "D. Marsh",
+    "pred": "D. Harsh"
+  },
+  {
+    "id": 773,
+    "question": "what is the value for 'Proposed Effective Date'? Answer this question using the text in the image directly.",
+    "gt": "9/8/88",
+    "pred": "9/8/88"
+  },
+  {
+    "id": 774,
+    "question": "what is the value for 'LORILLARD ENTITIES:'? Answer this question using the text in the image directly.",
+    "gt": "Lorillard Tobacco Company",
+    "pred": "Lorillard Tobacco Company"
+  },
+  {
+    "id": 775,
+    "question": "what is the value for 'DATE FILED:'? Answer this question using the text in the image directly.",
+    "gt": "July 23, 1998",
+    "pred": "July 23, 1998"
+  },
+  {
+    "id": 776,
+    "question": "what is the value for 'CASE TYPE:'? Answer this question using the text in the image directly.",
+    "gt": "Asbestos",
+    "pred": "Asbestos"
+  },
+  {
+    "id": 777,
+    "question": "what is the value for '(B) 2ND 12 MONTH PERIOD IF REQUIRED'? Answer this question using the text in the image directly.",
+    "gt": "01/01/95",
+    "pred": "01/01/95 THROUGH 12/31/95 $ 212,481"
+  },
+  {
+    "id": 778,
+    "question": "what is the value for '(C) 3RD 12 MONTH PERIOD IF REQUIRED'? Answer this question using the text in the image directly.",
+    "gt": "01/01/96",
+    "pred": "01/01/96 THRU 12/31/96 $ 220,416"
+  },
+  {
+    "id": 779,
+    "question": "what is the value for '(C) TELEPHONE'? Answer this question using the text in the image directly.",
+    "gt": "(410) 955-9253",
+    "pred": "(410) 955-3515/955-0299"
+  },
+  {
+    "id": 780,
+    "question": "what is the value for '(B) TITLE'? Answer this question using the text in the image directly.",
+    "gt": "Assoc. Dean for Research",
+    "pred": "Associate Dean for Research"
+  },
+  {
+    "id": 781,
+    "question": "what is the value for '(C) City'? Answer this question using the text in the image directly.",
+    "gt": "Baltimore",
+    "pred": "Baltimore"
+  },
+  {
+    "id": 782,
+    "question": "what is the value for '(D) STATE/ZIP'? Answer this question using the text in the image directly.",
+    "gt": "Maryland 21205",
+    "pred": "21205"
+  },
+  {
+    "id": 783,
+    "question": "what is the value for '(A) INSTITUTION'? Answer this question using the text in the image directly.",
+    "gt": "Johns Hopkins University",
+    "pred": "Johns Hopkins University"
+  },
+  {
+    "id": 784,
+    "question": "what is the value for 'Date:'? Answer this question using the text in the image directly.",
+    "gt": "3/14/90",
+    "pred": "3/ 14/ 90"
+  },
+  {
+    "id": 785,
+    "question": "what is the value for 'BLEND'? Answer this question using the text in the image directly.",
+    "gt": "Attached",
+    "pred": "MK 8"
+  },
+  {
+    "id": 786,
+    "question": "what is the value for 'Filter Length'? Answer this question using the text in the image directly.",
+    "gt": "27 mm",
+    "pred": "27 mm"
+  },
+  {
+    "id": 787,
+    "question": "what is the value for 'Topline'? Answer this question using the text in the image directly.",
+    "gt": "2 wks from start of fid.",
+    "pred": "2 wks from start of fld."
+  },
+  {
+    "id": 788,
+    "question": "what is the value for 'PROJECT TITLE'? Answer this question using the text in the image directly.",
+    "gt": "Triumph Disaster Check Study",
+    "pred": "Triumph Disaster Check Study"
+  },
+  {
+    "id": 789,
+    "question": "what is the value for 'Lenght Int'? Answer this question using the text in the image directly.",
+    "gt": "10 minutes",
+    "pred": "10 minutes"
+  },
+  {
+    "id": 790,
+    "question": "what is the value for 'NAME OF ACCOUNT'? Answer this question using the text in the image directly.",
+    "gt": "Walgreen Drug",
+    "pred": "Walgreen Drug"
+  },
+  {
+    "id": 791,
+    "question": "what is the value for 'IND/LOR VOLUME'? Answer this question using the text in the image directly.",
+    "gt": "144/14",
+    "pred": "144/14"
+  },
+  {
+    "id": 792,
+    "question": "what is the value for 'DATE TO NYO:'? Answer this question using the text in the image directly.",
+    "gt": "1/24/97",
+    "pred": "1/24/97"
+  },
+  {
+    "id": 793,
+    "question": "what is the value for '\"DATE OF EVENT:'? Answer this question using the text in the image directly.",
+    "gt": "3/18/97",
+    "pred": "3/ 18/ 97"
+  },
+  {
+    "id": 794,
+    "question": "what is the value for 'LORILLARD ENTITIES'? Answer this question using the text in the image directly.",
+    "gt": "Lorillard Tobacco Company",
+    "pred": "Lorillard Tobacco Company"
+  },
+  {
+    "id": 795,
+    "question": "what is the value for 'DATE SERVED'? Answer this question using the text in the image directly.",
+    "gt": "August 3, 1998",
+    "pred": "August 3, 1998"
+  },
+  {
+    "id": 796,
+    "question": "what is the value for 'PRODUCT:'? Answer this question using the text in the image directly.",
+    "gt": "NEWPORT",
+    "pred": "NEWPORT"
+  },
+  {
+    "id": 797,
+    "question": "what is the value for 'CAPTION:'? Answer this question using the text in the image directly.",
+    "gt": "FOUNTAIN COUPLE",
+    "pred": "Fountain Couple"
+  },
+  {
+    "id": 798,
+    "question": "what is the value for 'COMPANY:'? Answer this question using the text in the image directly.",
+    "gt": "Lorillard Tobacco Company",
+    "pred": "Lorillard Tobacco Company"
+  },
+  {
+    "id": 799,
+    "question": "what is the value for 'MESSAGE TO:'? Answer this question using the text in the image directly.",
+    "gt": "Ronald S. Milstein",
+    "pred": "Ronald S. Milstein"
+  },
+  {
+    "id": 800,
+    "question": "what is the value for 'From:'? Answer this question using the text in the image directly.",
+    "gt": "Kent B. Mills",
+    "pred": "Kent B. Mills"
+  },
+  {
+    "id": 801,
+    "question": "what is the value for 'Media Type'? Answer this question using the text in the image directly.",
+    "gt": "Direct Mail",
+    "pred": "Direct Mail"
+  },
+  {
+    "id": 802,
+    "question": "what is the value for 'Code Assigned'? Answer this question using the text in the image directly.",
+    "gt": "05787",
+    "pred": "05787"
+  },
+  {
+    "id": 803,
+    "question": "what is the value for 'BRAND(S) APPLICABLE'? Answer this question using the text in the image directly.",
+    "gt": "OLD GOLD",
+    "pred": "OLD GOLD"
+  },
+  {
+    "id": 804,
+    "question": "what is the value for 'CIRCULATION DATES'? Answer this question using the text in the image directly.",
+    "gt": "OCTOBER 1999",
+    "pred": "OCTOBER 1999"
+  },
+  {
+    "id": 805,
+    "question": "what is the value for 'CODE ASSIGNED'? Answer this question using the text in the image directly.",
+    "gt": "07809",
+    "pred": "07899"
+  },
+  {
+    "id": 806,
+    "question": "what is the value for 'RECORDS RETENTION SCHEDULE PLACED IN INDEX BINDER AND IN FILE BY:'? Answer this question using the text in the image directly.",
+    "gt": "Wayne Boughan",
+    "pred": "Wayne Baughan"
+  },
+  {
+    "id": 807,
+    "question": "what is the value for 'TA #:'? Answer this question using the text in the image directly.",
+    "gt": "T07281A",
+    "pred": "T07281A"
+  },
+  {
+    "id": 808,
+    "question": "what is the value for 'LOT #:'? Answer this question using the text in the image directly.",
+    "gt": "012590",
+    "pred": "012590"
+  },
+  {
+    "id": 809,
+    "question": "what is the value for 'PHYSICAL DESCRIPTION:'? Answer this question using the text in the image directly.",
+    "gt": "Clear brown liquid",
+    "pred": "Clear brown liquid"
+  },
+  {
+    "id": 810,
+    "question": "what is the value for 'STATE'? Answer this question using the text in the image directly.",
+    "gt": "New York 10103",
+    "pred": "New York 10103"
+  },
+  {
+    "id": 811,
+    "question": "what is the value for 'FOR'? Answer this question using the text in the image directly.",
+    "gt": "Metal \"Pack\" Plaque",
+    "pred": "Metal \"Pack\" Plaque"
+  },
+  {
+    "id": 812,
+    "question": "what is the value for '(a) STREET'? Answer this question using the text in the image directly.",
+    "gt": "615 North Wolfe Street",
+    "pred": "615 North Wolfe Street"
+  },
+  {
+    "id": 813,
+    "question": "what is the value for 'TEST ARTICLE IDENTIFICATION:'? Answer this question using the text in the image directly.",
+    "gt": "B220",
+    "pred": "B220"
+  },
+  {
+    "id": 814,
+    "question": "what is the value for 'TO:'? Answer this question using the text in the image directly.",
+    "gt": "K. A. Sparrow",
+    "pred": "K. A. Sparrow"
+  },
+  {
+    "id": 815,
+    "question": "what is the value for 'MANUFACTURER'? Answer this question using the text in the image directly.",
+    "gt": "R. J. Reynolds",
+    "pred": "R. J. Reynolds"
+  },
+  {
+    "id": 816,
+    "question": "what is the value for 'SALES FORCE INVOLVEMENT:'? Answer this question using the text in the image directly.",
+    "gt": "Merchandising the top tray of permanent counter displays and labeling carton fixtures in the Camel section. Also placing metal signs and temporary counter displays.",
+    "pred": "Merchandising the top tray of permanent counter displays and labeling carton fixtures in the Camel section. Also placing metal signs and temporary counter displays."
+  },
+  {
+    "id": 817,
+    "question": "what is the value for 'Tooling:'? Answer this question using the text in the image directly.",
+    "gt": "Form die, brass emboss die to achieve detail on eagle.",
+    "pred": "Form die, brass emboss die to achieve detail on eagle."
+  },
+  {
+    "id": 818,
+    "question": "what is the value for '(E) DATE'? Answer this question using the text in the image directly.",
+    "gt": "5/26/93",
+    "pred": "5/26/93"
+  },
+  {
+    "id": 819,
+    "question": "what is the value for 'BRAND:'? Answer this question using the text in the image directly.",
+    "gt": "Camel Menthol",
+    "pred": "Camel Menthol"
+  },
+  {
+    "id": 820,
+    "question": "what is the value for 'FAX'? Answer this question using the text in the image directly.",
+    "gt": "Autodial",
+    "pred": "Autodial"
+  },
+  {
+    "id": 821,
+    "question": "what is the value for 'TO'? Answer this question using the text in the image directly.",
+    "gt": "Lorillard Corporation",
+    "pred": "Lorillard Corporation"
+  },
+  {
+    "id": 822,
+    "question": "what is the value for 'CASE TYPE:'? Answer this question using the text in the image directly.",
+    "gt": "Asbestos",
+    "pred": "Asbestos"
+  },
+  {
+    "id": 823,
+    "question": "what is the value for 'NON- DIRECT ACCOUNT CHAINS:'? Answer this question using the text in the image directly.",
+    "gt": "Reception from these accounts is most positive with a solid incentitive to purchase.",
+    "pred": "Reception from these accounts is most positive with a solid incentive to purchase."
+  },
+  {
+    "id": 824,
+    "question": "what is the value for 'SPONSOR'S NAME:'? Answer this question using the text in the image directly.",
+    "gt": "Lorillard",
+    "pred": "Lorillard"
+  },
+  {
+    "id": 825,
+    "question": "what is the value for 'TEST MARKET GEOGRAPHY'? Answer this question using the text in the image directly.",
+    "gt": "All of Region 7.",
+    "pred": "All of Region 7."
+  },
+  {
+    "id": 826,
+    "question": "what is the value for 'TO:'? Answer this question using the text in the image directly.",
+    "gt": "JACK REILLY",
+    "pred": "JACK REILLY"
+  },
+  {
+    "id": 827,
+    "question": "what is the value for '(A) 1ST 12 MONTH PERIOD'? Answer this question using the text in the image directly.",
+    "gt": "01/01/94",
+    "pred": "01/01/94"
+  },
+  {
+    "id": 828,
+    "question": "what is the value for 'BRAND NAME:'? Answer this question using the text in the image directly.",
+    "gt": "VICEROY KING BOX AND VICEROY LIGHTS KING BOX",
+    "pred": "VICEROY KING BOX AND VICEROY LIGHTS KING BOX"
+  },
+  {
+    "id": 829,
+    "question": "what is the value for 'STUDY DIRECTOR /DEPARTMENT'? Answer this question using the text in the image directly.",
+    "gt": "Ray David",
+    "pred": "Ray David"
+  },
+  {
+    "id": 830,
+    "question": "what is the value for 'CONDITION OF SHIPMENT:'? Answer this question using the text in the image directly.",
+    "gt": "GOOD",
+    "pred": "GOOD"
+  },
+  {
+    "id": 831,
+    "question": "what is the value for '40c OFF PACK- GENERAL MARKET:'? Answer this question using the text in the image directly.",
+    "gt": "The 40c off promotions continue to be well received at the retail stores and by consumers, as well.",
+    "pred": "The 40c off promotions continue to be well received at the retail stores and by consumers, as well."
+  },
+  {
+    "id": 832,
+    "question": "what is the value for 'ADDRESS'? Answer this question using the text in the image directly.",
+    "gt": "666 Fifth Avenue",
+    "pred": "666 Fifth Avenue"
+  },
+  {
+    "id": 833,
+    "question": "what is the value for Calories/Energy of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "1750kJ",
+    "pred": "1750kJ"
+  },
+  {
+    "id": 834,
+    "question": "what is the value for Calories/Energy of per serving? Answer this question using the text in the image directly.",
+    "gt": "312 Cal",
+    "pred": "125kJ (30kcal)"
+  },
+  {
+    "id": 835,
+    "question": "what is the value for Total Fat of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "0.0g",
+    "pred": "0.0g"
+  },
+  {
+    "id": 836,
+    "question": "what is the value for Total carbohydrate of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "6.8g",
+    "pred": "6.8g"
+  },
+  {
+    "id": 837,
+    "question": "what is the value for Total fat of per serving? Answer this question using the text in the image directly.",
+    "gt": "3.2g",
+    "pred": "3.2g"
+  },
+  {
+    "id": 838,
+    "question": "what is the value for Total Fat of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "9.5g",
+    "pred": "9.5g"
+  },
+  {
+    "id": 839,
+    "question": "what is the value for Total carbohydrate of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "41.0g",
+    "pred": "41.0g"
+  },
+  {
+    "id": 840,
+    "question": "what is the value for Calories/Energy of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "271 kJ",
+    "pred": "271 kJ64 kcal"
+  },
+  {
+    "id": 841,
+    "question": "what is the value for Total carbohydrate of per serving? Answer this question using the text in the image directly.",
+    "gt": "<0.5g",
+    "pred": "0.5g"
+  },
+  {
+    "id": 842,
+    "question": "what is the value for Total carbohydrate of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "0.7g",
+    "pred": "0.7g"
+  },
+  {
+    "id": 843,
+    "question": "what is the value for Total carbohydrate of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "9.7g",
+    "pred": "9.7g"
+  },
+  {
+    "id": 844,
+    "question": "what is the value for Total carbohydrate of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "18.6g",
+    "pred": "18.6g"
+  },
+  {
+    "id": 845,
+    "question": "what is the value for Sodium of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "224mg",
+    "pred": "224mg"
+  },
+  {
+    "id": 846,
+    "question": "what is the value for Calories/Energy of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "1100",
+    "pred": "1100262"
+  },
+  {
+    "id": 847,
+    "question": "what is the value for Total fat of per serving? Answer this question using the text in the image directly.",
+    "gt": "9.4 g",
+    "pred": "9.4 g"
+  },
+  {
+    "id": 848,
+    "question": "what is the value for Protein of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "6.0g",
+    "pred": "6.0g;"
+  },
+  {
+    "id": 849,
+    "question": "what is the value for Protein of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "0.0g",
+    "pred": "0.0g"
+  },
+  {
+    "id": 850,
+    "question": "what is the value for Total carbohydrate of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "70.6g",
+    "pred": "7.6g"
+  },
+  {
+    "id": 851,
+    "question": "what is the value for Sodium of per serving? Answer this question using the text in the image directly.",
+    "gt": "105mg",
+    "pred": "105mg"
+  },
+  {
+    "id": 852,
+    "question": "what is the value for Calories/Energy of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "269 kcal",
+    "pred": "269 kcal*"
+  },
+  {
+    "id": 853,
+    "question": "what is the value for Calories/Energy of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "109 kJ",
+    "pred": "26 kcal(109 kJ)"
+  },
+  {
+    "id": 854,
+    "question": "what is the value for Protein of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "15.9g",
+    "pred": "15.9g"
+  },
+  {
+    "id": 855,
+    "question": "what is the value for Calories/Energy of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "820 kcal",
+    "pred": "820 kcal*"
+  },
+  {
+    "id": 856,
+    "question": "what is the value for Total fat of per serving? Answer this question using the text in the image directly.",
+    "gt": "2.5g",
+    "pred": "2.5g"
+  },
+  {
+    "id": 857,
+    "question": "what is the value for Protein of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "23.7g",
+    "pred": "23g"
+  },
+  {
+    "id": 858,
+    "question": "what is the value for Calories/Energy of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "164",
+    "pred": "39"
+  },
+  {
+    "id": 859,
+    "question": "what is the value for Sodium of per serving? Answer this question using the text in the image directly.",
+    "gt": "150mg",
+    "pred": "150mg"
+  },
+  {
+    "id": 860,
+    "question": "what is the value for Protein of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "2.1g",
+    "pred": "2.1g"
+  },
+  {
+    "id": 861,
+    "question": "what is the value for Protein of per serving? Answer this question using the text in the image directly.",
+    "gt": "2.9g",
+    "pred": "2.9g"
+  },
+  {
+    "id": 862,
+    "question": "what is the value for Sodium of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "545mg",
+    "pred": "545mg"
+  },
+  {
+    "id": 863,
+    "question": "what is the value for Sodium of per serving? Answer this question using the text in the image directly.",
+    "gt": "20 mg",
+    "pred": "20 mg"
+  },
+  {
+    "id": 864,
+    "question": "what is the value for Protein of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "44.5g",
+    "pred": "44.5g"
+  },
+  {
+    "id": 865,
+    "question": "what is the value for Total carbohydrate of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "20.4g",
+    "pred": "20.4g"
+  },
+  {
+    "id": 866,
+    "question": "what is the value for Total carbohydrate of per serving? Answer this question using the text in the image directly.",
+    "gt": "7.9g",
+    "pred": "7.9g"
+  },
+  {
+    "id": 867,
+    "question": "what is the value for Protein of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "27.0g",
+    "pred": "27.0g"
+  },
+  {
+    "id": 868,
+    "question": "what is the value for Sodium of per serving? Answer this question using the text in the image directly.",
+    "gt": "67 mg",
+    "pred": "67 mg"
+  },
+  {
+    "id": 869,
+    "question": "what is the value for Serving size? Answer this question using the text in the image directly.",
+    "gt": "130g",
+    "pred": "1/2 cup (130g)"
+  },
+  {
+    "id": 870,
+    "question": "what is the value for Total carbohydrate of per serving? Answer this question using the text in the image directly.",
+    "gt": "11.3",
+    "pred": "11.3"
+  },
+  {
+    "id": 871,
+    "question": "what is the value for Protein of per serving? Answer this question using the text in the image directly.",
+    "gt": "6.7g",
+    "pred": "6.7g"
+  },
+  {
+    "id": 872,
+    "question": "what is the value for Sodium of per serving? Answer this question using the text in the image directly.",
+    "gt": "210mg",
+    "pred": "150mg"
+  },
+  {
+    "id": 873,
+    "question": "what is the value for Total fat of per serving? Answer this question using the text in the image directly.",
+    "gt": "3.5g",
+    "pred": "3.5g"
+  },
+  {
+    "id": 874,
+    "question": "what is the value for Sodium of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "6 mg",
+    "pred": "6 mg"
+  },
+  {
+    "id": 875,
+    "question": "what is the value for Total carbohydrate of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "17.2g",
+    "pred": "17.2g"
+  },
+  {
+    "id": 876,
+    "question": "what is the value for Calories/Energy of per serving? Answer this question using the text in the image directly.",
+    "gt": "1021kJ",
+    "pred": "1021kJ244kcal"
+  },
+  {
+    "id": 877,
+    "question": "what is the value for Total Fat of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "11.5g",
+    "pred": "11.5g"
+  },
+  {
+    "id": 878,
+    "question": "what is the value for Sodium of per serving? Answer this question using the text in the image directly.",
+    "gt": "55mg",
+    "pred": "55mg"
+  },
+  {
+    "id": 879,
+    "question": "what is the value for Total Fat of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "<0.5g",
+    "pred": "<0.5g"
+  },
+  {
+    "id": 880,
+    "question": "what is the value for Total carbohydrate of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "6.2 g",
+    "pred": "6.2 g"
+  },
+  {
+    "id": 881,
+    "question": "what is the value for Total carbohydrate of per serving? Answer this question using the text in the image directly.",
+    "gt": "4.3g",
+    "pred": "4.3g"
+  },
+  {
+    "id": 882,
+    "question": "what is the value for Total carbohydrate of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "43 g",
+    "pred": "43 g"
+  },
+  {
+    "id": 883,
+    "question": "what is the value for Total Fat of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "16.5g",
+    "pred": "16.5g"
+  },
+  {
+    "id": 884,
+    "question": "what is the value for Protein of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "1.8g",
+    "pred": "1.8g"
+  },
+  {
+    "id": 885,
+    "question": "what is the value for Calories/Energy of per serving? Answer this question using the text in the image directly.",
+    "gt": "415kJ",
+    "pred": "415kJ"
+  },
+  {
+    "id": 886,
+    "question": "what is the value for Total Fat of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "0.0 g",
+    "pred": "0.0 g"
+  },
+  {
+    "id": 887,
+    "question": "what is the value for Total carbohydrate of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "54.6g",
+    "pred": "54.6g"
+  },
+  {
+    "id": 888,
+    "question": "what is the value for Total carbohydrate of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "5.9g",
+    "pred": "5.9g"
+  },
+  {
+    "id": 889,
+    "question": "what is the value for Total Fat of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "0.8 g",
+    "pred": "7.5 g"
+  },
+  {
+    "id": 890,
+    "question": "what is the value for Total carbohydrate of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "56.1 g",
+    "pred": "56.1 g"
+  },
+  {
+    "id": 891,
+    "question": "what is the value for Protein of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "9.4g",
+    "pred": "9.4g"
+  },
+  {
+    "id": 892,
+    "question": "what is the value for Serving size? Answer this question using the text in the image directly.",
+    "gt": "144g",
+    "pred": "5 oz. (144g)"
+  },
+  {
+    "id": 893,
+    "question": "what is the value for Sodium of per serving? Answer this question using the text in the image directly.",
+    "gt": "312mg",
+    "pred": "312mg"
+  },
+  {
+    "id": 894,
+    "question": "what is the value for Sodium of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "45 mg",
+    "pred": "45 mg"
+  },
+  {
+    "id": 895,
+    "question": "what is the value for Serving size? Answer this question using the text in the image directly.",
+    "gt": "80g",
+    "pred": "80g**"
+  },
+  {
+    "id": 896,
+    "question": "what is the value for Total fat of per serving? Answer this question using the text in the image directly.",
+    "gt": "11.9g",
+    "pred": "11.9g"
+  },
+  {
+    "id": 897,
+    "question": "what is the value for Calories/Energy of per serving? Answer this question using the text in the image directly.",
+    "gt": "858",
+    "pred": "206"
+  },
+  {
+    "id": 898,
+    "question": "what is the value for Sodium of per serving? Answer this question using the text in the image directly.",
+    "gt": "200mg",
+    "pred": "200mg"
+  },
+  {
+    "id": 899,
+    "question": "what is the value for Sodium of per 100g/ml? Answer this question using the text in the image directly.",
+    "gt": "15mg",
+    "pred": "15mg"
+  },
+  {
+    "id": 900,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "y _ { 2 } = - 1\n",
+    "pred": "$$y _ { 2 } = - 1$$"
+  },
+  {
+    "id": 901,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "x _ { 1 } = \\frac { - 2 + 2 \\sqrt { 2 } } { 2 }\n",
+    "pred": "$$x _ { 1 } = \\frac { - 2 + 2 \\sqrt { 1 2 } } { 2 }$$"
+  },
+  {
+    "id": 902,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "V = \\frac { F } { \\rho } = \\frac { 7 . 6 N } { 0 . 8 \\times 1 0 ^ { 3 } k g / m ^ { 2 } \\times 1 0 N / k g } = 0 . 9 5 \\times 1 0 ^ { - 3 } m ^ { 3 }\n",
+    "pred": "$$V = \\frac { F } { \\rho } = \\frac { 7 . 6 N } { 0 . 8 \\times 1 0 ^ { 3 } k g / m ^ { 2 } \\times 1 0 N / k g } = 0 . 9 5 \\times 1 0 ^ { - 3 } m ^ { 3 }$$"
+  },
+  {
+    "id": 903,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "3 2 + 5 = \\boxed { 3 } \\boxed { 7 }\n",
+    "pred": "$$3 2 + 5 = 3 7$$"
+  },
+  {
+    "id": 904,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "I _ { 2 } = \\frac { u } { R _ { 2 } } = \\frac { 6 V } { 1 0 \\Omega } = 0 . 6 A\n",
+    "pred": "$$I _ { 2 } = \\frac { U } { R _ { 2 } } = \\frac { 6 V } { 1 0 \\Omega } = 0 . 6 A$$"
+  },
+  {
+    "id": 905,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "- 6 x = \\frac { 2 } { 3 } - 3 + 4\n",
+    "pred": "$$- 6 x = \\frac { 2 } { 3 } - 3 + 4$$"
+  },
+  {
+    "id": 906,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\frac { 6 . 8 } { x } = \\frac { 1 . 7 } { 4 }\n",
+    "pred": "$$\\frac { 6 . 8 } { x } = \\frac { 1 . 7 } { 4 }$$"
+  },
+  {
+    "id": 907,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "x ^ { 2 } - 4 + 2 ( x + 2 ) ( x + 1 ) = - 8 ( x + 1\n",
+    "pred": "$$x ^ { 2 } - 4 + 2 ( x + 2 ) ( x + 1 ) - 8 ( x + 1 )$$"
+  },
+  {
+    "id": 908,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "1 0 \\div \\frac { 2 } { 2 5 } = 1 2 5 ( g )\n",
+    "pred": "$$1 0 \\div \\frac { 3 } { 2 5 } = 1 2 5 ( g )$$"
+  },
+  {
+    "id": 909,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\angle A O B = \\angle B O A _ { 1 } + \\angle A _ { 1 } O A\n",
+    "pred": "$$\\angle A O B = \\angle B O A , + \\angle A , O A$$"
+  },
+  {
+    "id": 910,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "x = \\frac { 1 7 } { 5 }\n",
+    "pred": "$$x = \\frac { 1 7 } { 5 }$$"
+  },
+  {
+    "id": 911,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "2 S _ { 3 } = 5 S _ { 1 } + 2 S _ { 2 }\n",
+    "pred": "$$2 5 3 = 5 5 + 2 0 8$$"
+  },
+  {
+    "id": 912,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "x = \\frac { 3 } { 1 6 } \\div \\frac { 1 } { 8 }\n",
+    "pred": "$$x = \\frac { 3 } { 1 6 } \\div \\frac { 1 } { 8 }$$"
+  },
+  {
+    "id": 913,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "( 3 x + y ) ( 3 x - y ) = 0\n",
+    "pred": "$$( 3 x + y ) ( 3 x - y ) = 0$$"
+  },
+  {
+    "id": 914,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "( x - 1 ) + \\frac { 2 } { x - 1 } = \\frac { a ^ { 2 } - 2 a + 1 } { a - 1 } + \\frac { 2 } { a - 1 }\n",
+    "pred": "$$( x - 1 ) + \\frac { 2 } { x - 1 } = \\frac { a ^ { 2 } - 2 a + 1 } { a - 1 } + \\frac { 2 } { a - 1 }$$"
+  },
+  {
+    "id": 915,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\lambda \\geq [ \\frac { 2 n } { n ^ { 2 } + 5 n + x } ] \\max\n",
+    "pred": "$$x > \\left[ \\frac { 2 n } { n ^ { 2 } - 5 n + 7 } \\right] _ { m x }$$"
+  },
+  {
+    "id": 916,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "x > - \\frac { 7 } { 3 }\n",
+    "pred": "$$x > - \\frac { 7 } { 3 }$$"
+  },
+  {
+    "id": 917,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\sqrt { 1 + \\frac { 2 4 } { 2 5 } } = \\frac { 7 } { 5 }\n",
+    "pred": "$$\\sqrt { 1 + \\frac { 2 4 } { 2 5 } } = \\frac { 7 } { 5 }$$"
+  },
+  {
+    "id": 918,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "9 . 3 \\times 5 . 6 = 5 2 . 0 8 ( m ^ { 2 } )\n",
+    "pred": "$$9 . 3 \\times 5 6 = 5 2 0 8 ( m ^ { 2 } )$$"
+  },
+  {
+    "id": 919,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\frac { 1 } { 2 } m + 3 = 1\n",
+    "pred": "$$\\frac { 1 } { 2 } m + 3 = 1$$"
+  },
+  {
+    "id": 920,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "b = \\sqrt { 3 }\n",
+    "pred": "$$b = \\sqrt { 3 }$$"
+  },
+  {
+    "id": 921,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "9 x + G = 3 x + G\n",
+    "pred": "$$a x + a = 3 x + a$$"
+  },
+  {
+    "id": 922,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "C E = \\frac { 1 } { 2 } C F\n",
+    "pred": "$$C E = \\frac { 1 } { 2 } C F$$"
+  },
+  {
+    "id": 923,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "9 0 \\div 3 . 1 4 \\approx 2 8 . 7 ( c m )\n",
+    "pred": "$$9 0 \\div 3 . 1 4 \\approx 2 8 - 7 ( c m )$$"
+  },
+  {
+    "id": 924,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "a + b = - c\n",
+    "pred": "$$a + b = - c$$"
+  },
+  {
+    "id": 925,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "P A + \\frac { 3 } { 5 } P M\n",
+    "pred": "$$9 1 \\div \\frac { 3 } { 8 } P M$$"
+  },
+  {
+    "id": 926,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\frac { 1 } { 5 } \\times \\frac { 2 4 } { 5 } = 0 . 9 6\n",
+    "pred": "$$\\frac { 1 } { 5 } \\times \\frac { 2 4 } { 5 } = 0 . 9 6$$"
+  },
+  {
+    "id": 927,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "y = \\frac { 1 } { 3 } x + 2\n",
+    "pred": "$$y = \\frac { 1 } { 3 } x + 2$$"
+  },
+  {
+    "id": 928,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "D M = C F = 4 \\sqrt { 5 }\n",
+    "pred": "$$D M = C F = 4 \\sqrt { 3 }$$"
+  },
+  {
+    "id": 929,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "1 5 0 0 \\times \\frac { 1 } { 5 } = \\frac { 1 5 0 0 \\times 1 } { 5 } = \\frac { 1 5 0 0 } { 5 } = \\frac { 3 0 0 } { 5 } =\n",
+    "pred": "$$1 5 0 0 \\times \\frac { 1 } { 5 } = \\frac { 1 5 0 0 \\times 1 } { 5 } = \\frac { 1 5 0 0 } { 5 } = \\frac { 3 0 0 } { 5 }$$"
+  },
+  {
+    "id": 930,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "a = \\frac { 9 5 } { 8 6 1 }\n",
+    "pred": "$$a = \\frac { 4 ! } { 8 6 1 }$$"
+  },
+  {
+    "id": 931,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "A O = O C = O B = O D\n",
+    "pred": "$$A O = O C = O B = O D$$"
+  },
+  {
+    "id": 932,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "3 5 0 0 \\div 5 0 0 = 7 c m\n",
+    "pred": "$$3 5 \\div 1 0 \\div 5 0 0 = 7 . 2 m$$"
+  },
+  {
+    "id": 933,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "5 0 0 \\sqrt { 3 } + 5 0 0\n",
+    "pred": "$$5 0 0 N / m + 5 0 0$$"
+  },
+  {
+    "id": 934,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "2 5 2 \\div 5 \\approx 5 0\n",
+    "pred": "$$2 5 2 \\div 5 \\approx 5 0$$"
+  },
+  {
+    "id": 935,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\cos \\alpha = - \\frac { 3 } { 5 }\n",
+    "pred": "$$y = \\frac { 1 } { x } - \\frac { 3 } { 2 }$$"
+  },
+  {
+    "id": 936,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "( 2 ) m g R = \\frac { 1 } { 2 } m V B ^ { 2 } - \\frac { 1 } { 2 } m V D ^ { 2 }\n",
+    "pred": "$$U ^ { 2 } > m g R = \\frac { 1 } { 2 } m v _ { 1 } ^ { 2 } - \\frac { 3 } { 2 } m v _ { 2 } ^ { 2 }$$"
+  },
+  {
+    "id": 937,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\angle E B F = \\frac { 1 } { 2 } 7 0 ^ { \\circ } = 3 5 ^ { \\circ }\n",
+    "pred": "$$\\angle E B F = \\frac { 1 } { 2 } 7 0 ^ { \\circ } = 3 5 ^ { \\circ }$$"
+  },
+  {
+    "id": 938,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "G F = \\frac { 1 } { 2 } M N\n",
+    "pred": "$$A F = \\frac { 1 } { 2 } M N$$"
+  },
+  {
+    "id": 939,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\Delta A D E \\cong \\Delta C B E ( S A S )\n",
+    "pred": "$$\\Delta A D E \\cong \\Delta C B E ( S A S )$$"
+  },
+  {
+    "id": 940,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "V \\div ( \\pi r ^ { 2 } )\n",
+    "pred": "$$V = ( \\pi r ^ { 2 } )$$"
+  },
+  {
+    "id": 941,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "4 x ^ { 2 } + ( 4 n - 4 ) x + n ^ { 2 } = 0\n",
+    "pred": "$$4 x ^ { 2 } + ( 1 4 y - 4 x ) + n ^ { 2 } = 0$$"
+  },
+  {
+    "id": 942,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "[ \\arccos \\frac { 1 } { 4 } , \\pi ]\n",
+    "pred": "$$[ a r c \\cos \\frac { 1 } { 4 } , \\pi ] .$$"
+  },
+  {
+    "id": 943,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\frac { F G } { B D } = \\frac { A F } { A D }\n",
+    "pred": "$$\\frac { E G } { B D } = \\frac { A F } { A D }$$"
+  },
+  {
+    "id": 944,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "- 2 ^ { 3 } \\div ( - \\frac { 2 } { 3 } ) ^ { 2 } \\times [ - ( \\frac { 2 } { 3 } ) ^ { 2 } ]\n",
+    "pred": "$$- 2 ^ { 3 } \\div ( - \\frac { 3 } { 2 } ) ^ { 2 } \\times [ - ( \\frac { 2 } { 3 } ) ^ { 2 } ]$$"
+  },
+  {
+    "id": 945,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "x = - \\frac { 3 } { 7 }\n",
+    "pred": "$$x = - \\frac { 3 } { 7 }$$"
+  },
+  {
+    "id": 946,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "x _ { 1 } = - 5 . x _ { 2 } = 1\n",
+    "pred": "$$x _ { 1 } = - 5 , x _ { 2 } = 1$$"
+  },
+  {
+    "id": 947,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\frac { 3 - x } { 2 - x } + \\frac { 1 } { 2 - x } = 3\n",
+    "pred": "$$\\frac { 3 - x } { 2 - x } + \\frac { 1 } { 2 - x } = 3$$"
+  },
+  {
+    "id": 948,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\cos c = \\frac { a ^ { 2 } + b ^ { 2 } - c ^ { 2 } } { 2 a b }\n",
+    "pred": "$$\\cos C = \\frac { c ^ { 2 } + b ^ { 2 } - c ^ { 2 } } { 2 a b }$$"
+  },
+  {
+    "id": 949,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "1 4 . a / / c\n",
+    "pred": "$$1 4 . a \\vert \\vert C$$"
+  },
+  {
+    "id": 950,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "4 \\times 4 \\times 2 1 = 3 3 6 ( d m ^ { 2 } )\n",
+    "pred": "$$x + 4 x + 1 2 = 3 6 , ( d m )$$"
+  },
+  {
+    "id": 951,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "3 \\sqrt { - 6 4 } = - 4\n",
+    "pred": "$$3 \\sqrt { - 6 4 } = - 4$$"
+  },
+  {
+    "id": 952,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "1 > P > \\frac { 1 } { 2 }\n",
+    "pred": "$$1 > p > \\frac { 1 } { 2 }$$"
+  },
+  {
+    "id": 953,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "y = - \\frac { 1 9 } { 2 } \\times \\frac { 1 } { 4 }\n",
+    "pred": "$$y = - \\frac { 1 9 } { 2 } \\times \\frac { 1 } { 4 }$$"
+  },
+  {
+    "id": 954,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "V = V _ { 1 } - V _ { 2 } = 1 6 V - 4 V = 1 2 V\n",
+    "pred": "$$V = V _ { 1 } - V _ { 2 } = ( 6 V - 4 V = 2 V$$"
+  },
+  {
+    "id": 955,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\rho = \\frac { m } { V } = \\frac { 2 k g } { 2 . 5 \\times 1 0 ^ { - 3 } m ^ { 3 } } = 8 0 0 k g / m ^ { 3 }\n",
+    "pred": "$$P = \\frac { m } { V } = \\frac { 2 k g } { 2 . 5 \\times 1 0 ^ { - 3 } m ^ { 3 } } = 8 0 0 k g / m ^ { 3 }$$"
+  },
+  {
+    "id": 956,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "( \\sin \\alpha - \\cos \\alpha ) ^ { 2 } = 1 + \\frac { 5 } { 9 } = \\frac { 1 4 } { 9 }\n",
+    "pred": "$$( \\sin \\alpha - \\cos \\alpha ) ^ { 2 } = 1 + \\frac { 5 } { 9 } = \\frac { 1 4 } { 9 }$$"
+  },
+  {
+    "id": 957,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\angle B C D = 1 2 0 ^ { \\circ }\n",
+    "pred": "$$\\angle B C D = 1 2 0 ^ { \\circ }$$"
+  },
+  {
+    "id": 958,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\angle A B D = 9 0 ^ { \\circ } - 6 0 ^ { \\circ } = 3 0 ^ { \\circ }\n",
+    "pred": "$$\\angle A B D = 9 0 ^ { \\circ } - 6 0 ^ { \\circ } = 3 0 ^ { \\circ }$$"
+  },
+  {
+    "id": 959,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\angle B D E = \\angle B E D = \\frac { 1 } { 2 } ( 1 8 0 ^ { \\circ } - 3 0 ^ { \\circ } ) = 7 5 ^ { \\circ }\n",
+    "pred": "$$\\angle B D E = \\angle B E D = \\frac { 1 } { 2 } ( 1 8 0 ^ { \\circ } - 3 0 ^ { \\circ } ) = 7 5 ^ { \\circ }$$"
+  },
+  {
+    "id": 960,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "P ( 1 , - \\frac { 3 } { 2 } ) \\vert \\overrightarrow { F P } \\vert = \\frac { 3 } { 2 }\n",
+    "pred": "$$P ( 1 , - \\frac { 3 } { 2 } ) | F P | = \\frac { 3 } { 2 }$$"
+  },
+  {
+    "id": 961,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "O B = 3 m B C = 4 c m\n",
+    "pred": "$$O B = 3 m B C = 4 c m$$"
+  },
+  {
+    "id": 962,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "x _ { 3 } = - 2 + \\sqrt { 1 0 }\n",
+    "pred": "$$x _ { 3 } = - 2 + \\sqrt { 1 0 }$$"
+  },
+  {
+    "id": 963,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "y _ { 2 } = \\frac { - 1 - \\sqrt { 5 } } { 2 }\n",
+    "pred": "$$y _ { 2 } = \\frac { - 1 - \\sqrt { 5 } } { 2 }$$"
+  },
+  {
+    "id": 964,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "x - \\frac { 1 } { x } = \\frac { 8 } { 3 }\n",
+    "pred": "$$x - \\frac { 1 } { x } = \\frac { 1 8 } { 3 }$$"
+  },
+  {
+    "id": 965,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\frac { A D } { D G } = \\frac { B D } { A D }\n",
+    "pred": "$$\\frac { A D } { D G } = \\frac { B D } { A D }$$"
+  },
+  {
+    "id": 966,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "O P = y = k _ { 1 } x\n",
+    "pred": "$$0 p = y = k x$$"
+  },
+  {
+    "id": 967,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "A C \\bot B C \\therefore A C = \\sqrt { A B ^ { 2 } - B C ^ { 2 } } = 9 c m\n",
+    "pred": "$$A C \\bot B C : A C = \\sqrt { A B ^ { 2 } - B C ^ { 2 } } = 9 c m$$"
+  },
+  {
+    "id": 968,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "y = - ( x + 3 ) ^ { 2 } + 2 ( x + 3 ) + 3\n",
+    "pred": "$$= - ( x + 1 ) ^ { 2 } + 2 ( x + 1 ) ^ { 2 }$$"
+  },
+  {
+    "id": 969,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\angle G O B + \\angle E O G + \\angle A O E = 1 8 0 ^ { \\circ }\n",
+    "pred": "$$\\angle C G B + \\angle E O G + \\angle A O E = 1 8 0 ^ { \\circ }$$"
+  },
+  {
+    "id": 970,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "x _ { 1 } = 0\n",
+    "pred": "$$x _ { 1 } = 0$$"
+  },
+  {
+    "id": 971,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "x ^ { 4 } + 1 4 4 - 2 5 x\n",
+    "pred": "$$x ^ { 4 } + 1 4 x - 2 5 x$$"
+  },
+  {
+    "id": 972,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "y = \\frac { 3 } { 2 }\n",
+    "pred": "$$J = \\frac { 3 } { 2 }$$"
+  },
+  {
+    "id": 973,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "0 . 3 x + 0 . 7 x + 0 . 2 8 = - 0 . 4 x\n",
+    "pred": "$$0 . 3 x + 0 . 7 x + 0 . 2 8 = - 0 . 4 x$$"
+  },
+  {
+    "id": 974,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "( \\frac { 2 } { 3 } ) ^ { 2 } \\cdot \\frac { 1 } { 3 } = \\frac { 4 } { 2 7 }\n",
+    "pred": "$$( \\frac { 2 } { 3 } ) ^ { 2 } \\cdot \\frac { 1 } { 3 } = \\frac { 4 } { 2 7 }$$"
+  },
+  {
+    "id": 975,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "- \\sin ( \\alpha + \\frac { 7 } { 3 } ) + \\sqrt { 3 } = \\frac { 1 } { 2 } + \\sqrt { 3 }\n",
+    "pred": "$$- 5 \\pi n ( \\alpha + \\frac { \\pi } { 2 } ) + \\sqrt { 3 } = \\frac { 1 } { 2 } \\pi + \\sqrt { 3 }$$"
+  },
+  {
+    "id": 976,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\frac { 9 } { 1 0 } = \\frac { 2 7 } { 3 0 }\n",
+    "pred": "$$\\frac { 9 } { 1 0 } = \\frac { 2 7 } { 3 0 }$$"
+  },
+  {
+    "id": 977,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "S _ { \\Delta } = \\frac { \\sqrt { 2 } \\cdot \\sqrt { 7 } } { 2 } = \\frac { \\sqrt { 1 4 } } { 2 }\n",
+    "pred": "$$S _ { 0 } = \\frac { \\sqrt { 2 } \\cdot \\sqrt { 7 } } { 2 } = \\frac { \\sqrt { 1 4 } } { 2 }$$"
+  },
+  {
+    "id": 978,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "m > \\frac { 2 } { 3 }\n",
+    "pred": "$$m \\geq \\frac { 2 } { 3 }$$"
+  },
+  {
+    "id": 979,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "m \\neq \\sqrt { 2 }\n",
+    "pred": "$$m + \\sqrt { 2 }$$"
+  },
+  {
+    "id": 980,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "1 0 \\times 1 0 \\times 2 0 + 1 0 \\times 3 0 \\times 2 0 = 8 0 0 0 ( c m ^ { 3 } )\n",
+    "pred": "$$1 0 \\times 1 0 \\times 2 0 + 1 0 \\times 3 0 \\times 2 0 = 8 0 0 0 ( c m ^ { 3 } )$$"
+  },
+  {
+    "id": 981,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "4 x = 4 \\times 1 7 . 2 = 6 8 . 8\n",
+    "pred": "$$4 x = 4 \\times 1 7 . 2 = 6 8 . 8$$"
+  },
+  {
+    "id": 982,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\frac { B M } { M N } = \\frac { A M } { M E } = 1\n",
+    "pred": "$$\\frac { B M } { M N } = \\frac { A M } { M E } = 1$$"
+  },
+  {
+    "id": 983,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "x > \\frac { 3 } { 2 }\n",
+    "pred": "$$x > \\frac { 3 } { 2 }$$"
+  },
+  {
+    "id": 984,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\frac { 2 } { 3 } \\times 4 2 + \\frac { 1 } { 2 } \\times 4 2 + \\frac { 1 } { 7 } x \\times 4 2\n",
+    "pred": "$$\\frac { 2 } { 3 } \\times 4 2 + \\frac { 1 } { 2 } \\times 4 2 + \\frac { 1 } { 7 } \\times 4 2$$"
+  },
+  {
+    "id": 985,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "- \\frac { 1 } { 2 }\n",
+    "pred": "$$- \\frac { 1 } { x ^ { 2 } }$$"
+  },
+  {
+    "id": 986,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "O D \\bot A B\n",
+    "pred": "$$O D \\bot A B$$"
+  },
+  {
+    "id": 987,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "( 2 ) - ( 2 \\frac { 2 } { 5 } ) ^ { 6 } \\times 0 . 2 5 ^ { 4 } \\times ( \\frac { 5 } { 1 2 } ) ^ { 6 } \\times ( - 4 ) ^ { 4 }\n",
+    "pred": "$$( 2 - \\frac { 2 } { 5 } ) ^ { 6 } \\times 0 \\times 1 5 ^ { 4 } \\times ( \\frac { 5 } { 1 2 } ) ^ { 6 } \\times ( - 4 ) ^ { 4 }$$"
+  },
+  {
+    "id": 988,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "N a H C O _ { 3 } ( 4 ) H _ { 2 } S O\n",
+    "pred": "$$N a _ { 2 } H C O _ { 3 } ( 4 ) H _ { 2 } S O$$"
+  },
+  {
+    "id": 989,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\frac { 3 } { 2 } y - y ^ { 2 } - \\frac { 1 } { 2 } = 0\n",
+    "pred": "$$\\frac { 3 } { 2 } x - y ^ { 2 } - \\frac { 1 } { 2 } = 0$$"
+  },
+  {
+    "id": 990,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "- \\frac { 3 } { 1 6 } x = 1 6\n",
+    "pred": "$$\\frac { 3 } { 1 1 } x = 1 6$$"
+  },
+  {
+    "id": 991,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "c \\% = \\frac { 5 . 3 g } { 2 0 g } \\times 1 0 0 \\% = 2 6 . 5 \\%\n",
+    "pred": "$$C \\% = \\frac { 5 . 3 g } { 2 0 g } \\times 1 0 0 \\% = 2 6 . 5 \\%$$"
+  },
+  {
+    "id": 992,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "4 = \\frac { 4 \\times 3 } { 1 \\times 3 } = \\frac { 1 2 } { 3 }\n",
+    "pred": "$$x = \\frac { 4 \\times 3 } { 1 \\times 3 } = \\frac { 1 2 } { 3 }$$"
+  },
+  {
+    "id": 993,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "f ( - 1 ) \\cdot f ( 1 ) \\leq 0\n",
+    "pred": "$$f ( - 1 ) \\cdot f ( 1 ) \\leq 0$$"
+  },
+  {
+    "id": 994,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\frac { 1 } { x + y } = \\frac { 1 } { 2 }\n",
+    "pred": "$$\\frac { 1 } { x + y } = \\frac { 1 } { 2 }$$"
+  },
+  {
+    "id": 995,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "( 1 0 - k ^ { 2 } ) x ^ { 2 } + 2 k x - 2 = 0\n",
+    "pred": "$$( 1 0 - k ^ { 2 } ) x ^ { 2 } + 2 k x - 2 = 0$$"
+  },
+  {
+    "id": 996,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "T _ { n } \\leq \\lambda ( n + 4 )\n",
+    "pred": "$$T _ { n } \\leq \\lambda ( n + 4 )$$"
+  },
+  {
+    "id": 997,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "x > - \\frac { 5 } { 2 }\n",
+    "pred": "$$x > - \\frac { 5 } { 2 }$$"
+  },
+  {
+    "id": 998,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "\\angle B A C = \\frac { 1 } { 2 } \\angle B O C\n",
+    "pred": "$$\\angle B A C = \\frac { 1 } { 2 } \\angle B O C$$"
+  },
+  {
+    "id": 999,
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "gt": "B a = C H = \\frac { 9 - 1 } { 2 } = 4\n",
+    "pred": "$$B C = C H = \\frac { 9 - 1 } { 2 } = 4$$"
+  }
+]

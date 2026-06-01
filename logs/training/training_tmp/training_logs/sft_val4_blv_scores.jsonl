@@ -1,0 +1,4 @@
+{"step": 50, "mean_blv_score": 44.4, "n": 10}
+{"step": 100, "mean_blv_score": 39.8, "n": 10}
+{"step": 150, "mean_blv_score": 28.0, "n": 10}
+{"step": 200, "mean_blv_score": 10.0, "n": 10}

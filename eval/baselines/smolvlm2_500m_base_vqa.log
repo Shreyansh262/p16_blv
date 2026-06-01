@@ -1,0 +1,30 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading /usershome/cs671_user2/p16_blv/models/baselines/smolvlm2_500m_base on GPU 2...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  54%|█████▎    | 262/489 [00:00<00:00, 2589.17it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2957.08it/s]
+Model loaded.
+[0/5000] DAKOTA DIGITAL Single-Use Camera
+[200/5000] Mets vs. Giants.
+[400/5000] macy's.
+[600/5000] 58888888888888888888888888888888
+[800/5000] 3877.7373677373737.7373737373737
+[1000/5000] Buckminster Fuller.
+[1200/5000] Cyclamate Out!
+[1400/5000] yes.
+[1600/5000] PERFORMANCE.
+[1800/5000] 2010
+[2000/5000] 19
+[2200/5000] THE NANJING MASSACRE in History and Historiography
+[2400/5000] Rye whiskey.
+[2600/5000] 401 057-5
+[2800/5000] 1892
+[3000/5000] les socialistes parti socialiste bénévoisis
+[3200/5000] SEIKO.
+[3400/5000] google.com
+[3600/5000] nezga
+[3800/5000] extrasporthumans.com
+[4000/5000] 1868-1919)
+[4200/5000] 1995.
+[4400/5000] 12:00 PM
+[4600/5000] The Wipers Times.
+[4800/5000] 6FLE272
+Saved 5000 (skipped 0) -> /usershome/cs671_user2/p16_blv/eval/baselines/smolvlm2_500m_base_vqa_preds.json

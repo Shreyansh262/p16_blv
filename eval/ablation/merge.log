@@ -1,0 +1,31 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Adapter OK: /usershome/cs671_user2/p16_blv/models/student/sft_v2/best
+Adapter OK: /usershome/cs671_user2/p16_blv/models/student/grpo/best
+
+Loading base model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  35%|███▍      | 171/489 [00:00<00:00, 1703.82it/s]Loading weights:  90%|████████▉ | 438/489 [00:00<00:00, 2266.62it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2256.06it/s]
+Base model loaded.
+
+==================================================
+Merging: /usershome/cs671_user2/p16_blv/models/student/sft_v2/best
+Output : /usershome/cs671_user2/p16_blv/models/student/sft_v2_merged
+Merging LoRA weights...
+Saving merged model to /usershome/cs671_user2/p16_blv/models/student/sft_v2_merged...
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.47s/it]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.47s/it]
+Saved. Size: 1.02 GB
+Reloading clean base for next adapter...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  53%|█████▎    | 258/489 [00:00<00:00, 2572.39it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2855.41it/s]
+
+==================================================
+Merging: /usershome/cs671_user2/p16_blv/models/student/grpo/best
+Output : /usershome/cs671_user2/p16_blv/models/student/grpo_merged
+Merging LoRA weights...
+Saving merged model to /usershome/cs671_user2/p16_blv/models/student/grpo_merged...
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.67s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.67s/it]
+Saved. Size: 1.02 GB
+Reloading clean base for next adapter...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  48%|████▊     | 234/489 [00:00<00:00, 2338.35it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2579.13it/s]
+
+All adapters merged successfully.
+sft_v2_merged : /usershome/cs671_user2/p16_blv/models/student/sft_v2_merged
+grpo_merged   : /usershome/cs671_user2/p16_blv/models/student/grpo_merged

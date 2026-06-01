@@ -1,0 +1,16 @@
+Detected model_type: qwen2_vl
+Loading qwen2_vl on GPU 2...
+Loading weights:   0%|          | 0/730 [00:00<?, ?it/s]Loading weights:   0%|          | 1/730 [00:01<13:09,  1.08s/it]Loading weights:   0%|          | 2/730 [00:02<12:06,  1.00it/s]Loading weights:   2%|▏         | 16/730 [00:02<01:01, 11.61it/s]Loading weights:   4%|▍         | 30/730 [00:02<00:29, 23.93it/s]Loading weights:   6%|▋         | 47/730 [00:02<00:16, 41.66it/s]Loading weights:   9%|▉         | 64/730 [00:02<00:11, 58.60it/s]Loading weights:  11%|█         | 77/730 [00:02<00:09, 67.19it/s]Loading weights:  12%|█▏        | 89/730 [00:02<00:08, 72.16it/s]Loading weights:  14%|█▍        | 102/730 [00:02<00:07, 82.21it/s]Loading weights:  16%|█▌        | 114/730 [00:02<00:06, 88.80it/s]Loading weights:  17%|█▋        | 125/730 [00:03<00:09, 63.25it/s]Loading weights:  19%|█▊        | 136/730 [00:03<00:09, 65.24it/s]Loading weights:  20%|█▉        | 145/730 [00:03<00:09, 60.02it/s]Loading weights:  22%|██▏       | 159/730 [00:03<00:08, 68.61it/s]Loading weights:  24%|██▎       | 173/730 [00:03<00:06, 81.06it/s]Loading weights:  25%|██▌       | 184/730 [00:03<00:06, 85.19it/s]Loading weights:  27%|██▋       | 197/730 [00:04<00:06, 88.14it/s]Loading weights:  29%|██▉       | 210/730 [00:04<00:05, 97.38it/s]Loading weights:  30%|███       | 222/730 [00:04<00:04, 101.69it/s]Loading weights:  32%|███▏      | 233/730 [00:04<00:06, 82.41it/s] Loading weights:  33%|███▎      | 244/730 [00:04<00:05, 86.46it/s]Loading weights:  35%|███▌      | 257/730 [00:04<00:04, 96.20it/s]Loading weights:  37%|███▋      | 268/730 [00:04<00:04, 97.11it/s]Loading weights:  38%|███▊      | 281/730 [00:04<00:04, 104.68it/s]Loading weights:  40%|████      | 293/730 [00:05<00:04, 108.51it/s]Loading weights:  42%|████▏     | 306/730 [00:05<00:03, 107.50it/s]Loading weights:  44%|████▎     | 318/730 [00:05<00:03, 110.79it/s]Loading weights:  46%|████▌     | 334/730 [00:05<00:03, 123.55it/s]Loading weights:  62%|██████▏   | 450/730 [00:05<00:00, 416.59it/s]Loading weights:  75%|███████▌  | 551/730 [00:05<00:00, 585.36it/s]Loading weights:  93%|█████████▎| 676/730 [00:05<00:00, 777.98it/s]Loading weights: 100%|██████████| 730/730 [00:05<00:00, 126.87it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Model loaded.
+[0/1000] centric
+[100/1000] Marilyn.
+[200/1000] 5743
+[300/1000] Chatswood Epping.
+[400/1000] McNADE HOT WRAPS.
+[500/1000] $ 597.
+[600/1000] 0.08
+[700/1000] SECRET RECIPE RESTAURANT.
+[800/1000] Kent B. Mills
+[900/1000] $$y _ { 2 } = - 1$$
+Saved 1000 -> /usershome/cs671_user2/p16_blv/eval/baselines/qwen2_vl_7b_ocr_preds.json

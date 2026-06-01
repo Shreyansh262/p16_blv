@@ -1,0 +1,44 @@
+{
+  "SmolVLM2-500M-base": {
+    "BLEU1": 20.61,
+    "BLEU4": 3.27,
+    "ROUGE_L": 19.56,
+    "METEOR": 19.41,
+    "n": 47
+  },
+  "sft_patch_grpo_v2-ours": {
+    "BLEU1": 21.24,
+    "BLEU4": 3.4,
+    "ROUGE_L": 19.65,
+    "METEOR": 20.55,
+    "n": 47
+  },
+  "SmolVLM2-2.2B": {
+    "BLEU1": 18.25,
+    "BLEU4": 2.46,
+    "ROUGE_L": 19.0,
+    "METEOR": 18.58,
+    "n": 47
+  },
+  "Qwen2.5-VL-3B": {
+    "BLEU1": 21.04,
+    "BLEU4": 3.53,
+    "ROUGE_L": 19.81,
+    "METEOR": 21.66,
+    "n": 47
+  },
+  "PaliGemma2-3B": {
+    "BLEU1": 0.0,
+    "BLEU4": 0.0,
+    "ROUGE_L": 1.79,
+    "METEOR": 0.73,
+    "n": 47
+  },
+  "moondream2": {
+    "BLEU1": 0.05,
+    "BLEU4": 0.01,
+    "ROUGE_L": 0.09,
+    "METEOR": 0.11,
+    "n": 47
+  }
+}

@@ -1,0 +1,23 @@
+============================================================
+Loading Qwen2.5-VL-3B-Instruct on GPU 7...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [02:22<02:22, 142.33s/it]Fetching 2 files: 100%|██████████| 2/2 [02:25<00:00, 60.61s/it] Fetching 2 files: 100%|██████████| 2/2 [02:25<00:00, 72.86s/it]
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   3%|▎         | 27/824 [00:00<00:03, 254.97it/s]Loading weights:   8%|▊         | 63/824 [00:00<00:02, 297.14it/s]Loading weights:  12%|█▏        | 100/824 [00:00<00:02, 323.97it/s]Loading weights:  16%|█▋        | 135/824 [00:00<00:02, 324.62it/s]Loading weights:  21%|██        | 171/824 [00:00<00:02, 324.51it/s]Loading weights:  25%|██▍       | 204/824 [00:00<00:02, 302.84it/s]Loading weights:  29%|██▊       | 235/824 [00:00<00:01, 294.75it/s]Loading weights:  34%|███▎      | 277/824 [00:00<00:01, 330.70it/s]Loading weights:  38%|███▊      | 311/824 [00:00<00:01, 320.98it/s]Loading weights:  42%|████▏     | 344/824 [00:01<00:01, 313.53it/s]Loading weights:  46%|████▌     | 377/824 [00:01<00:01, 318.16it/s]Loading weights:  50%|████▉     | 411/824 [00:01<00:01, 315.29it/s]Loading weights:  61%|██████    | 499/824 [00:01<00:00, 476.76it/s]Loading weights:  77%|███████▋  | 632/824 [00:01<00:00, 718.40it/s]Loading weights:  92%|█████████▏| 762/824 [00:01<00:00, 886.69it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 494.30it/s]
+Model loaded.
+
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+[Qwen2.5-VL-3B] ./eval_images/image_1.jpeg:
+The image shows a room with a television set placed on a wooden stand in the center of the room. Above the television, there is a shelf with some small decorative items, including what appears to be stuffed animals or plush toys. To the left of the television, there is a door with clothes hanging on it. On the wall to the right of the television, there is a dreamcatcher hanging. The walls are painted white, and there is a light switch visible on the wall near the television. The floor appears to be carpeted.
+
+[Qwen2.5-VL-3B] ./eval_images/image_2.png:
+The image shows a small, neatly arranged room with a desk and chair in the center. The desk is made of wood and has a light-colored top. On the desk, there is a white notebook or folder, a black object that could be a remote control or a small electronic device, and some other small items. To the left of the desk, there is a black office chair with a mesh backrest. Behind the desk, on the wall, there is a small framed picture or mirror hanging. The room appears to have a window covered by green curtains, which are partially drawn open. The overall setting suggests a workspace or study area.
+
+[Qwen2.5-VL-3B] ./eval_images/image_3.png:
+The image shows a kitchen countertop with various appliances and items on it. There is a microwave oven mounted above the countertop, a gas stove with four burners in the middle, and a coffee maker to the right of the stove. On the left side of the countertop, there is a toaster and a small appliance that appears to be a rice cooker or a similar kitchen gadget. The wall behind the countertop has a light switch and an electrical outlet. The overall setting suggests a modern kitchen with functional appliances.
+
+[Qwen2.5-VL-3B] ./eval_images/image_4.png:
+The image shows a dining area with a table and four chairs. On the wall above the table, there is a framed picture depicting two people. The room has a light-colored wall and a carpeted floor. To the right of the table, there is a shelf with some items on it. The overall setting appears to be a modern, well-lit dining room.
+
+Done.
+EXIT:0

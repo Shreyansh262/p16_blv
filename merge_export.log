@@ -1,0 +1,13 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Step 1: Loading base model...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:   0%|          | 1/489 [00:00<00:54,  8.92it/s]Loading weights:   5%|▍         | 24/489 [00:00<00:03, 127.83it/s]Loading weights:  10%|▉         | 47/489 [00:00<00:02, 161.19it/s]Loading weights:  14%|█▍        | 69/489 [00:00<00:02, 174.67it/s]Loading weights:  19%|█▉        | 93/489 [00:00<00:02, 191.26it/s]Loading weights:  23%|██▎       | 114/489 [00:00<00:01, 189.70it/s]Loading weights:  28%|██▊       | 137/489 [00:00<00:01, 199.12it/s]Loading weights:  33%|███▎      | 160/489 [00:00<00:01, 195.26it/s]Loading weights:  38%|███▊      | 188/489 [00:00<00:01, 218.24it/s]Loading weights:  43%|████▎     | 211/489 [00:01<00:01, 209.68it/s]Loading weights:  48%|████▊     | 233/489 [00:01<00:01, 201.38it/s]Loading weights:  52%|█████▏    | 255/489 [00:01<00:01, 197.61it/s]Loading weights:  57%|█████▋    | 281/489 [00:01<00:01, 205.50it/s]Loading weights:  65%|██████▌   | 320/489 [00:01<00:00, 251.92it/s]Loading weights:  75%|███████▍  | 365/489 [00:01<00:00, 306.30it/s]Loading weights:  84%|████████▍ | 413/489 [00:01<00:00, 342.54it/s]Loading weights:  96%|█████████▌| 467/489 [00:01<00:00, 391.12it/s]Loading weights: 100%|██████████| 489/489 [00:01<00:00, 253.57it/s]
+/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/peft/tuners/tuners_utils.py:285: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!
+  warnings.warn(
+Step 2: Applying GRPO adapter and merging...
+Step 3: Applying SFT_PATCH_V2 adapter and merging...
+Step 4: Saving merged model...
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.51s/it]
+972M	models/student/final_merged
+Done. Saved to models/student/final_merged
+Total size:
+EXIT_CODE: 0

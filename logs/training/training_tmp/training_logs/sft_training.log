@@ -1,0 +1,83 @@
+2026-03-22 10:33:48,968 [INFO] Loaded 9646 captions
+2026-03-22 10:33:48,970 [INFO] After quality filter: 9646
+2026-03-22 10:33:48,970 [INFO] Loading student model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-22 10:39:24,093 [INFO] Loaded 9646 captions
+2026-03-22 10:39:24,095 [INFO] After quality filter: 9646
+2026-03-22 10:39:24,095 [INFO] Loading student model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-22 10:41:42,378 [INFO] Loaded 9646 captions
+2026-03-22 10:41:42,380 [INFO] After quality filter: 9646
+2026-03-22 10:41:42,381 [INFO] Loading student model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-22 10:44:04,340 [INFO] Loaded 9646 captions
+2026-03-22 10:44:04,342 [INFO] After quality filter: 9646
+2026-03-22 10:44:04,342 [INFO] Loading student model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-22 10:44:59,980 [INFO] Loaded 9646 captions
+2026-03-22 10:44:59,983 [INFO] After quality filter: 9646
+2026-03-22 10:44:59,983 [INFO] Loading student model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-22 10:45:52,421 [INFO] Loaded 9646 captions
+2026-03-22 10:45:52,423 [INFO] After quality filter: 9646
+2026-03-22 10:45:52,423 [INFO] Loading student model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-22 10:46:33,347 [INFO] Loaded 9646 captions
+2026-03-22 10:46:33,350 [INFO] After quality filter: 9646
+2026-03-22 10:46:33,350 [INFO] Loading student model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-22 10:46:46,339 [INFO] Student model loaded.
+2026-03-22 10:46:55,828 [INFO] Train samples: 100 | Val samples: 50
+2026-03-22 10:46:56,266 [INFO] Starting SFT training...
+2026-03-22 10:48:29,311 [INFO] Loaded 9646 captions
+2026-03-22 10:48:29,314 [INFO] After quality filter: 9646
+2026-03-22 10:48:29,314 [INFO] Loading student model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-22 10:48:42,391 [INFO] Student model loaded.
+2026-03-22 10:48:50,863 [INFO] Train samples: 100 | Val samples: 50
+2026-03-22 10:48:51,285 [INFO] Starting SFT training...
+2026-03-22 10:50:27,537 [INFO] Loaded 9646 captions
+2026-03-22 10:50:27,540 [INFO] After quality filter: 9646
+2026-03-22 10:50:27,540 [INFO] Loading student model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-22 10:50:40,001 [INFO] Student model loaded.
+2026-03-22 10:50:48,665 [INFO] Train samples: 100 | Val samples: 50
+2026-03-22 10:50:48,886 [INFO] Starting SFT training...
+2026-03-22 10:53:34,081 [INFO] Loaded 9646 captions
+2026-03-22 10:53:34,083 [INFO] After quality filter: 9646
+2026-03-22 10:53:34,083 [INFO] Loading student model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-22 10:53:48,320 [INFO] Student model loaded.
+2026-03-22 10:53:59,090 [INFO] Train samples: 100 | Val samples: 50
+2026-03-22 10:53:59,322 [INFO] Starting SFT training...
+2026-03-22 11:01:01,512 [INFO] SFT complete. Model saved to: /usershome/cs671_user2/p16_blv/models/student/sft_checkpoint
+2026-03-29 10:17:03,022 [INFO] Loaded 9646 captions
+2026-03-29 10:17:03,025 [INFO] After quality filter: 9646
+2026-03-29 10:17:03,025 [INFO] Loading student model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-29 10:17:15,042 [INFO] Student model loaded.
+2026-03-29 10:17:15,566 [INFO] Train samples: 200 | Val samples: 50
+2026-03-29 10:17:15,791 [INFO] Starting SFT training...
+2026-03-29 10:26:30,229 [INFO] Loaded 9646 captions
+2026-03-29 10:26:30,230 [INFO] After quality filter: 9646
+2026-03-29 10:26:30,231 [INFO] Loading student model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-29 10:26:43,498 [INFO] Student model loaded.
+2026-03-29 10:26:43,986 [INFO] Train samples: 200 | Val samples: 50
+2026-03-29 10:26:44,127 [INFO] Starting SFT training...
+2026-03-29 10:53:47,092 [INFO] SFT complete. Model saved to: /usershome/cs671_user2/p16_blv/models/student/sft_val5_checkpoint
+2026-03-29 11:03:12,812 [INFO] SFT complete. Model saved to: /usershome/cs671_user2/p16_blv/models/student/sft_val5_checkpoint
+2026-03-29 16:50:04,066 [INFO] Loaded 9646 captions
+2026-03-29 16:50:04,068 [INFO] After quality filter: 9646
+2026-03-29 16:50:04,068 [INFO] Loading student model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-29 16:50:30,454 [INFO] Student model loaded.
+2026-03-29 16:50:31,030 [INFO] Train samples: 50 | Val samples: 50
+2026-03-29 16:50:31,195 [INFO] Starting SFT training...
+2026-03-29 16:52:08,234 [INFO] Loaded 9646 captions
+2026-03-29 16:52:08,235 [INFO] After quality filter: 9646
+2026-03-29 16:52:08,235 [INFO] Loading student model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-29 16:52:18,901 [INFO] Student model loaded.
+2026-03-29 16:52:19,421 [INFO] Train samples: 50 | Val samples: 50
+2026-03-29 16:52:19,617 [INFO] Starting SFT training...
+2026-03-29 16:54:41,207 [INFO] SFT complete. Model saved to: /usershome/cs671_user2/p16_blv/models/student/sft_val5_checkpoint
+2026-03-29 17:01:50,266 [INFO] Loaded 9646 captions
+2026-03-29 17:01:50,268 [INFO] After quality filter: 9646
+2026-03-29 17:01:50,268 [INFO] Loading student model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-29 17:02:02,762 [INFO] Student model loaded.
+2026-03-29 17:02:03,242 [INFO] Train samples: 8681 | Val samples: 900
+2026-03-29 17:02:03,439 [INFO] Starting SFT training...
+2026-03-29 17:28:55,962 [INFO] Loaded 9646 captions
+2026-03-29 17:28:55,965 [INFO] After quality filter: 9646
+2026-03-29 17:28:55,965 [INFO] Loading student model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-29 17:29:12,078 [INFO] Student model loaded.
+2026-03-29 17:29:24,808 [INFO] Train samples: 8681 | Val samples: 900
+2026-03-29 17:29:25,083 [INFO] Starting SFT training...
+2026-03-30 16:29:01,292 [INFO] SFT complete. Model saved to: /usershome/cs671_user2/p16_blv/models/student/sft_stage2_checkpoint

@@ -1,0 +1,79 @@
+============================================================
+Loading SmolVLM2-500M-Video-Instruct (BASE)...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  54%|█████▍    | 265/489 [00:00<00:00, 2637.24it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 3178.64it/s]
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+[SmolVLM Base] ./eval_images/image_1.jpeg:
+ The image shows a room with a television mounted on a wooden shelf above a bed. The television is turned on, displaying a video clip. The room also features a bed with a blue and white patterned bedspread, a door, and a wall with a decorative item, possibly a dreamcatcher. The room appears to be a cozy and comfortable space, with the television being the focal point.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+[SmolVLM Base] ./eval_images/image_2.png:
+ The image shows a room with a desk, a chair, and a window with curtains. The desk has a computer monitor on it, and there is a lamp on the desk. The room has a bed in the background, and the curtains are open, allowing natural light to enter the room.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+[SmolVLM Base] ./eval_images/image_3.png:
+ The image shows a kitchen with a stove and a sink, with a white countertop and a white wall in the background. There is a black oven above the stove, and a white electrical outlet on the wall.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+
+[SmolVLM Base] ./eval_images/image_4.png:
+ The image shows a dining area with a table and chairs, a painting on the wall, and a door in the background. The painting depicts a woman with a red and white dress, and the table has a vase with flowers on it. The room is well-lit, and the overall atmosphere is calm and inviting.
+
+============================================================
+Loading Qwen2.5-VL-3B-Instruct...
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [02:06<02:06, 126.49s/it]Fetching 2 files: 100%|██████████| 2/2 [02:09<00:00, 54.11s/it] Fetching 2 files: 100%|██████████| 2/2 [02:09<00:00, 64.96s/it]
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:  60%|█████▉    | 493/824 [00:00<00:00, 4912.74it/s]Loading weights: 100%|██████████| 824/824 [00:00<00:00, 4691.81it/s]
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+[Qwen 3B Instruct] ./eval_images/image_1.jpeg:
+The image shows a room with a television set placed on a wooden stand in the center of the room. Above the television, there is a shelf with some small decorative items, including what appears to be stuffed animals or plush toys. To the left of the television, there is a door with clothes hanging on it. On the wall to the right of the television, there is a dreamcatcher hanging. The walls are painted white, and there is a light switch visible on the wall near the television. The floor appears to be carpeted.
+
+[Qwen 3B Instruct] ./eval_images/image_2.png:
+The image shows a small, neatly arranged room with a desk and chair in the center. The desk is made of wood and has a light-colored top. On the desk, there is a white notebook or folder, a black object that could be a remote control or a small electronic device, and some other small items. To the left of the desk, there is a black office chair with a mesh backrest. Behind the desk, on the wall, there is a small framed picture or mirror hanging. The room appears to have a window covered by green curtains, which are partially drawn open. The overall setting suggests a workspace or study area.
+
+[Qwen 3B Instruct] ./eval_images/image_3.png:
+The image shows a kitchen countertop with various appliances and items on it. There is a microwave oven mounted above the countertop, a gas stove with four burners in the middle, and a coffee maker to the right of the stove. On the left side of the countertop, there is a toaster and a small appliance that appears to be a rice cooker or a similar kitchen gadget. The wall behind the countertop has a light switch and an electrical outlet. The overall setting suggests a modern kitchen with functional appliances.
+
+[Qwen 3B Instruct] ./eval_images/image_4.png:
+The image shows a dining area with a table and four chairs. On the wall above the table, there is a framed picture depicting two people. The room has a light-colored wall and a carpeted floor. To the right of the table, there is a shelf with some items on it. The overall setting appears to be a modern, well-lit dining room.
+
+============================================================
+SUMMARY — SIDE BY SIDE
+============================================================
+
+📷 ./eval_images/image_1.jpeg
+
+  [SmolVLM Base]
+   The image shows a room with a television mounted on a wooden shelf above a bed. The television is turned on, displaying a video clip. The room also features a bed with a blue and white patterned bedspread, a door, and a wall with a decorative item, possibly a dreamcatcher. The room appears to be a cozy and comfortable space, with the television being the focal point.
+
+  [Qwen 3B Instruct]
+  The image shows a room with a television set placed on a wooden stand in the center of the room. Above the television, there is a shelf with some small decorative items, including what appears to be stuffed animals or plush toys. To the left of the television, there is a door with clothes hanging on it. On the wall to the right of the television, there is a dreamcatcher hanging. The walls are painted white, and there is a light switch visible on the wall near the television. The floor appears to be carpeted.
+------------------------------------------------------------
+
+📷 ./eval_images/image_2.png
+
+  [SmolVLM Base]
+   The image shows a room with a desk, a chair, and a window with curtains. The desk has a computer monitor on it, and there is a lamp on the desk. The room has a bed in the background, and the curtains are open, allowing natural light to enter the room.
+
+  [Qwen 3B Instruct]
+  The image shows a small, neatly arranged room with a desk and chair in the center. The desk is made of wood and has a light-colored top. On the desk, there is a white notebook or folder, a black object that could be a remote control or a small electronic device, and some other small items. To the left of the desk, there is a black office chair with a mesh backrest. Behind the desk, on the wall, there is a small framed picture or mirror hanging. The room appears to have a window covered by green curtains, which are partially drawn open. The overall setting suggests a workspace or study area.
+------------------------------------------------------------
+
+📷 ./eval_images/image_3.png
+
+  [SmolVLM Base]
+   The image shows a kitchen with a stove and a sink, with a white countertop and a white wall in the background. There is a black oven above the stove, and a white electrical outlet on the wall.
+
+  [Qwen 3B Instruct]
+  The image shows a kitchen countertop with various appliances and items on it. There is a microwave oven mounted above the countertop, a gas stove with four burners in the middle, and a coffee maker to the right of the stove. On the left side of the countertop, there is a toaster and a small appliance that appears to be a rice cooker or a similar kitchen gadget. The wall behind the countertop has a light switch and an electrical outlet. The overall setting suggests a modern kitchen with functional appliances.
+------------------------------------------------------------
+
+📷 ./eval_images/image_4.png
+
+  [SmolVLM Base]
+   The image shows a dining area with a table and chairs, a painting on the wall, and a door in the background. The painting depicts a woman with a red and white dress, and the table has a vase with flowers on it. The room is well-lit, and the overall atmosphere is calm and inviting.
+
+  [Qwen 3B Instruct]
+  The image shows a dining area with a table and four chairs. On the wall above the table, there is a framed picture depicting two people. The room has a light-colored wall and a carpeted floor. To the right of the table, there is a shelf with some items on it. The overall setting appears to be a modern, well-lit dining room.
+------------------------------------------------------------
+EXIT:0

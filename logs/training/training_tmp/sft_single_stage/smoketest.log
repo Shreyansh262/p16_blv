@@ -1,0 +1,42 @@
+2026-04-20 10:26:36,364 [INFO] ============================================================
+2026-04-20 10:26:36,364 [INFO] 08_sft_single_stage.py  --  Single-stage SFT from base HF weights
+2026-04-20 10:26:36,364 [INFO]   GPU=2 | epochs=1 | max_samples=50
+2026-04-20 10:26:36,364 [INFO] ============================================================
+2026-04-20 10:26:36,411 [INFO] Loaded 9646 captions from all_captions_gemma.json
+2026-04-20 10:26:36,413 [INFO] After quality filter (len>30): 9577
+2026-04-20 10:26:36,415 [INFO] Train: 45 | Val: 5
+2026-04-20 10:26:36,415 [INFO] per_device_bs=8 | grad_accum=2 | effective_bs=16
+2026-04-20 10:26:36,415 [INFO] steps/epoch=3 | total_steps=3
+2026-04-20 10:26:36,415 [INFO] TRANSITION_STEP=1  (25% of 3 total steps)
+2026-04-20 10:26:36,415 [INFO]   Phase 1 (vision+connector only):          steps 0 -> 1
+2026-04-20 10:26:36,415 [INFO]   Phase 2 (all trainable, vision LR=5e-6):  steps 1 -> 3
+2026-04-20 10:26:36,415 [INFO] Loading base model (bf16, no quantization): HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-04-20 10:26:36,415 [INFO] HF cache: /usershome/cs671_user2/p16_blv/models/.hf_cache
+You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
+2026-04-20 10:26:47,480 [INFO] Base model loaded.
+No label_names provided for model class `PeftModelForCausalLM`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+2026-04-20 10:26:49,349 [INFO] Starting training...
+2026-04-20 10:26:49,562 [INFO] Optimizer: AdamW | vision_lr=1e-05 | connector_lr=1e-05 | lora_lr=2e-05
+2026-04-20 10:26:49,634 [INFO] === PHASE 1: vision + connector trainable, LoRA FROZEN ===
+2026-04-20 10:26:49,636 [INFO]   steps 0 -> 1
+2026-04-20 10:26:49,636 [INFO]   vision_model trainable: 86,433,024
+2026-04-20 10:26:49,636 [INFO]   connector trainable:    11,796,480
+2026-04-20 10:26:49,636 [INFO]   LoRA trainable:         0  (FROZEN)
+2026-04-20 10:26:49,636 [INFO]   TOTAL trainable:        98,229,504
+trainable params: 38,273,024 || all params: 545,755,328 || trainable%: 7.0129
+  0%|          | 0/3 [00:00<?, ?it/s]`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+2026-04-20 10:27:44,362 [INFO] === STEP 1: PHASE 2 BEGINS ===
+2026-04-20 10:27:44,363 [INFO]   LoRA UNFROZEN: 38,273,024 params now trainable
+2026-04-20 10:27:44,363 [INFO]   vision LR reduced to 5e-6
+2026-04-20 10:27:44,363 [INFO]   TOTAL trainable now: 136,502,528
+ 33%|███▎      | 1/3 [00:54<01:49, 54.73s/it] 67%|██████▋   | 2/3 [01:18<00:36, 36.67s/it]100%|██████████| 3/3 [01:38<00:00, 28.94s/it]
+  0%|          | 0/2 [00:00<?, ?it/s][A
+100%|██████████| 2/2 [00:00<00:00,  3.13it/s][A                                             
+                                             [A100%|██████████| 3/3 [01:49<00:00, 28.94s/it]
+100%|██████████| 2/2 [00:00<00:00,  3.13it/s][A
+                                             [A2026-04-20 10:28:41,435 [INFO] Checkpoint renamed: checkpoint-3 -> checkpoint-epoch1
+                                             100%|██████████| 3/3 [01:51<00:00, 28.94s/it]100%|██████████| 3/3 [01:51<00:00, 37.30s/it]
+2026-04-20 10:28:42,785 [INFO] Best model saved to: /usershome/cs671_user2/p16_blv/models/student/sft_single_stage_smoketest/best
+2026-04-20 10:28:42,785 [INFO] Training complete.
+{'eval_loss': 2.7475006580352783, 'eval_runtime': 11.1517, 'eval_samples_per_second': 0.448, 'eval_steps_per_second': 0.179, 'epoch': 1.0}
+{'train_runtime': 111.9158, 'train_samples_per_second': 0.402, 'train_steps_per_second': 0.027, 'train_loss': 2.904308001200358, 'epoch': 1.0}

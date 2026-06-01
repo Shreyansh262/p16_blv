@@ -1,0 +1,278 @@
+Loaded 50 samples.
+
+============================================================
+Loading SmolVLM2-500M-base on GPU 1 ...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  34%|███▍      | 167/489 [00:00<00:00, 1660.46it/s]Loading weights:  88%|████████▊ | 432/489 [00:00<00:00, 2240.81it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2258.71it/s]
+  Model loaded.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  sample 3: no images, skip
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [10/50] avg so far: 2088ms
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  sample 12: no images, skip
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [20/50] avg so far: 1959ms
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  sample 22: no images, skip
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [30/50] avg so far: 1958ms
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [40/50] avg so far: 1938ms
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [50/50] avg so far: 1956ms
+  DONE -- mean=1955.9ms | p95=2174.5ms | fps=0.511
+
+Intermediate save -> results/benchmark_graph/latency_results.json
+
+============================================================
+Loading sft_patch_grpo_v2-ours on GPU 0 ...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:   7%|▋         | 36/489 [00:00<00:01, 250.53it/s]Loading weights:  15%|█▌        | 75/489 [00:00<00:01, 294.11it/s]Loading weights:  21%|██▏       | 105/489 [00:00<00:01, 258.86it/s]Loading weights:  43%|████▎     | 212/489 [00:00<00:00, 521.93it/s]Loading weights:  64%|██████▍   | 314/489 [00:00<00:00, 675.64it/s]Loading weights:  92%|█████████▏| 449/489 [00:00<00:00, 882.54it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 668.40it/s]
+  Model loaded.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  sample 3: no images, skip
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [10/50] avg so far: 2357ms
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  sample 12: no images, skip
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [20/50] avg so far: 2399ms
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  sample 22: no images, skip
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [30/50] avg so far: 2416ms
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [40/50] avg so far: 2428ms
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [50/50] avg so far: 2444ms
+  DONE -- mean=2444.4ms | p95=2634.7ms | fps=0.409
+
+Intermediate save -> results/benchmark_graph/latency_results.json
+
+============================================================
+Loading SmolVLM2-2.2B on GPU 1 ...
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:41<00:41, 41.25s/it]Fetching 2 files: 100%|██████████| 2/2 [00:41<00:00, 20.62s/it]
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   7%|▋         | 48/657 [00:00<00:01, 459.53it/s]Loading weights:  14%|█▍        | 94/657 [00:00<00:01, 401.78it/s]Loading weights:  21%|██        | 135/657 [00:00<00:01, 357.54it/s]Loading weights:  26%|██▌       | 172/657 [00:00<00:01, 324.53it/s]Loading weights:  32%|███▏      | 212/657 [00:00<00:01, 344.50it/s]Loading weights:  67%|██████▋   | 437/657 [00:00<00:00, 898.82it/s]Loading weights: 100%|██████████| 657/657 [00:00<00:00, 829.37it/s]
+  Model loaded.
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  sample 3: no images, skip
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [10/50] avg so far: 1851ms
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  sample 12: no images, skip
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [20/50] avg so far: 1834ms
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  sample 22: no images, skip
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [30/50] avg so far: 1871ms
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [40/50] avg so far: 1832ms
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  [50/50] avg so far: 1860ms
+  DONE -- mean=1860.0ms | p95=1977.2ms | fps=0.538
+
+Intermediate save -> results/benchmark_graph/latency_results.json
+
+============================================================
+Loading Qwen2.5-VL-3B on GPU 1 ...
+You are using a model of type `qwen2_5_vl` to instantiate a model of type `qwen2_vl`. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [01:00<01:00, 60.31s/it]Fetching 2 files: 100%|██████████| 2/2 [01:02<00:00, 26.02s/it]Fetching 2 files: 100%|██████████| 2/2 [01:02<00:00, 31.16s/it]
+Loading weights:   0%|          | 0/632 [00:00<?, ?it/s]Loading weights:   4%|▍         | 28/632 [00:00<00:02, 254.44it/s]Loading weights:  10%|█         | 65/632 [00:00<00:02, 271.67it/s]Loading weights:  19%|█▉        | 122/632 [00:00<00:01, 385.80it/s]Loading weights:  29%|██▉       | 184/632 [00:00<00:00, 470.42it/s]Loading weights:  37%|███▋      | 233/632 [00:00<00:01, 344.07it/s]Loading weights:  43%|████▎     | 273/632 [00:00<00:01, 299.51it/s]Loading weights:  49%|████▊     | 307/632 [00:01<00:01, 251.44it/s]Loading weights:  53%|█████▎    | 336/632 [00:01<00:01, 226.42it/s]Loading weights:  57%|█████▋    | 361/632 [00:01<00:01, 215.57it/s]Loading weights:  61%|██████    | 384/632 [00:01<00:01, 198.42it/s]Loading weights:  64%|██████▍   | 405/632 [00:01<00:01, 184.47it/s]Loading weights:  83%|████████▎ | 522/632 [00:01<00:00, 404.96it/s]Loading weights: 100%|██████████| 632/632 [00:01<00:00, 357.09it/s]
+[1mQwen2VLForConditionalGeneration LOAD REPORT[0m from: Qwen/Qwen2.5-VL-3B-Instruct
+Key                                         | Status     |                                                                                               
+--------------------------------------------+------------+-----------------------------------------------------------------------------------------------
+visual.blocks.{0...31}.mlp.gate_proj.bias   | UNEXPECTED |                                                                                               
+visual.blocks.{0...31}.mlp.down_proj.weight | UNEXPECTED |                                                                                               
+visual.blocks.{0...31}.mlp.up_proj.bias     | UNEXPECTED |                                                                                               
+visual.blocks.{0...31}.mlp.gate_proj.weight | UNEXPECTED |                                                                                               
+visual.blocks.{0...31}.mlp.up_proj.weight   | UNEXPECTED |                                                                                               
+visual.blocks.{0...31}.mlp.down_proj.bias   | UNEXPECTED |                                                                                               
+model.visual.blocks.{0...31}.mlp.fc2.bias   | MISSING    |                                                                                               
+model.visual.blocks.{0...31}.mlp.fc2.weight | MISSING    |                                                                                               
+model.visual.blocks.{0...31}.norm2.bias     | MISSING    |                                                                                               
+model.visual.blocks.{0...31}.mlp.fc1.bias   | MISSING    |                                                                                               
+model.visual.blocks.{0...31}.mlp.fc1.weight | MISSING    |                                                                                               
+model.visual.blocks.{0...31}.norm1.bias     | MISSING    |                                                                                               
+model.visual.merger.ln_q.bias               | MISSING    |                                                                                               
+model.visual.merger.mlp.2.weight            | MISMATCH   | Reinit due to size mismatch - ckpt: torch.Size([2048, 5120]) vs model:torch.Size([1280, 5120])
+model.visual.merger.mlp.2.bias              | MISMATCH   | Reinit due to size mismatch - ckpt: torch.Size([2048]) vs model:torch.Size([1280])            
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+- MISMATCH:	ckpt weights were loaded, but they did not match the original empty weight shapes.
+  LOAD FAILED: You set `ignore_mismatched_sizes` to `False`, thus raising an error. For details look at the above report!
+
+============================================================
+Loading PaliGemma2-3B on GPU 1 ...
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:48<00:48, 48.89s/it]Loaded 50 samples.
+
+============================================================
+Loading moondream2 on GPU 1 ...
+A new version of the following files was downloaded from https://huggingface.co/vikhyatk/moondream2:
+- layers.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/vikhyatk/moondream2:
+- rope.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/vikhyatk/moondream2:
+- config.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/vikhyatk/moondream2:
+- text.py
+- layers.py
+- rope.py
+- config.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/vikhyatk/moondream2:
+- region.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/vikhyatk/moondream2:
+- utils.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/vikhyatk/moondream2:
+- image_crops.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/vikhyatk/moondream2:
+- vision.py
+- image_crops.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/vikhyatk/moondream2:
+- lora.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/vikhyatk/moondream2:
+- moondream.py
+- region.py
+- utils.py
+- vision.py
+- lora.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/vikhyatk/moondream2:
+- hf_moondream.py
+- text.py
+- moondream.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+`torch_dtype` is deprecated! Use `dtype` instead!
+  LOAD FAILED: 'HfMoondream' object has no attribute 'all_tied_weights_keys'
+
+
+=== FINAL LATENCY TABLE ===
+Model                           Params   Mean ms   P95 ms     FPS
+-----------------------------------------------------------------

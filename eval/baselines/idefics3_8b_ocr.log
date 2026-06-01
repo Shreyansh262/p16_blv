@@ -1,0 +1,53 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading /usershome/cs671_user2/p16_blv/models/baselines/idefics3_8b on GPU 4...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 2/729 [00:00<00:47, 15.20it/s]Loading weights:   1%|          | 4/729 [00:00<00:54, 13.38it/s]Loading weights:   2%|▏         | 16/729 [00:00<00:13, 51.69it/s]Loading weights:   4%|▍         | 32/729 [00:00<00:08, 83.20it/s]Loading weights:   6%|▌         | 42/729 [00:00<00:08, 85.32it/s]Loading weights:   7%|▋         | 52/729 [00:00<00:07, 88.06it/s]Loading weights:   9%|▉         | 64/729 [00:00<00:06, 97.41it/s]Loading weights:  10%|█         | 75/729 [00:00<00:06, 95.30it/s]Loading weights:  12%|█▏        | 86/729 [00:01<00:06, 98.06it/s]Loading weights:  13%|█▎        | 96/729 [00:01<00:07, 81.65it/s]Loading weights:  14%|█▍        | 105/729 [00:01<00:09, 65.03it/s]Loading weights:  16%|█▌        | 113/729 [00:01<00:09, 64.31it/s]Loading weights:  16%|█▋        | 120/729 [00:01<00:10, 59.80it/s]Loading weights:  17%|█▋        | 127/729 [00:01<00:11, 53.48it/s]Loading weights:  18%|█▊        | 133/729 [00:02<00:13, 44.97it/s]Loading weights:  19%|█▉        | 141/729 [00:02<00:12, 47.33it/s]Loading weights:  20%|██        | 147/729 [00:02<00:11, 49.71it/s]Loading weights:  21%|██        | 153/729 [00:02<00:13, 43.80it/s]Loading weights:  22%|██▏       | 159/729 [00:02<00:12, 44.16it/s]Loading weights:  22%|██▏       | 164/729 [00:02<00:12, 44.97it/s]Loading weights:  23%|██▎       | 169/729 [00:02<00:13, 41.11it/s]Loading weights:  24%|██▍       | 177/729 [00:03<00:11, 47.75it/s]Loading weights:  25%|██▍       | 182/729 [00:03<00:11, 48.28it/s]Loading weights:  26%|██▌       | 187/729 [00:03<00:13, 40.81it/s]Loading weights:  27%|██▋       | 195/729 [00:03<00:11, 47.09it/s]Loading weights:  28%|██▊       | 203/729 [00:03<00:10, 50.33it/s]Loading weights:  29%|██▊       | 209/729 [00:03<00:10, 47.65it/s]Loading weights:  29%|██▉       | 214/729 [00:03<00:12, 41.86it/s]Loading weights:  30%|███       | 222/729 [00:04<00:11, 43.86it/s]Loading weights:  32%|███▏      | 230/729 [00:04<00:10, 47.52it/s]Loading weights:  32%|███▏      | 235/729 [00:04<00:11, 44.28it/s]Loading weights:  33%|███▎      | 240/729 [00:04<00:11, 42.85it/s]Loading weights:  34%|███▎      | 245/729 [00:04<00:10, 44.48it/s]Loading weights:  34%|███▍      | 250/729 [00:04<00:11, 42.40it/s]Loading weights:  36%|███▋      | 266/729 [00:04<00:06, 67.99it/s]Loading weights:  38%|███▊      | 276/729 [00:04<00:06, 74.26it/s]Loading weights:  39%|███▉      | 286/729 [00:05<00:05, 75.96it/s]Loading weights:  60%|█████▉    | 436/729 [00:05<00:00, 444.06it/s]Loading weights:  85%|████████▌ | 620/729 [00:05<00:00, 816.49it/s]Loading weights: 100%|██████████| 729/729 [00:05<00:00, 137.58it/s]
+Model loaded.
+[0/1000] :
+[100/1000] ( can canpedpedpedvoped
+ regv
+ registry can cana registered 
+[200/1000] :
+
+
+ register
+
+
+
+iden
+[300/1000] cane registered empt find which
+ registered
+ local $t
+ j Dom
+[400/1000] eresbabouts
+epingbapedb
+enedbmpong
+etrongb
+opiesb
+opiesptbep
+[500/1000] $ the $ $ Impact $ KETPAPE $ $ Impact $ Impact Impact Impact
+[600/1000] $ $
+ $ $
+
+ and $
+
+ $
+
+ $jud
+ $
+
+ $
+
+ $
+
+ $ $ $
+
+ $
+
+ $ $ $ $
+[700/1000] $ $ $ $ $ $ $ $ can $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ 
+[800/1000] the $ the this $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $
+ the $ the $ 
+[900/1000] :
+
+:
+Saved 1000 -> /usershome/cs671_user2/p16_blv/eval/baselines/idefics3_8b_ocr_preds.json

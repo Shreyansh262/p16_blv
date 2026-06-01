@@ -1,0 +1,252 @@
+2026-03-18 18:37:55,323 [INFO] Loaded 7985 entries from manifest
+2026-03-18 18:38:48,682 [INFO] Loaded 7985 entries from manifest
+2026-03-18 18:38:50,264 [INFO] Loading teacher: Qwen/Qwen2-VL-7B-Instruct
+2026-03-18 18:38:50,264 [INFO] Using 4-bit quantization to save VRAM...
+2026-03-18 18:41:10,246 [INFO] Loaded 7985 entries from manifest
+2026-03-18 18:41:11,510 [INFO] Loading teacher: Qwen/Qwen2-VL-7B-Instruct
+2026-03-18 18:41:11,510 [INFO] Using 4-bit quantization to save VRAM...
+2026-03-18 18:48:08,632 [INFO] Loaded 7985 entries from manifest
+2026-03-18 18:48:10,015 [INFO] Loading teacher: Qwen/Qwen2-VL-7B-Instruct
+2026-03-18 18:48:10,016 [INFO] Using 4-bit quantization to save VRAM...
+2026-03-18 18:51:15,859 [INFO] Teacher model loaded.
+2026-03-18 18:51:16,393 [INFO] PyTorch version 2.5.1+cu121 available.
+2026-03-18 18:51:16,648 [INFO] Use pytorch device_name: cuda:0
+2026-03-18 18:51:16,648 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-18 18:51:24,575 [ERROR] Error on 46GP8: CUDA out of memory. Tried to allocate 21.83 GiB. GPU 0 has a total capacity of 47.40 GiB of which 16.60 GiB is free. Including non-PyTorch memory, this process has 8.26 GiB memory in use. Of the allocated memory 7.60 GiB is allocated by PyTorch, and 353.52 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-03-18 18:51:30,524 [ERROR] Error on 0IH69: CUDA out of memory. Tried to allocate 21.83 GiB. GPU 0 has a total capacity of 47.40 GiB of which 16.60 GiB is free. Including non-PyTorch memory, this process has 8.26 GiB memory in use. Of the allocated memory 7.60 GiB is allocated by PyTorch, and 353.49 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-03-18 18:51:35,704 [ERROR] Error on MJO7C: CUDA out of memory. Tried to allocate 21.83 GiB. GPU 0 has a total capacity of 47.40 GiB of which 16.60 GiB is free. Including non-PyTorch memory, this process has 8.26 GiB memory in use. Of the allocated memory 7.60 GiB is allocated by PyTorch, and 353.52 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-03-18 18:51:36,063 [ERROR] Error on S6MPZ: CUDA out of memory. Tried to allocate 21.83 GiB. GPU 0 has a total capacity of 47.40 GiB of which 16.60 GiB is free. Including non-PyTorch memory, this process has 8.26 GiB memory in use. Of the allocated memory 7.60 GiB is allocated by PyTorch, and 353.40 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-03-18 18:51:37,911 [ERROR] Error on 7HVU8: CUDA out of memory. Tried to allocate 110.50 GiB. GPU 0 has a total capacity of 47.40 GiB of which 9.70 GiB is free. Including non-PyTorch memory, this process has 15.16 GiB memory in use. Of the allocated memory 12.90 GiB is allocated by PyTorch, and 1.95 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-03-18 18:51:38,373 [ERROR] Error on MCQO5: CUDA out of memory. Tried to allocate 21.83 GiB. GPU 0 has a total capacity of 47.40 GiB of which 16.60 GiB is free. Including non-PyTorch memory, this process has 8.25 GiB memory in use. Of the allocated memory 7.60 GiB is allocated by PyTorch, and 347.72 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-03-18 18:51:45,553 [ERROR] Error on JSUF4: CUDA out of memory. Tried to allocate 21.83 GiB. GPU 0 has a total capacity of 47.40 GiB of which 16.60 GiB is free. Including non-PyTorch memory, this process has 8.25 GiB memory in use. Of the allocated memory 7.60 GiB is allocated by PyTorch, and 347.72 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-03-18 18:51:45,555 [INFO] Done. 3 captions saved to /usershome/cs671_user2/p16_blv/data/generated/qwen_captions.json
+2026-03-18 18:53:10,559 [INFO] Loaded 7985 entries from manifest
+2026-03-18 18:53:11,923 [INFO] Loading teacher: Qwen/Qwen2-VL-7B-Instruct
+2026-03-18 18:53:11,923 [INFO] Using 4-bit quantization to save VRAM...
+2026-03-18 18:53:32,825 [INFO] Teacher model loaded.
+2026-03-18 18:53:33,223 [INFO] PyTorch version 2.5.1+cu121 available.
+2026-03-18 18:53:33,437 [INFO] Use pytorch device_name: cuda:0
+2026-03-18 18:53:33,437 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-18 18:54:18,023 [INFO] Done. 10 captions saved to /usershome/cs671_user2/p16_blv/data/generated/qwen_captions.json
+2026-03-18 19:15:39,292 [INFO] Loaded 7985 entries from manifest
+2026-03-18 19:15:40,790 [INFO] Loading teacher: Qwen/Qwen2-VL-7B-Instruct
+2026-03-18 19:15:40,791 [INFO] Using 4-bit quantization to save VRAM...
+2026-03-18 19:15:59,798 [INFO] Teacher model loaded.
+2026-03-18 19:16:00,216 [INFO] PyTorch version 2.5.1+cu121 available.
+2026-03-18 19:16:00,428 [INFO] Use pytorch device_name: cuda:0
+2026-03-18 19:16:00,428 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-18 19:19:27,750 [INFO] Checkpoint saved: 50 done
+2026-03-18 19:22:37,766 [INFO] Checkpoint saved: 100 done
+2026-03-18 19:25:49,665 [INFO] Checkpoint saved: 150 done
+2026-03-18 19:29:00,305 [INFO] Checkpoint saved: 200 done
+2026-03-18 19:32:12,412 [INFO] Checkpoint saved: 250 done
+2026-03-18 19:35:15,431 [INFO] Checkpoint saved: 300 done
+2026-03-18 19:38:18,800 [INFO] Checkpoint saved: 350 done
+2026-03-18 19:41:33,378 [INFO] Checkpoint saved: 400 done
+2026-03-18 19:44:34,303 [INFO] Checkpoint saved: 450 done
+2026-03-18 19:47:35,885 [INFO] Checkpoint saved: 500 done
+2026-03-18 19:50:37,199 [INFO] Checkpoint saved: 550 done
+2026-03-18 19:53:41,016 [INFO] Checkpoint saved: 600 done
+2026-03-18 19:56:37,921 [INFO] Checkpoint saved: 650 done
+2026-03-18 19:59:38,478 [INFO] Checkpoint saved: 700 done
+2026-03-18 20:02:35,387 [INFO] Checkpoint saved: 750 done
+2026-03-18 20:05:37,809 [INFO] Checkpoint saved: 800 done
+2026-03-18 20:08:33,552 [INFO] Checkpoint saved: 850 done
+2026-03-18 20:10:24,501 [INFO] Loaded 1661 entries from manifest
+2026-03-18 20:10:25,780 [INFO] Loading teacher: Qwen/Qwen2-VL-7B-Instruct
+2026-03-18 20:10:25,780 [INFO] Using 4-bit quantization to save VRAM...
+2026-03-18 20:11:25,710 [INFO] Checkpoint saved: 900 done
+2026-03-18 20:12:56,055 [INFO] Loaded 1661 entries from manifest
+2026-03-18 20:12:57,485 [INFO] Loading teacher: Qwen/Qwen2-VL-7B-Instruct
+2026-03-18 20:12:57,485 [INFO] Using 4-bit quantization to save VRAM...
+2026-03-18 20:14:18,651 [INFO] Loaded 1661 entries from manifest
+2026-03-18 20:14:19,921 [INFO] Loading teacher: Qwen/Qwen2-VL-7B-Instruct
+2026-03-18 20:14:19,922 [INFO] Using 4-bit quantization to save VRAM...
+2026-03-18 20:14:27,393 [INFO] Checkpoint saved: 950 done
+2026-03-18 20:14:40,489 [INFO] Teacher model loaded.
+2026-03-18 20:14:40,847 [INFO] PyTorch version 2.5.1+cu121 available.
+2026-03-18 20:14:41,037 [INFO] Use pytorch device_name: cuda:0
+2026-03-18 20:14:41,037 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-18 20:17:34,946 [INFO] Checkpoint saved: 1000 done
+2026-03-18 20:18:36,221 [INFO] Checkpoint saved: 50 done
+2026-03-18 20:20:36,475 [INFO] Checkpoint saved: 1050 done
+2026-03-18 20:23:18,411 [INFO] Loaded 1661 entries from manifest
+2026-03-18 20:23:19,727 [INFO] Loading teacher: Qwen/Qwen2-VL-7B-Instruct
+2026-03-18 20:23:19,728 [INFO] Using 4-bit quantization to save VRAM...
+2026-03-18 20:23:33,564 [INFO] Checkpoint saved: 1100 done
+2026-03-18 20:23:41,525 [INFO] Teacher model loaded.
+2026-03-18 20:23:42,052 [INFO] PyTorch version 2.5.1+cu121 available.
+2026-03-18 20:23:42,276 [INFO] Use pytorch device_name: cuda:0
+2026-03-18 20:23:42,276 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-18 20:26:36,637 [INFO] Checkpoint saved: 1150 done
+2026-03-18 20:27:39,845 [INFO] Checkpoint saved: 50 done
+2026-03-18 20:29:36,441 [INFO] Checkpoint saved: 1200 done
+2026-03-18 20:31:20,350 [INFO] Checkpoint saved: 100 done
+2026-03-18 20:32:38,222 [INFO] Checkpoint saved: 1250 done
+2026-03-18 20:35:44,892 [INFO] Checkpoint saved: 1300 done
+2026-03-18 20:36:04,574 [INFO] Checkpoint saved: 150 done
+2026-03-18 20:38:49,071 [INFO] Checkpoint saved: 1350 done
+2026-03-18 20:39:39,305 [INFO] Checkpoint saved: 200 done
+2026-03-18 20:41:47,755 [INFO] Checkpoint saved: 1400 done
+2026-03-18 20:43:32,241 [INFO] Checkpoint saved: 250 done
+2026-03-18 20:44:43,707 [INFO] Checkpoint saved: 1450 done
+2026-03-18 20:47:48,532 [INFO] Checkpoint saved: 1500 done
+2026-03-18 20:47:50,707 [INFO] Checkpoint saved: 300 done
+2026-03-18 20:50:49,869 [INFO] Checkpoint saved: 1550 done
+2026-03-18 20:51:53,481 [INFO] Checkpoint saved: 350 done
+2026-03-18 20:53:50,836 [INFO] Checkpoint saved: 1600 done
+2026-03-18 20:55:29,548 [INFO] Checkpoint saved: 400 done
+2026-03-18 20:56:54,983 [INFO] Checkpoint saved: 1650 done
+2026-03-18 20:59:55,495 [INFO] Checkpoint saved: 450 done
+2026-03-18 20:59:58,687 [INFO] Checkpoint saved: 1700 done
+2026-03-18 21:03:01,599 [INFO] Checkpoint saved: 1750 done
+2026-03-18 21:03:49,461 [INFO] Checkpoint saved: 500 done
+2026-03-18 21:06:04,062 [INFO] Checkpoint saved: 1800 done
+2026-03-18 21:08:00,980 [INFO] Checkpoint saved: 550 done
+2026-03-18 21:09:12,784 [INFO] Checkpoint saved: 1850 done
+2026-03-18 21:11:33,375 [INFO] Checkpoint saved: 600 done
+2026-03-18 21:12:22,203 [INFO] Checkpoint saved: 1900 done
+2026-03-18 21:15:30,103 [INFO] Checkpoint saved: 1950 done
+2026-03-18 21:15:36,042 [INFO] Checkpoint saved: 650 done
+2026-03-18 21:18:38,673 [INFO] Checkpoint saved: 2000 done
+2026-03-18 21:19:46,104 [INFO] Checkpoint saved: 700 done
+2026-03-18 21:21:47,327 [INFO] Checkpoint saved: 2050 done
+2026-03-18 21:23:13,613 [INFO] Checkpoint saved: 750 done
+2026-03-18 21:24:50,305 [INFO] Checkpoint saved: 2100 done
+2026-03-18 21:27:26,051 [INFO] Checkpoint saved: 800 done
+2026-03-18 21:27:56,433 [INFO] Checkpoint saved: 2150 done
+2026-03-18 21:30:54,599 [INFO] Checkpoint saved: 2200 done
+2026-03-18 21:31:01,561 [INFO] Checkpoint saved: 850 done
+2026-03-18 21:33:58,513 [INFO] Checkpoint saved: 2250 done
+2026-03-18 21:35:26,142 [INFO] Checkpoint saved: 900 done
+2026-03-18 21:37:05,300 [INFO] Checkpoint saved: 2300 done
+2026-03-18 21:38:54,252 [INFO] Checkpoint saved: 950 done
+2026-03-18 21:40:06,156 [INFO] Checkpoint saved: 2350 done
+2026-03-18 21:42:50,262 [INFO] Checkpoint saved: 1000 done
+2026-03-18 21:43:01,528 [INFO] Checkpoint saved: 2400 done
+2026-03-18 21:46:05,318 [INFO] Checkpoint saved: 2450 done
+2026-03-18 21:46:42,127 [INFO] Checkpoint saved: 1050 done
+2026-03-18 21:49:03,208 [INFO] Checkpoint saved: 2500 done
+2026-03-18 21:51:52,576 [INFO] Checkpoint saved: 1100 done
+2026-03-18 21:51:57,362 [INFO] Checkpoint saved: 2550 done
+2026-03-18 21:54:45,585 [INFO] Checkpoint saved: 2600 done
+2026-03-18 21:56:07,225 [INFO] Checkpoint saved: 1150 done
+2026-03-18 21:57:53,526 [INFO] Checkpoint saved: 2650 done
+2026-03-18 21:59:50,604 [INFO] Checkpoint saved: 1200 done
+2026-03-18 22:00:56,667 [INFO] Checkpoint saved: 2700 done
+2026-03-18 22:03:48,945 [INFO] Checkpoint saved: 1250 done
+2026-03-18 22:03:50,438 [INFO] Checkpoint saved: 2750 done
+2026-03-18 22:07:00,367 [INFO] Checkpoint saved: 2800 done
+2026-03-18 22:07:45,976 [INFO] Checkpoint saved: 1300 done
+2026-03-18 22:10:04,924 [INFO] Checkpoint saved: 2850 done
+2026-03-18 22:11:41,288 [INFO] Checkpoint saved: 1350 done
+2026-03-18 22:12:56,286 [INFO] Checkpoint saved: 2900 done
+2026-03-18 22:15:39,705 [INFO] Checkpoint saved: 1400 done
+2026-03-18 22:16:02,938 [INFO] Checkpoint saved: 2950 done
+2026-03-18 22:19:00,295 [INFO] Checkpoint saved: 3000 done
+2026-03-18 22:19:50,294 [INFO] Checkpoint saved: 1450 done
+2026-03-18 22:21:55,391 [INFO] Checkpoint saved: 3050 done
+2026-03-18 22:24:30,000 [INFO] Checkpoint saved: 1500 done
+2026-03-18 22:24:55,386 [INFO] Checkpoint saved: 3100 done
+2026-03-18 22:27:53,064 [INFO] Checkpoint saved: 3150 done
+2026-03-18 22:28:39,715 [INFO] Checkpoint saved: 1550 done
+2026-03-18 22:30:44,513 [INFO] Checkpoint saved: 3200 done
+2026-03-18 22:32:47,370 [INFO] Checkpoint saved: 1600 done
+2026-03-18 22:33:37,254 [INFO] Checkpoint saved: 3250 done
+2026-03-18 22:36:30,941 [INFO] Checkpoint saved: 3300 done
+2026-03-18 22:37:27,267 [INFO] Checkpoint saved: 1650 done
+2026-03-18 22:38:17,509 [INFO] Done. 1661 captions saved to data/generated/avcaps_captions.json
+2026-03-18 22:39:43,946 [INFO] Checkpoint saved: 3350 done
+2026-03-18 22:42:46,409 [INFO] Checkpoint saved: 3400 done
+2026-03-18 22:45:44,201 [INFO] Checkpoint saved: 3450 done
+2026-03-18 22:48:39,818 [INFO] Checkpoint saved: 3500 done
+2026-03-18 22:51:37,699 [INFO] Checkpoint saved: 3550 done
+2026-03-18 22:54:41,935 [INFO] Checkpoint saved: 3600 done
+2026-03-18 22:57:53,896 [INFO] Checkpoint saved: 3650 done
+2026-03-18 23:00:55,945 [INFO] Checkpoint saved: 3700 done
+2026-03-18 23:03:53,370 [INFO] Checkpoint saved: 3750 done
+2026-03-18 23:06:57,418 [INFO] Checkpoint saved: 3800 done
+2026-03-18 23:09:55,926 [INFO] Checkpoint saved: 3850 done
+2026-03-18 23:12:55,423 [INFO] Checkpoint saved: 3900 done
+2026-03-18 23:15:50,205 [INFO] Checkpoint saved: 3950 done
+2026-03-18 23:18:53,578 [INFO] Checkpoint saved: 4000 done
+2026-03-18 23:21:49,533 [INFO] Checkpoint saved: 4050 done
+2026-03-18 23:24:43,718 [INFO] Checkpoint saved: 4100 done
+2026-03-18 23:27:42,665 [INFO] Checkpoint saved: 4150 done
+2026-03-18 23:30:50,561 [INFO] Checkpoint saved: 4200 done
+2026-03-18 23:33:53,586 [INFO] Checkpoint saved: 4250 done
+2026-03-18 23:36:54,276 [INFO] Checkpoint saved: 4300 done
+2026-03-18 23:39:50,630 [INFO] Checkpoint saved: 4350 done
+2026-03-18 23:42:52,814 [INFO] Checkpoint saved: 4400 done
+2026-03-18 23:45:55,557 [INFO] Checkpoint saved: 4450 done
+2026-03-18 23:49:02,966 [INFO] Checkpoint saved: 4500 done
+2026-03-18 23:52:04,860 [INFO] Checkpoint saved: 4550 done
+2026-03-18 23:55:05,758 [INFO] Checkpoint saved: 4600 done
+2026-03-18 23:58:06,859 [INFO] Checkpoint saved: 4650 done
+2026-03-19 00:01:11,355 [INFO] Checkpoint saved: 4700 done
+2026-03-19 00:04:13,478 [INFO] Checkpoint saved: 4750 done
+2026-03-19 00:07:22,812 [INFO] Checkpoint saved: 4800 done
+2026-03-19 00:10:24,354 [INFO] Checkpoint saved: 4850 done
+2026-03-19 00:13:34,393 [INFO] Checkpoint saved: 4900 done
+2026-03-19 00:16:38,640 [INFO] Checkpoint saved: 4950 done
+2026-03-19 00:19:32,179 [INFO] Checkpoint saved: 5000 done
+2026-03-19 00:22:25,351 [INFO] Checkpoint saved: 5050 done
+2026-03-19 00:25:22,936 [INFO] Checkpoint saved: 5100 done
+2026-03-19 00:28:40,578 [INFO] Checkpoint saved: 5150 done
+2026-03-19 00:31:58,891 [INFO] Checkpoint saved: 5200 done
+2026-03-19 00:34:58,257 [INFO] Checkpoint saved: 5250 done
+2026-03-19 00:38:04,477 [INFO] Checkpoint saved: 5300 done
+2026-03-19 00:41:08,942 [INFO] Checkpoint saved: 5350 done
+2026-03-19 00:44:14,014 [INFO] Checkpoint saved: 5400 done
+2026-03-19 00:47:15,128 [INFO] Checkpoint saved: 5450 done
+2026-03-19 00:50:27,195 [INFO] Checkpoint saved: 5500 done
+2026-03-19 00:53:17,948 [INFO] Checkpoint saved: 5550 done
+2026-03-19 00:56:27,690 [INFO] Checkpoint saved: 5600 done
+2026-03-19 00:59:34,323 [INFO] Checkpoint saved: 5650 done
+2026-03-19 01:02:47,257 [INFO] Checkpoint saved: 5700 done
+2026-03-19 01:05:47,623 [INFO] Checkpoint saved: 5750 done
+2026-03-19 01:08:42,834 [INFO] Checkpoint saved: 5800 done
+2026-03-19 01:11:48,346 [INFO] Checkpoint saved: 5850 done
+2026-03-19 01:14:51,351 [INFO] Checkpoint saved: 5900 done
+2026-03-19 01:18:04,366 [INFO] Checkpoint saved: 5950 done
+2026-03-19 01:21:06,197 [INFO] Checkpoint saved: 6000 done
+2026-03-19 01:24:03,633 [INFO] Checkpoint saved: 6050 done
+2026-03-19 01:27:02,199 [INFO] Checkpoint saved: 6100 done
+2026-03-19 01:30:04,104 [INFO] Checkpoint saved: 6150 done
+2026-03-19 01:33:03,167 [INFO] Checkpoint saved: 6200 done
+2026-03-19 01:35:57,809 [INFO] Checkpoint saved: 6250 done
+2026-03-19 01:39:01,202 [INFO] Checkpoint saved: 6300 done
+2026-03-19 01:41:57,218 [INFO] Checkpoint saved: 6350 done
+2026-03-19 01:44:58,198 [INFO] Checkpoint saved: 6400 done
+2026-03-19 01:48:02,539 [INFO] Checkpoint saved: 6450 done
+2026-03-19 01:51:14,094 [INFO] Checkpoint saved: 6500 done
+2026-03-19 01:54:03,235 [INFO] Checkpoint saved: 6550 done
+2026-03-19 01:56:52,916 [INFO] Checkpoint saved: 6600 done
+2026-03-19 01:59:54,222 [INFO] Checkpoint saved: 6650 done
+2026-03-19 02:03:03,041 [INFO] Checkpoint saved: 6700 done
+2026-03-19 02:06:06,141 [INFO] Checkpoint saved: 6750 done
+2026-03-19 02:09:05,987 [INFO] Checkpoint saved: 6800 done
+2026-03-19 02:12:13,353 [INFO] Checkpoint saved: 6850 done
+2026-03-19 02:15:07,340 [INFO] Checkpoint saved: 6900 done
+2026-03-19 02:18:08,472 [INFO] Checkpoint saved: 6950 done
+2026-03-19 02:21:10,032 [INFO] Checkpoint saved: 7000 done
+2026-03-19 02:23:58,787 [INFO] Checkpoint saved: 7050 done
+2026-03-19 02:26:58,141 [INFO] Checkpoint saved: 7100 done
+2026-03-19 02:30:05,305 [INFO] Checkpoint saved: 7150 done
+2026-03-19 02:33:16,405 [INFO] Checkpoint saved: 7200 done
+2026-03-19 02:36:16,464 [INFO] Checkpoint saved: 7250 done
+2026-03-19 02:39:20,577 [INFO] Checkpoint saved: 7300 done
+2026-03-19 02:42:27,289 [INFO] Checkpoint saved: 7350 done
+2026-03-19 02:45:30,089 [INFO] Checkpoint saved: 7400 done
+2026-03-19 02:48:36,321 [INFO] Checkpoint saved: 7450 done
+2026-03-19 02:51:46,738 [INFO] Checkpoint saved: 7500 done
+2026-03-19 02:54:50,896 [INFO] Checkpoint saved: 7550 done
+2026-03-19 02:57:57,455 [INFO] Checkpoint saved: 7600 done
+2026-03-19 03:01:06,222 [INFO] Checkpoint saved: 7650 done
+2026-03-19 03:04:12,650 [INFO] Checkpoint saved: 7700 done
+2026-03-19 03:07:17,814 [INFO] Checkpoint saved: 7750 done
+2026-03-19 03:10:24,668 [INFO] Checkpoint saved: 7800 done
+2026-03-19 03:13:13,418 [INFO] Checkpoint saved: 7850 done
+2026-03-19 03:16:07,505 [INFO] Checkpoint saved: 7900 done
+2026-03-19 03:19:18,482 [INFO] Checkpoint saved: 7950 done
+2026-03-19 03:21:27,628 [INFO] Done. 7985 captions saved to /usershome/cs671_user2/p16_blv/data/generated/qwen_captions.json

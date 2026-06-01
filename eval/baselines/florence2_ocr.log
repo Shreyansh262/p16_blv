@@ -1,0 +1,48 @@
+`Florence2Processor` defines `image_processor_class = 'CLIPImageProcessor'`, which is deprecated. Register the correct mapping in `AutoImageProcessor` instead.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading Florence-2-large on GPU 6...
+Loading weights:   0%|          | 0/918 [00:00<?, ?it/s]Loading weights:  33%|███▎      | 301/918 [00:00<00:00, 3007.99it/s]Loading weights:  66%|██████▌   | 602/918 [00:00<00:00, 2671.43it/s]Loading weights:  95%|█████████▍| 872/918 [00:00<00:00, 1766.46it/s]Loading weights: 100%|██████████| 918/918 [00:00<00:00, 1865.72it/s]
+[1mFlorence2ForConditionalGeneration LOAD REPORT[0m from: /usershome/cs671_user2/p16_blv/models/baselines/florence2_large
+Key                                              | Status  | 
+-------------------------------------------------+---------+-
+language_model.model.encoder.embed_tokens.weight | MISSING | 
+language_model.lm_head.weight                    | MISSING | 
+language_model.model.decoder.embed_tokens.weight | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Model loaded.
+Traceback (most recent call last):
+  File "/usershome/cs671_user2/p16_blv/eval/baselines/run_florence.py", line 67, in <module>
+    pred = run_florence(sample["image"], "<OCR>")
+  File "/usershome/cs671_user2/p16_blv/eval/baselines/run_florence.py", line 41, in run_florence
+    ids = model.generate(
+  File "/usershome/cs671_user2/p16_blv/models/.hf_cache/modules/transformers_modules/florence2_large/modeling_florence2.py", line 2800, in generate
+    return self.language_model.generate(
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/generation/utils.py", line 2543, in generate
+    result = decoding_method(
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/generation/utils.py", line 3223, in _beam_search
+    model_outputs = self._prefill(
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/generation/utils.py", line 3768, in _prefill
+    return self(**model_inputs, return_dict=True)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usershome/cs671_user2/p16_blv/models/.hf_cache/modules/transformers_modules/florence2_large/modeling_florence2.py", line 2139, in forward
+    outputs = self.model(
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usershome/cs671_user2/p16_blv/models/.hf_cache/modules/transformers_modules/florence2_large/modeling_florence2.py", line 2025, in forward
+    decoder_outputs = self.decoder(
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usershome/cs671_user2/p16_blv/models/.hf_cache/modules/transformers_modules/florence2_large/modeling_florence2.py", line 1791, in forward
+    past_key_values_length = past_key_values[0][0].shape[2] if past_key_values is not None else 0
+TypeError: 'EncoderDecoderCache' object is not subscriptable

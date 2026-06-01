@@ -1,0 +1,19 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading /usershome/cs671_user2/p16_blv/models/baselines/smolvlm2_500m_base on GPU 2...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  49%|████▉     | 239/489 [00:00<00:00, 2377.61it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2592.11it/s]
+Model loaded.
+[0/1000] Centre
+[100/1000] Marilyn.
+[200/1000] The number in the image is 5743.
+[300/1000] To get to Mosman Manly exit, you need to take the Pacific Hw
+[400/1000] McNade Hot Wraps.
+[500/1000] $278 million, $184 million and $506 million in 2010, 2009 an
+[600/1000] 1.91 GPI.
+[700/1000] SECRET RECIPE RESTAURANT (COMPANY NO 559208-H) LOT G16, PERM
+[800/1000] Kent B. Mills (1941-2019) was a prominent American businessm
+[900/1000] \begin{equation}
+Y_1 = 1 + 1
+\end{equation}
+
+This is a simpl
+Saved 1000 -> /usershome/cs671_user2/p16_blv/eval/baselines/smolvlm2_500m_base_ocr_preds.json

@@ -1,0 +1,30 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Loading InternVL2.5-2B on GPU 4...
+FlashAttention2 is not installed.
+Warning: Flash attention is not available, using eager attention instead.
+Loading weights:   0%|          | 0/517 [00:00<?, ?it/s]Loading weights:   6%|▌         | 31/517 [00:00<00:01, 301.42it/s]Loading weights:  12%|█▏        | 62/517 [00:00<00:01, 272.33it/s]Loading weights:  17%|█▋        | 90/517 [00:00<00:01, 264.29it/s]Loading weights:  23%|██▎       | 117/517 [00:00<00:01, 264.77it/s]Loading weights:  29%|██▉       | 151/517 [00:00<00:01, 287.47it/s]Loading weights:  35%|███▍      | 180/517 [00:00<00:01, 211.96it/s]Loading weights:  77%|███████▋  | 398/517 [00:00<00:00, 714.17it/s]Loading weights: 100%|██████████| 517/517 [00:00<00:00, 571.25it/s]
+Model loaded.
+Traceback (most recent call last):
+  File "/usershome/cs671_user2/p16_blv/eval/baselines/run_internvl.py", line 73, in <module>
+    pred = run_internvl(sample["image"],
+  File "/usershome/cs671_user2/p16_blv/eval/baselines/run_internvl.py", line 62, in run_internvl
+    response = model.chat(tokenizer, pixel_values, prompt, gc)
+  File "/usershome/cs671_user2/p16_blv/models/.hf_cache/modules/transformers_modules/internvl25_2b/modeling_internvl_chat.py", line 293, in chat
+    generation_output = self.generate(
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/usershome/cs671_user2/p16_blv/models/.hf_cache/modules/transformers_modules/internvl25_2b/modeling_internvl_chat.py", line 342, in generate
+    outputs = self.language_model.generate(
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/generation/utils.py", line 2543, in generate
+    result = decoding_method(
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/generation/utils.py", line 2736, in _sample
+    outputs = self._prefill(
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/generation/utils.py", line 3762, in _prefill
+    model_inputs = self.prepare_inputs_for_generation(
+  File "/usershome/cs671_user2/p16_blv/models/.hf_cache/modules/transformers_modules/internvl25_2b/modeling_internlm2.py", line 1117, in prepare_inputs_for_generation
+    past_length = past_key_values[0][0].shape[2]
+TypeError: 'DynamicCache' object is not subscriptable

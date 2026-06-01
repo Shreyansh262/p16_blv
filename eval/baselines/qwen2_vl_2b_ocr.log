@@ -1,0 +1,16 @@
+Detected model_type: qwen2_vl
+Loading qwen2_vl on GPU 6...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:  13%|█▎        | 94/729 [00:00<00:00, 892.41it/s]Loading weights:  26%|██▌       | 188/729 [00:00<00:00, 919.58it/s]Loading weights:  39%|███▊      | 281/729 [00:00<00:01, 410.86it/s]Loading weights:  47%|████▋     | 343/729 [00:00<00:00, 434.86it/s]Loading weights:  66%|██████▋   | 484/729 [00:00<00:00, 660.74it/s]Loading weights:  84%|████████▍ | 613/729 [00:00<00:00, 816.30it/s]Loading weights: 100%|██████████| 729/729 [00:00<00:00, 741.97it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Model loaded.
+[0/1000] centr
+[100/1000] Marilyn
+[200/1000] 543
+[300/1000] Chatswood Epping
+[400/1000] McNade Hot Wraps
+[500/1000] $597
+[600/1000] 0.06
+[700/1000] SECRET RECIPE RESTAURANT
+[800/1000] Kent B. Mills
+[900/1000] $$y _ { 2 } = - 1$$
+Saved 1000 -> /usershome/cs671_user2/p16_blv/eval/baselines/qwen2_vl_2b_ocr_preds.json

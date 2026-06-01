@@ -1,0 +1,49 @@
+Loaded 4 frames for 3YY88 : ['3YY88_kf00_frame0000.jpg', '3YY88_kf01_frame0003.jpg', '3YY88_kf02_frame0064.jpg', '3YY88_kf03_frame0065.jpg']
+
+========================================================================
+Building final_merged_v2 (base -> sft_v2 -> grpo -> sft_patch) on CPU ...
+========================================================================
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  18%|█▊        | 86/489 [00:00<00:00, 853.91it/s]Loading weights:  71%|███████   | 347/489 [00:00<00:00, 1883.02it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2001.60it/s]
+  Merging sft_v2/best ...
+  Merging grpo/best ...
+/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/peft/tuners/tuners_utils.py:285: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!
+  warnings.warn(
+  Merging sft_patch_grpo_v2 ...
+  Saving to models/student/final_merged_v2 ...
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.68s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.68s/it]
+  final_merged_v2 saved.
+
+========================================================================
+INFERENCE -- sample: 3YY88  |  GPU: 2  |  frames: 4
+========================================================================
+
+>>> final_merged    (v1: base -> grpo -> sft_patch) ...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  47%|████▋     | 229/489 [00:00<00:00, 2255.43it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2475.50it/s]
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+    done.
+>>> final_merged_v2 (v2: base -> sft_v2 -> grpo -> sft_patch) ...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  44%|████▍     | 214/489 [00:00<00:00, 2117.98it/s]Loading weights:  95%|█████████▌| 465/489 [00:00<00:00, 2347.27it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2348.93it/s]
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+    done.
+
+========================================================================
+SAMPLE    : 3YY88
+KEYFRAMES : ['3YY88_kf00_frame0000.jpg', '3YY88_kf01_frame0003.jpg', '3YY88_kf02_frame0064.jpg', '3YY88_kf03_frame0065.jpg']
+PROMPT    : You are an audio description system for blind and low vision users.
+
+Examples of correct output:
+Exa...
+========================================================================
+
+[GEMMA REFERENCE]
+Indoor entrance; CAUTION, a person moves within 1 meter. A person in dark clothing moves from center to right, approximately 1 meter ahead. A white counter sits approximately 1 meter ahead in the center. A brown-framed window is approximately 2 meters ahead to the right.
+
+[V1 -- final_merged   (base -> grpo -> sft_patch)]
+CAUTION: Kitchen environment, wet floor 1 meter ahead. A person in a blue shirt moves from center to left, approximately 2 meters ahead. A child stands center, approximately 1 meter ahead. A coffee table is 1 meter to your right.
+
+[V2 -- final_merged_v2 (base -> sft_v2 -> grpo -> sft_patch)]
+CAUTION: Kitchen environment, wet floor 1 meter ahead. A person in a blue shirt moves from center to 2 meters ahead. A white coffee table is 1 meter ahead, center. A window is 3 meters ahead to the right.
+
+========================================================================
+EXIT_CODE:0

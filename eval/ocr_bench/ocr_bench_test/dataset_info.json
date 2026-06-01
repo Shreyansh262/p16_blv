@@ -1,0 +1,56 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "ocr_bench",
+  "dataset_size": 85538416,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/echo840/OCRBench@92a54bd1384387c178d5a07140a2d85e0a3d12e1/data/test-00000-of-00001.parquet": {
+      "num_bytes": 67576988,
+      "checksum": null
+    }
+  },
+  "download_size": 67576988,
+  "features": {
+    "dataset": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "image": {
+      "_type": "Image"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 153115404,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 85538416,
+      "num_examples": 1000,
+      "dataset_name": "ocr_bench"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

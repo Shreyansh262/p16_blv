@@ -1,0 +1,62 @@
+[
+  {
+    "video_id": "6AHBW",
+    "dataset": "charades",
+    "n_frames": 4,
+    "caption": "Living room; red wall; poster of \"Thinking about a Guinness?\" in white font on the wall; wooden table with glassware; chair; framed pictures on wall; ceiling fan; window with blinds; bookshelf; door; carpeted floor. Person seated at table; standing woman; dining area; empty chairs; table; lamp; cupboard; bookshelf; mirror; wall decorations; window blinds; ceiling fan. Person moves around; stands up; bends down; walks towards table; sits at table; gestures while talking; holds cloth; moves to edge of table; runs across room; stands near table; bends down; walks away from table; stands near table; moves closer to camera; bends down; walks forward; reaches out; bends back; stands still; moves forward; bends down; walks forward; bends down; stands up; moves forward; bends down; walks forward; bends down; stands up; moves forward; bends down; walks forward; bends down"
+  },
+  {
+    "video_id": "C5KNM",
+    "dataset": "charades",
+    "n_frames": 4,
+    "caption": "Indoor hallway; no hazards visible. Person in black shirt walking towards camera. White door ahead. No hazards visible. Person turns right. No hazards visible. Person moves forward. No hazards visible. Person turns left. No hazards visible. Person moves forward. No hazards visible. Person turns right. No hazards visible. Person moves forward. No hazards visible. Person turns left. No hazards visible. Person moves forward. No hazards visible. Person turns right. No hazards visible. Person moves forward. No hazards visible. Person turns left. No hazards visible. Person moves forward. No hazards visible. Person turns right. No hazards visible. Person moves forward. No hazards visible. Person turns left. No hazards visible. Person moves forward. No hazards visible. Person turns right. No hazards visible. Person moves forward. No hazards visible. Person turns left. No hazards visible. Person moves forward. No hazards visible. Person turns right. No hazards visible. Person moves forward. No hazards visible"
+  },
+  {
+    "video_id": "I6AZD",
+    "dataset": "charades",
+    "n_frames": 4,
+    "caption": "Indoor room; no hazards visible. Person lying on beige couch with black pants. Head turned to face camera. No discernible text or objects in image."
+  },
+  {
+    "video_id": "10INO",
+    "dataset": "charades",
+    "n_frames": 4,
+    "caption": "Indoor room; no hazards present. Person seated at round wooden table with newspaper. Chair red. Wooden door with intricate carvings. White wall. No immediate danger. Person moves towards door. Medium distance to door. No immediate danger. Person stands near door. Medium distance to door. No immediate danger. Person moves closer to door. Medium distance to door. No immediate danger. Person moves closer to door. Medium distance to door. No immediate danger. Person moves closer to door. Medium distance to door. No immediate danger. Person moves closer to door. Medium distance to door. No immediate danger. Person moves closer to door. Medium distance to door. No immediate danger. Person moves closer to door. Medium distance to door. No immediate danger. Person moves closer to door. Medium distance to door. No immediate danger. Person moves closer to door. Medium distance to door. No immediate danger. Person moves closer to door. Medium distance to door. No immediate danger. Person moves closer"
+  },
+  {
+    "video_id": "E3UFX",
+    "dataset": "charades",
+    "n_frames": 4,
+    "caption": "Living room; no hazards present. Person in blue shirt stands near table with fruit bowl. Room has light-colored walls and framed picture on wall. No visible hazards. Person turns to face camera. Room is dimly lit. Person moves away from table towards door. Room is darkened. Person turns to look at camera. Room is dimly lit. Person turns to face camera. Room is dimly lit. Person turns to face camera. Room is dimly lit. Person turns to face camera. Room is dimly lit. Person turns to face camera. Room is dimly lit. Person turns to face camera. Room is dimly lit. Person turns to face camera. Room is dimly lit. Person turns to face camera. Room is dimly lit. Person turns to face camera. Room is dimly lit. Person turns to face camera. Room is dimly lit. Person turns to face camera. Room is dimly lit. Person turns to face camera. Room is"
+  },
+  {
+    "video_id": "H3LUW",
+    "dataset": "charades",
+    "n_frames": 4,
+    "caption": "Indoor room; no hazards. White chair to right. Black office chair to left. Office desk with laptop, glass, papers, mouse. Clothing hanging on rack. Tiled floor. No immediate danger. Person seated at desk."
+  },
+  {
+    "video_id": "34IUI",
+    "dataset": "charades",
+    "n_frames": 4,
+    "caption": "Bed; lying down; grey shirt; head resting on pillow; light blue blanket; hair; no visible hazards; no immediate danger; no signs of distress or injury; no discernible movements; no significant changes in position; no apparent disturbance to the bed; no other objects present; no indication of movement or activity; no specific actions or movements; no identifiable individuals; no discernible text or labels; no clear view of surroundings; no indication of occupancy or occupancy level; no evidence of personal belongings or items; no potential for tripping or falling; no signs of discomfort or distress; no indication of recent activity or movement; no apparent alteration in the environment; no change in lighting or ambient conditions; no visible shadows or reflections; no distinct features or textures; no discernible patterns or shapes; no clear outlines or boundaries; no discernible facial expressions or body language; no auditory descriptions; no audible cues; no visual information; no indication of occupancy or occupancy level; no evidence of personal belongings"
+  },
+  {
+    "video_id": "CVX9F",
+    "dataset": "charades",
+    "n_frames": 4,
+    "caption": "Kitchen; no hazards present. Person moves around kitchen area. No hazards present. Person moves around kitchen area. No hazards present. Person moves around kitchen area. No hazards present. Person moves around kitchen area. No hazards present. Person moves around kitchen area. No hazards present. Person moves around kitchen area. No hazards present. Person moves around kitchen area. No hazards present. Person moves around kitchen area. No hazards present. Person moves around kitchen area. No hazards present. Person moves around kitchen area. No hazards present. Person moves around kitchen area. No hazards present. Person moves around kitchen area. No hazards present. Person moves around kitchen area. No hazards present. Person moves around kitchen area. No hazards present. Person moves around kitchen area. No hazards present. Person moves around kitchen area. No hazards present. Person moves around kitchen area. No hazards present. Person moves around kitchen area. No hazards present. Person moves around kitchen area. No hazards present. Person moves around"
+  },
+  {
+    "video_id": "6FYKZ",
+    "dataset": "charades",
+    "n_frames": 4,
+    "caption": "Indoor bathroom; no hazards present. Person moves from doorway to washing machine area. No hazards present. Person moves away from washing machine towards door. No hazards present. Person moves away from washing machine towards closet. No hazards present. Person moves away from closet towards sink area. No hazards present. Person moves away from sink area towards toilet area. No hazards present. Person moves away from toilet area towards wall. No hazards present. Person moves away from wall towards floor. No hazards present. Person moves away from floor towards ceiling. No hazards present. Person moves away from ceiling towards wall. No hazards present. Person moves away from wall towards floor. No hazards present. Person moves away from floor towards ceiling. No hazards present. Person moves away from ceiling towards wall. No hazards present. Person moves away from wall towards floor. No hazards present. Person moves away from floor towards ceiling. No hazards present. Person moves away from ceiling towards wall. No hazards present. Person moves away from wall"
+  },
+  {
+    "video_id": "ZLRFB",
+    "dataset": "charades",
+    "n_frames": 4,
+    "caption": "Indoor room; no hazards present. Person stands near door, facing away from camera. Person turns to face camera. Person moves forward slightly. Person bends over table. Person walks towards chair. Person sits on floor. Person stands near window. Person moves closer to window. Person moves closer to wall. Person moves closer to desk. Person moves closer to television. Person moves closer to bed. Person moves closer to white dresser. Person moves closer to black chair. Person moves closer to TV screen. Person moves closer to window. Person moves closer to wall. Person moves closer to desk. Person moves closer to bed. Person moves closer to TV screen. Person moves closer to window. Person moves closer to wall. Person moves closer to desk. Person moves closer to TV screen. Person moves closer to window. Person moves closer to wall. Person moves closer to desk. Person moves closer to TV screen. Person moves closer to window. Person moves closer to wall. Person moves closer to desk."
+  }
+]

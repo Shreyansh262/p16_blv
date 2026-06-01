@@ -1,0 +1,55 @@
+`Phi3VProcessor` defines `image_processor_class = 'Phi3VImageProcessor'`, which is deprecated. Register the correct mapping in `AutoImageProcessor` instead.
+Image processor Phi3VImageProcessor: kwargs ['num_crops'] were applied for backward compatibility. To avoid this warning, add them to valid_kwargs: create a custom TypedDict extending ImagesKwargs with these keys and set it as the `valid_kwargs` class attribute.
+Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='su'
+Missing validation function in 'RotaryEmbeddingConfigMixin' for 'rope_type'='su'
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading Phi-3.5-vision on GPU 4...
+Loading weights:   0%|          | 0/592 [00:00<?, ?it/s]Loading weights:   4%|▍         | 23/592 [00:00<00:02, 229.46it/s]Loading weights:   8%|▊         | 46/592 [00:00<00:02, 203.30it/s]Loading weights:  11%|█▏        | 67/592 [00:00<00:03, 173.94it/s]Loading weights:  15%|█▌        | 89/592 [00:00<00:02, 180.98it/s]Loading weights:  19%|█▊        | 110/592 [00:00<00:02, 186.74it/s]Loading weights:  22%|██▏       | 129/592 [00:00<00:02, 186.10it/s]Loading weights:  25%|██▌       | 148/592 [00:00<00:02, 161.45it/s]Loading weights:  28%|██▊       | 165/592 [00:01<00:03, 135.15it/s]Loading weights:  32%|███▏      | 188/592 [00:01<00:02, 155.18it/s]Loading weights:  67%|██████▋   | 399/592 [00:01<00:00, 649.17it/s]Loading weights: 100%|██████████| 592/592 [00:01<00:00, 448.17it/s]
+/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/modeling_attn_mask_utils.py:71: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/modeling_attn_mask_utils.py:172: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+You are not running the flash-attention implementation, expect numerical differences.
+Model loaded.
+Traceback (most recent call last):
+  File "/usershome/cs671_user2/p16_blv/eval/baselines/run_phi.py", line 104, in <module>
+    pred = run_phi(img, item["question"] +
+  File "/usershome/cs671_user2/p16_blv/eval/baselines/run_phi.py", line 70, in run_phi
+    ids = model.generate(**inputs, **gen_cfg)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/generation/utils.py", line 2543, in generate
+    result = decoding_method(
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/generation/utils.py", line 2750, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usershome/cs671_user2/p16_blv/models/.hf_cache/modules/transformers_modules/phi35_vision/modeling_phi3_v.py", line 1603, in forward
+    outputs = self.model(
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usershome/cs671_user2/p16_blv/models/.hf_cache/modules/transformers_modules/phi35_vision/modeling_phi3_v.py", line 1479, in forward
+    layer_outputs = decoder_layer(
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usershome/cs671_user2/p16_blv/models/.hf_cache/modules/transformers_modules/phi35_vision/modeling_phi3_v.py", line 1177, in forward
+    attn_outputs, self_attn_weights, present_key_value = self.self_attn(
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usershome/cs671_user2/p16_blv/models/.hf_cache/modules/transformers_modules/phi35_vision/modeling_phi3_v.py", line 675, in forward
+    key_states, value_states = past_key_value.update(key_states, value_states, self.layer_idx, cache_kwargs)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/cache_utils.py", line 937, in update
+    keys, values = self.layers[layer_idx].update(key_states, value_states, *args, **kwargs)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/cache_utils.py", line 204, in update
+    full_key_states = torch.cat([self.keys, key_states], dim=-2)
+RuntimeError: Sizes of tensors must match except in dimension 2. Expected size 1 but got size 786 for tensor number 1 in the list.

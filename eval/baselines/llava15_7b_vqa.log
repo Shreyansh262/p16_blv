@@ -1,0 +1,29 @@
+Loading LLaVA-1.5-7B on GPU 4...
+Loading weights:   0%|          | 0/686 [00:00<?, ?it/s]Loading weights:   1%|          | 6/686 [00:00<00:13, 51.45it/s]Loading weights:   3%|▎         | 22/686 [00:00<00:07, 92.64it/s]Loading weights:   5%|▌         | 36/686 [00:00<00:06, 101.75it/s]Loading weights:   7%|▋         | 49/686 [00:00<00:05, 109.39it/s]Loading weights:   9%|▊         | 60/686 [00:00<00:06, 101.16it/s]Loading weights:  10%|█         | 72/686 [00:00<00:05, 103.54it/s]Loading weights:  12%|█▏        | 83/686 [00:00<00:06, 98.11it/s] Loading weights:  14%|█▎        | 94/686 [00:00<00:05, 100.13it/s]Loading weights:  16%|█▌        | 108/686 [00:01<00:05, 109.53it/s]Loading weights:  18%|█▊        | 121/686 [00:01<00:04, 113.20it/s]Loading weights:  19%|█▉        | 133/686 [00:01<00:04, 112.52it/s]Loading weights:  21%|██        | 145/686 [00:01<00:04, 109.97it/s]Loading weights:  23%|██▎       | 157/686 [00:01<00:05, 100.19it/s]Loading weights:  25%|██▍       | 171/686 [00:01<00:04, 109.40it/s]Loading weights:  27%|██▋       | 185/686 [00:01<00:04, 107.00it/s]Loading weights:  29%|██▉       | 198/686 [00:01<00:04, 111.36it/s]Loading weights:  31%|███       | 211/686 [00:02<00:04, 108.69it/s]Loading weights:  33%|███▎      | 223/686 [00:02<00:04, 105.13it/s]Loading weights:  35%|███▍      | 238/686 [00:02<00:03, 112.35it/s]Loading weights:  37%|███▋      | 253/686 [00:02<00:03, 119.65it/s]Loading weights:  39%|███▉      | 266/686 [00:02<00:03, 116.80it/s]Loading weights:  41%|████▏     | 283/686 [00:02<00:03, 116.42it/s]Loading weights:  70%|██████▉   | 480/686 [00:02<00:00, 587.51it/s]Loading weights: 100%|██████████| 686/686 [00:02<00:00, 245.26it/s]
+Model loaded.
+[0/5000] Dakota digital
+[200/5000] Baseball
+[400/5000] Macy's
+[600/5000] 1
+[800/5000] 246-7200
+[1000/5000] Buckminster fuller
+[1200/5000] Tab
+[1400/5000] Yes
+[1600/5000] Glow
+[1800/5000] 2000
+[2000/5000] 19
+[2200/5000] History
+[2400/5000] Hudson
+[2600/5000] 40115
+[2800/5000] 1820
+[3000/5000] Public
+[3200/5000] Seiko
+[3400/5000] Google
+[3600/5000] Regza
+[3800/5000] En
+[4000/5000] 1919
+[4200/5000] 1999
+[4400/5000] 12:00
+[4600/5000] Wipers times
+[4800/5000] F
+Saved 5000 (skipped 0) -> /usershome/cs671_user2/p16_blv/eval/baselines/llava15_7b_vqa_preds.json

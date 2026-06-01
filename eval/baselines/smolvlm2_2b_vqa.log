@@ -1,0 +1,30 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading /usershome/cs671_user2/p16_blv/models/baselines/smolvlm2_2b on GPU 2...
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   5%|▍         | 32/657 [00:00<00:02, 285.56it/s]Loading weights:  10%|█         | 68/657 [00:00<00:01, 317.16it/s]Loading weights:  16%|█▌        | 104/657 [00:00<00:01, 329.83it/s]Loading weights:  21%|██▏       | 141/657 [00:00<00:01, 342.61it/s]Loading weights:  27%|██▋       | 176/657 [00:00<00:01, 343.78it/s]Loading weights:  37%|███▋      | 245/657 [00:00<00:00, 456.68it/s]Loading weights:  79%|███████▊  | 517/657 [00:00<00:00, 1178.30it/s]Loading weights: 100%|██████████| 657/657 [00:00<00:00, 841.95it/s] 
+Model loaded.
+[0/5000] Dakota Digital.
+[200/5000] Baseball.
+[400/5000] Macy's.
+[600/5000] The umpire has the number 38 on.
+[800/5000] The number for DOPTION Associates, Inc. is 800-677
+[1000/5000] Buckminster Fuller
+[1200/5000] Cyclamate.
+[1400/5000] Yes.
+[1600/5000] The lady's arm on the left says "PERFORMANCE".
+[1800/5000] 2010.
+[2000/5000] The number on the girl's shirt is 19.
+[2200/5000] The book is a history and historiography book.
+[2400/5000] George Washington.
+[2600/5000] The train number is 401075-5.
+[2800/5000] 1892.
+[3000/5000] Les Socialistes.
+[3200/5000] The brand of the clock is Seiko.
+[3400/5000] Google.
+[3600/5000] The brand of the remote control is Toshiba.
+[3800/5000] The first word of the third line of small print is
+[4000/5000] 1899.
+[4200/5000] 1955.
+[4400/5000] The right clock shows 10:10.
+[4600/5000] The title of the right page is "The Wipers Times".
+[4800/5000] 6.
+Saved 5000 (skipped 0) -> /usershome/cs671_user2/p16_blv/eval/baselines/smolvlm2_2b_vqa_preds.json

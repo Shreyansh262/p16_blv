@@ -1,0 +1,20 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading /usershome/cs671_user2/p16_blv/models/student/sft_v2_merged on GPU 2...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  36%|███▌      | 176/489 [00:00<00:00, 1751.40it/s]Loading weights:  80%|████████  | 392/489 [00:00<00:00, 1988.71it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2074.76it/s]
+Model loaded.
+[0/1000] Centre
+[100/1000] Marilyn.
+[200/1000] 5743
+[300/1000] To reach Mosman Manly, the exit is going to be the Pacific H
+[400/1000] McNade Hot Wraps.
+[500/1000] $278 million, $184 million, $506 million, $59.68 million, $5
+[600/1000] 1.91 GPI.
+[700/1000] SECRET RECIPE RESTAURANT (Company No 559208-H) LOT G16, PERM
+[800/1000] Kent B. Mills, D.O.S.S. 17, 18, 19, 20, 21, 22, 23, 24, 25, 
+[900/1000] \begin{equation}
+y_1 = 1
+\end{equation}
+
+\begin{equation}
+y_
+Saved 1000 -> /usershome/cs671_user2/p16_blv/eval/ablation/sft_v2_ocr_preds.json

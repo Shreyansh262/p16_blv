@@ -1,0 +1,206 @@
+==========================================
+FIVE VIDEO INFERENCE COMPARE  seed=77  GPU=2
+==========================================
+
+Loading all_captions.json ...
+  Total videos: 9646
+  Exclusion from held_out_test_set.json: +700 IDs
+  Exclusion from balanced_eval.json: +432 IDs
+  Pool after exclusion: 8525 videos
+
+SELECTED VIDEO IDs (seed=77):
+  [1/5] Z9XLJ  dataset=charades
+  [2/5] 0RQZC  dataset=charades
+  [3/5] T832F  dataset=charades
+  [4/5] D2ES2  dataset=charades
+  [5/5] D9AR5  dataset=charades
+
+==========================================
+STEP 2 — Keyframes (LUV-extracted, n=4 per video)
+==========================================
+  Z9XLJ: 4 frames → /usershome/cs671_user2/p16_blv/outputs/keyframes_seed77/video_Z9XLJ
+  0RQZC: 4 frames → /usershome/cs671_user2/p16_blv/outputs/keyframes_seed77/video_0RQZC
+  T832F: 4 frames → /usershome/cs671_user2/p16_blv/outputs/keyframes_seed77/video_T832F
+  D2ES2: 4 frames → /usershome/cs671_user2/p16_blv/outputs/keyframes_seed77/video_D2ES2
+  D9AR5: 4 frames → /usershome/cs671_user2/p16_blv/outputs/keyframes_seed77/video_D9AR5
+
+Loading Gemma teacher captions ...
+  Loaded 9646 entries.
+
+==========================================
+[B] BASE MODEL (SmolVLM2-500M, no training)
+==========================================
+  Loading from HuggingFaceTB/SmolVLM2-500M-Video-Instruct ...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:   3%|▎         | 15/489 [00:00<00:04, 116.75it/s]Loading weights:   6%|▌         | 27/489 [00:00<00:05, 81.02it/s] Loading weights:   7%|▋         | 36/489 [00:00<00:05, 75.82it/s]Loading weights:   9%|▉         | 44/489 [00:00<00:06, 72.95it/s]Loading weights:  12%|█▏        | 60/489 [00:00<00:04, 97.84it/s]Loading weights:  15%|█▍        | 71/489 [00:00<00:05, 82.61it/s]Loading weights:  18%|█▊        | 87/489 [00:00<00:03, 101.93it/s]Loading weights:  20%|██        | 99/489 [00:01<00:04, 92.47it/s] Loading weights:  23%|██▎       | 111/489 [00:01<00:03, 99.11it/s]Loading weights:  25%|██▌       | 123/489 [00:01<00:03, 95.46it/s]Loading weights:  27%|██▋       | 134/489 [00:01<00:04, 85.47it/s]Loading weights:  29%|██▉       | 144/489 [00:01<00:03, 88.86it/s]Loading weights:  31%|███▏      | 154/489 [00:01<00:03, 89.76it/s]Loading weights:  34%|███▎      | 164/489 [00:01<00:03, 81.94it/s]Loading weights:  35%|███▌      | 173/489 [00:02<00:04, 76.83it/s]Loading weights:  37%|███▋      | 181/489 [00:02<00:04, 74.82it/s]Loading weights:  40%|███▉      | 195/489 [00:02<00:03, 83.41it/s]Loading weights:  43%|████▎     | 209/489 [00:02<00:02, 94.18it/s]Loading weights:  45%|████▌     | 222/489 [00:02<00:02, 98.59it/s]Loading weights:  47%|████▋     | 232/489 [00:02<00:02, 97.25it/s]Loading weights:  50%|█████     | 245/489 [00:02<00:02, 97.67it/s]Loading weights:  53%|█████▎    | 258/489 [00:02<00:02, 103.85it/s]Loading weights:  55%|█████▌    | 269/489 [00:02<00:02, 103.08it/s]Loading weights:  57%|█████▋    | 280/489 [00:03<00:02, 96.96it/s] Loading weights:  63%|██████▎   | 306/489 [00:03<00:01, 129.33it/s]Loading weights:  68%|██████▊   | 332/489 [00:03<00:01, 148.67it/s]Loading weights:  72%|███████▏  | 354/489 [00:03<00:00, 161.42it/s]Loading weights:  78%|███████▊  | 381/489 [00:03<00:00, 188.92it/s]Loading weights:  84%|████████▍ | 411/489 [00:03<00:00, 201.23it/s]Loading weights:  90%|█████████ | 441/489 [00:03<00:00, 221.13it/s]Loading weights:  95%|█████████▍| 464/489 [00:03<00:00, 207.31it/s]Loading weights: 100%|██████████| 489/489 [00:04<00:00, 121.89it/s]
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  Z9XLJ: done (6.5s)
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  0RQZC: done (4.8s)
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  T832F: done (9.8s)
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  D2ES2: done (10.2s)
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  D9AR5: done (3.8s)
+  [B] unloaded.
+
+==========================================
+[C] SFT_SINGLE_STAGE
+==========================================
+  Loading base + adapter: /usershome/cs671_user2/p16_blv/models/student/sft_single_stage/best
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  12%|█▏        | 61/489 [00:00<00:00, 585.32it/s]Loading weights:  40%|███▉      | 194/489 [00:00<00:00, 1004.30it/s]Loading weights:  65%|██████▍   | 317/489 [00:00<00:00, 1098.05it/s]Loading weights:  93%|█████████▎| 457/489 [00:00<00:00, 1215.17it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 1135.86it/s]
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  Z9XLJ: done (3.2s)
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  0RQZC: done (3.4s)
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  T832F: done (3.1s)
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  D2ES2: done (3.0s)
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  D9AR5: done (3.1s)
+  [C] unloaded.
+
+==========================================
+[D] GRPO
+==========================================
+  Loading base + adapter: /usershome/cs671_user2/p16_blv/models/student/grpo/best
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:  27%|██▋       | 130/489 [00:00<00:00, 1294.47it/s]Loading weights:  53%|█████▎    | 260/489 [00:00<00:00, 1279.16it/s]Loading weights:  79%|███████▉  | 388/489 [00:00<00:00, 1275.67it/s]Loading weights: 100%|██████████| 489/489 [00:00<00:00, 1324.07it/s]
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  Z9XLJ: done (3.6s)
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  0RQZC: done (4.1s)
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  T832F: done (3.5s)
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  D2ES2: done (3.5s)
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  D9AR5: done (2.6s)
+  [D] unloaded.
+
+==========================================
+[E] SFT_PATCH (path used: /usershome/cs671_user2/p16_blv/models/student/sft_patch_final_merged)
+==========================================
+  Loading merged model ...
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]Loading weights:   0%|          | 1/489 [00:00<06:09,  1.32it/s]Loading weights:   4%|▍         | 20/489 [00:00<00:16, 29.20it/s]Loading weights:   6%|▌         | 29/489 [00:01<00:11, 39.12it/s]Loading weights:   8%|▊         | 39/489 [00:01<00:09, 45.73it/s]Loading weights:  11%|█         | 54/489 [00:01<00:06, 65.48it/s]Loading weights:  13%|█▎        | 64/489 [00:01<00:05, 72.55it/s]Loading weights:  15%|█▌        | 74/489 [00:01<00:05, 73.25it/s]Loading weights:  17%|█▋        | 83/489 [00:01<00:05, 72.00it/s]Loading weights:  19%|█▉        | 92/489 [00:01<00:05, 73.47it/s]Loading weights:  22%|██▏       | 110/489 [00:01<00:04, 94.74it/s]Loading weights:  25%|██▌       | 123/489 [00:01<00:03, 103.54it/s]Loading weights:  28%|██▊       | 137/489 [00:02<00:03, 106.29it/s]Loading weights:  31%|███▏      | 153/489 [00:02<00:02, 117.61it/s]Loading weights:  34%|███▍      | 168/489 [00:02<00:02, 112.75it/s]Loading weights:  37%|███▋      | 182/489 [00:02<00:02, 118.70it/s]Loading weights:  40%|███▉      | 195/489 [00:02<00:02, 118.79it/s]Loading weights:  43%|████▎     | 209/489 [00:02<00:02, 115.52it/s]Loading weights:  46%|████▌     | 223/489 [00:02<00:02, 116.49it/s]Loading weights:  50%|█████     | 245/489 [00:02<00:01, 130.82it/s]Loading weights:  53%|█████▎    | 261/489 [00:03<00:01, 129.13it/s]Loading weights:  57%|█████▋    | 281/489 [00:03<00:01, 130.93it/s]Loading weights:  63%|██████▎   | 306/489 [00:03<00:01, 159.97it/s]Loading weights:  68%|██████▊   | 332/489 [00:03<00:00, 167.35it/s]Loading weights:  73%|███████▎  | 356/489 [00:03<00:00, 181.08it/s]Loading weights:  79%|███████▊  | 384/489 [00:03<00:00, 200.17it/s]Loading weights:  84%|████████▎ | 409/489 [00:03<00:00, 206.58it/s]Loading weights:  91%|█████████ | 443/489 [00:03<00:00, 241.39it/s]Loading weights:  96%|█████████▌| 468/489 [00:04<00:00, 243.55it/s]Loading weights: 100%|██████████| 489/489 [00:04<00:00, 120.76it/s]
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  Z9XLJ: done (3.9s)
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  0RQZC: done (3.9s)
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  T832F: done (3.4s)
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  D2ES2: done (3.7s)
+Kwargs passed to `processor.__call__` have to be in `processor_kwargs` dict, not in `**kwargs`
+  D9AR5: done (4.0s)
+  [E] unloaded.
+
+
+==========================================
+FINAL COMPARISON OUTPUT
+==========================================
+
+==========================================
+VIDEO [1/5]: Z9XLJ  |  Path: /usershome/cs671_user2/p16_blv/data/keyframes/charades/Z9XLJ_kf00_frame0000.jpg
+==========================================
+[A] TEACHER (Gemma 31B):
+Indoor hallway; CAUTION, a person moves across your path. A person in a brown shirt and black shorts moves from left to right, approximately 1 meter ahead. A closed wooden door is approximately 2 meters ahead, and an open doorway is 1 meter to your right. A doorway leading to a bathroom is approximately 3 meters ahead to the left.
+
+[B] BASE MODEL (SmolVLM2-500M, no training):
+The room is a simple, well-lit room with a wooden door and a window. The door is closed and there is a person standing in the doorway. The person is wearing a brown shirt and black shorts. The window has blinds and there is a yellow object on the floor. The floor is light-colored. The room is not cluttered and there are no other people in the room. The person is standing in the doorway and appears to be looking around.
+
+[C] SFT_SINGLE_STAGE:
+The person in the brown shirt is moving from the right door to the left. The door is closed. The person is walking through a hallway with a light-colored wall on the left and a dark wall on the right. The person is moving from the right door to the left.
+
+[D] GRPO:
+The person in the brown shirt is walking through a hallway towards a wooden door. The hallway has a wooden door on the right and a window on the left. The person is moving from the left to the right, and the door is located approximately 2 meters ahead.
+
+[E] SFT_PATCH (path used: /usershome/cs671_user2/p16_blv/models/student/sft_patch_final_merged):
+Indoor room, approximately 1 meter ahead. A person in a brown shirt and black shorts moves from center to the right, opening a wooden door approximately 1 meter ahead. A closed wooden door is 1 meter to your right. A white wall is 1 meter to your left.
+
+==========================================
+VIDEO [2/5]: 0RQZC  |  Path: /usershome/cs671_user2/p16_blv/data/keyframes/charades/0RQZC_kf00_frame0000.jpg
+==========================================
+[A] TEACHER (Gemma 31B):
+Indoor library environment; CAUTION, low stools and bags are trip hazards on the floor. A person in a teal shirt sits approximately 1 meter ahead, facing left. A white shelving unit stands approximately 1 meter ahead, containing books, decorative items, and a photo. A metal container is approximately 1 meter ahead on the floor to the right.
+
+[B] BASE MODEL (SmolVLM2-500M, no training):
+The room is a small, cluttered space with a white shelving unit. The shelves are filled with various items, including a statue, a vase, and a few books. The floor is covered with a white rug, and there are several potted plants in the room. The lighting is dim, and there are no windows in the room. The only sound is the occasional clinking of items on the shelves. The room is not well-lit, and there are no clear paths or safety features.
+
+[C] SFT_SINGLE_STAGE:
+The scene is a cluttered room with a white shelving unit. The shelving unit is filled with various items including a statue, a vase, and a stack of magazines. The shelf is located against a wall, with a window to the left. The floor is cluttered with papers and other items. The lighting is dim, and the floor is covered in papers.
+
+[D] GRPO:
+The scene is a cluttered room with a white shelving unit. A person is sitting on the floor in the center, facing away from the camera. A white vase with flowers sits on the shelf to the left, while a small statue is on the shelf to the right. A stack of magazines is on the floor, and a white plastic bag is on the floor to the right.
+
+[E] SFT_PATCH (path used: /usershome/cs671_user2/p16_blv/models/student/sft_patch_final_merged):
+Indoor room with a white shelving unit approximately 2 meters ahead. A person in a teal shirt sits approximately 1 meter ahead, facing left. A pile of magazines and papers sits on the floor approximately 1 meter to your right. A blue bag is approximately 1 meter to your left.
+
+==========================================
+VIDEO [3/5]: T832F  |  Path: /usershome/cs671_user2/p16_blv/data/keyframes/charades/T832F_kf00_frame0000.jpg
+==========================================
+[A] TEACHER (Gemma 31B):
+Bedroom environment; CAUTION, a person in black clothing moves across the path approximately 1 meter ahead. A wooden door stands open approximately 2 meters ahead to the right. A dark wall with hanging items is 1 meter to your right. The floor path remains clear between the person and the right wall.
+
+[B] BASE MODEL (SmolVLM2-500M, no training):
+The room is dimly lit with a green wall. The floor is covered in a light-colored carpet. There is a door on the left side of the room. The door is closed. There is a closet on the right side of the room. The closet has a door and a shelf inside. The shelf has clothes on it. The closet is closed. There is a window on the left side of the room. The window has blinds on it. The blinds are closed. There is a chair in the room. The chair is located in the middle of the room. There is a table in the room. The table is located in the middle of the room. There is a lamp in the room. The lamp is located on the left side of the room. There is a window on the left side of the room. The window has blinds on it. There is a door on the left side of the room. The door is closed. There is a closet on the right side of the room. The closet has a door and a shelf inside. The shelf has clothes on it. The closet is closed. There is a window on the left side of the room. The window has blinds on it. There is a chair in the room.
+
+[C] SFT_SINGLE_STAGE:
+The room is dimly lit and narrow. A person in a dark jacket is moving through the room. The person is moving from the left to the right. The person is carrying a large black object. The floor is cluttered with clothes and boxes. The walls are covered in clothes and boxes. The person is moving quickly through the room.
+
+[D] GRPO:
+The hallway is dimly lit and narrow, with a person moving through it. The person is facing away from the camera, walking towards a door on the right. The hallway is lined with clothing hanging on the wall, with a small shelf on the left. The floor is cluttered with various items, including a red object on the floor.
+
+[E] SFT_PATCH (path used: /usershome/cs671_user2/p16_blv/models/student/sft_patch_final_merged):
+Indoor hallway, approximately 1 meter ahead. A person in black clothing moves from center to right, approximately 1 meter ahead. A wooden door is 1 meter to your right. A wall with hanging items is 1 meter to your left.
+
+==========================================
+VIDEO [4/5]: D2ES2  |  Path: /usershome/cs671_user2/p16_blv/data/keyframes/charades/D2ES2_kf00_frame0000.jpg
+==========================================
+[A] TEACHER (Gemma 31B):
+Indoor room, no immediate hazards. A man in a teal shirt stands approximately 1 meter ahead, moving right. He holds a red and black object and tosses it upward toward the ceiling. Purple curtains hang approximately 2 meters ahead, and a dark door is 2 meters to the right.
+
+[B] BASE MODEL (SmolVLM2-500M, no training):
+The room is a simple one with a white tiled floor and a purple curtain. The curtain is closed, and there is a door in the background. The room is not very large, and there are no windows. There are no people in the room, and there are no objects on the floor. The room is not very well lit, and there is no light source visible. The room is not very clean, and there are no objects on the floor. The room is not very well lit, and there is no light source visible. The room is not very well lit, and there is no light source visible. The room is not very well lit, and there is no light source visible. The room is not very well lit, and there is no light source visible. The room is not very well lit, and there is no light source visible. The room is not very well lit, and there is no light source visible. The room is not very well lit, and there is no light source visible. The room is not very well lit, and there is no light source visible. The room is not very well lit, and there is no light source visible. The room is not very well lit, and there is no light source visible. The room is
+
+[C] SFT_SINGLE_STAGE:
+The man in the teal shirt is standing in a room with purple curtains. He is holding a small animal in his arms. The room has a white floor and a black wall. The curtains are hanging on the wall. The man is moving from the left to the right.
+
+[D] GRPO:
+The room is a living room with a tiled floor. A person is standing in the center, facing a door. A large window is located behind the person, and a plant is situated on the left side of the room. The person is holding a red object and moving it across the room.
+
+[E] SFT_PATCH (path used: /usershome/cs671_user2/p16_blv/models/student/sft_patch_final_merged):
+Indoor room with a white floor and purple curtains approximately 2 meters ahead. A person in a teal shirt and tan pants stands approximately 1 meter ahead, moving from center to right. A small plant is 1 meter to your left. A black door is 2 meters to your right.
+
+==========================================
+VIDEO [5/5]: D9AR5  |  Path: /usershome/cs671_user2/p16_blv/data/keyframes/charades/D9AR5_kf00_frame0000.jpg
+==========================================
+[A] TEACHER (Gemma 31B):
+Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A person in a grey shirt and dark pants stands center, approximately 1 meter ahead, moving toward the left. White counters and cabinets are 1 meter ahead and to the right. A red cloth hangs 1 meter to your left.
+
+[B] BASE MODEL (SmolVLM2-500M, no training):
+The kitchen is a simple, white, and clean space. The cabinets are white and the countertop is a light color. There is a window with a white curtain letting in natural light. The floor is light-colored and the walls are white. There is a red towel hanging on the wall. The kitchen is well-organized and clean. The floor is not visible. There are no visible hazards. The safe path is clear and there are no obstacles.
+
+[C] SFT_SINGLE_STAGE:
+A person in a blue shirt is standing in a kitchen. The person is moving from the left to the right of the frame. The kitchen has white cabinets and a white countertop. The person is holding a red towel. The floor is carpeted. The person is moving from the left to the right of the frame.
+
+[D] GRPO:
+Kitchen with white cabinets and a sink.  A person is moving from the left to the right, passing by a red towel on the counter. The person is approximately 1 meter away from the camera.
+
+[E] SFT_PATCH (path used: /usershome/cs671_user2/p16_blv/models/student/sft_patch_final_merged):
+Kitchen environment; CAUTION: low counter edge approximately 1 meter ahead. A person in a light blue shirt and dark pants moves from center to the left, approximately 1 meter ahead. White cabinets are 1 meter ahead and to the left. A white counter with a red towel hangs approximately 1 meter ahead and to the right.
+
+==========================================
+STEP 6 — Creating keyframe ZIP archives
+==========================================
+  video_Z9XLJ: 4 frames added
+  video_0RQZC: 4 frames added
+  video_T832F: 4 frames added
+  video_D2ES2: 4 frames added
+  video_D9AR5: 4 frames added
+
+Combined ZIP: /usershome/cs671_user2/p16_blv/outputs/keyframes_seed77_all.zip
+Results file: /usershome/cs671_user2/p16_blv/outputs/five_video_comparison_seed77.txt
+
+=== ALL DONE ===

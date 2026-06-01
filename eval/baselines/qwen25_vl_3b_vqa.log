@@ -1,0 +1,30 @@
+Loading Qwen2.5-VL on GPU 2...
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   0%|          | 1/824 [00:00<03:38,  3.76it/s]Loading weights:   2%|▏         | 13/824 [00:00<00:18, 44.34it/s]Loading weights:   3%|▎         | 25/824 [00:00<00:12, 65.14it/s]Loading weights:   4%|▍         | 37/824 [00:00<00:11, 68.21it/s]Loading weights:   6%|▌         | 47/824 [00:00<00:10, 76.16it/s]Loading weights:   7%|▋         | 56/824 [00:00<00:10, 71.40it/s]Loading weights:   9%|▉         | 74/824 [00:01<00:07, 94.43it/s]Loading weights:  10%|█         | 85/824 [00:01<00:08, 85.69it/s]Loading weights:  12%|█▏        | 97/824 [00:01<00:08, 81.95it/s]Loading weights:  13%|█▎        | 107/824 [00:01<00:08, 85.48it/s]Loading weights:  15%|█▍        | 123/824 [00:01<00:07, 98.22it/s]Loading weights:  16%|█▋        | 134/824 [00:01<00:06, 99.20it/s]Loading weights:  18%|█▊        | 145/824 [00:01<00:07, 96.56it/s]Loading weights:  19%|█▉        | 160/824 [00:01<00:06, 108.61it/s]Loading weights:  21%|██        | 173/824 [00:02<00:05, 109.46it/s]Loading weights:  22%|██▏       | 185/824 [00:02<00:05, 110.26it/s]Loading weights:  24%|██▍       | 197/824 [00:02<00:05, 109.16it/s]Loading weights:  25%|██▌       | 209/824 [00:02<00:06, 97.18it/s] Loading weights:  27%|██▋       | 220/824 [00:02<00:06, 91.91it/s]Loading weights:  28%|██▊       | 233/824 [00:02<00:06, 94.87it/s]Loading weights:  30%|██▉       | 245/824 [00:02<00:05, 98.94it/s]Loading weights:  31%|███       | 257/824 [00:02<00:05, 100.39it/s]Loading weights:  33%|███▎      | 269/824 [00:03<00:05, 97.14it/s] Loading weights:  35%|███▍      | 288/824 [00:03<00:04, 118.34it/s]Loading weights:  37%|███▋      | 301/824 [00:03<00:04, 110.53it/s]Loading weights:  38%|███▊      | 313/824 [00:03<00:04, 106.41it/s]Loading weights:  39%|███▉      | 324/824 [00:03<00:04, 101.10it/s]Loading weights:  41%|████      | 335/824 [00:03<00:04, 101.25it/s]Loading weights:  42%|████▏     | 346/824 [00:03<00:04, 99.58it/s] Loading weights:  44%|████▍     | 361/824 [00:03<00:04, 109.52it/s]Loading weights:  46%|████▌     | 376/824 [00:03<00:03, 115.15it/s]Loading weights:  47%|████▋     | 388/824 [00:04<00:03, 112.93it/s]Loading weights:  49%|████▊     | 401/824 [00:04<00:03, 114.30it/s]Loading weights:  51%|█████     | 421/824 [00:04<00:02, 134.37it/s]Loading weights:  53%|█████▎    | 440/824 [00:04<00:02, 147.67it/s]Loading weights:  59%|█████▉    | 486/824 [00:04<00:01, 232.51it/s]Loading weights:  65%|██████▍   | 532/824 [00:04<00:00, 293.91it/s]Loading weights:  71%|███████   | 582/824 [00:04<00:00, 351.88it/s]Loading weights:  75%|███████▌  | 622/824 [00:04<00:00, 364.43it/s]Loading weights:  82%|████████▏ | 672/824 [00:04<00:00, 399.46it/s]Loading weights:  87%|████████▋ | 713/824 [00:05<00:00, 370.85it/s]Loading weights:  91%|█████████▏| 753/824 [00:05<00:00, 359.33it/s]Loading weights:  96%|█████████▌| 792/824 [00:05<00:00, 353.93it/s]Loading weights: 100%|██████████| 824/824 [00:05<00:00, 153.12it/s]
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Model loaded.
+[0/5000] Dakota
+[200/5000] baseball
+[400/5000] macy's
+[600/5000] 36
+[800/5000] 677.2367
+[1000/5000] buckminster fuller
+[1200/5000] tab
+[1400/5000] Yes
+[1600/5000] afterglow
+[1800/5000] 2010
+[2000/5000] 19
+[2200/5000] history
+[2400/5000] george washington
+[2600/5000] 401 057-5
+[2800/5000] 1892
+[3000/5000] les socialistes
+[3200/5000] seiko
+[3400/5000] google
+[3600/5000] toshiba
+[3800/5000] extra
+[4000/5000] 1919
+[4200/5000] 1995
+[4400/5000] 1:50
+[4600/5000] the wipers times
+[4800/5000] 6
+Saved 5000 (skipped 0) -> /usershome/cs671_user2/p16_blv/eval/baselines/qwen25_vl_3b_vqa_preds.json

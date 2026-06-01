@@ -1,0 +1,20 @@
+Loaded 50 samples.
+Loading Qwen2.5-VL-3B on GPU 0 (physical GPU6) ...
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 5443.61it/s]
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   3%|▎         | 28/824 [00:00<00:02, 278.73it/s]Loading weights:   9%|▉         | 76/824 [00:00<00:01, 395.46it/s]Loading weights:  15%|█▌        | 124/824 [00:00<00:01, 426.94it/s]Loading weights:  22%|██▏       | 178/824 [00:00<00:01, 469.42it/s]Loading weights:  28%|██▊       | 230/824 [00:00<00:01, 476.32it/s]Loading weights:  34%|███▎      | 278/824 [00:00<00:01, 417.09it/s]Loading weights:  39%|███▉      | 321/824 [00:00<00:01, 406.55it/s]Loading weights:  45%|████▌     | 371/824 [00:00<00:01, 432.25it/s]Loading weights:  50%|█████     | 415/824 [00:01<00:01, 307.94it/s]Loading weights:  65%|██████▌   | 539/824 [00:01<00:00, 519.90it/s]Loading weights:  81%|████████▏ | 670/824 [00:01<00:00, 711.73it/s]Loading weights:  96%|█████████▌| 792/824 [00:01<00:00, 835.30it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 574.50it/s]
+Model loaded.
+/usershome/cs671_user2/p16_blv/src/eval/bench_qwen_only.py:35: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  mean = _torch.tensor(mean, dtype=tensor.dtype).view(-1,1,1)
+/usershome/cs671_user2/p16_blv/src/eval/bench_qwen_only.py:36: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  std  = _torch.tensor(std,  dtype=tensor.dtype).view(-1,1,1)
+  sample 3: no images, skip
+  [10/50] avg: 3860ms
+  sample 12: no images, skip
+  [20/50] avg: 3821ms
+  sample 22: no images, skip
+  [30/50] avg: 3898ms
+  [40/50] avg: 3992ms
+  [50/50] avg: 3957ms
+
+DONE -- mean=3957.4ms | p95=5036.8ms | fps=0.253
+Saved -> results/benchmark_graph/latency_results.json

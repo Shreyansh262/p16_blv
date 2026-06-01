@@ -1,0 +1,90 @@
+2026-03-23 15:14:43,083 [INFO] Using GPU: NVIDIA RTX A6000
+2026-03-23 15:14:43,258 [INFO] VRAM free: 32.9 GB
+2026-03-23 15:14:43,258 [INFO] Loading captions from: /usershome/cs671_user2/p16_blv/data/generated/all_captions.json
+2026-03-23 15:14:43,310 [INFO] After quality filter: 9646 entries
+2026-03-23 15:14:43,311 [INFO] Validation sample size: 1446 / 9646 total
+2026-03-23 15:14:43,311 [INFO] Hold-out: 5 | Training: 1441
+2026-03-23 15:14:43,312 [INFO] Loading model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-23 15:14:59,738 [INFO] Train: 1297 | Eval: 144
+2026-03-23 15:14:59,918 [INFO] ============================================================
+2026-03-23 15:14:59,918 [INFO] STARTING SFT VALIDATION TRAINING
+2026-03-23 15:14:59,918 [INFO] Train: 1297 | Eval: 144 | Epochs: 3 | GA steps: 16
+2026-03-23 15:14:59,918 [INFO] ============================================================
+2026-03-23 15:33:20,328 [INFO] Using GPU: NVIDIA RTX A6000
+2026-03-23 15:33:22,597 [INFO] VRAM free: 32.9 GB
+2026-03-23 15:33:22,597 [INFO] Loading captions from: /usershome/cs671_user2/p16_blv/data/generated/all_captions.json
+2026-03-23 15:33:22,643 [INFO] After quality filter: 9646 entries
+2026-03-23 15:33:22,644 [INFO] Validation sample size: 1446 / 9646 total
+2026-03-23 15:33:22,644 [INFO] Hold-out: 5 | Training: 1441
+2026-03-23 15:33:22,645 [INFO] Loading model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-23 15:33:33,007 [INFO] Train: 1297 | Eval: 144
+2026-03-23 15:33:33,184 [INFO] ============================================================
+2026-03-23 15:33:33,184 [INFO] STARTING SFT VALIDATION TRAINING
+2026-03-23 15:33:33,184 [INFO] Train: 1297 | Eval: 144 | Epochs: 3 | GA steps: 16
+2026-03-23 15:33:33,184 [INFO] ============================================================
+2026-03-23 15:37:57,822 [INFO] Using GPU: NVIDIA RTX A6000
+2026-03-23 15:37:57,989 [INFO] VRAM free: 32.9 GB
+2026-03-23 15:37:57,989 [INFO] Loading captions from: /usershome/cs671_user2/p16_blv/data/generated/all_captions.json
+2026-03-23 15:37:58,037 [INFO] After quality filter: 9646 entries
+2026-03-23 15:37:58,038 [INFO] Validation sample size: 1446 / 9646 total
+2026-03-23 15:37:58,038 [INFO] Hold-out: 5 | Training: 1441
+2026-03-23 15:37:58,039 [INFO] Loading model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-23 15:38:11,485 [INFO] Train: 1297 | Eval: 144
+2026-03-23 15:38:11,628 [INFO] ============================================================
+2026-03-23 15:38:11,628 [INFO] STARTING SFT VALIDATION TRAINING
+2026-03-23 15:38:11,628 [INFO] Train: 1297 | Eval: 144 | Epochs: 3 | GA steps: 16
+2026-03-23 15:38:11,628 [INFO] ============================================================
+2026-03-23 15:41:13,863 [INFO] Using GPU: NVIDIA RTX A6000
+2026-03-23 15:41:14,029 [INFO] VRAM free: 32.9 GB
+2026-03-23 15:41:14,029 [INFO] Loading captions from: /usershome/cs671_user2/p16_blv/data/generated/all_captions.json
+2026-03-23 15:41:14,073 [INFO] After quality filter: 9646 entries
+2026-03-23 15:41:14,074 [INFO] Validation sample size: 1446 / 9646 total
+2026-03-23 15:41:14,074 [INFO] Hold-out: 5 | Training: 1441
+2026-03-23 15:41:14,075 [INFO] Loading model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-23 15:41:24,223 [INFO] Train: 1297 | Eval: 144
+2026-03-23 15:41:24,372 [INFO] ============================================================
+2026-03-23 15:41:24,372 [INFO] STARTING SFT VALIDATION TRAINING
+2026-03-23 15:41:24,372 [INFO] Train: 1297 | Eval: 144 | Epochs: 3 | GA steps: 16
+2026-03-23 15:41:24,372 [INFO] ============================================================
+2026-03-23 16:23:16,718 [INFO] >>> Epoch 1 loss: 0.0028
+2026-03-23 17:06:23,585 [INFO] >>> Epoch 2 loss: 0.0006
+2026-03-23 17:49:33,525 [INFO] >>> Epoch 3 loss: 0.0005
+2026-03-23 17:49:34,986 [INFO] Checkpoint saved: /usershome/cs671_user2/p16_blv/models/student/sft_validation_checkpoint
+2026-03-23 17:49:34,986 [INFO] 
+Running inference on held-out samples...
+2026-03-23 17:49:54,393 [INFO] Using GPU: NVIDIA RTX A6000
+2026-03-23 17:49:54,583 [INFO] VRAM free: 32.9 GB
+2026-03-23 17:49:54,583 [INFO] Loading captions from: /usershome/cs671_user2/p16_blv/data/generated/all_captions.json
+2026-03-23 17:49:54,627 [INFO] After quality filter: 9646 entries
+2026-03-23 17:49:54,628 [INFO] Validation sample size: 1446 / 9646 total
+2026-03-23 17:49:54,628 [INFO] Hold-out: 5 | Training: 1441
+2026-03-23 17:49:54,629 [INFO] Loading model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-23 17:50:05,811 [INFO] Train: 1297 | Eval: 144
+2026-03-23 17:50:05,959 [INFO] ============================================================
+2026-03-23 17:50:05,959 [INFO] STARTING SFT VALIDATION TRAINING
+2026-03-23 17:50:05,959 [INFO] Train: 1297 | Eval: 144 | Epochs: 3 | GA steps: 16
+2026-03-23 17:50:05,959 [INFO] ============================================================
+2026-03-23 18:32:39,828 [INFO] >>> Epoch 1 loss: 0.0004
+2026-03-23 19:16:29,638 [INFO] >>> Epoch 2 loss: 0.0004
+2026-03-23 19:58:51,634 [INFO] >>> Epoch 3 loss: 0.0005
+2026-03-23 19:58:52,877 [INFO] Checkpoint saved: /usershome/cs671_user2/p16_blv/models/student/sft_validation_checkpoint
+2026-03-23 19:58:52,877 [INFO] 
+Running inference on held-out samples...
+2026-03-24 06:25:26,746 [INFO] Using GPU: NVIDIA RTX A6000
+2026-03-24 06:25:26,918 [INFO] VRAM free: 33.3 GB
+2026-03-24 06:25:26,918 [INFO] Loading captions from: /usershome/cs671_user2/p16_blv/data/generated/all_captions.json
+2026-03-24 06:25:26,963 [INFO] After quality filter: 9646 entries
+2026-03-24 06:25:26,964 [INFO] Validation sample size: 1446 / 9646 total
+2026-03-24 06:25:26,964 [INFO] Hold-out: 5 | Training: 1441
+2026-03-24 06:25:26,965 [INFO] Loading model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-24 06:25:41,092 [INFO] Train: 450 | Eval: 50
+2026-03-24 06:25:41,276 [INFO] ============================================================
+2026-03-24 06:25:41,277 [INFO] STARTING SFT VALIDATION TRAINING
+2026-03-24 06:25:41,277 [INFO] Train: 450 | Eval: 50 | Epochs: 3 | GA steps: 16
+2026-03-24 06:25:41,277 [INFO] ============================================================
+2026-03-24 06:40:10,489 [INFO] >>> Epoch 1 loss: 13.2729
+2026-03-24 06:55:02,992 [INFO] >>> Epoch 2 loss: 0.2540
+2026-03-24 07:09:23,449 [INFO] >>> Epoch 3 loss: 0.0813
+2026-03-24 07:09:24,794 [INFO] Checkpoint saved: /usershome/cs671_user2/p16_blv/models/student/sft_validation_checkpoint
+2026-03-24 07:09:24,794 [INFO] 
+Running inference on held-out samples...

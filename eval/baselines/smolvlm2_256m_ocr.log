@@ -1,0 +1,35 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading /usershome/cs671_user2/p16_blv/models/baselines/smolvlm2_256m on GPU 6...
+Loading weights:   0%|          | 0/471 [00:00<?, ?it/s]Loading weights:  25%|██▍       | 116/471 [00:00<00:00, 1155.65it/s]Loading weights:  49%|████▉     | 232/471 [00:00<00:00, 1118.09it/s]Loading weights:  73%|███████▎  | 344/471 [00:00<00:00, 1018.96it/s]Loading weights:  95%|█████████▍| 447/471 [00:00<00:00, 982.99it/s] Loading weights: 100%|██████████| 471/471 [00:00<00:00, 1006.23it/s]
+Model loaded.
+[0/1000] Centroid
+[100/1000] The text in the image is "Marilyn".
+[200/1000] 5743
+[300/1000] The exit to the Mosman Manly exit is going to be the North S
+[400/1000] The food name is "McNade Hot Wraps".
+[500/1000] The total intrinsic value of options exercised in 2008 is $1
+[600/1000] The difference in value between the green bar and the orange
+[700/1000] The company that issued this receipt is Secret Recipe Restau
+[800/1000] From:
+
+October 30
+
+(X)
+
+(X)
+
+(X)
+
+(X)
+
+(X)
+
+(X)
+
+(X)
+
+(X)
+
+(
+[900/1000] y = - 1
+Saved 1000 -> /usershome/cs671_user2/p16_blv/eval/baselines/smolvlm2_256m_ocr_preds.json

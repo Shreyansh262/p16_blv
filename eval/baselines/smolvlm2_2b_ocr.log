@@ -1,0 +1,15 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading /usershome/cs671_user2/p16_blv/models/baselines/smolvlm2_2b on GPU 2...
+Loading weights:   0%|          | 0/657 [00:00<?, ?it/s]Loading weights:   6%|▋         | 42/657 [00:00<00:01, 412.27it/s]Loading weights:  13%|█▎        | 86/657 [00:00<00:01, 397.07it/s]Loading weights:  19%|█▉        | 126/657 [00:00<00:01, 379.43it/s]Loading weights:  25%|██▌       | 165/657 [00:00<00:01, 373.35it/s]Loading weights:  31%|███       | 203/657 [00:00<00:01, 364.75it/s]Loading weights:  61%|██████    | 402/657 [00:00<00:00, 884.69it/s]Loading weights:  98%|█████████▊| 641/657 [00:00<00:00, 1356.08it/s]Loading weights: 100%|██████████| 657/657 [00:00<00:00, 875.20it/s] 
+Model loaded.
+[0/1000] The image contains the word "Centre" written in a cursive fo
+[100/1000] The word "Marilyn" is written in the image.
+[200/1000] 5743
+[300/1000] The Mosman Manly exit is going to Crows Nest.
+[400/1000] Hot Wraps.
+[500/1000] The total intrinsic value of options exercised in 2008 is $1
+[600/1000] The difference in value between the Green bar and the Orange
+[700/1000] SECRET RECIPE RESTAURANT.
+[800/1000] The value for 'From:' is not provided in the image. The imag
+[900/1000] \gamma = -1
+Saved 1000 -> /usershome/cs671_user2/p16_blv/eval/baselines/smolvlm2_2b_ocr_preds.json

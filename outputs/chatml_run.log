@@ -1,0 +1,126 @@
+7985 unique video IDs found in /usershome/cs671_user2/p16_blv/data/keyframes/charades
+Loading processor from HuggingFaceTB/SmolVLM2-500M-Video-Instruct...
+Loading base model...
+Applying LoRA adapter from /usershome/cs671_user2/p16_blv/models/student/sft_patch_grpo_v2...
+Model loaded.
+
+============================================================
+[1/10] Video: NHTSB
+Frames : ['NHTSB_kf00_frame0000.jpg', 'NHTSB_kf01_frame0019.jpg', 'NHTSB_kf02_frame0053.jpg', 'NHTSB_kf03_frame0056.jpg']
+Caption: The image depicts a room with a wooden floor and a tiled ceiling. The room is furnished with a bed, a dresser, and a nightstand. The bed is positioned against the wall, with a blanket and pillows neatly arranged. The dresser is located to the right of the bed, and the nightstand is situated to the left. The room is well-lit, with natural light streaming in from a window located to the left of the bed.
+
+In the center of the room, there is a small table with a lamp on it. The table is surrounded by a few chairs, including a chair positioned to the right of the bed. The room also features a few pieces of furniture, including a chair positioned to the left of the bed and a chair positioned to the right of the bed.
+
+The image does not contain any discernible text. The relative positions of the objects in the room are as follows: the bed is positioned against the wall, the dresser
+
+============================================================
+[2/10] Video: 406LH
+Frames : ['406LH_kf00_frame0000.jpg', '406LH_kf01_frame0003.jpg', '406LH_kf02_frame0063.jpg', '406LH_kf03_frame0064.jpg']
+Caption: The video showcases a sequence of actions performed by a person in a room. The person is initially seen standing in the center of the room, facing forward. They are wearing a green top and black pants. The room has a neutral color scheme with light-colored walls and a white ceiling.
+
+The person begins by standing still, with their arms at their sides. They then move their arms slightly to the side, as if they are adjusting their posture. This action is repeated several times, with the person moving their arms in a circular motion.
+
+Next, the person moves their arms forward, extending them to the sides. This action is repeated several times, with the person moving their arms forward in a circular motion.
+
+Finally, the person moves their arms forward again, extending them to the sides. This action is repeated several times, with the person moving their arms forward in a circular motion.
+
+Throughout the sequence, the person's body language remains consistent, with their arms
+
+============================================================
+[3/10] Video: 0SA65
+Frames : ['0SA65_kf00_frame0000.jpg', '0SA65_kf01_frame0032.jpg', '0SA65_kf02_frame0033.jpg', '0SA65_kf03_frame0035.jpg']
+Caption: The image captures a moment of tranquility in a cozy living room. A woman, dressed in a gray sweater, sits comfortably at a wooden table, her attention captivated by a laptop screen. The room is filled with a warm, inviting ambiance, with a blue couch and a colorful armchair adding to the homely atmosphere.
+
+A child, dressed in a black shirt with green accents, stands nearby, engrossed in a book. The child's presence adds a sense of playfulness to the scene. The room is well-lit, with a lamp casting a soft glow that illuminates the space.
+
+The image is taken from a slightly elevated angle, looking down on the room. This perspective allows for a clear view of the woman and the child, as well as the laptop screen. The overall composition of the image suggests a peaceful and relaxed atmosphere.
+
+The image does not contain any text or other discernible objects. The relative positions of the objects remain constant throughout the image,
+
+============================================================
+[4/10] Video: RDUOV
+Frames : ['RDUOV_kf00_frame0000.jpg', 'RDUOV_kf01_frame0030.jpg', 'RDUOV_kf02_frame0050.jpg', 'RDUOV_kf03_frame0054.jpg']
+Caption: The video showcases a sequence of events involving a person in a room, with a focus on their actions and movements. The person is initially seen standing in the center of the room, facing forward. They are dressed in a black and white patterned outfit, which is detailed with a red and yellow pattern. The person appears to be in a state of motion, as they are moving towards the right side of the room.
+
+As the person moves towards the right side of the room, they begin to turn their head to the left, revealing their face. They then turn their head to the right, revealing their face again. The person continues to turn their head to the left and right, revealing their face in both directions.
+
+The person then turns their head to the left again, revealing their face in both directions. They then turn their head to the right, revealing their face in both directions. The person continues to turn their head to the left and right, revealing their face in both directions
+
+============================================================
+[5/10] Video: A45RV
+Frames : ['A45RV_kf00_frame0000.jpg', 'A45RV_kf01_frame0019.jpg', 'A45RV_kf02_frame0022.jpg', 'A45RV_kf03_frame0025.jpg']
+Caption: The video showcases a person in a red shirt and black cap, navigating through a room with a wooden floor and a white wall. The room is dimly lit, with a soft glow emanating from the person's flashlight. The person appears to be moving towards a specific point in the room, indicated by the direction of their head and the angle of their flashlight.
+
+As the person moves forward, they encounter various obstacles and challenges. They encounter a white shelf on the right side of the room, which they must navigate around. The shelf is relatively small and is positioned relatively far from the camera. The person must carefully maneuver their flashlight to avoid hitting the shelf.
+
+The person then encounters a wooden door on the left side of the room. The door is relatively large and is positioned relatively close to the camera. The person must carefully maneuver their flashlight to avoid hitting the door.
+
+The person then encounters a white bag on the floor near the wooden door. The bag is relatively small and
+
+============================================================
+[6/10] Video: 92AO4
+Frames : ['92AO4_kf00_frame0000.jpg', '92AO4_kf01_frame0013.jpg', '92AO4_kf02_frame0014.jpg', '92AO4_kf03_frame0015.jpg']
+Caption: The image depicts a room with a minimalist design. The walls are painted white and feature a simple, clean line. A single light fixture hangs from the ceiling, casting a soft glow throughout the room. The floor is covered in a light-colored carpet, which contrasts with the white walls.
+
+In the center of the room, a white armchair is positioned. The armchair is slightly angled, inviting visitors to sit and relax. A small table is located in front of the armchair, holding a few books and a vase of flowers. The table and chairs are positioned at a comfortable distance from each other.
+
+To the left of the room, a small table holds a few books and a vase of flowers. The table and chairs are positioned at a comfortable distance from each other.
+
+On the right side of the room, a white sofa is positioned. The sofa is slightly angled, inviting visitors to sit and relax. A small table is located in front of the
+
+============================================================
+[7/10] Video: 88ZZV
+Frames : ['88ZZV_kf00_frame0000.jpg', '88ZZV_kf01_frame0005.jpg', '88ZZV_kf02_frame0006.jpg', '88ZZV_kf03_frame0009.jpg']
+Caption: The image depicts a room with a minimalist design. The walls are painted white and feature a subtle floral pattern. A door is located on the left side of the room, and a window is situated on the right side. The floor is covered in a light-colored carpet.
+
+In the center of the room, there is a small table with a few items on it. The table is surrounded by a few chairs, which are arranged in a semi-circle around it. The chairs are made of light-colored wood and have a simple design.
+
+On the table, there are a few books and a few small objects. The books are arranged in a neat stack, and the objects are scattered around the table.
+
+The room is well-lit, and the light source appears to be coming from a window on the right side of the room. The window has a simple design, and it is not very large.
+
+Overall, the room is simple and unclut
+
+============================================================
+[8/10] Video: 55NNF
+Frames : ['55NNF_kf00_frame0000.jpg', '55NNF_kf01_frame0036.jpg', '55NNF_kf02_frame0058.jpg', '55NNF_kf03_frame0059.jpg']
+Caption: The image depicts a kitchen setting, likely in a home or a small business. The kitchen is equipped with various appliances and utensils, indicating a well-organized and functional space. The walls are painted a light color, and the floor is tiled.
+
+In the center of the image, there is a countertop, which is covered with a red cloth. On the countertop, there are several items, including a knife block, a cutting board, and a bowl. The knife block is positioned to the left of the countertop, and the cutting board is positioned to the right. The bowl is positioned in the center of the countertop.
+
+To the right of the countertop, there is a sink. The sink is equipped with a faucet and a drain. Above the sink, there is a window, which allows natural light to enter the kitchen.
+
+In the background, there are shelves filled with various kitchen utensils and ingredients. The shelves are lined with various items,
+
+============================================================
+[9/10] Video: R3Z2O
+Frames : ['R3Z2O_kf00_frame0000.jpg', 'R3Z2O_kf01_frame0001.jpg', 'R3Z2O_kf02_frame0005.jpg', 'R3Z2O_kf03_frame0006.jpg']
+Caption: The image depicts a serene bedroom scene. The room is bathed in soft, natural light, emanating from a large window on the left side of the room. The window is dressed with white curtains, which are drawn back to allow the light to filter in. The room is furnished with a bed, which is positioned centrally in the room. The bed is made with a white comforter and a few pillows, and it appears to be empty.
+
+To the right of the bed, there is a wooden nightstand. On the nightstand, there is a small lamp, which is turned off. The floor of the room is covered in a light-colored carpet, and it appears to be clean and well-maintained.
+
+The walls of the room are painted a light blue color, and they are adorned with a few pieces of artwork. The artwork is small and delicate, and it appears to be hanging on the wall above the bed.
+
+In the center of the
+
+============================================================
+[10/10] Video: 3OUXT
+Frames : ['3OUXT_kf00_frame0000.jpg', '3OUXT_kf01_frame0001.jpg', '3OUXT_kf02_frame0063.jpg', '3OUXT_kf03_frame0064.jpg']
+Caption: The video showcases a person's hands moving across a surface, likely a table or countertop. The person's hands are in motion, suggesting they are either moving or interacting with the surface. The person's hands are positioned in a way that suggests they are either moving or interacting with the surface.
+
+The surface on which the person's hands are moving is not visible in the video, but it is implied to be a table or countertop. The person's hands are moving in a way that suggests they are either moving or interacting with the surface.
+
+The person's hands are in motion, suggesting they are either moving or interacting with the surface. The person's hands are positioned in a way that suggests they are either moving or interacting with the surface.
+
+The person's hands are in motion, suggesting they are either moving or interacting with the surface. The person's hands are positioned in a way that suggests they are either moving or interacting with the surface.
+
+The person's
+
+Done — 10 videos complete.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading weights:   0%|          | 0/489 [00:00<?, ?it/s]
+Loading weights:  51%|█████     | 248/489 [00:00<00:00, 2476.18it/s]
+Loading weights: 100%|██████████| 489/489 [00:00<00:00, 2652.06it/s]
+EXIT:0

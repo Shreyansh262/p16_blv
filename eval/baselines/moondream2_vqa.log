@@ -1,0 +1,297 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading moondream2 on GPU 6...
+Traceback (most recent call last):
+  File "/usershome/cs671_user2/p16_blv/eval/baselines/run_moondream.py", line 21, in <module>
+    model = AutoModelForCausalLM.from_pretrained(
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 380, in from_pretrained
+    return model_class.from_pretrained(
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4135, in from_pretrained
+    loading_info, disk_offload_index = cls._load_pretrained_model(model, state_dict, checkpoint_files, load_config)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4215, in _load_pretrained_model
+    caching_allocator_warmup(model, expanded_device_map, load_config.hf_quantizer)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4794, in caching_allocator_warmup
+    total_byte_count = get_total_byte_count(model, accelerator_device_map, hf_quantizer)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4743, in get_total_byte_count
+    tied_param_names = model.all_tied_weights_keys.keys()
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1968, in __getattr__
+    raise AttributeError(
+AttributeError: 'HfMoondream' object has no attribute 'all_tied_weights_keys'. Did you mean: '_tied_weights_keys'?
+Loading moondream2 on GPU 6...
+Traceback (most recent call last):
+  File "/usershome/cs671_user2/p16_blv/eval/baselines/run_moondream.py", line 21, in <module>
+    model = AutoModelForCausalLM.from_pretrained(
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 329, in from_pretrained
+    config, kwargs = AutoConfig.from_pretrained(
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 1500, in from_pretrained
+    config_class = get_class_from_dynamic_module(
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/dynamic_module_utils.py", line 583, in get_class_from_dynamic_module
+    return get_class_in_module(class_name, final_module, force_reload=force_download)
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/dynamic_module_utils.py", line 297, in get_class_in_module
+    module_files: list[Path] = [module_file] + sorted(map(Path, get_relative_import_files(module_file)))
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/dynamic_module_utils.py", line 164, in get_relative_import_files
+    new_imports.extend(get_relative_imports(f))
+  File "/usershome/cs671_user2/miniconda3/envs/blv/lib/python3.10/site-packages/transformers/dynamic_module_utils.py", line 133, in get_relative_imports
+    with open(module_file, encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usershome/cs671_user2/.cache/huggingface/modules/transformers_modules/moondream2/layers.py'
+`torch_dtype` is deprecated! Use `dtype` instead!
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading moondream2 on GPU 6...
+Loading weights:   0%|          | 0/592 [00:00<?, ?it/s]Loading weights:  14%|█▍        | 84/592 [00:00<00:00, 800.29it/s]Loading weights:  28%|██▊       | 165/592 [00:00<00:00, 649.17it/s]Loading weights:  39%|███▉      | 232/592 [00:00<00:00, 621.03it/s]Loading weights:  50%|████▉     | 295/592 [00:00<00:00, 451.11it/s]Loading weights:  80%|████████  | 475/592 [00:00<00:00, 808.73it/s]Loading weights: 100%|██████████| 592/592 [00:00<00:00, 779.58it/s]
+Loaded.
+[0/5000] "Mon
+Mon
+Mon
+Mon
+
+Mon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[200/5000] " Baron Deep Baron DeepColl Baron Deep Baron DeepC
+[400/5000] " Baron
+Mon
+Mon
+Mon
+Mon
+Mon
+Mon
+Mon
+Mon
+Mon
+Mon
+
+M
+[600/5000] " Baronmaymaymaymay Baron Baron Baron Baronmaymay
+
+[800/5000] " Baron
+ Baron
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1000/5000] " BaronSkip BaronSkip Baron Baron BaronSkip Baron 
+[1200/5000] "KeKeKeKeKeKeKeKeKeKeKeKeKeKeKeKeKeKeKeKeKeKeKeKeK
+[1400/5000] " Baron
+ Baron
+ Baron
+ Baron
+ Baron Ke Baron Ke Ke
+[1600/5000] " Baron
+ Baron
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1800/5000] " Baron Baron Baron Baron Baron Baron Baron Baron 
+[2000/5000] "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ge
+
+Ge
+Ge
+Ge
+
+[2200/5000] "Mer BaronKe BaronKeKeKe BaronKe BaronKe BaronKeKe
+[2400/5000] " Baron Baron Baron Baron Baron Baron Baron Baron 
+[2600/5000] " Baron Baron Baron Baron Baron Baron Baron Baron 
+[2800/5000] " Baron Baron Baron Baron Baron Baron Baron Baron 
+[3000/5000] " Baron Ke Baron Ke Baron Ke Baron Ke Baron Ke Bar
+[3200/5000] " Baron Baron Baron Baron Baron Baron Baron Baron 
+[3400/5000] " Baron Baron Baron Baron Baron Baron Baron Baron 
+[3600/5000] " Baron
+ Baron
+ Baron
+Mon
+Mon
+Mon
+Mon
+
+
+
+Mon
+
+
+
+
+
+
+[3800/5000] " Baron
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[4000/5000] " Baron Baron Baron Baron Baron Baron Baron Baron 
+[4200/5000] " Baron Baron Baron Baron Baron Baron Baron Baron 
+[4400/5000] " Baron
+ Baron
+ Baron
+ Baron
+ Baron
+ Baron
+Ke].app
+[4600/5000] " Baron Baron Baron Baron Baron Baron Baron Baron 
+[4800/5000] " Baron Baron Baron Baron Baron Baron Baron Baron 
+Saved 5000 (skipped 0) -> /usershome/cs671_user2/p16_blv/eval/baselines/moondream2_vqa_preds.json

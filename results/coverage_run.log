@@ -1,0 +1,36 @@
+Loading /usershome/cs671_user2/p16_blv/data/generated/all_captions_gemma.json ...
+  9577 valid captions
+
+── First 2 entries ────────────────────────────────────────────────────
+
+[0] video_id : 46GP8
+    dataset  : charades
+    blv_desc : Kitchen environment; CAUTION, wet floor approximately 1 meter ahead. A person in a white and navy hoodie and tan pants moves from center to left, reaching toward a stove approximately 1 meter ahead. A white refrigerator stands approximately 2 meters ...
+
+[1] video_id : N11GT
+    dataset  : charades
+    blv_desc : Indoor hallway with steps ahead; CAUTION, steps begin approximately 1 meter ahead. A person in a pink top and black skirt stands approximately 2 meters ahead, moving toward the left. A handrail is approximately 1 meter to your left. Walls are on both...
+
+──────────────────────────────────────────────────────────────────────
+
+Saved → /usershome/cs671_user2/p16_blv/results/gemma_coverage.json
+
+── MCF Metrics ───────────────────────────────────────────────────────
+Metric        Coverage  Count    
+------------  --------  ---------
+blv_spatial   100.0%    9577/9577
+blv_social    98.1%     9397/9577
+blv_action    52.3%     5006/9577
+blv_ambience  82.2%     7876/9577
+
+── NAF Metrics ───────────────────────────────────────────────────────
+Metric             Coverage  Count    
+-----------------  --------  ---------
+nav_obstacles      61.2%     5862/9577
+nav_step_changes   8.4%      803/9577 
+nav_directions     100.0%    9577/9577
+nav_moving_hazard  46.3%     4433/9577
+nav_distances      100.0%    9577/9577
+
+Chart saved → /usershome/cs671_user2/p16_blv/results/gemma_coverage_chart.png
+EXIT_CODE:0

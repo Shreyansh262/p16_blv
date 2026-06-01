@@ -1,0 +1,59 @@
+
+[SmolVLM2-500M-base] scoring 47 samples...
+  [10/47] MCF so far: 3.67
+  [20/47] MCF so far: 4.00
+  [30/47] MCF so far: 3.98
+  [40/47] MCF so far: 3.96
+  DONE -- MCF=3.968 NAF=4.771 (n=47)
+  saved -> results/benchmark_graph/judge_scores.json
+
+[sft_patch_grpo_v2-ours] scoring 47 samples...
+  [10/47] MCF so far: 3.90
+  [20/47] MCF so far: 4.06
+  [30/47] MCF so far: 4.11
+  [40/47] MCF so far: 4.18
+  DONE -- MCF=4.276 NAF=5.117 (n=47)
+  saved -> results/benchmark_graph/judge_scores.json
+
+[SmolVLM2-2.2B] scoring 47 samples...
+  [10/47] MCF so far: 4.53
+  [20/47] MCF so far: 4.05
+  [30/47] MCF so far: 3.87
+  [40/47] MCF so far: 3.74
+  DONE -- MCF=3.814 NAF=4.399 (n=47)
+  saved -> results/benchmark_graph/judge_scores.json
+
+[Qwen2.5-VL-3B] scoring 47 samples...
+  [10/47] MCF so far: 5.15
+  [20/47] MCF so far: 5.05
+  [30/47] MCF so far: 4.85
+  [40/47] MCF so far: 4.84
+  DONE -- MCF=4.841 NAF=6.027 (n=47)
+  saved -> results/benchmark_graph/judge_scores.json
+
+[PaliGemma2-3B] scoring 47 samples...
+  [10/47] MCF so far: 1.07
+  [20/47] MCF so far: 1.07
+  [30/47] MCF so far: 1.11
+  [40/47] MCF so far: 1.09
+  DONE -- MCF=1.085 NAF=1.399 (n=47)
+  saved -> results/benchmark_graph/judge_scores.json
+
+[moondream2] scoring 47 samples...
+  [10/47] MCF so far: 1.00
+  [20/47] MCF so far: 1.00
+  [30/47] MCF so far: 1.00
+  [40/47] MCF so far: 1.00
+  DONE -- MCF=1.0 NAF=1.0 (n=47)
+  saved -> results/benchmark_graph/judge_scores.json
+
+
+=== BLV JUDGE RESULTS ===
+Model                             MCF    NAF  Spatial  Ambience     n
+-----------------------------------------------------------------
+SmolVLM2-500M-base               3.97   4.77     3.21      5.70    47
+sft_patch_grpo_v2-ours           4.28   5.12     3.83      5.94    47
+SmolVLM2-2.2B                    3.81   4.40     3.49      5.32    47
+Qwen2.5-VL-3B                    4.84   6.03     5.43      6.68    47
+PaliGemma2-3B                    1.08   1.40     1.15      1.15    47
+moondream2                       1.00   1.00     1.00      1.00    47

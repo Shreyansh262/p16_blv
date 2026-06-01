@@ -1,0 +1,4 @@
+=== TextVQA val Results ===
+VQA Accuracy : 54.47%
+ANLS         : 0.6597  (65.97%)
+N            : 5000

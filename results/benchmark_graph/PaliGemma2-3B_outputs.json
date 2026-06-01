@@ -1,0 +1,237 @@
+[
+  {
+    "video_id": "AZTTC",
+    "output": "unanswerable",
+    "latency_ms": 1076.870326884091
+  },
+  {
+    "video_id": "6EU06",
+    "output": "unanswerable",
+    "latency_ms": 343.5047138482332
+  },
+  {
+    "video_id": "AOQ7C",
+    "output": "unanswerable",
+    "latency_ms": 275.7308976724744
+  },
+  {
+    "video_id": "6202943622",
+    "output": "room",
+    "latency_ms": 269.1281959414482
+  },
+  {
+    "video_id": "PEKGD",
+    "output": "unanswerable",
+    "latency_ms": 285.3855052962899
+  },
+  {
+    "video_id": "W0624",
+    "output": "unanswerable",
+    "latency_ms": 263.9563921838999
+  },
+  {
+    "video_id": "12208961114",
+    "output": "toy car",
+    "latency_ms": 255.6498241610825
+  },
+  {
+    "video_id": "3778771350",
+    "output": "left ahead",
+    "latency_ms": 310.3778059594333
+  },
+  {
+    "video_id": "QOWXK",
+    "output": "room",
+    "latency_ms": 333.7638000957668
+  },
+  {
+    "video_id": "4300771090",
+    "output": "safe",
+    "latency_ms": 290.86950700730085
+  },
+  {
+    "video_id": "CMC93",
+    "output": "unanswerable",
+    "latency_ms": 372.03268706798553
+  },
+  {
+    "video_id": "1G9R7",
+    "output": "room",
+    "latency_ms": 292.8172219544649
+  },
+  {
+    "video_id": "T0WKT",
+    "output": "Sorry, as a base VLM I am not trained to answer this question.",
+    "latency_ms": 807.6883968897164
+  },
+  {
+    "video_id": "F2EA8",
+    "output": "unanswerable",
+    "latency_ms": 350.9302018210292
+  },
+  {
+    "video_id": "2FW38",
+    "output": "Sorry, as a base VLM I am not trained to answer this question.",
+    "latency_ms": 817.9804501123726
+  },
+  {
+    "video_id": "U4NWI",
+    "output": "unanswerable",
+    "latency_ms": 425.06725108250976
+  },
+  {
+    "video_id": "XQSXK",
+    "output": "Sorry, as a base VLM I am not trained to answer this question.",
+    "latency_ms": 806.7329828627408
+  },
+  {
+    "video_id": "SCCZG",
+    "output": "unanswerable",
+    "latency_ms": 352.26662876084447
+  },
+  {
+    "video_id": "IOL8Q",
+    "output": "unanswerable",
+    "latency_ms": 408.72703213244677
+  },
+  {
+    "video_id": "8Y4YD",
+    "output": "unanswerable",
+    "latency_ms": 365.9634874202311
+  },
+  {
+    "video_id": "KJK56",
+    "output": "couch",
+    "latency_ms": 282.886924687773
+  },
+  {
+    "video_id": "C8WLX",
+    "output": "unanswerable",
+    "latency_ms": 351.80519009009004
+  },
+  {
+    "video_id": "L8FFR",
+    "output": "unanswerable",
+    "latency_ms": 346.54828580096364
+  },
+  {
+    "video_id": "P1EK9",
+    "output": "unanswerable",
+    "latency_ms": 370.9579901769757
+  },
+  {
+    "video_id": "TBU3U",
+    "output": "unanswerable",
+    "latency_ms": 352.18685073778033
+  },
+  {
+    "video_id": "6ZTL6",
+    "output": "unanswerable",
+    "latency_ms": 414.11720495671034
+  },
+  {
+    "video_id": "7RI1Y",
+    "output": "room",
+    "latency_ms": 282.82924415543675
+  },
+  {
+    "video_id": "ZJG67",
+    "output": "unanswerable",
+    "latency_ms": 372.6171748712659
+  },
+  {
+    "video_id": "A4N6Z",
+    "output": "unanswerable",
+    "latency_ms": 352.57331002503633
+  },
+  {
+    "video_id": "A45RV",
+    "output": "unanswerable",
+    "latency_ms": 348.5757037997246
+  },
+  {
+    "video_id": "2H5YP",
+    "output": "unanswerable",
+    "latency_ms": 347.7721530944109
+  },
+  {
+    "video_id": "NMC5N",
+    "output": "unanswerable",
+    "latency_ms": 353.24360709637403
+  },
+  {
+    "video_id": "YLNPX",
+    "output": "unanswerable",
+    "latency_ms": 353.16473664715886
+  },
+  {
+    "video_id": "B32MT",
+    "output": "unanswerable",
+    "latency_ms": 369.75344410166144
+  },
+  {
+    "video_id": "0W4F6",
+    "output": "unanswerable",
+    "latency_ms": 425.58212019503117
+  },
+  {
+    "video_id": "4757890069",
+    "output": "left right ahead 200 feet",
+    "latency_ms": 522.8916550986469
+  },
+  {
+    "video_id": "5N7DP",
+    "output": "Sorry, as a base VLM I am not trained to answer this question.",
+    "latency_ms": 838.9998031780124
+  },
+  {
+    "video_id": "8HII5",
+    "output": "left right ahead 10 feet",
+    "latency_ms": 508.15816689282656
+  },
+  {
+    "video_id": "XY4C7",
+    "output": "unanswerable",
+    "latency_ms": 349.3520631454885
+  },
+  {
+    "video_id": "BVCCX",
+    "output": "unanswerable",
+    "latency_ms": 346.853528637439
+  },
+  {
+    "video_id": "TVBLW",
+    "output": "unanswerable",
+    "latency_ms": 410.61304276809096
+  },
+  {
+    "video_id": "L4VNK",
+    "output": "unanswerable",
+    "latency_ms": 365.2917998842895
+  },
+  {
+    "video_id": "3358214917",
+    "output": "no",
+    "latency_ms": 299.9789989553392
+  },
+  {
+    "video_id": "IM3I0",
+    "output": "Sorry, as a base VLM I am not trained to answer this question.",
+    "latency_ms": 813.0491091869771
+  },
+  {
+    "video_id": "GBZAK",
+    "output": "unanswerable",
+    "latency_ms": 349.97477382421494
+  },
+  {
+    "video_id": "6793786769",
+    "output": "train",
+    "latency_ms": 282.1448938921094
+  },
+  {
+    "video_id": "3736642934",
+    "output": "left right ahead",
+    "latency_ms": 352.4278183467686
+  }
+]

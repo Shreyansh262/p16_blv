@@ -1,0 +1,23 @@
+2026-03-24 17:53:20,327 [INFO] Using GPU: NVIDIA RTX A6000
+2026-03-24 17:53:20,519 [INFO] VRAM free: 35.7 GB
+2026-03-24 17:53:20,519 [INFO] Loading captions from: /usershome/cs671_user2/p16_blv/data/generated/all_captions.json
+2026-03-24 17:53:20,559 [INFO] After quality filter: 9646 entries
+2026-03-24 17:53:20,559 [INFO] Scoring all samples by BLV quality...
+2026-03-24 17:53:20,684 [INFO] Top-BLV-scored sample: 3000 (max=3000, min_blv_score=50)
+2026-03-24 17:53:20,685 [INFO] Hold-out: 5 | Training: 2985
+2026-03-24 17:53:20,686 [INFO] Loading model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-24 17:53:31,664 [INFO] Train: 2687 | Eval: 298
+2026-03-24 18:27:38,739 [INFO] Using GPU: NVIDIA RTX A6000
+2026-03-24 18:27:38,929 [INFO] VRAM free: 35.7 GB
+2026-03-24 18:27:38,930 [INFO] Loading captions from: /usershome/cs671_user2/p16_blv/data/generated/all_captions.json
+2026-03-24 18:27:38,972 [INFO] After quality filter: 9646 entries
+2026-03-24 18:27:38,972 [INFO] Scoring all samples by BLV quality...
+2026-03-24 18:27:39,096 [INFO] Top-BLV-scored sample: 3000 (max=3000, min_blv_score=50)
+2026-03-24 18:27:39,097 [INFO] Hold-out: 5 | Training: 2985
+2026-03-24 18:27:39,098 [INFO] Loading model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-24 18:27:49,886 [INFO] BLV callback: 10 golden samples loaded
+2026-03-24 18:27:49,886 [INFO] Train: 2687 | Eval: 298
+2026-03-24 18:27:52,156 [INFO] ============================================================
+2026-03-24 18:27:52,156 [INFO] STARTING SFT VALIDATION TRAINING
+2026-03-24 18:27:52,156 [INFO] Train: 2687 | Eval: 298 | Epochs: 3 | GA steps: 16
+2026-03-24 18:27:52,156 [INFO] ============================================================

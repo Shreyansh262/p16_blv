@@ -33,14 +33,14 @@ ollama_models/
 # ── Large data files ──────────────────────────────────────────────────────────
 # Keyframes — thousands of images, hundreds of MB
 data/keyframes/
-
+eval/textvqa/train_images/
 # Dataset cache
 data/.dataset_cache/
 
 # ── Binaries and installers ───────────────────────────────────────────────────
 bin/ollama
 misc/ollama-linux-amd64.tar.zst
-
+lib/
 # ── Tool virtual environments ─────────────────────────────────────────────────
 tools/llama_conv_venv/
 
@@ -48,10 +48,6 @@ tools/llama_conv_venv/
 logs/**/tensorboard/
 logs/**/events.out.tfevents.*
 logs/training/training_logs/events.out.tfevents.*
-
-# ── Large log files (keep small ones, ignore massive progress logs) ───────────
-logs/training/training_logs/*.log
-logs/training/training_tmp/
 
 # ── OS / editor artifacts ────────────────────────────────────────────────────
 .DS_Store

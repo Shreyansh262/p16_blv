@@ -1,0 +1,102 @@
+2026-04-22 08:10:39,522 [INFO] ============================================================
+2026-04-22 08:10:39,522 [INFO] 08_sft_v2.py  --  Single-stage SFT from base HF weights
+2026-04-22 08:10:39,522 [INFO]   GPU=6 | epochs=4 | max_samples=9646
+2026-04-22 08:10:39,522 [INFO] ============================================================
+2026-04-22 08:10:39,562 [INFO] Loaded 9646 captions from all_captions_gemma.json
+2026-04-22 08:10:39,563 [INFO] After quality filter (len>30): 9577
+2026-04-22 08:10:39,563 [INFO] Train: 8619 | Val: 958
+2026-04-22 08:10:39,563 [INFO] per_device_bs=8 | grad_accum=2 | effective_bs=16
+2026-04-22 08:10:39,563 [INFO] steps/epoch=539 | total_steps=2156
+2026-04-22 08:10:39,563 [INFO] TRANSITION_STEP=539  (25% of 2156 total steps)
+2026-04-22 08:10:39,563 [INFO]   Phase 1 (vision+connector only):          steps 0 -> 539
+2026-04-22 08:10:39,563 [INFO]   Phase 2 (all trainable, vision LR=5e-6):  steps 539 -> 2156
+2026-04-22 08:10:39,563 [INFO] Loading base model (bf16, no quantization): HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-04-22 08:10:39,563 [INFO] HF cache: /usershome/cs671_user2/p16_blv/models/.hf_cache
+2026-04-22 08:10:48,734 [INFO] Base model loaded.
+2026-04-22 08:10:50,746 [INFO] Starting training...
+2026-04-22 08:10:50,956 [INFO] Optimizer: AdamW | vision_lr=1e-05 | connector_lr=1e-05 | lora_lr=2e-05
+2026-04-22 08:10:51,022 [INFO] === PHASE 1: vision + connector trainable, LoRA FROZEN ===
+2026-04-22 08:10:51,023 [INFO]   steps 0 -> 539
+2026-04-22 08:10:51,023 [INFO]   vision_model trainable: 86,433,024
+2026-04-22 08:10:51,023 [INFO]   connector trainable:    11,796,480
+2026-04-22 08:10:51,023 [INFO]   LoRA trainable:         0  (FROZEN)
+2026-04-22 08:10:51,023 [INFO]   TOTAL trainable:        98,229,504
+2026-04-22 08:15:48,781 [INFO] ============================================================
+2026-04-22 08:15:48,781 [INFO] 08_sft_v2.py  --  Single-stage SFT from base HF weights
+2026-04-22 08:15:48,781 [INFO]   GPU=6 | epochs=4 | max_samples=9646
+2026-04-22 08:15:48,781 [INFO] ============================================================
+2026-04-22 08:15:48,823 [INFO] Loaded 9646 captions from all_captions_gemma.json
+2026-04-22 08:15:48,824 [INFO] After quality filter (len>30): 9577
+2026-04-22 08:15:48,824 [INFO] Train: 8619 | Val: 958
+2026-04-22 08:15:48,824 [INFO] per_device_bs=8 | grad_accum=2 | effective_bs=16
+2026-04-22 08:15:48,824 [INFO] steps/epoch=539 | total_steps=2156
+2026-04-22 08:15:48,824 [INFO] TRANSITION_STEP=539  (25% of 2156 total steps)
+2026-04-22 08:15:48,824 [INFO]   Phase 1 (vision+connector only):          steps 0 -> 539
+2026-04-22 08:15:48,824 [INFO]   Phase 2 (all trainable, vision LR=5e-6):  steps 539 -> 2156
+2026-04-22 08:15:48,825 [INFO] Loading base model (bf16, no quantization): HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-04-22 08:15:48,825 [INFO] HF cache: /usershome/cs671_user2/p16_blv/models/.hf_cache
+2026-04-22 08:15:58,442 [INFO] Base model loaded.
+2026-04-22 08:16:00,824 [INFO] Starting training...
+2026-04-22 08:16:01,091 [INFO] Optimizer: AdamW | vision_lr=1e-05 | connector_lr=1e-05 | lora_lr=2e-05
+2026-04-22 08:16:01,163 [INFO] === PHASE 1: vision + connector trainable, LoRA FROZEN ===
+2026-04-22 08:16:01,163 [INFO]   steps 0 -> 539
+2026-04-22 08:16:01,163 [INFO]   vision_model trainable: 86,433,024
+2026-04-22 08:16:01,163 [INFO]   connector trainable:    11,796,480
+2026-04-22 08:16:01,163 [INFO]   LoRA trainable:         0  (FROZEN)
+2026-04-22 08:16:01,163 [INFO]   TOTAL trainable:        98,229,504
+2026-04-22 08:26:33,548 [INFO] ============================================================
+2026-04-22 08:26:33,548 [INFO] 08_sft_v2.py  --  Single-stage SFT from base HF weights
+2026-04-22 08:26:33,548 [INFO]   GPU=6 | epochs=4 | max_samples=9646
+2026-04-22 08:26:33,548 [INFO] ============================================================
+2026-04-22 08:26:33,588 [INFO] Loaded 9646 captions from all_captions_gemma.json
+2026-04-22 08:26:33,589 [INFO] After quality filter (len>30): 9577
+2026-04-22 08:26:33,590 [INFO] Train: 8619 | Val: 958
+2026-04-22 08:26:33,590 [INFO] per_device_bs=4 | grad_accum=4 | effective_bs=16
+2026-04-22 08:26:33,590 [INFO] steps/epoch=539 | total_steps=2156
+2026-04-22 08:26:33,590 [INFO] TRANSITION_STEP=539  (25% of 2156 total steps)
+2026-04-22 08:26:33,590 [INFO]   Phase 1 (vision+connector only):          steps 0 -> 539
+2026-04-22 08:26:33,590 [INFO]   Phase 2 (all trainable, vision LR=5e-6):  steps 539 -> 2156
+2026-04-22 08:26:33,590 [INFO] Loading base model (bf16, no quantization): HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-04-22 08:26:33,590 [INFO] HF cache: /usershome/cs671_user2/p16_blv/models/.hf_cache
+2026-04-22 08:26:41,314 [INFO] Base model loaded.
+2026-04-22 08:26:43,558 [INFO] Starting training...
+2026-04-22 08:26:43,774 [INFO] Optimizer: AdamW | vision_lr=1e-05 | connector_lr=1e-05 | lora_lr=2e-05
+2026-04-22 08:26:43,847 [INFO] === PHASE 1: vision + connector trainable, LoRA FROZEN ===
+2026-04-22 08:26:43,849 [INFO]   steps 0 -> 539
+2026-04-22 08:26:43,849 [INFO]   vision_model trainable: 86,433,024
+2026-04-22 08:26:43,849 [INFO]   connector trainable:    11,796,480
+2026-04-22 08:26:43,849 [INFO]   LoRA trainable:         0  (FROZEN)
+2026-04-22 08:26:43,849 [INFO]   TOTAL trainable:        98,229,504
+2026-04-22 08:39:54,937 [INFO] ============================================================
+2026-04-22 08:39:54,938 [INFO] 08_sft_v2.py  --  Single-stage SFT from base HF weights
+2026-04-22 08:39:54,938 [INFO]   GPU=6 | epochs=4 | max_samples=9646
+2026-04-22 08:39:54,938 [INFO] ============================================================
+2026-04-22 08:39:54,977 [INFO] Loaded 9646 captions from all_captions_gemma.json
+2026-04-22 08:39:54,979 [INFO] After quality filter (len>30): 9577
+2026-04-22 08:39:54,979 [INFO] Train: 8619 | Val: 958
+2026-04-22 08:39:54,979 [INFO] per_device_bs=4 | grad_accum=4 | effective_bs=16
+2026-04-22 08:39:54,979 [INFO] steps/epoch=539 | total_steps=2156
+2026-04-22 08:39:54,979 [INFO] TRANSITION_STEP=539  (25% of 2156 total steps)
+2026-04-22 08:39:54,979 [INFO]   Phase 1 (vision+connector only):          steps 0 -> 539
+2026-04-22 08:39:54,979 [INFO]   Phase 2 (all trainable, vision LR=5e-6):  steps 539 -> 2156
+2026-04-22 08:39:54,979 [INFO] Loading base model (bf16, no quantization): HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-04-22 08:39:54,980 [INFO] HF cache: /usershome/cs671_user2/p16_blv/models/.hf_cache
+2026-04-22 08:40:02,844 [INFO] Base model loaded.
+2026-04-22 08:40:04,766 [INFO] Starting training...
+2026-04-22 08:40:04,963 [INFO] Optimizer: AdamW | vision_lr=1e-05 | connector_lr=1e-05 | lora_lr=2e-05
+2026-04-22 08:40:05,030 [INFO] === PHASE 1: vision + connector trainable, LoRA FROZEN ===
+2026-04-22 08:40:05,030 [INFO]   steps 0 -> 539
+2026-04-22 08:40:05,030 [INFO]   vision_model trainable: 86,433,024
+2026-04-22 08:40:05,030 [INFO]   connector trainable:    11,796,480
+2026-04-22 08:40:05,030 [INFO]   LoRA trainable:         0  (FROZEN)
+2026-04-22 08:40:05,030 [INFO]   TOTAL trainable:        98,229,504
+2026-04-22 13:15:00,632 [INFO] === STEP 539: PHASE 2 BEGINS ===
+2026-04-22 13:15:00,635 [INFO]   LoRA UNFROZEN: 38,273,024 params now trainable
+2026-04-22 13:15:00,635 [INFO]   vision LR reduced to 5e-6
+2026-04-22 13:15:00,635 [INFO]   TOTAL trainable now: 136,502,528
+2026-04-22 14:33:43,071 [INFO] Checkpoint renamed: checkpoint-539 -> checkpoint-epoch1
+2026-04-23 04:50:40,787 [INFO] Checkpoint renamed: checkpoint-1078 -> checkpoint-epoch2
+2026-04-23 20:26:00,586 [INFO] Checkpoint renamed: checkpoint-1617 -> checkpoint-epoch3
+2026-04-24 05:21:18,955 [INFO] Checkpoint renamed: checkpoint-2156 -> checkpoint-epoch4
+2026-04-24 05:21:20,258 [INFO] Best model saved to: /usershome/cs671_user2/p16_blv/models/student/sft_v2/best
+2026-04-24 05:21:20,258 [INFO] Training complete.

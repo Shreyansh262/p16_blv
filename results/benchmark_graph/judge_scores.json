@@ -1,0 +1,80 @@
+{
+  "SmolVLM2-500M-base": {
+    "spatial_orientation": 3.213,
+    "social_interaction": 3.298,
+    "action_events": 3.66,
+    "ambience": 5.702,
+    "descriptiveness": 6.319,
+    "objectivity": 3.468,
+    "accuracy": 2.447,
+    "clarity": 7.106,
+    "MCF": 3.968,
+    "NAF": 4.771,
+    "n": 47
+  },
+  "sft_patch_grpo_v2-ours": {
+    "spatial_orientation": 3.83,
+    "social_interaction": 3.787,
+    "action_events": 3.553,
+    "ambience": 5.936,
+    "descriptiveness": 6.34,
+    "objectivity": 4.277,
+    "accuracy": 2.66,
+    "clarity": 7.638,
+    "MCF": 4.276,
+    "NAF": 5.117,
+    "n": 47
+  },
+  "SmolVLM2-2.2B": {
+    "spatial_orientation": 3.489,
+    "social_interaction": 3.447,
+    "action_events": 3.0,
+    "ambience": 5.319,
+    "descriptiveness": 5.681,
+    "objectivity": 4.447,
+    "accuracy": 2.66,
+    "clarity": 5.766,
+    "MCF": 3.814,
+    "NAF": 4.399,
+    "n": 47
+  },
+  "Qwen2.5-VL-3B": {
+    "spatial_orientation": 5.426,
+    "social_interaction": 3.511,
+    "action_events": 3.745,
+    "ambience": 6.681,
+    "descriptiveness": 7.574,
+    "objectivity": 5.298,
+    "accuracy": 3.426,
+    "clarity": 7.681,
+    "MCF": 4.841,
+    "NAF": 6.027,
+    "n": 47
+  },
+  "PaliGemma2-3B": {
+    "spatial_orientation": 1.149,
+    "social_interaction": 1.021,
+    "action_events": 1.021,
+    "ambience": 1.149,
+    "descriptiveness": 1.043,
+    "objectivity": 2.149,
+    "accuracy": 1.17,
+    "clarity": 2.234,
+    "MCF": 1.085,
+    "NAF": 1.399,
+    "n": 47
+  },
+  "moondream2": {
+    "spatial_orientation": 1.0,
+    "social_interaction": 1.0,
+    "action_events": 1.0,
+    "ambience": 1.0,
+    "descriptiveness": 1.0,
+    "objectivity": 1.0,
+    "accuracy": 1.0,
+    "clarity": 1.0,
+    "MCF": 1.0,
+    "NAF": 1.0,
+    "n": 47
+  }
+}

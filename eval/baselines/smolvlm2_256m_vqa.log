@@ -1,0 +1,30 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading /usershome/cs671_user2/p16_blv/models/baselines/smolvlm2_256m on GPU 6...
+Loading weights:   0%|          | 0/471 [00:00<?, ?it/s]Loading weights:  20%|██        | 96/471 [00:00<00:00, 946.39it/s]Loading weights:  43%|████▎     | 203/471 [00:00<00:00, 1016.68it/s]Loading weights:  89%|████████▉ | 419/471 [00:00<00:00, 1523.53it/s]Loading weights: 100%|██████████| 471/471 [00:00<00:00, 1426.50it/s]
+Model loaded.
+[0/5000] The brand of this camera is DAKOTA.
+[200/5000] The game being plauyed is the Mets.
+[400/5000] The person is buying a macy's.
+[600/5000] The number on the umpire's uniform is 5.
+[800/5000] The number for Doption Sociates, Inc. is 800 677.2
+[1000/5000] The author of "designing for mobility" is Buckmins
+[1200/5000] The new name of the drink is CYCLAMETATE.
+[1400/5000] The poster "give up" is not visible in the image.
+[1600/5000] The lady on the left says "PERFORMANCE" on her arm
+[1800/5000] The coin was made in 2010.
+[2000/5000] The number on the girls shirt is 19.
+[2200/5000] This book is a history and historiography of the N
+[2400/5000] The brand of the whiskey on the far right is Rye W
+[2600/5000] The train number is 501057-5.
+[2800/5000] The brand of drink was established in 1892.
+[3000/5000] The group on the bottom right of the poster is the
+[3200/5000] The clock is a part of the brand "Seko".
+[3400/5000] The search engine displayed is Google.
+[3600/5000] The remote control is a Toshiba brand.
+[3800/5000] The first word of the third line of small print is
+[4000/5000] The year is 1868-1919.
+[4200/5000] The dom perignon is from the year 1995.
+[4400/5000] The time on the right clock is 10:00.
+[4600/5000] The title of the right page is "The Wipers Times."
+[4800/5000] The first number of the closest car's license plat
+Saved 5000 (skipped 0) -> /usershome/cs671_user2/p16_blv/eval/baselines/smolvlm2_256m_vqa_preds.json

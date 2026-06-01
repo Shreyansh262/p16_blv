@@ -1,0 +1,14 @@
+Loading LLaVA-1.5-7B on GPU 4...
+Loading weights:   0%|          | 0/686 [00:00<?, ?it/s]Loading weights:   3%|▎         | 18/686 [00:00<00:04, 156.88it/s]Loading weights:   5%|▍         | 34/686 [00:00<00:04, 142.95it/s]Loading weights:   7%|▋         | 49/686 [00:00<00:05, 119.75it/s]Loading weights:   9%|▉         | 64/686 [00:00<00:04, 128.27it/s]Loading weights:  11%|█▏        | 78/686 [00:00<00:05, 110.98it/s]Loading weights:  14%|█▎        | 94/686 [00:00<00:05, 110.36it/s]Loading weights:  16%|█▌        | 110/686 [00:00<00:04, 120.96it/s]Loading weights:  18%|█▊        | 123/686 [00:01<00:05, 106.08it/s]Loading weights:  20%|██        | 139/686 [00:01<00:04, 112.63it/s]Loading weights:  22%|██▏       | 151/686 [00:01<00:04, 109.88it/s]Loading weights:  24%|██▍       | 166/686 [00:01<00:04, 110.60it/s]Loading weights:  26%|██▋       | 181/686 [00:01<00:04, 116.37it/s]Loading weights:  28%|██▊       | 193/686 [00:01<00:04, 109.05it/s]Loading weights:  30%|███       | 209/686 [00:01<00:03, 119.33it/s]Loading weights:  32%|███▏      | 222/686 [00:01<00:04, 106.70it/s]Loading weights:  34%|███▍      | 234/686 [00:02<00:04, 108.58it/s]Loading weights:  36%|███▌      | 247/686 [00:02<00:04, 107.42it/s]Loading weights:  38%|███▊      | 264/686 [00:02<00:03, 123.50it/s]Loading weights:  40%|████      | 277/686 [00:02<00:03, 114.64it/s]Loading weights:  43%|████▎     | 295/686 [00:02<00:03, 129.35it/s]Loading weights:  81%|████████  | 557/686 [00:02<00:00, 779.40it/s]Loading weights: 100%|██████████| 686/686 [00:02<00:00, 257.41it/s]
+Model loaded.
+[0/1000] Handwriting
+[100/1000] Family
+[200/1000] 4
+[300/1000] Mosman
+[400/1000] Hot wraps
+[500/1000] $7,500,000
+[600/1000] Green bar is higher than orange bar.
+[700/1000] Secret recipe
+[800/1000] B. Calandria
+[900/1000] $\frac{1}{2}$
+Saved 1000 -> /usershome/cs671_user2/p16_blv/eval/baselines/llava15_7b_ocr_preds.json

@@ -34022,8 +34022,7 @@ image slice encoded in 2072 ms
 decoding image batch 1/1, n_tokens_batch = 64
 image decoded (batch 1/1) in 929 ms
 
-Indoor kitchen, no immediate hazards. A person in a red shirt and blue skirt stands approximately 1 meter ahead, moving toward a white refrigerator approximately 1 meter to your left. A white counter is approximately 1 meter ahead and to your right. A white sink is approximately 2 meters ahead.
-
+Indoor room, no immediate hazards. A person in a maroon dress stands approximately 1 meter ahead, facing a black chair 1 meter to your left. A red and yellow fish tank sits approximately 2 meters ahead and slightly right. Four circular black table is approximately 1 meter ahead and to your right.
 
 llama_perf_context_print:        load time =     457.88 ms
 llama_perf_context_print: prompt eval time =   34977.13 ms /   920 tokens (   38.02 ms per token,    26.30 tokens per second)

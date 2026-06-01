@@ -1,0 +1,73 @@
+2026-03-30 16:53:34,633 [INFO] Loading from SFT checkpoint: /usershome/cs671_user2/p16_blv/models/student/sft_stage2_checkpoint
+2026-03-30 16:58:06,905 [INFO] Loading from SFT checkpoint: /usershome/cs671_user2/p16_blv/models/student/sft_stage2_checkpoint
+2026-03-30 16:58:23,983 [INFO] Model ready for DPO.
+2026-03-30 16:59:03,812 [INFO] Loading from SFT checkpoint: /usershome/cs671_user2/p16_blv/models/student/sft_stage2_checkpoint
+2026-03-30 16:59:17,808 [INFO] Model ready for DPO.
+2026-03-30 16:59:19,790 [INFO] DPO dataset — train: 50 | val: 20
+2026-03-30 17:03:27,198 [INFO] Loading from SFT checkpoint: /usershome/cs671_user2/p16_blv/models/student/sft_stage2_checkpoint
+2026-03-30 17:03:40,781 [INFO] Model ready for DPO.
+2026-03-30 17:03:40,854 [INFO] Pre-tokenising train split...
+2026-03-30 17:04:24,930 [INFO] Pre-tokenising val split...
+2026-03-30 17:04:41,761 [INFO] DPO dataset -- train: 50 | val: 20
+2026-03-30 17:09:10,979 [INFO] Loading from SFT checkpoint: /usershome/cs671_user2/p16_blv/models/student/sft_stage2_checkpoint
+2026-03-30 17:09:24,351 [INFO] Model ready for DPO.
+2026-03-30 17:09:24,426 [INFO] Pre-tokenising train split...
+2026-03-30 17:10:04,951 [INFO] Pre-tokenising val split...
+2026-03-30 17:10:20,437 [INFO] DPO dataset -- train: 50 | val: 20
+2026-03-30 17:12:08,822 [INFO] Starting DPO training...
+2026-03-30 17:17:16,303 [INFO] Loading base model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-30 17:20:03,741 [INFO] Loading base model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-30 17:20:08,756 [INFO] Loading SFT LoRA adapter: /usershome/cs671_user2/p16_blv/models/student/sft_stage2_checkpoint
+2026-03-30 17:20:10,450 [INFO] Model ready for DPO.
+2026-03-30 17:20:10,527 [INFO] Pre-tokenising train split...
+2026-03-30 17:20:56,470 [INFO]   train: tokenised 50/50
+2026-03-30 17:20:56,470 [INFO] Pre-tokenising val split...
+2026-03-30 17:21:14,144 [INFO] DPO dataset -- train: 50 | val: 20
+2026-03-30 17:23:02,494 [INFO] Starting DPO training...
+2026-03-30 17:34:45,243 [INFO] Loading base model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-30 17:34:50,305 [INFO] Loading SFT LoRA adapter: /usershome/cs671_user2/p16_blv/models/student/sft_stage2_checkpoint
+2026-03-30 17:34:51,799 [INFO] Model ready for DPO.
+2026-03-30 17:34:52,130 [INFO] DPO dataset -- train: 50 | val: 20
+2026-03-30 17:34:52,458 [INFO] Starting DPO training...
+2026-03-30 17:42:47,989 [INFO] Loading base model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-30 17:42:53,299 [INFO] Loading SFT LoRA adapter: /usershome/cs671_user2/p16_blv/models/student/sft_stage2_checkpoint
+2026-03-30 17:42:54,785 [INFO] Model ready for DPO.
+2026-03-30 17:42:55,090 [INFO] DPO dataset -- train: 50 | val: 20
+2026-03-30 17:42:55,281 [INFO] Starting DPO training...
+2026-03-31 14:33:19,363 [INFO] Loading base model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-31 14:33:32,362 [INFO] Loading SFT LoRA adapter: /usershome/cs671_user2/p16_blv/models/student/sft_stage2_checkpoint
+2026-03-31 14:33:36,026 [INFO] Model ready for DPO.
+2026-03-31 14:33:36,440 [INFO] DPO dataset -- train: 50 | val: 20
+2026-03-31 14:33:36,806 [INFO] Starting DPO training...
+2026-03-31 14:44:12,508 [INFO] Loading base model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-03-31 14:44:21,613 [INFO] Loading SFT LoRA adapter: /usershome/cs671_user2/p16_blv/models/student/sft_stage2_checkpoint
+2026-03-31 14:44:25,521 [INFO] Model ready for DPO.
+2026-03-31 14:44:25,886 [INFO] DPO dataset -- train: 50 | val: 20
+2026-03-31 14:44:26,109 [INFO] Starting DPO training...
+2026-03-31 14:55:22,767 [INFO] DPO complete. Model saved to: /usershome/cs671_user2/p16_blv/models/student/dpo_checkpoint
+2026-04-01 12:29:59,632 [INFO] Loading base model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-04-01 12:30:05,971 [INFO] Loading SFT LoRA adapter: /usershome/cs671_user2/p16_blv/models/student/sft_stage2_checkpoint
+2026-04-01 12:30:08,676 [INFO] Model ready for DPO.
+2026-04-01 12:30:09,106 [INFO] DPO dataset -- train: 5000 | val: 500
+2026-04-01 12:30:09,543 [INFO] Starting DPO training...
+2026-04-01 17:36:14,217 [INFO] Loading base model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-04-01 17:36:23,333 [INFO] Loading SFT LoRA adapter: /usershome/cs671_user2/p16_blv/models/student/sft_stage2_checkpoint
+2026-04-01 17:36:25,219 [INFO] Model ready for DPO.
+2026-04-01 17:36:25,566 [INFO] DPO dataset -- train: 5000 | val: 500
+2026-04-01 17:36:25,823 [INFO] Starting DPO training...
+2026-04-01 17:39:20,045 [INFO] Loading base model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-04-01 17:39:24,798 [INFO] Loading SFT LoRA adapter: /usershome/cs671_user2/p16_blv/models/student/sft_stage2_checkpoint
+2026-04-01 17:39:26,386 [INFO] Model ready for DPO.
+2026-04-01 17:39:26,709 [INFO] DPO dataset -- train: 5000 | val: 500
+2026-04-01 17:39:26,924 [INFO] Starting DPO training...
+2026-04-01 17:43:12,717 [INFO] Loading base model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-04-01 17:43:17,742 [INFO] Loading SFT LoRA adapter: /usershome/cs671_user2/p16_blv/models/student/sft_stage2_checkpoint
+2026-04-01 17:43:19,541 [INFO] Model ready for DPO.
+2026-04-01 17:43:19,906 [INFO] DPO dataset -- train: 5000 | val: 500
+2026-04-01 17:43:20,119 [INFO] Starting DPO training...
+2026-04-01 17:51:00,187 [INFO] Loading base model: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+2026-04-01 17:51:05,193 [INFO] Loading SFT LoRA adapter: /usershome/cs671_user2/p16_blv/models/student/sft_stage2_checkpoint
+2026-04-01 17:51:06,876 [INFO] Model ready for DPO.
+2026-04-01 17:51:07,218 [INFO] DPO dataset -- train: 5000 | val: 500
+2026-04-01 17:51:07,418 [INFO] Starting DPO training...
+2026-04-02 02:11:01,153 [INFO] DPO complete. Model saved to: /usershome/cs671_user2/p16_blv/models/student/dpo_checkpoint
