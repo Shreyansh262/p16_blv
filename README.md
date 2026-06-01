@@ -4,7 +4,7 @@ Course: CS671 Deep Learning  |  Team: P16  |  Model: SmolVLM2-500M
 
 Fine-tuning a lightweight vision-language model to generate accessibility-focused
 video descriptions for blind and low-vision users. Pipeline covers teacher-student
-distillation, SFT, GRPO, and SFT-patch, with a final GGUF export for deployment.
+distillation , SFT, GRPO, and SFT-patch, with a final GGUF export for deployment.
 
 ---
 
